@@ -1,0 +1,67 @@
+<style>
+.gpm{display:grid;gap:12px;margin:1.5rem 0}
+.gpm input{max-width:420px}
+.gpm .scroll{overflow-x:auto;border:1px solid var(--bs-border-color);border-radius:8px}
+.gpm table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;margin:0}
+.gpm th,.gpm td{padding:6px 8px;text-align:center;border-bottom:1px solid var(--bs-border-color);white-space:nowrap}
+.gpm thead th{font-size:.72rem;font-weight:600;color:var(--bs-secondary-color);cursor:pointer}
+.gpm tbody th{text-align:left;font-size:.85rem;cursor:pointer;position:sticky;left:0;background:var(--bs-body-bg)}
+.gpm th.sel{color:var(--ae-green)}
+.gpm td{cursor:pointer;font:500 .82rem ui-monospace,Menlo,monospace;min-width:42px}
+.gpm td.z{color:var(--bs-border-color)}
+.gpm td.sel{box-shadow:inset 0 0 0 2px var(--bs-body-color)}
+.gpm tfoot td,.gpm tfoot th{font-size:.78rem;color:var(--bs-secondary-color);cursor:default;border-bottom:0}
+.gpm .detail{border:1px solid var(--bs-border-color);border-radius:8px;padding:16px}
+.gpm .detail h4{font-size:1.05rem;margin:0 0 .75rem}
+.gpm .grp h5{font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;color:var(--bs-secondary-color);margin:.9rem 0 .4rem}
+.gpm ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:4px 16px}
+.gpm li{font-size:.8rem;border-bottom:1px dashed var(--bs-border-color);padding:3px 0;min-width:0;overflow-wrap:anywhere}
+.gpm li code{font-size:.8rem}
+.gpm li span{display:block;color:var(--bs-secondary-color)}
+</style>
+<div class="gpm">
+  <input type="search" id="gpm-q" class="form-control form-control-sm" placeholder="Filter policies, e.g. jwt, cache, mcp" aria-label="Filter policies">
+  <small class="text-muted">Click a cell, an area or a gateway to list its policies. Shading is relative to each gateway's own catalog.</small>
+  <div class="scroll"><table id="gpm-m"><tbody><tr><td>Loading the policy catalogs…</td></tr></tbody></table></div>
+  <div class="detail" id="gpm-d" aria-live="polite"></div>
+</div>
+<script>
+(function(){
+  const AREAS=["authentication","authorization","upstream-auth","rate-limiting","threat-protection","validation","transformation","routing","caching","observability","monetization","ai","mcp-agents","lifecycle","protocol","cors-cross-domain","custom-code","other"];
+  const SHORT={"azure-apim":"Azure","mulesoft-flex":"MuleSoft","aws-api-gateway":"AWS","apisix":"APISIX","wso2":"WSO2"};
+  const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const $=id=>document.getElementById(id);
+  let G=[],sel={area:"monetization",gw:null},q="";
+  const short=g=>SHORT[g.id]||g.name.split(" ")[0];
+  const match=p=>!q||(p.name+" "+(p.desc||"")+" "+(p.vendor_category||"")).toLowerCase().includes(q);
+  function matrix(){
+    const c=G.map(g=>Object.fromEntries(AREAS.map(a=>[a,g.policies.filter(p=>p.area===a&&match(p)).length])));
+    const mx=c.map(x=>Math.max(1,...Object.values(x)));
+    let h=`<thead><tr><th></th>${G.map(g=>`<th data-gw="${g.id}" class="${sel.gw===g.id&&!sel.area?"sel":""}" title="${esc(g.name)}">${esc(short(g))}</th>`).join("")}</tr></thead><tbody>`;
+    for(const a of AREAS){
+      h+=`<tr><th data-area="${a}" tabindex="0" class="${sel.area===a&&!sel.gw?"sel":""}">${a}</th>`;
+      G.forEach((g,i)=>{const n=c[i][a],t=n/mx[i];
+        const st=n?`background:color-mix(in srgb,var(--ae-green) ${Math.round(12+t*78)}%,transparent);color:${t>.5?"#fff":"inherit"}`:"";
+        h+=`<td tabindex="0" data-area="${a}" data-gw="${g.id}" class="${n?"":"z"} ${sel.area===a&&sel.gw===g.id?"sel":""}" style="${st}" title="${esc(g.name)} · ${a}: ${n}">${n||"·"}</td>`;});
+      h+="</tr>";
+    }
+    h+=`</tbody><tfoot><tr><th>total</th>${c.map(x=>`<td>${Object.values(x).reduce((a,b)=>a+b,0)}</td>`).join("")}</tr></tfoot>`;
+    $("gpm-m").innerHTML=h;
+  }
+  function detail(){
+    const {area,gw}=sel,g=G.find(x=>x.id===gw);
+    const list=G.filter(x=>!gw||x.id===gw).flatMap(x=>x.policies.filter(p=>(!area||p.area===area)&&match(p)).map(p=>({...p,g:x})));
+    const title=area&&g?`${g.name} · ${area}`:g?g.name:area?`${area} across all gateways`:`Matches for “${esc(q)}”`;
+    const by={};for(const p of list){const k=gw?p.area:p.g.name;(by[k]||=[]).push(p);}
+    $("gpm-d").innerHTML=`<h4>${title} <span class="badge text-bg-secondary">${list.length}</span></h4>`+
+      (Object.entries(by).sort((a,b)=>b[1].length-a[1].length).map(([k,ps])=>`<div class="grp"><h5>${esc(k)} · ${ps.length}</h5><ul>${ps.map(p=>`<li><code>${esc(p.name)}</code><span>${esc(p.desc)}</span></li>`).join("")}</ul></div>`).join("")||`<p class="text-muted mb-0">Nothing matches the filter here.</p>`);
+  }
+  function render(){matrix();detail();}
+  function pick(e){const t=e.target.closest("[data-area],[data-gw]");if(!t)return;sel={area:t.dataset.area||null,gw:t.dataset.gw||null};render();}
+  $("gpm-m").addEventListener("click",pick);
+  $("gpm-m").addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();pick(e);}});
+  $("gpm-q").addEventListener("input",e=>{q=e.target.value.trim().toLowerCase();if(q&&!sel.area&&!sel.gw)sel={area:null,gw:null};render();});
+  fetch("/assets/data/gateway-policies.json").then(r=>r.json()).then(d=>{G=d.gateways;render();})
+    .catch(()=>{$("gpm-m").innerHTML='<tbody><tr><td>The policy data did not load. Reload the page to try again.</td></tr></tbody>';});
+})();
+</script>

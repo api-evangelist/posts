@@ -1,0 +1,5417 @@
+{
+ "fetched": "2026-10-23",
+ "gateways": [
+  {
+   "id": "zuplo",
+   "name": "Zuplo",
+   "term": "policies",
+   "url": "https://zuplo.com/docs/llms.txt",
+   "notes": "Names from the llms.txt index of /docs/policies/*.md pages (full file read). The index carries no per-policy descriptions, so desc is the policy slug restated, not vendor text; vendor_category null (llms.txt gives none). Includes partner/integration policies (Akamai, Moesif, Amberflo, OpenMeter, ReadMe, Axiomatics, Curity, Galileo, Opik) under the same namespace. Separate MCP Gateway and AI Gateway policy overviews exist but were not expanded beyond the policies listed here.",
+   "policies": [
+    {
+     "name": "ai-gateway-akamai-firewall-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway akamai firewall (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-auth-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway auth (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-configuration-executor-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway configuration executor (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-configuration-loader-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway configuration loader (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-dlp-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway dlp (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-fallback-model-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway fallback model (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-galileo-tracing-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway galileo tracing (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-load-balancing-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway load balancing (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-metering-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway metering (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-model-filtering-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway model filtering (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-model-override-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway model override (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-opik-tracing-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway opik tracing (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-prompt-injection",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway prompt injection"
+    },
+    {
+     "name": "ai-gateway-semantic-cache-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway semantic cache (inbound policy)"
+    },
+    {
+     "name": "ai-gateway-smart-router-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Ai gateway smart router (inbound policy)"
+    },
+    {
+     "name": "akamai-firewall-for-ai-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Akamai firewall for ai (inbound policy)"
+    },
+    {
+     "name": "akamai-firewall-for-ai-outbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Akamai firewall for ai (outbound policy)"
+    },
+    {
+     "name": "amberflo-metering-inbound",
+     "vendor_category": null,
+     "area": "monetization",
+     "desc": "Amberflo metering (inbound policy)"
+    },
+    {
+     "name": "api-key-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Api key (inbound policy)"
+    },
+    {
+     "name": "audit-log-inbound",
+     "vendor_category": null,
+     "area": "observability",
+     "desc": "Audit log (inbound policy)"
+    },
+    {
+     "name": "auth0-jwt-auth-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Auth0 jwt auth (inbound policy)"
+    },
+    {
+     "name": "authzen-inbound",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Authzen (inbound policy)"
+    },
+    {
+     "name": "axiomatics-authz-inbound",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Axiomatics authz (inbound policy)"
+    },
+    {
+     "name": "basic-auth-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Basic auth (inbound policy)"
+    },
+    {
+     "name": "bot-detection-inbound",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Bot detection (inbound policy)"
+    },
+    {
+     "name": "brownout-inbound",
+     "vendor_category": null,
+     "area": "lifecycle",
+     "desc": "Brownout (inbound policy)"
+    },
+    {
+     "name": "caching-inbound",
+     "vendor_category": null,
+     "area": "caching",
+     "desc": "Caching (inbound policy)"
+    },
+    {
+     "name": "cdn-cache-control-outbound",
+     "vendor_category": null,
+     "area": "caching",
+     "desc": "Cdn cache control (outbound policy)"
+    },
+    {
+     "name": "change-method-inbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Change method (inbound policy)"
+    },
+    {
+     "name": "clear-headers-inbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Clear headers (inbound policy)"
+    },
+    {
+     "name": "clear-headers-outbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Clear headers (outbound policy)"
+    },
+    {
+     "name": "clerk-jwt-auth-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Clerk jwt auth (inbound policy)"
+    },
+    {
+     "name": "cognito-jwt-auth-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Cognito jwt auth (inbound policy)"
+    },
+    {
+     "name": "complex-rate-limit-inbound",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Complex rate limit (inbound policy)"
+    },
+    {
+     "name": "composite-inbound",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Composite (inbound policy)"
+    },
+    {
+     "name": "composite-outbound",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Composite (outbound policy)"
+    },
+    {
+     "name": "curity-phantom-token-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Curity phantom token (inbound policy)"
+    },
+    {
+     "name": "custom-code-inbound",
+     "vendor_category": null,
+     "area": "custom-code",
+     "desc": "Custom code (inbound policy)"
+    },
+    {
+     "name": "custom-code-outbound",
+     "vendor_category": null,
+     "area": "custom-code",
+     "desc": "Custom code (outbound policy)"
+    },
+    {
+     "name": "data-loss-prevention-inbound",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Data loss prevention (inbound policy)"
+    },
+    {
+     "name": "data-loss-prevention-outbound",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Data loss prevention (outbound policy)"
+    },
+    {
+     "name": "firebase-jwt-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Firebase jwt (inbound policy)"
+    },
+    {
+     "name": "formdata-to-json-inbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Formdata to json (inbound policy)"
+    },
+    {
+     "name": "geo-filter-inbound",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Geo filter (inbound policy)"
+    },
+    {
+     "name": "graphql-analytics-outbound",
+     "vendor_category": null,
+     "area": "observability",
+     "desc": "Graphql analytics (outbound policy)"
+    },
+    {
+     "name": "graphql-cache-inbound",
+     "vendor_category": null,
+     "area": "caching",
+     "desc": "Graphql cache (inbound policy)"
+    },
+    {
+     "name": "graphql-complexity-limit-inbound",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Graphql complexity limit (inbound policy)"
+    },
+    {
+     "name": "graphql-disable-introspection-inbound",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Graphql disable introspection (inbound policy)"
+    },
+    {
+     "name": "graphql-introspection-filter-outbound",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Graphql introspection filter (outbound policy)"
+    },
+    {
+     "name": "http-deprecation-outbound",
+     "vendor_category": null,
+     "area": "lifecycle",
+     "desc": "Http deprecation (outbound policy)"
+    },
+    {
+     "name": "internal-only-inbound",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Internal only (inbound policy)"
+    },
+    {
+     "name": "ip-address-restriction-inbound",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Ip address restriction (inbound policy)"
+    },
+    {
+     "name": "jwt-scopes-inbound",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Jwt scopes (inbound policy)"
+    },
+    {
+     "name": "ldap-auth-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Ldap auth (inbound policy)"
+    },
+    {
+     "name": "mcp-auth0-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp auth0 oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-capability-filter-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp capability filter (inbound policy)"
+    },
+    {
+     "name": "mcp-clerk-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp clerk oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-cognito-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp cognito oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-entra-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp entra oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-google-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp google oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-keycloak-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp keycloak oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-logto-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp logto oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-okta-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp okta oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-onelogin-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp onelogin oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-ping-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp ping oauth (inbound policy)"
+    },
+    {
+     "name": "mcp-token-exchange-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp token exchange (inbound policy)"
+    },
+    {
+     "name": "mcp-workos-oauth-inbound",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp workos oauth (inbound policy)"
+    },
+    {
+     "name": "mock-api-inbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Mock api (inbound policy)"
+    },
+    {
+     "name": "moesif-inbound",
+     "vendor_category": null,
+     "area": "monetization",
+     "desc": "Moesif (inbound policy)"
+    },
+    {
+     "name": "monetization-inbound",
+     "vendor_category": null,
+     "area": "monetization",
+     "desc": "Monetization (inbound policy)"
+    },
+    {
+     "name": "mtls-auth-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Mtls auth (inbound policy)"
+    },
+    {
+     "name": "okta-fga-authz-inbound",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Okta fga authz (inbound policy)"
+    },
+    {
+     "name": "okta-jwt-auth-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Okta jwt auth (inbound policy)"
+    },
+    {
+     "name": "open-id-jwt-auth-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Open id jwt auth (inbound policy)"
+    },
+    {
+     "name": "openfga-authz-inbound",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Openfga authz (inbound policy)"
+    },
+    {
+     "name": "openmeter-inbound",
+     "vendor_category": null,
+     "area": "monetization",
+     "desc": "Openmeter (inbound policy)"
+    },
+    {
+     "name": "prompt-injection-outbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Prompt injection (outbound policy)"
+    },
+    {
+     "name": "propel-auth-jwt-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Propel auth jwt (inbound policy)"
+    },
+    {
+     "name": "query-param-to-header-inbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Query param to header (inbound policy)"
+    },
+    {
+     "name": "quota-inbound",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Quota (inbound policy)"
+    },
+    {
+     "name": "rate-limit-inbound",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Rate limit (inbound policy)"
+    },
+    {
+     "name": "readme-metrics-inbound",
+     "vendor_category": null,
+     "area": "observability",
+     "desc": "Readme metrics (inbound policy)"
+    },
+    {
+     "name": "remove-headers-inbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Remove headers (inbound policy)"
+    },
+    {
+     "name": "remove-headers-outbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Remove headers (outbound policy)"
+    },
+    {
+     "name": "remove-query-params-inbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Remove query params (inbound policy)"
+    },
+    {
+     "name": "replace-string-outbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Replace string (outbound policy)"
+    },
+    {
+     "name": "request-size-limit-inbound",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Request size limit (inbound policy)"
+    },
+    {
+     "name": "request-validation-inbound",
+     "vendor_category": null,
+     "area": "validation",
+     "desc": "Request validation (inbound policy)"
+    },
+    {
+     "name": "require-origin-inbound",
+     "vendor_category": null,
+     "area": "cors-cross-domain",
+     "desc": "Require origin (inbound policy)"
+    },
+    {
+     "name": "require-user-claims-inbound",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Require user claims (inbound policy)"
+    },
+    {
+     "name": "secret-masking-outbound",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Secret masking (outbound policy)"
+    },
+    {
+     "name": "semantic-cache-inbound",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Semantic cache (inbound policy)"
+    },
+    {
+     "name": "set-body-inbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Set body (inbound policy)"
+    },
+    {
+     "name": "set-headers-inbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Set headers (inbound policy)"
+    },
+    {
+     "name": "set-headers-outbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Set headers (outbound policy)"
+    },
+    {
+     "name": "set-query-params-inbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Set query params (inbound policy)"
+    },
+    {
+     "name": "set-status-outbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Set status (outbound policy)"
+    },
+    {
+     "name": "set-upstream-api-key-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Set upstream api key (inbound policy)"
+    },
+    {
+     "name": "sleep-inbound",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Sleep (inbound policy)"
+    },
+    {
+     "name": "stripe-webhook-verification-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Stripe webhook verification (inbound policy)"
+    },
+    {
+     "name": "supabase-jwt-auth-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Supabase jwt auth (inbound policy)"
+    },
+    {
+     "name": "traffic-splitting-inbound",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Traffic splitting (inbound policy)"
+    },
+    {
+     "name": "upstream-aws-federated-auth-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Upstream aws federated auth (inbound policy)"
+    },
+    {
+     "name": "upstream-aws-service-auth-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Upstream aws service auth (inbound policy)"
+    },
+    {
+     "name": "upstream-azure-ad-service-auth-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Upstream azure ad service auth (inbound policy)"
+    },
+    {
+     "name": "upstream-firebase-admin-auth-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Upstream firebase admin auth (inbound policy)"
+    },
+    {
+     "name": "upstream-firebase-user-auth-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Upstream firebase user auth (inbound policy)"
+    },
+    {
+     "name": "upstream-gcp-federated-auth-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Upstream gcp federated auth (inbound policy)"
+    },
+    {
+     "name": "upstream-gcp-jwt-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Upstream gcp jwt (inbound policy)"
+    },
+    {
+     "name": "upstream-gcp-service-auth-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Upstream gcp service auth (inbound policy)"
+    },
+    {
+     "name": "upstream-oauth-client-credentials-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Upstream oauth client credentials (inbound policy)"
+    },
+    {
+     "name": "upstream-zuplo-jwt-auth-inbound",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Upstream zuplo jwt auth (inbound policy)"
+    },
+    {
+     "name": "validate-json-schema-inbound",
+     "vendor_category": null,
+     "area": "validation",
+     "desc": "Validate json schema (inbound policy)"
+    },
+    {
+     "name": "web-bot-auth-inbound",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Web bot auth (inbound policy)"
+    },
+    {
+     "name": "xml-to-json-outbound",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Xml to json (outbound policy)"
+    }
+   ]
+  },
+  {
+   "id": "azure-apim",
+   "name": "Azure API Management",
+   "term": "policies",
+   "url": "https://learn.microsoft.com/en-us/azure/api-management/api-management-policies",
+   "notes": "Full policy reference tables read. LLM policies appear in both their functional section and \"AI gateway\"; listed once with vendor_category \"AI gateway\". Some table rows (one per section) are header rows and were skipped.",
+   "policies": [
+    {
+     "name": "Limit call rate by subscription",
+     "vendor_category": "Rate limiting and quotas",
+     "area": "rate-limiting",
+     "desc": "Prevents API usage spikes by limiting call rate, on a per subscription"
+    },
+    {
+     "name": "Limit call rate by key",
+     "vendor_category": "Rate limiting and quotas",
+     "area": "rate-limiting",
+     "desc": "Prevents API usage spikes by limiting call rate, on a per key"
+    },
+    {
+     "name": "Set usage quota by subscription",
+     "vendor_category": "Rate limiting and quotas",
+     "area": "rate-limiting",
+     "desc": "Enforces a renewable or lifetime call volume and/or bandwidth quota, on a"
+    },
+    {
+     "name": "Set usage quota by key",
+     "vendor_category": "Rate limiting and quotas",
+     "area": "rate-limiting",
+     "desc": "Enforces a renewable or lifetime call volume and/or bandwidth quota, on a"
+    },
+    {
+     "name": "Limit concurrency",
+     "vendor_category": "Rate limiting and quotas",
+     "area": "rate-limiting",
+     "desc": "Prevents enclosed policies from executing by more than the specified number of"
+    },
+    {
+     "name": "Limit large language model API token usage",
+     "vendor_category": "AI gateway",
+     "area": "ai",
+     "desc": "Prevents large language model (LLM) API usage spikes by limiting LLM tokens"
+    },
+    {
+     "name": "Check HTTP header",
+     "vendor_category": "Authentication and authorization",
+     "area": "validation",
+     "desc": "Enforces existence and/or value of an HTTP header"
+    },
+    {
+     "name": "Get authorization context",
+     "vendor_category": "Authentication and authorization",
+     "area": "upstream-auth",
+     "desc": "Gets the authorization context of a specified connection to a credential provider"
+    },
+    {
+     "name": "Restrict caller IPs",
+     "vendor_category": "Authentication and authorization",
+     "area": "threat-protection",
+     "desc": "Filters (allows/denies) calls from specific IP addresses and/or address ranges"
+    },
+    {
+     "name": "Validate Microsoft Entra token",
+     "vendor_category": "Authentication and authorization",
+     "area": "authentication",
+     "desc": "Enforces existence and validity of a Microsoft Entra (formerly called Azure Active"
+    },
+    {
+     "name": "Validate JWT",
+     "vendor_category": "Authentication and authorization",
+     "area": "authentication",
+     "desc": "Enforces existence and validity of a JWT extracted from either a specified"
+    },
+    {
+     "name": "Validate client certificate",
+     "vendor_category": "Authentication and authorization",
+     "area": "authentication",
+     "desc": "Enforces that a certificate presented by a client to an API Management"
+    },
+    {
+     "name": "Authenticate with Basic",
+     "vendor_category": "Authentication and authorization",
+     "area": "upstream-auth",
+     "desc": "Authenticates with a backend service using Basic authentication"
+    },
+    {
+     "name": "Authenticate with client certificate",
+     "vendor_category": "Authentication and authorization",
+     "area": "upstream-auth",
+     "desc": "Authenticates with a backend service using client certificates"
+    },
+    {
+     "name": "Authenticate with managed identity",
+     "vendor_category": "Authentication and authorization",
+     "area": "upstream-auth",
+     "desc": "Authenticates with a backend service using a managed identity"
+    },
+    {
+     "name": "Enforce content safety checks on LLM requests",
+     "vendor_category": "AI gateway",
+     "area": "ai",
+     "desc": "Enforces content safety checks on LLM requests (prompts) by transmitting them to"
+    },
+    {
+     "name": "Validate content",
+     "vendor_category": "Content validation",
+     "area": "validation",
+     "desc": "Validates the size or content of a request or response body against"
+    },
+    {
+     "name": "Validate GraphQL request",
+     "vendor_category": "Content validation",
+     "area": "protocol",
+     "desc": "Validates and authorizes a request to a GraphQL API"
+    },
+    {
+     "name": "Validate OData request",
+     "vendor_category": "Content validation",
+     "area": "protocol",
+     "desc": "Validates a request to an OData API to ensure conformance with the"
+    },
+    {
+     "name": "Validate parameters",
+     "vendor_category": "Content validation",
+     "area": "validation",
+     "desc": "Validates the request header, query, or path parameters against the API schema"
+    },
+    {
+     "name": "Validate headers",
+     "vendor_category": "Content validation",
+     "area": "validation",
+     "desc": "Validates the response headers against the API schema"
+    },
+    {
+     "name": "Validate status code",
+     "vendor_category": "Content validation",
+     "area": "validation",
+     "desc": "Validates the HTTP status codes in responses against the API schema"
+    },
+    {
+     "name": "Forward request",
+     "vendor_category": "Routing",
+     "area": "routing",
+     "desc": "Forwards the request to the backend service"
+    },
+    {
+     "name": "Set backend service",
+     "vendor_category": "Routing",
+     "area": "routing",
+     "desc": "Changes the backend service base URL of an incoming request to a"
+    },
+    {
+     "name": "Set HTTP proxy",
+     "vendor_category": "Routing",
+     "area": "routing",
+     "desc": "Routes forwarded requests via an HTTP proxy"
+    },
+    {
+     "name": "Get from cache",
+     "vendor_category": "Caching",
+     "area": "caching",
+     "desc": "Performs cache lookup and return a valid cached response when available"
+    },
+    {
+     "name": "Store to cache",
+     "vendor_category": "Caching",
+     "area": "caching",
+     "desc": "Caches response according to the specified cache control configuration"
+    },
+    {
+     "name": "Get value from cache",
+     "vendor_category": "Caching",
+     "area": "caching",
+     "desc": "Retrieves a cached item by key"
+    },
+    {
+     "name": "Store value in cache",
+     "vendor_category": "Caching",
+     "area": "caching",
+     "desc": "Stores an item in the cache by key"
+    },
+    {
+     "name": "Remove value from cache",
+     "vendor_category": "Caching",
+     "area": "caching",
+     "desc": "Removes an item in the cache by key"
+    },
+    {
+     "name": "Get cached responses of large language model API requests",
+     "vendor_category": "AI gateway",
+     "area": "ai",
+     "desc": "Performs lookup in large language model API cache using semantic search and"
+    },
+    {
+     "name": "Store responses of large language model API requests to cache",
+     "vendor_category": "AI gateway",
+     "area": "ai",
+     "desc": "Caches response according to the large language model API cache configuration"
+    },
+    {
+     "name": "Set request method",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Changes the HTTP method for a request"
+    },
+    {
+     "name": "Set status code",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Changes the HTTP status code to the specified value"
+    },
+    {
+     "name": "Set variable",
+     "vendor_category": "Transformation",
+     "area": "other",
+     "desc": "Persists a value in a named context variable for later access"
+    },
+    {
+     "name": "Set body",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Sets the message body for a request or response"
+    },
+    {
+     "name": "Set HTTP header",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Assigns a value to an existing response and/or request header or adds"
+    },
+    {
+     "name": "Set query string parameter",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Adds, replaces value of, or deletes request query string parameter"
+    },
+    {
+     "name": "Rewrite URL",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Converts a request URL from its public form to the form expected"
+    },
+    {
+     "name": "Convert JSON to XML",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Converts request or response body from JSON to XML"
+    },
+    {
+     "name": "Convert XML to JSON",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Converts request or response body from XML to JSON"
+    },
+    {
+     "name": "Find and replace string in body",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Finds a request or response substring and replaces it with a different"
+    },
+    {
+     "name": "Mask URLs in content",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Rewrites (masks) links in the response body so that they point to"
+    },
+    {
+     "name": "Transform XML using an XSLT",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Applies an XSL transformation to XML in the request or response body"
+    },
+    {
+     "name": "Return response",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Aborts pipeline execution and returns the specified response directly to the caller"
+    },
+    {
+     "name": "Mock response",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Aborts pipeline execution and returns a mocked response directly to the caller"
+    },
+    {
+     "name": "Allow cross-domain calls",
+     "vendor_category": "Cross-domain",
+     "area": "cors-cross-domain",
+     "desc": "Makes the API accessible from Adobe Flash and Microsoft Silverlight browser-based clients"
+    },
+    {
+     "name": "CORS",
+     "vendor_category": "Cross-domain",
+     "area": "cors-cross-domain",
+     "desc": "Adds cross-origin resource sharing (CORS) support to an operation or an API"
+    },
+    {
+     "name": "JSONP",
+     "vendor_category": "Cross-domain",
+     "area": "cors-cross-domain",
+     "desc": "Adds JSON with padding (JSONP) support to an operation or an API"
+    },
+    {
+     "name": "Send request",
+     "vendor_category": "Integration and external communication",
+     "area": "custom-code",
+     "desc": "Sends a request to the specified URL"
+    },
+    {
+     "name": "Send one way request",
+     "vendor_category": "Integration and external communication",
+     "area": "custom-code",
+     "desc": "Sends a request to the specified URL without waiting for a response"
+    },
+    {
+     "name": "Log to event hub",
+     "vendor_category": "Integration and external communication",
+     "area": "observability",
+     "desc": "Sends a message in the specified format to an event hub defined"
+    },
+    {
+     "name": "Send message to Azure Service Bus (preview)",
+     "vendor_category": "Integration and external communication",
+     "area": "protocol",
+     "desc": "Sends a message to an Azure Service Bus queue or topic"
+    },
+    {
+     "name": "Send request to a service (Dapr)",
+     "vendor_category": "Integration and external communication",
+     "area": "protocol",
+     "desc": "Uses Dapr runtime to locate and reliably communicate with a Dapr microservice"
+    },
+    {
+     "name": "Send message to Pub/Sub topic (Dapr)",
+     "vendor_category": "Integration and external communication",
+     "area": "protocol",
+     "desc": "Uses Dapr runtime to publish a message to a Publish/Subscribe topic. For"
+    },
+    {
+     "name": "Trigger output binding (Dapr)",
+     "vendor_category": "Integration and external communication",
+     "area": "protocol",
+     "desc": "Uses Dapr runtime to invoke an external system via output binding. For"
+    },
+    {
+     "name": "Trace",
+     "vendor_category": "Logging",
+     "area": "observability",
+     "desc": "Adds custom traces into the request tracing output in the test console"
+    },
+    {
+     "name": "Emit metrics",
+     "vendor_category": "Logging",
+     "area": "observability",
+     "desc": "Sends custom metrics to Application Insights at execution"
+    },
+    {
+     "name": "Emit large language model API token metrics",
+     "vendor_category": "AI gateway",
+     "area": "ai",
+     "desc": "Sends metrics to Application Insights for consumption of large language model (LLM)"
+    },
+    {
+     "name": "Azure SQL data source for resolver",
+     "vendor_category": "GraphQL resolvers",
+     "area": "protocol",
+     "desc": "Configures the Azure SQL request and optional response to resolve data for"
+    },
+    {
+     "name": "Cosmos DB data source for resolver",
+     "vendor_category": "GraphQL resolvers",
+     "area": "protocol",
+     "desc": "Configures the Cosmos DB request and optional response to resolve data for"
+    },
+    {
+     "name": "HTTP data source for resolver",
+     "vendor_category": "GraphQL resolvers",
+     "area": "protocol",
+     "desc": "Configures the HTTP request and optionally the HTTP response to resolve data"
+    },
+    {
+     "name": "Publish event to GraphQL subscription",
+     "vendor_category": "GraphQL resolvers",
+     "area": "protocol",
+     "desc": "Publishes an event to one or more subscriptions specified in a GraphQL"
+    },
+    {
+     "name": "Control flow",
+     "vendor_category": "Policy control and flow",
+     "area": "other",
+     "desc": "Conditionally applies policy statements based on the results of the evaluation of"
+    },
+    {
+     "name": "Include fragment",
+     "vendor_category": "Policy control and flow",
+     "area": "other",
+     "desc": "Inserts a policy fragment in the policy definition"
+    },
+    {
+     "name": "Retry",
+     "vendor_category": "Policy control and flow",
+     "area": "routing",
+     "desc": "Retries execution of the enclosed policy statements, if and until the condition"
+    },
+    {
+     "name": "Wait",
+     "vendor_category": "Policy control and flow",
+     "area": "other",
+     "desc": "Waits for enclosed Send request, Get value from cache, or Control flow"
+    }
+   ]
+  },
+  {
+   "id": "apigee",
+   "name": "Apigee",
+   "term": "policies",
+   "url": "https://docs.cloud.google.com/apigee/docs/api-platform/reference/policies/reference-overview-policy",
+   "notes": "Whole page read. vendor_category = Apigee category plus tier (Standard vs Extensible, which governs licensing in Apigee pay-as-you-go). The overview lists only these; policies not on this overview (e.g. StatisticsCollector, ConcurrentRateLimit, LDAP, Ladder Quota) are not recorded. Descriptions are paraphrased from policy names, the overview gives only category-level text.",
+   "policies": [
+    {
+     "name": "AssertCondition",
+     "vendor_category": "Extension policies (Standard)",
+     "area": "other",
+     "desc": "Assert a condition in the flow"
+    },
+    {
+     "name": "ExternalCallout",
+     "vendor_category": "Extension policies (Standard)",
+     "area": "custom-code",
+     "desc": "Call external gRPC service for custom processing"
+    },
+    {
+     "name": "CORS",
+     "vendor_category": "Mediation policies (Standard)",
+     "area": "cors-cross-domain",
+     "desc": "Apply CORS headers"
+    },
+    {
+     "name": "GraphQL",
+     "vendor_category": "Mediation policies (Standard)",
+     "area": "protocol",
+     "desc": "Validate and limit GraphQL requests"
+    },
+    {
+     "name": "HTTPModifier",
+     "vendor_category": "Mediation policies (Standard)",
+     "area": "transformation",
+     "desc": "Modify HTTP request/response headers and query params"
+    },
+    {
+     "name": "JSONtoXML",
+     "vendor_category": "Mediation policies (Standard)",
+     "area": "transformation",
+     "desc": "Convert JSON to XML"
+    },
+    {
+     "name": "OASValidation",
+     "vendor_category": "Mediation policies (Standard)",
+     "area": "validation",
+     "desc": "Validate requests/responses against OpenAPI spec"
+    },
+    {
+     "name": "PublishMessage",
+     "vendor_category": "Mediation policies (Standard)",
+     "area": "protocol",
+     "desc": "Publish message to Pub/Sub topic"
+    },
+    {
+     "name": "RaiseFault",
+     "vendor_category": "Mediation policies (Standard)",
+     "area": "transformation",
+     "desc": "Return custom error response"
+    },
+    {
+     "name": "ReadPropertySet",
+     "vendor_category": "Mediation policies (Standard)",
+     "area": "other",
+     "desc": "Read values from property sets"
+    },
+    {
+     "name": "SOAPMessageValidation",
+     "vendor_category": "Mediation policies (Standard)",
+     "area": "validation",
+     "desc": "Validate SOAP/XML messages against schema"
+    },
+    {
+     "name": "XMLtoJSON",
+     "vendor_category": "Mediation policies (Standard)",
+     "area": "transformation",
+     "desc": "Convert XML to JSON"
+    },
+    {
+     "name": "AccessControl",
+     "vendor_category": "Security policies (Standard)",
+     "area": "threat-protection",
+     "desc": "Allow or deny by client IP"
+    },
+    {
+     "name": "HMAC",
+     "vendor_category": "Security policies (Standard)",
+     "area": "authentication",
+     "desc": "Compute and verify HMAC"
+    },
+    {
+     "name": "DecodeJWT",
+     "vendor_category": "Security policies (Standard)",
+     "area": "authentication",
+     "desc": "Decode JWT without verifying"
+    },
+    {
+     "name": "VerifyJWT",
+     "vendor_category": "Security policies (Standard)",
+     "area": "authentication",
+     "desc": "Verify JWT signature and claims"
+    },
+    {
+     "name": "VerifyIAM",
+     "vendor_category": "Security policies (Standard)",
+     "area": "authentication",
+     "desc": "Verify Google IAM credentials"
+    },
+    {
+     "name": "SpikeArrest",
+     "vendor_category": "Traffic management policies (Standard)",
+     "area": "rate-limiting",
+     "desc": "Smooth traffic spikes"
+    },
+    {
+     "name": "LLMTokenQuota",
+     "vendor_category": "AI policies (Extensible)",
+     "area": "ai",
+     "desc": "Quota on LLM token consumption"
+    },
+    {
+     "name": "PromptTokenLimit",
+     "vendor_category": "AI policies (Extensible)",
+     "area": "ai",
+     "desc": "Limit prompt token counts"
+    },
+    {
+     "name": "SemanticCacheLookup",
+     "vendor_category": "AI policies (Extensible)",
+     "area": "ai",
+     "desc": "Look up semantically cached LLM responses"
+    },
+    {
+     "name": "SemanticCachePopulate",
+     "vendor_category": "AI policies (Extensible)",
+     "area": "ai",
+     "desc": "Populate semantic cache with LLM responses"
+    },
+    {
+     "name": "SanitizeUserPrompt",
+     "vendor_category": "AI policies (Extensible)",
+     "area": "ai",
+     "desc": "Sanitize user prompts via Model Armor"
+    },
+    {
+     "name": "SanitizeModelResponse",
+     "vendor_category": "AI policies (Extensible)",
+     "area": "ai",
+     "desc": "Sanitize model responses via Model Armor"
+    },
+    {
+     "name": "DataCapture",
+     "vendor_category": "Extension policies (Extensible)",
+     "area": "observability",
+     "desc": "Capture data for analytics"
+    },
+    {
+     "name": "FlowCallout",
+     "vendor_category": "Extension policies (Extensible)",
+     "area": "custom-code",
+     "desc": "Call a shared flow"
+    },
+    {
+     "name": "IntegrationCallout",
+     "vendor_category": "Extension policies (Extensible)",
+     "area": "custom-code",
+     "desc": "Call an Application Integration"
+    },
+    {
+     "name": "JavaCallout",
+     "vendor_category": "Extension policies (Extensible)",
+     "area": "custom-code",
+     "desc": "Run custom Java code"
+    },
+    {
+     "name": "JavaScript",
+     "vendor_category": "Extension policies (Extensible)",
+     "area": "custom-code",
+     "desc": "Run custom JavaScript"
+    },
+    {
+     "name": "MessageLogging",
+     "vendor_category": "Extension policies (Extensible)",
+     "area": "observability",
+     "desc": "Log messages to syslog or Cloud Logging"
+    },
+    {
+     "name": "PythonScript",
+     "vendor_category": "Extension policies (Extensible)",
+     "area": "custom-code",
+     "desc": "Run custom Python script"
+    },
+    {
+     "name": "ServiceCallout",
+     "vendor_category": "Extension policies (Extensible)",
+     "area": "custom-code",
+     "desc": "Call external service from proxy flow"
+    },
+    {
+     "name": "SetIntegrationRequest",
+     "vendor_category": "Extension policies (Extensible)",
+     "area": "custom-code",
+     "desc": "Build request for Application Integration"
+    },
+    {
+     "name": "TraceCapture",
+     "vendor_category": "Extension policies (Extensible)",
+     "area": "observability",
+     "desc": "Add custom variables to trace data"
+    },
+    {
+     "name": "AccessEntity",
+     "vendor_category": "Mediation policies (Extensible)",
+     "area": "other",
+     "desc": "Retrieve Apigee entity profiles"
+    },
+    {
+     "name": "AssignMessage",
+     "vendor_category": "Mediation policies (Extensible)",
+     "area": "transformation",
+     "desc": "Create or modify request/response messages"
+    },
+    {
+     "name": "ExtractVariables",
+     "vendor_category": "Mediation policies (Extensible)",
+     "area": "transformation",
+     "desc": "Extract content from messages into variables"
+    },
+    {
+     "name": "KeyValueMapOperations",
+     "vendor_category": "Mediation policies (Extensible)",
+     "area": "other",
+     "desc": "Read/write key value maps"
+    },
+    {
+     "name": "MonetizationLimitsCheck",
+     "vendor_category": "Mediation policies (Extensible)",
+     "area": "monetization",
+     "desc": "Enforce monetization limits"
+    },
+    {
+     "name": "ParseDialogflowRequest",
+     "vendor_category": "Mediation policies (Extensible)",
+     "area": "ai",
+     "desc": "Parse Dialogflow webhook request"
+    },
+    {
+     "name": "ParsePayload",
+     "vendor_category": "Mediation policies (Extensible)",
+     "area": "transformation",
+     "desc": "Parse message payload"
+    },
+    {
+     "name": "SetDialogflowResponse",
+     "vendor_category": "Mediation policies (Extensible)",
+     "area": "ai",
+     "desc": "Set Dialogflow webhook response"
+    },
+    {
+     "name": "XSLTransform",
+     "vendor_category": "Mediation policies (Extensible)",
+     "area": "transformation",
+     "desc": "Apply XSLT to XML"
+    },
+    {
+     "name": "BasicAuthentication",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Encode/decode Basic auth credentials"
+    },
+    {
+     "name": "JSONThreatProtection",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "threat-protection",
+     "desc": "Limit JSON structure to block attacks"
+    },
+    {
+     "name": "DecodeJWS",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Decode JWS header"
+    },
+    {
+     "name": "GenerateJWS",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Generate signed JWS"
+    },
+    {
+     "name": "VerifyJWS",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Verify JWS signature"
+    },
+    {
+     "name": "GenerateJWT",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Generate signed JWT"
+    },
+    {
+     "name": "DeleteOAuthv2Info",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Delete OAuth2 code or token"
+    },
+    {
+     "name": "GetOAuthv2Info",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Get OAuth2 token attributes"
+    },
+    {
+     "name": "OAuthv2",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "OAuth 2.0 token issue and verification"
+    },
+    {
+     "name": "RevokeOAuthv2",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Revoke OAuth2 tokens"
+    },
+    {
+     "name": "SetOAuth v2 Info",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Update OAuth2 token attributes"
+    },
+    {
+     "name": "RegularExpressionProtection",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "threat-protection",
+     "desc": "Block content matching regex patterns"
+    },
+    {
+     "name": "SAMLAssertion",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Generate or validate SAML assertions"
+    },
+    {
+     "name": "VerifyAPIKey",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "authentication",
+     "desc": "Validate API keys"
+    },
+    {
+     "name": "XMLThreatProtection",
+     "vendor_category": "Security policies (Extensible)",
+     "area": "threat-protection",
+     "desc": "Limit XML structure to block attacks"
+    },
+    {
+     "name": "InvalidateCache",
+     "vendor_category": "Traffic management policies (Extensible)",
+     "area": "caching",
+     "desc": "Invalidate cache entries"
+    },
+    {
+     "name": "LookupCache",
+     "vendor_category": "Traffic management policies (Extensible)",
+     "area": "caching",
+     "desc": "Retrieve values from cache"
+    },
+    {
+     "name": "PopulateCache",
+     "vendor_category": "Traffic management policies (Extensible)",
+     "area": "caching",
+     "desc": "Write values to cache"
+    },
+    {
+     "name": "ResponseCache",
+     "vendor_category": "Traffic management policies (Extensible)",
+     "area": "caching",
+     "desc": "Cache backend responses"
+    },
+    {
+     "name": "Quota",
+     "vendor_category": "Traffic management policies (Extensible)",
+     "area": "rate-limiting",
+     "desc": "Enforce request quotas"
+    },
+    {
+     "name": "ResetQuota",
+     "vendor_category": "Traffic management policies (Extensible)",
+     "area": "rate-limiting",
+     "desc": "Reset quota counters"
+    }
+   ]
+  },
+  {
+   "id": "mulesoft-flex",
+   "name": "MuleSoft Flex Gateway (now Omni Gateway)",
+   "term": "policies",
+   "url": "https://docs.mulesoft.com/gateway/latest/policies-included-directory",
+   "notes": "Flex Gateway docs now publish as \"Omni Gateway (1.14)\". Read both the Inbound Policies Directory and the Outbound directory (https://docs.mulesoft.com/gateway/latest/policies-outbound-directory); vendor_category = MuleSoft category plus direction. Partner guardrails (CrowdStrike, F5, Google Model Armor, Azure, Bedrock) are included as shipped policies.",
+   "policies": [
+    {
+     "name": "A2A Agent Card",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Rewrites the Agent Card URL to match the server instance public URL"
+    },
+    {
+     "name": "A2A PII Detector",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Detects personally identifiable information (PII) in requests sent to the agent"
+    },
+    {
+     "name": "A2A Prompt Decorator",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Decorates prompts with context information"
+    },
+    {
+     "name": "A2A Quality Evaluation",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Evaluates completed A2A agent task responses using an LLM to score quality"
+    },
+    {
+     "name": "A2A Schema Validation",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Validates Agent requests to ensure they conform to the A2A specification"
+    },
+    {
+     "name": "A2A Token Based Rate Limit",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Limits API usage based on the number of GPT-4o-mini tokens consumed by"
+    },
+    {
+     "name": "A2A v1 Agent Card",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Rewrites interface URLs in the A2A v1.0 agent card to match the"
+    },
+    {
+     "name": "A2A v1 Azure Content Guardrails",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Evaluates A2A v1 agent messages against Azure AI Content Safety for harmful"
+    },
+    {
+     "name": "A2A v1 Bedrock Guardrails",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Evaluates A2A v1.0 agent requests and responses against Amazon Bedrock guardrails for"
+    },
+    {
+     "name": "A2A v1 PII Detector",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Detects personally identifiable information (PII) in A2A v1 requests across all transports"
+    },
+    {
+     "name": "A2A v1 Prompt Decorator",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Decorates A2A v1 prompts with additional context information"
+    },
+    {
+     "name": "A2A v1 Schema Validation",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Verifies that requests to the agent are compliant with the A2A v1.0"
+    },
+    {
+     "name": "A2A v1 Token Based Rate Limit",
+     "vendor_category": "A2A (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Controls API usage by enforcing token-based rate limits"
+    },
+    {
+     "name": "Agent Connection Telemetry",
+     "vendor_category": "A2A and MCP (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Tracks the number of requests made to agent or MCP server instances"
+    },
+    {
+     "name": "Amazon Bedrock Guardrails",
+     "vendor_category": "LLM (Inbound)",
+     "area": "ai",
+     "desc": "Evaluates LLM prompts and responses against Amazon Bedrock guardrails for content safety"
+    },
+    {
+     "name": "API Security-Identification Header",
+     "vendor_category": "Security (Inbound)",
+     "area": "observability",
+     "desc": "Adds API instance identifiers as response headers for external security platform correlation"
+    },
+    {
+     "name": "Azure Content Safety",
+     "vendor_category": "LLM (Inbound)",
+     "area": "ai",
+     "desc": "Evaluates LLM prompts and responses against Azure AI Content Safety for harmful"
+    },
+    {
+     "name": "Basic Authentication: LDAP",
+     "vendor_category": "Security (Inbound)",
+     "area": "authentication",
+     "desc": "Allows access based on the basic authorization mechanism, with user-password defined on"
+    },
+    {
+     "name": "Basic Authentication: Simple",
+     "vendor_category": "Security (Inbound)",
+     "area": "authentication",
+     "desc": "Allows access based on the basic authorization mechanism, with a single user-password"
+    },
+    {
+     "name": "Client ID Enforcement",
+     "vendor_category": "Compliance (Inbound)",
+     "area": "authentication",
+     "desc": "Allows access only to authorized client applications"
+    },
+    {
+     "name": "Cross-Origin Resource Sharing (CORS)",
+     "vendor_category": "Compliance (Inbound)",
+     "area": "cors-cross-domain",
+     "desc": "Enables access to resources residing in external domains"
+    },
+    {
+     "name": "CrowdStrike AIDR Guardrails",
+     "vendor_category": "LLM (Inbound)",
+     "area": "ai",
+     "desc": "Evaluates OpenAI-format LLM prompts and responses against CrowdStrike Falcon AI Detection and"
+    },
+    {
+     "name": "DataWeave Body Transformation",
+     "vendor_category": "Transformation (Inbound)",
+     "area": "transformation",
+     "desc": "Transforms request or response body content with a DataWeave script"
+    },
+    {
+     "name": "DataWeave Headers Transformation",
+     "vendor_category": "Transformation (Inbound)",
+     "area": "transformation",
+     "desc": "Transforms request or response headers with a DataWeave script"
+    },
+    {
+     "name": "DataWeave Request Filter",
+     "vendor_category": "Transformation (Inbound)",
+     "area": "custom-code",
+     "desc": "Filters requests by using a DataWeave script"
+    },
+    {
+     "name": "External Authorization",
+     "vendor_category": "Security (Inbound)",
+     "area": "authorization",
+     "desc": "Authenticates requests with an external gRPC or HTTP authorization service"
+    },
+    {
+     "name": "External Processing",
+     "vendor_category": "Transformation (Inbound)",
+     "area": "custom-code",
+     "desc": "Sends the incoming HTTP requests or outgoing HTTP responses to an external"
+    },
+    {
+     "name": "F5 Guardrails",
+     "vendor_category": "LLM (Inbound)",
+     "area": "ai",
+     "desc": "Evaluates LLM prompts and responses against F5 AI Guardrails, blocking, flagging, or"
+    },
+    {
+     "name": "Google Model Armor Guardrails",
+     "vendor_category": "LLM (Inbound)",
+     "area": "ai",
+     "desc": "Evaluates OpenAI and Gemini format LLM prompts and responses against a Google"
+    },
+    {
+     "name": "GraphQL Access Control",
+     "vendor_category": "GraphQL (Inbound)",
+     "area": "protocol",
+     "desc": "Authorizes incoming GraphQL requests by evaluating Cedar rules"
+    },
+    {
+     "name": "GraphQL Introspection Control",
+     "vendor_category": "GraphQL (Inbound)",
+     "area": "protocol",
+     "desc": "Blocks or allows requests that access the schema, type, and __typename GraphQL"
+    },
+    {
+     "name": "GraphQL Operation Limits",
+     "vendor_category": "GraphQL (Inbound)",
+     "area": "protocol",
+     "desc": "Limits GraphQL operation depth, aliases, root fields, and directives"
+    },
+    {
+     "name": "GraphQL Schema Validation",
+     "vendor_category": "GraphQL (Inbound)",
+     "area": "protocol",
+     "desc": "Validates incoming GraphQL operations against a GraphQL schema definition"
+    },
+    {
+     "name": "GraphQL Static Query Complexity",
+     "vendor_category": "GraphQL (Inbound)",
+     "area": "protocol",
+     "desc": "Calculates query complexity and blocks requests that exceed the defined budget"
+    },
+    {
+     "name": "Header Injection",
+     "vendor_category": "Transformation (Inbound)",
+     "area": "transformation",
+     "desc": "Adds headers to a request or a response"
+    },
+    {
+     "name": "Header Removal",
+     "vendor_category": "Transformation (Inbound)",
+     "area": "transformation",
+     "desc": "Removes headers from a request or a response"
+    },
+    {
+     "name": "Health Check",
+     "vendor_category": "Quality of Service (Inbound)",
+     "area": "routing",
+     "desc": "Monitors API upstream health at specific intervals"
+    },
+    {
+     "name": "HTTP Caching",
+     "vendor_category": "Quality of Service (Inbound)",
+     "area": "caching",
+     "desc": "Caches HTTP responses from an API implementation"
+    },
+    {
+     "name": "Injection Protection",
+     "vendor_category": "Security (Inbound)",
+     "area": "threat-protection",
+     "desc": "Scans request headers, path, query, and body to protect against SQL, XSS"
+    },
+    {
+     "name": "IP Allowlist",
+     "vendor_category": "Security (Inbound)",
+     "area": "threat-protection",
+     "desc": "Allows a list or range of specified IP addresses to request access"
+    },
+    {
+     "name": "IP Blocklist",
+     "vendor_category": "Security (Inbound)",
+     "area": "threat-protection",
+     "desc": "Blocks a single IP address or a range of IP addresses from"
+    },
+    {
+     "name": "JavaScript Scripting",
+     "vendor_category": "Transformation (Inbound)",
+     "area": "custom-code",
+     "desc": "Runs a user-supplied JavaScript module to inspect and modify requests and responses"
+    },
+    {
+     "name": "JSON Threat Protection",
+     "vendor_category": "Security (Inbound)",
+     "area": "threat-protection",
+     "desc": "Protects against malicious JSON in API requests"
+    },
+    {
+     "name": "JWT Validation",
+     "vendor_category": "Security (Inbound)",
+     "area": "authentication",
+     "desc": "Validates a JWT"
+    },
+    {
+     "name": "LLM PII Detection",
+     "vendor_category": "LLM (Inbound)",
+     "area": "ai",
+     "desc": "Detects personally identifiable information (PII) in OpenAI and Anthropic format LLM requests"
+    },
+    {
+     "name": "LLM Token Based Rate Limit",
+     "vendor_category": "LLM (Inbound)",
+     "area": "ai",
+     "desc": "Limits Model Proxy usage based on the number of tokens consumed (OpenAI-format"
+    },
+    {
+     "name": "MCP Attribute-Based Access Control",
+     "vendor_category": "MCP (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Controls access to tools, resources, and prompts based on user information such"
+    },
+    {
+     "name": "MCP Global Access",
+     "vendor_category": "MCP (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Restricts which MCP tools are exposed by defining Allow and Block rules"
+    },
+    {
+     "name": "MCP PII Detector",
+     "vendor_category": "MCP (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Blocks elicitation responses containing personally identifiable information (PII) from reaching MCP servers"
+    },
+    {
+     "name": "MCP Payload Optimization",
+     "vendor_category": "MCP (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Reduces tool response token consumption using one or more configurable methods: remove"
+    },
+    {
+     "name": "MCP Tools Progressive Disclosure",
+     "vendor_category": "MCP (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Reduces context window token cost by exposing tools on-demand through search"
+    },
+    {
+     "name": "MCP Schema Validation",
+     "vendor_category": "MCP (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Validates MCP requests to ensure they conform to the MCP specification"
+    },
+    {
+     "name": "MCP Support",
+     "vendor_category": "MCP (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Adds MCP support to an Omni Gateway MCP server instance. This policy"
+    },
+    {
+     "name": "MCP Tool Mapping",
+     "vendor_category": "MCP (Inbound)",
+     "area": "mcp-agents",
+     "desc": "Redefines tool names and descriptions to reduce prompt complexity and improve LLM"
+    },
+    {
+     "name": "Message Logging",
+     "vendor_category": "Troubleshooting (Inbound)",
+     "area": "observability",
+     "desc": "Logs custom messages using information from incoming requests, responses from the backend"
+    },
+    {
+     "name": "Model Proxy Request Compression",
+     "vendor_category": "LLM (Inbound)",
+     "area": "ai",
+     "desc": "Compresses message content and replayed tool results in Model Proxy request bodies"
+    },
+    {
+     "name": "OAuth 2.0 Protected Resource Metadata",
+     "vendor_category": "Security (Inbound)",
+     "area": "authentication",
+     "desc": "Serves OAuth 2.0 Protected Resource Metadata at the well-known endpoint"
+    },
+    {
+     "name": "OAuth 2.0 Token Introspection",
+     "vendor_category": "Security (Inbound)",
+     "area": "authentication",
+     "desc": "Allows access only to authorized client applications"
+    },
+    {
+     "name": "OpenID Connect OAuth 2.0 Access Token Enforcement",
+     "vendor_category": "Security (Inbound)",
+     "area": "authentication",
+     "desc": "Allows access only to authorized client applications"
+    },
+    {
+     "name": "Rate Limiting",
+     "vendor_category": "Quality of Service (Inbound)",
+     "area": "rate-limiting",
+     "desc": "Monitors access to an API by defining the maximum number of requests"
+    },
+    {
+     "name": "Rate Limiting: SLA-based",
+     "vendor_category": "Quality of Service (Inbound)",
+     "area": "rate-limiting",
+     "desc": "Monitors access to an API by defining the maximum number of requests"
+    },
+    {
+     "name": "Regex Prompt Guard",
+     "vendor_category": "LLM (Inbound)",
+     "area": "ai",
+     "desc": "Blocks LLM requests that match deny-list regex patterns"
+    },
+    {
+     "name": "Response Idle Timeout",
+     "vendor_category": "Quality of Service (Inbound)",
+     "area": "routing",
+     "desc": "Set a maximum duration Omni Gateway waits for a response from an"
+    },
+    {
+     "name": "Schema Validation",
+     "vendor_category": "Security (Inbound)",
+     "area": "validation",
+     "desc": "Validates incoming traffic against a supplied OAS3 schema"
+    },
+    {
+     "name": "SOAP Schema Validation",
+     "vendor_category": "Security (Inbound)",
+     "area": "protocol",
+     "desc": "Validates incoming traffic against a specified WSDL schema"
+    },
+    {
+     "name": "Spike Control",
+     "vendor_category": "Quality of Service (Inbound)",
+     "area": "rate-limiting",
+     "desc": "Regulates API traffic"
+    },
+    {
+     "name": "SSE Logging",
+     "vendor_category": "SSE (Inbound)",
+     "area": "observability",
+     "desc": "Logs every SSE event while streaming"
+    },
+    {
+     "name": "Stream Idle Timeout",
+     "vendor_category": "Quality of Service (Inbound)",
+     "area": "routing",
+     "desc": "Set a maximum duration a stream can remain idle without receiving a"
+    },
+    {
+     "name": "Tracing",
+     "vendor_category": "Troubleshooting (Inbound)",
+     "area": "observability",
+     "desc": "Configure OpenTelemetry distributed tracing for an API"
+    },
+    {
+     "name": "Traffic Management for Multiple Upstream Services",
+     "vendor_category": "Quality of Service (Inbound)",
+     "area": "routing",
+     "desc": "Manages API instance traffic to multiple upstream services from a single consumer"
+    },
+    {
+     "name": "Traffic Management for Multiple Upstream Services (Weighted)",
+     "vendor_category": "Quality of Service (Inbound)",
+     "area": "routing",
+     "desc": "Manages API instance traffic to multiple upstream services from a single consumer"
+    },
+    {
+     "name": "Transport Layer Security (TLS) - Inbound",
+     "vendor_category": "Security (Inbound)",
+     "area": "authentication",
+     "desc": "Enables authentication between a client and the API proxy"
+    },
+    {
+     "name": "WebSocket Connection Limit",
+     "vendor_category": "Quality of Service (Inbound)",
+     "area": "protocol",
+     "desc": "Limits the number of simultaneous WebSocket connections that each API instance allows"
+    },
+    {
+     "name": "WS-Security",
+     "vendor_category": "Security (Inbound)",
+     "area": "protocol",
+     "desc": "Validates Web Services Security (WS-Security) UsernameToken credentials, XML signatures, or both on"
+    },
+    {
+     "name": "XML Threat Protection",
+     "vendor_category": "Security (Inbound)",
+     "area": "threat-protection",
+     "desc": "Protects against malicious XML in API requests"
+    },
+    {
+     "name": "A2A In-Task Authorization Code",
+     "vendor_category": "A2A (Outbound)",
+     "area": "mcp-agents",
+     "desc": "Ensures secondary credentials are present for in-task authentication using OAuth 2.0 Authorization"
+    },
+    {
+     "name": "A2A v1 to v0.3 Transcoder",
+     "vendor_category": "A2A (Outbound)",
+     "area": "mcp-agents",
+     "desc": "Transcodes protocol messages bidirectionally between A2A v1.0 JSON-RPC clients and A2A v0.3"
+    },
+    {
+     "name": "AWS lambda",
+     "vendor_category": "Transformation (Outbound)",
+     "area": "custom-code",
+     "desc": "Triggers an AWS Lambda function from a standard HTTP request"
+    },
+    {
+     "name": "AWS Request Signature",
+     "vendor_category": "Security (Outbound)",
+     "area": "upstream-auth",
+     "desc": "Signs outgoing requests with AWS Signature Version 4 (SigV4) or Signature Version"
+    },
+    {
+     "name": "Circuit Breaker",
+     "vendor_category": "Quality of Service (Outbound)",
+     "area": "routing",
+     "desc": "Prevents an upstream from receiving too many requests or connections"
+    },
+    {
+     "name": "Credential Injection Basic Authentication",
+     "vendor_category": "Security (Outbound)",
+     "area": "upstream-auth",
+     "desc": "Allows access based on the basic authorization mechanism, with a single user-password"
+    },
+    {
+     "name": "Credential Injection API Key",
+     "vendor_category": "Security (Outbound)",
+     "area": "upstream-auth",
+     "desc": "Injects an API key or client credentials headers into outgoing requests"
+    },
+    {
+     "name": "Credential Injection OAuth 2.0",
+     "vendor_category": "Security (Outbound)",
+     "area": "upstream-auth",
+     "desc": "Injects an OAuth 2.0 authorization header into outgoing requests"
+    },
+    {
+     "name": "Credential Injection JWT Generation",
+     "vendor_category": "Security (Outbound)",
+     "area": "upstream-auth",
+     "desc": "Generates and injects a JWT token into outgoing requests"
+    },
+    {
+     "name": "OAuth 2.0 OBO Credential Injection",
+     "vendor_category": "Security (Outbound)",
+     "area": "upstream-auth",
+     "desc": "Exchanges incoming bearer tokens using OAuth 2.0 Token Exchange (RFC 8693), Microsoft"
+    },
+    {
+     "name": "Outbound Message Logging",
+     "vendor_category": "Troubleshooting (Outbound)",
+     "area": "observability",
+     "desc": "Logs custom messages from outbound requests sent to upstream services, responses from"
+    },
+    {
+     "name": "Transport Layer Security (TLS) - Outbound",
+     "vendor_category": "Security (Outbound)",
+     "area": "upstream-auth",
+     "desc": "Enables two-way authentication between the API proxy and an upstream service"
+    },
+    {
+     "name": "Upstream Idle Timeout",
+     "vendor_category": "Quality of Service (Outbound)",
+     "area": "routing",
+     "desc": "Sets the maximum idle duration for a stream between Omni Gateway and"
+    }
+   ]
+  },
+  {
+   "id": "kong",
+   "name": "Kong Gateway",
+   "term": "plugins",
+   "url": "https://developer.konghq.com/plugins/",
+   "notes": "Plugin Hub cards parsed in full (145 cards, 1 duplicate card for ai-a2a-proxy removed). vendor_category = Kong card category; \"third-party (partner)\" = support:third-party; \"[premium partner]\" marks Kong premium-partner trusted content (Solace, Confluent, Harness). Name = plugin slug.",
+   "policies": [
+    {
+     "name": "ai-a2a-proxy",
+     "vendor_category": "ai,analytics-monitoring",
+     "area": "mcp-agents",
+     "desc": "Provide observability and gateway control for Agent-to-Agent (A2A) protocol traffic, supporting both"
+    },
+    {
+     "name": "ai-aws-guardrails",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Use AWS Guardrails to validate requests and/or responses in the AI Proxy"
+    },
+    {
+     "name": "ai-azure-content-safety",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Use Azure AI Content Safety to check and audit AI Proxy plugin"
+    },
+    {
+     "name": "ai-custom-guardrail",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Use a third-party guardrails service to validate requests and/or responses in the"
+    },
+    {
+     "name": "ai-gcp-model-armor",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Audit and validate LLM prompts with Google Cloud Model Armor before forwarding"
+    },
+    {
+     "name": "ai-llm-as-judge",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Evaluate and optimize your Large Language Models with accuracy"
+    },
+    {
+     "name": "ai-lakera-guard",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Inspect and enforce Lakera Guard safety policies on LLM requests and responses"
+    },
+    {
+     "name": "ai-mcp-oauth2",
+     "vendor_category": "ai",
+     "area": "mcp-agents",
+     "desc": "Secure MCP server access with OAuth2 authentication"
+    },
+    {
+     "name": "ai-mcp-proxy",
+     "vendor_category": "ai",
+     "area": "mcp-agents",
+     "desc": "Convert APIs into MCP tools, proxy MCP servers, expose multiple MCP tools"
+    },
+    {
+     "name": "ai-sanitizer",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Protect sensitive information in client request or response bodies before they reach"
+    },
+    {
+     "name": "ai-prompt-compressor",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Compress prompts before they are sent to LLMs to reduce costs, and"
+    },
+    {
+     "name": "ai-prompt-decorator",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Prepend or append an array of llm/v1/chat messages to a user’s chat"
+    },
+    {
+     "name": "ai-prompt-guard",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Check text completion requests against a list of allowed or denied expressions"
+    },
+    {
+     "name": "ai-prompt-template",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Provide fill-in-the-blank AI prompts to users"
+    },
+    {
+     "name": "ai-proxy",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "The AI Proxy plugin lets you transform and proxy requests to a"
+    },
+    {
+     "name": "ai-proxy-advanced",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "The AI Proxy Advanced plugin lets you transform and proxy requests to"
+    },
+    {
+     "name": "ai-rag-injector",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Create RAG pipelines by automatically injecting content from a vector database"
+    },
+    {
+     "name": "ai-rate-limiting-advanced",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Provides rate limiting for the AI plugins"
+    },
+    {
+     "name": "ai-request-transformer",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Use an LLM service to transform a client request body prior to"
+    },
+    {
+     "name": "ai-response-transformer",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Use an LLM service to transform the upstream HTTP(S) prior to forwarding"
+    },
+    {
+     "name": "ai-semantic-cache",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Enhance performance for AI providers by caching LLM responses semantically"
+    },
+    {
+     "name": "ai-semantic-prompt-guard",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Semantically and intelligently create allow and deny lists of topics that can"
+    },
+    {
+     "name": "ai-semantic-response-guard",
+     "vendor_category": "ai",
+     "area": "ai",
+     "desc": "Permit or block prompts based on semantic similarity to known LLM responses"
+    },
+    {
+     "name": "app-dynamics",
+     "vendor_category": "analytics-monitoring",
+     "area": "observability",
+     "desc": "Integrate Kong Gateway with the AppDynamics APM Platform"
+    },
+    {
+     "name": "datadog",
+     "vendor_category": "analytics-monitoring",
+     "area": "observability",
+     "desc": "Visualize metrics on Datadog"
+    },
+    {
+     "name": "opentelemetry",
+     "vendor_category": "analytics-monitoring",
+     "area": "observability",
+     "desc": "Propagate spans and report space to a backend server through OTLP protocol"
+    },
+    {
+     "name": "prometheus",
+     "vendor_category": "analytics-monitoring",
+     "area": "observability",
+     "desc": "Expose metrics related to Kong Gateway and proxied upstream services in Prometheus"
+    },
+    {
+     "name": "statsd",
+     "vendor_category": "analytics-monitoring",
+     "area": "observability",
+     "desc": "Send metrics to StatsD"
+    },
+    {
+     "name": "zipkin",
+     "vendor_category": "analytics-monitoring",
+     "area": "observability",
+     "desc": "Propagate Zipkin spans and report tracing data to a Zipkin server"
+    },
+    {
+     "name": "basic-auth",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Secure Services and Routes with Basic Authentication"
+    },
+    {
+     "name": "hmac-auth",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Add HMAC Authentication to your Gateway Services"
+    },
+    {
+     "name": "header-cert-auth",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Authenticate clients with mTLS certificates passed in headers by a WAF or"
+    },
+    {
+     "name": "jwe-decrypt",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Decrypt a JWE token in a request"
+    },
+    {
+     "name": "jwt",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Verify and authenticate JSON Web Tokens"
+    },
+    {
+     "name": "jwt-signer",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Verify and sign one or two tokens in a request"
+    },
+    {
+     "name": "key-auth",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Secure Services and Routes with key authentication"
+    },
+    {
+     "name": "key-auth-enc",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Add key authentication to your services"
+    },
+    {
+     "name": "ldap-auth",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Integrate Kong with an LDAP server"
+    },
+    {
+     "name": "ldap-auth-advanced",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Secure Kong with username and password protection, use LDAP search and service"
+    },
+    {
+     "name": "mtls-auth",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Secure routes and services with client certificate and mutual TLS authentication"
+    },
+    {
+     "name": "oauth2",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Add OAuth 2.0 authentication to your Services and Routes"
+    },
+    {
+     "name": "oauth2-introspection",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Integrate Kong Gateway with a third-party OAuth 2.0 Authorization Server"
+    },
+    {
+     "name": "openid-connect",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Integrate Kong Gateway with a third-party OpenID Connect provider"
+    },
+    {
+     "name": "saml",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Provides SAML v2.0 authentication and authorization between a service provider (Kong) and"
+    },
+    {
+     "name": "session",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Support sessions for Kong authentication plugins"
+    },
+    {
+     "name": "upstream-oauth",
+     "vendor_category": "authentication",
+     "area": "upstream-auth",
+     "desc": "Configure Kong Gateway to obtain an OAuth2 token to consume an upstream"
+    },
+    {
+     "name": "vault-auth",
+     "vendor_category": "authentication",
+     "area": "authentication",
+     "desc": "Add Vault authentication to your Services or Routes"
+    },
+    {
+     "name": "file-log",
+     "vendor_category": "logging",
+     "area": "observability",
+     "desc": "Append request and response data to a log file"
+    },
+    {
+     "name": "http-log",
+     "vendor_category": "logging",
+     "area": "observability",
+     "desc": "Send request and response logs to an HTTP server"
+    },
+    {
+     "name": "kafka-log",
+     "vendor_category": "logging",
+     "area": "observability",
+     "desc": "Publish logs to a Kafka topic"
+    },
+    {
+     "name": "loggly",
+     "vendor_category": "logging",
+     "area": "observability",
+     "desc": "Send request and response logs to Loggly"
+    },
+    {
+     "name": "solace-log",
+     "vendor_category": "logging [premium partner]",
+     "area": "observability",
+     "desc": "Publish request and response logs to a Solace endpoint or topic"
+    },
+    {
+     "name": "syslog",
+     "vendor_category": "logging",
+     "area": "observability",
+     "desc": "Send request and response logs to Syslog"
+    },
+    {
+     "name": "tcp-log",
+     "vendor_category": "logging",
+     "area": "observability",
+     "desc": "Send request and response logs to a TCP server"
+    },
+    {
+     "name": "udp-log",
+     "vendor_category": "logging",
+     "area": "observability",
+     "desc": "Send request and response logs to a UDP server"
+    },
+    {
+     "name": "entitlement-enforcement",
+     "vendor_category": "monetization",
+     "area": "monetization",
+     "desc": "Allow or deny API requests based on customer entitlements. Checks feature access"
+    },
+    {
+     "name": "metering-and-billing",
+     "vendor_category": "monetization",
+     "area": "monetization",
+     "desc": "A licensed add-on through Konnect Metering & Billing. Meter API requests and"
+    },
+    {
+     "name": "acme",
+     "vendor_category": "security",
+     "area": "other",
+     "desc": "Let’s Encrypt and ACMEv2 integration with Kong Gateway"
+    },
+    {
+     "name": "bot-detection",
+     "vendor_category": "security",
+     "area": "threat-protection",
+     "desc": "Detect and block bots or custom clients"
+    },
+    {
+     "name": "cors",
+     "vendor_category": "security",
+     "area": "cors-cross-domain",
+     "desc": "Add Cross-Origin Resource Sharing (CORS) to a Service or a Route"
+    },
+    {
+     "name": "ip-restriction",
+     "vendor_category": "security",
+     "area": "threat-protection",
+     "desc": "Allow or deny IPs that can make requests to your services"
+    },
+    {
+     "name": "injection-protection",
+     "vendor_category": "security",
+     "area": "threat-protection",
+     "desc": "Detect and block injection attacks using regular expressions"
+    },
+    {
+     "name": "json-threat-protection",
+     "vendor_category": "security",
+     "area": "threat-protection",
+     "desc": "Apply size checks on JSON payload and minimize risk of content-level attacks"
+    },
+    {
+     "name": "opa",
+     "vendor_category": "security",
+     "area": "authorization",
+     "desc": "Authorize requests against Open Policy Agent"
+    },
+    {
+     "name": "tls-handshake-modifier",
+     "vendor_category": "security",
+     "area": "authentication",
+     "desc": "Requests a client to present its client certificate"
+    },
+    {
+     "name": "tls-metadata-headers",
+     "vendor_category": "security",
+     "area": "transformation",
+     "desc": "Proxies TLS client certificate metadata to upstream services via an HTTP headers"
+    },
+    {
+     "name": "aws-lambda",
+     "vendor_category": "serverless",
+     "area": "custom-code",
+     "desc": "Invoke and manage AWS Lambda functions from Kong Gateway"
+    },
+    {
+     "name": "azure-functions",
+     "vendor_category": "serverless",
+     "area": "custom-code",
+     "desc": "Invoke and manage Azure functions from Kong Gateway"
+    },
+    {
+     "name": "post-function",
+     "vendor_category": "serverless",
+     "area": "custom-code",
+     "desc": "Add and manage custom Lua functions to execute after other plugins"
+    },
+    {
+     "name": "pre-function",
+     "vendor_category": "serverless",
+     "area": "custom-code",
+     "desc": "Add and manage custom Lua functions to run before other plugins"
+    },
+    {
+     "name": "openwhisk",
+     "vendor_category": "serverless",
+     "area": "custom-code",
+     "desc": "Invoke and manage OpenWhisk actions from Kong Gateway"
+    },
+    {
+     "name": "acl",
+     "vendor_category": "traffic-control",
+     "area": "authorization",
+     "desc": "Control which Consumers can access Services and Routes"
+    },
+    {
+     "name": "ace",
+     "vendor_category": "traffic-control",
+     "area": "authorization",
+     "desc": "Manages developer access control to APIs published with Dev Portal"
+    },
+    {
+     "name": "canary",
+     "vendor_category": "traffic-control",
+     "area": "routing",
+     "desc": "Slowly roll out software changes to a subset of users"
+    },
+    {
+     "name": "confluent-consume",
+     "vendor_category": "traffic-control [premium partner]",
+     "area": "protocol",
+     "desc": "Consume messages from Confluent Cloud Kafka topics and make them available through"
+    },
+    {
+     "name": "forward-proxy",
+     "vendor_category": "traffic-control",
+     "area": "routing",
+     "desc": "Allows Kong Gateway to connect to intermediary transparent HTTP proxies"
+    },
+    {
+     "name": "graphql-proxy-cache-advanced",
+     "vendor_category": "traffic-control",
+     "area": "caching",
+     "desc": "Cache and serve commonly requested responses in Kong Gateway"
+    },
+    {
+     "name": "graphql-rate-limiting-advanced",
+     "vendor_category": "traffic-control",
+     "area": "rate-limiting",
+     "desc": "Provides rate limiting for GraphQL queries"
+    },
+    {
+     "name": "kafka-consume",
+     "vendor_category": "traffic-control",
+     "area": "protocol",
+     "desc": "Consume messages from Kafka topics and make them available through HTTP endpoints"
+    },
+    {
+     "name": "mocking",
+     "vendor_category": "traffic-control,api-design",
+     "area": "transformation",
+     "desc": "Provide mock endpoints to test your APIs against your Services"
+    },
+    {
+     "name": "oas-validation",
+     "vendor_category": "traffic-control",
+     "area": "validation",
+     "desc": "Validate HTTP requests and responses based on an OpenAPI 3.0 or Swagger"
+    },
+    {
+     "name": "proxy-cache",
+     "vendor_category": "traffic-control",
+     "area": "caching",
+     "desc": "Cache and serve commonly requested responses in Kong"
+    },
+    {
+     "name": "proxy-cache-advanced",
+     "vendor_category": "traffic-control",
+     "area": "caching",
+     "desc": "Cache and serve commonly requested responses in Kong, in-memory or using Redis"
+    },
+    {
+     "name": "rate-limiting",
+     "vendor_category": "traffic-control",
+     "area": "rate-limiting",
+     "desc": "You can use the Rate Limiting plugin to limit how many HTTP"
+    },
+    {
+     "name": "rate-limiting-advanced",
+     "vendor_category": "traffic-control",
+     "area": "rate-limiting",
+     "desc": "Enhanced rate limiting capabilities such as sliding window support, Redis Sentinel support"
+    },
+    {
+     "name": "redirect",
+     "vendor_category": "traffic-control",
+     "area": "routing",
+     "desc": "Redirect incoming requests to a new URL"
+    },
+    {
+     "name": "request-size-limiting",
+     "vendor_category": "traffic-control",
+     "area": "threat-protection",
+     "desc": "Block requests with bodies greater than a specified size"
+    },
+    {
+     "name": "request-termination",
+     "vendor_category": "traffic-control",
+     "area": "transformation",
+     "desc": "Terminates all requests with a specific response"
+    },
+    {
+     "name": "request-validator",
+     "vendor_category": "traffic-control",
+     "area": "validation",
+     "desc": "Validates requests before they reach the upstream service"
+    },
+    {
+     "name": "response-ratelimiting",
+     "vendor_category": "traffic-control",
+     "area": "rate-limiting",
+     "desc": "Rate limit based on a custom response header value"
+    },
+    {
+     "name": "route-by-header",
+     "vendor_category": "traffic-control",
+     "area": "routing",
+     "desc": "Route requests based on specified request headers"
+    },
+    {
+     "name": "service-protection",
+     "vendor_category": "traffic-control",
+     "area": "rate-limiting",
+     "desc": "Prevent abuse and protect services with absolute limits on the number of"
+    },
+    {
+     "name": "solace-consume",
+     "vendor_category": "traffic-control [premium partner]",
+     "area": "protocol",
+     "desc": "Consume messages from Solace topics and make them available through HTTP endpoints"
+    },
+    {
+     "name": "standard-webhooks",
+     "vendor_category": "traffic-control",
+     "area": "validation",
+     "desc": "Validate that incoming webhooks adhere to the Standard Webhooks specification"
+    },
+    {
+     "name": "upstream-timeout",
+     "vendor_category": "traffic-control",
+     "area": "routing",
+     "desc": "Set custom timeouts on connections to upstream services to override Gateway Service-level"
+    },
+    {
+     "name": "websocket-size-limit",
+     "vendor_category": "traffic-control",
+     "area": "protocol",
+     "desc": "Block incoming WebSocket messages greater than a specified size"
+    },
+    {
+     "name": "websocket-validator",
+     "vendor_category": "traffic-control",
+     "area": "protocol",
+     "desc": "Validate WebSocket messages before they are proxied"
+    },
+    {
+     "name": "xml-threat-protection",
+     "vendor_category": "traffic-control",
+     "area": "threat-protection",
+     "desc": "Apply structural and size checks on XML payloads"
+    },
+    {
+     "name": "confluent",
+     "vendor_category": "transformations [premium partner]",
+     "area": "protocol",
+     "desc": "Transform requests into Kafka messages in a Confluent Kafka topic"
+    },
+    {
+     "name": "correlation-id",
+     "vendor_category": "transformations",
+     "area": "observability",
+     "desc": "Correlate requests and responses using a unique ID"
+    },
+    {
+     "name": "datakit",
+     "vendor_category": "transformations",
+     "area": "custom-code",
+     "desc": "Datakit is a workflow engine for working with external APIs"
+    },
+    {
+     "name": "degraphql",
+     "vendor_category": "transformations",
+     "area": "protocol",
+     "desc": "Transform a GraphQL upstream into a REST API"
+    },
+    {
+     "name": "exit-transformer",
+     "vendor_category": "transformations",
+     "area": "transformation",
+     "desc": "Customize Kong exit responses sent downstream"
+    },
+    {
+     "name": "kafka-upstream",
+     "vendor_category": "transformations",
+     "area": "protocol",
+     "desc": "Transform requests into Kafka messages in a Kafka topic"
+    },
+    {
+     "name": "request-callout",
+     "vendor_category": "transformations",
+     "area": "custom-code",
+     "desc": "Insert arbitrary API calls before proxying a request to the upstream service"
+    },
+    {
+     "name": "request-transformer",
+     "vendor_category": "transformations",
+     "area": "transformation",
+     "desc": "Use regular expressions, variables, and templates to transform requests"
+    },
+    {
+     "name": "request-transformer-advanced",
+     "vendor_category": "transformations",
+     "area": "transformation",
+     "desc": "Use powerful regular expressions, variables, and templates to transform API requests"
+    },
+    {
+     "name": "response-transformer",
+     "vendor_category": "transformations",
+     "area": "transformation",
+     "desc": "Modify the upstream response before returning it to the client"
+    },
+    {
+     "name": "response-transformer-advanced",
+     "vendor_category": "transformations",
+     "area": "transformation",
+     "desc": "Modify the upstream response before returning it to the client, with greater"
+    },
+    {
+     "name": "route-transformer-advanced",
+     "vendor_category": "transformations",
+     "area": "routing",
+     "desc": "Transform routing by changing the upstream server, port, or path"
+    },
+    {
+     "name": "solace-upstream",
+     "vendor_category": "transformations [premium partner]",
+     "area": "protocol",
+     "desc": "Transform requests into Solace messages in a Solace queue or topic"
+    },
+    {
+     "name": "grpc-gateway",
+     "vendor_category": "transformations",
+     "area": "protocol",
+     "desc": "Access gRPC services through HTTP REST"
+    },
+    {
+     "name": "grpc-web",
+     "vendor_category": "transformations",
+     "area": "protocol",
+     "desc": "Allow browser clients to call gRPC services"
+    },
+    {
+     "name": "jq",
+     "vendor_category": "transformations",
+     "area": "transformation",
+     "desc": "Transform JSON objects included in API requests or responses using jq programs"
+    },
+    {
+     "name": "harness-ai-security",
+     "vendor_category": "third-party (partner) [premium partner]",
+     "area": "ai",
+     "desc": "Detect, redact, or block sensitive data in AI request and response traffic"
+    },
+    {
+     "name": "harness-waap",
+     "vendor_category": "third-party (partner) [premium partner]",
+     "area": "threat-protection",
+     "desc": "Capture full API/AI traffic in Kong Gateway, assess security posture, and block"
+    },
+    {
+     "name": "akamai-api-security",
+     "vendor_category": "third-party (partner)",
+     "area": "threat-protection",
+     "desc": "Akamai API Security machine learning & prevention blocking for Kong Gateway discovery"
+    },
+    {
+     "name": "amberflo",
+     "vendor_category": "third-party (partner)",
+     "area": "monetization",
+     "desc": "API usage metering and usage-based billing"
+    },
+    {
+     "name": "appsentinels",
+     "vendor_category": "third-party (partner)",
+     "area": "threat-protection",
+     "desc": "For API security"
+    },
+    {
+     "name": "aws-request-signing",
+     "vendor_category": "third-party (partner)",
+     "area": "upstream-auth",
+     "desc": "Sign requests with AWS SIGV4 and temp credentials for secure use of"
+    },
+    {
+     "name": "crowdstrike-aidr-mcp",
+     "vendor_category": "third-party (partner)",
+     "area": "mcp-agents",
+     "desc": "Inspect Model Context Protocol tool listings, tool call inputs, and tool outputs"
+    },
+    {
+     "name": "crowdstrike-aidr-request",
+     "vendor_category": "third-party (partner)",
+     "area": "ai",
+     "desc": "Inspect AI prompts against CrowdStrike Falcon AIDR input rules, blocking threats before"
+    },
+    {
+     "name": "crowdstrike-aidr-response",
+     "vendor_category": "third-party (partner)",
+     "area": "ai",
+     "desc": "Inspect LLM responses against CrowdStrike Falcon AIDR output rules, redacting or blocking"
+    },
+    {
+     "name": "datadome",
+     "vendor_category": "third-party (partner)",
+     "area": "threat-protection",
+     "desc": "Detect and mitigate attacks on mobile apps, websites, and APIs with DataDome"
+    },
+    {
+     "name": "imp-appsec-connector",
+     "vendor_category": "third-party (partner)",
+     "area": "threat-protection",
+     "desc": "Integrate Kong Gateway with Imperva API Security to discover, monitor, and protect"
+    },
+    {
+     "name": "impart",
+     "vendor_category": "third-party (partner)",
+     "area": "ai",
+     "desc": "Block LLM, agent, and MCP attacks in real time with Impart Security’s"
+    },
+    {
+     "name": "inigo",
+     "vendor_category": "third-party (partner)",
+     "area": "protocol",
+     "desc": "Integrate Kong API Gateway with Inigo GraphQL Observability and Security"
+    },
+    {
+     "name": "kong-response-size-limiting",
+     "vendor_category": "third-party (partner)",
+     "area": "threat-protection",
+     "desc": "Block responses with bodies greater than a specified size"
+    },
+    {
+     "name": "kong-service-virtualization",
+     "vendor_category": "third-party (partner)",
+     "area": "transformation",
+     "desc": "Mock virtual API request and response pairs through Kong Gateway"
+    },
+    {
+     "name": "kong-spec-expose",
+     "vendor_category": "third-party (partner)",
+     "area": "other",
+     "desc": "Expose OAS/Swagger/etc. specifications of auth protected APIs proxied by Kong"
+    },
+    {
+     "name": "kong-splunk-log",
+     "vendor_category": "third-party (partner)",
+     "area": "observability",
+     "desc": "Log API transactions to Splunk using the Splunk HTTP collector"
+    },
+    {
+     "name": "kong-upstream-jwt",
+     "vendor_category": "third-party (partner)",
+     "area": "upstream-auth",
+     "desc": "Add a signed JWT into the header of proxied requests"
+    },
+    {
+     "name": "moesif",
+     "vendor_category": "third-party (partner)",
+     "area": "monetization",
+     "desc": "Powerful API analytics and usage-based billing to monetize APIs"
+    },
+    {
+     "name": "noma-runtime-protection",
+     "vendor_category": "third-party (partner)",
+     "area": "ai",
+     "desc": "AI-DR runtime protection for all OpenAI-compliant modules through your Kong AI Gateway"
+    },
+    {
+     "name": "panw-apisec-http-log",
+     "vendor_category": "third-party (partner)",
+     "area": "threat-protection",
+     "desc": "Enhance your API security by integrating your Kong Gateway with Cortex API"
+    },
+    {
+     "name": "prisma-airs-intercept",
+     "vendor_category": "third-party (partner)",
+     "area": "ai",
+     "desc": "Real-time security scanning for AI/LLM traffic using PAN Prisma AI Runtime Security"
+    },
+    {
+     "name": "salt-agent",
+     "vendor_category": "third-party (partner)",
+     "area": "threat-protection",
+     "desc": "Integrate Kong API Gateway with Salt Security Discovery & Prevention for API-based"
+    },
+    {
+     "name": "skyflow-ai-data-control",
+     "vendor_category": "third-party (partner)",
+     "area": "ai",
+     "desc": "Skyflow sanitization plugin for Kong AI Gateway"
+    },
+    {
+     "name": "straiker",
+     "vendor_category": "third-party (partner)",
+     "area": "ai",
+     "desc": "Scan chat completion requests and responses against Straiker Defend policy before they"
+    },
+    {
+     "name": "straiker-coding-agent-buffered",
+     "vendor_category": "third-party (partner)",
+     "area": "ai",
+     "desc": "Hold Claude Code and other Anthropic Messages coding agent responses until Straiker"
+    },
+    {
+     "name": "straiker-coding-agent-streaming",
+     "vendor_category": "third-party (partner)",
+     "area": "ai",
+     "desc": "Scan Claude Code and other Anthropic Messages coding agent traffic against Straiker"
+    },
+    {
+     "name": "trend-micro-kong-plugin-aps",
+     "vendor_category": "third-party (partner)",
+     "area": "threat-protection",
+     "desc": "Strengthen your overall API Security with TrendAI Vision One"
+    },
+    {
+     "name": "veriknox",
+     "vendor_category": "third-party (partner)",
+     "area": "ai",
+     "desc": "Cryptographically signed audit receipts for every AI interaction passing through your gateway"
+    },
+    {
+     "name": "wallarm",
+     "vendor_category": "third-party (partner)",
+     "area": "threat-protection",
+     "desc": "Wallarm is AI-Powered Security Platform for protecting microservices and APIs"
+    }
+   ]
+  },
+  {
+   "id": "apisix",
+   "name": "Apache APISIX",
+   "term": "plugins",
+   "url": "https://apisix.apache.org/plugins/",
+   "notes": "Plugin Hub page parsed in full: 105 plugins across 9 categories (page totals match). \"serverless\" covers serverless-pre-function and serverless-post-function as one entry, as listed.",
+   "policies": [
+    {
+     "name": "limit-req",
+     "vendor_category": "Traffic",
+     "area": "rate-limiting",
+     "desc": "Limits request rate using the leaky bucket method"
+    },
+    {
+     "name": "limit-conn",
+     "vendor_category": "Traffic",
+     "area": "rate-limiting",
+     "desc": "Limits request concurrency"
+    },
+    {
+     "name": "limit-count",
+     "vendor_category": "Traffic",
+     "area": "rate-limiting",
+     "desc": "Limits request rate by a fixed number of requests in a given"
+    },
+    {
+     "name": "proxy-cache",
+     "vendor_category": "Traffic",
+     "area": "caching",
+     "desc": "Cache the response from the Upstream"
+    },
+    {
+     "name": "request-validation",
+     "vendor_category": "Traffic",
+     "area": "validation",
+     "desc": "Validate the requests before forwarding them to an Upstream service"
+    },
+    {
+     "name": "proxy-mirror",
+     "vendor_category": "Traffic",
+     "area": "routing",
+     "desc": "Mirror client requests"
+    },
+    {
+     "name": "api-breaker",
+     "vendor_category": "Traffic",
+     "area": "routing",
+     "desc": "Implements circuit breaker functionality to protect Upstream services"
+    },
+    {
+     "name": "traffic-split",
+     "vendor_category": "Traffic",
+     "area": "routing",
+     "desc": "The traffic split plugin allows users to incrementally direct percentages of traffic"
+    },
+    {
+     "name": "request-id",
+     "vendor_category": "Traffic",
+     "area": "observability",
+     "desc": "Adds a unique ID to each request proxied through APISIX"
+    },
+    {
+     "name": "attach-consumer-label",
+     "vendor_category": "Traffic",
+     "area": "transformation",
+     "desc": "Injects labels from the authenticated consumer into the request context"
+    },
+    {
+     "name": "proxy-control",
+     "vendor_category": "Traffic",
+     "area": "other",
+     "desc": "Dynamically controls the behavior of the NGINX proxy"
+    },
+    {
+     "name": "client-control",
+     "vendor_category": "Traffic",
+     "area": "threat-protection",
+     "desc": "Dynamically control the behavior of NGINX to handle a client request, by"
+    },
+    {
+     "name": "traffic-label",
+     "vendor_category": "Traffic",
+     "area": "routing",
+     "desc": "Evaluates labels on requests for traffic governance and routing"
+    },
+    {
+     "name": "response-rewrite",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Rewrites the content returned by the Upstream and APISIX"
+    },
+    {
+     "name": "proxy-rewrite",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Rewrites Upstream proxy information such as scheme, uri and host"
+    },
+    {
+     "name": "grpc-transcode",
+     "vendor_category": "Transformation",
+     "area": "protocol",
+     "desc": "Converts between HTTP and gRPC requests"
+    },
+    {
+     "name": "grpc-web",
+     "vendor_category": "Transformation",
+     "area": "protocol",
+     "desc": "A proxy Plugin that can process gRPC Web requests from JavaScript clients"
+    },
+    {
+     "name": "body-transformer",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Transforms request and response bodies between structured formats"
+    },
+    {
+     "name": "degraphql",
+     "vendor_category": "Transformation",
+     "area": "protocol",
+     "desc": "Translates GraphQL queries into upstream REST requests"
+    },
+    {
+     "name": "exit-transformer",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Transforms response bodies before APISIX sends them to the client"
+    },
+    {
+     "name": "fault-injection",
+     "vendor_category": "Transformation",
+     "area": "other",
+     "desc": "Test the resiliency of your application. This Plugin will be executed before"
+    },
+    {
+     "name": "gm",
+     "vendor_category": "Transformation",
+     "area": "other",
+     "desc": "Enables Guomi cryptographic algorithms in APISIX TLS processing"
+    },
+    {
+     "name": "mocking",
+     "vendor_category": "Transformation",
+     "area": "transformation",
+     "desc": "Mocking an API. When executed, it returns random mock data in the"
+    },
+    {
+     "name": "key-auth",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "That needs to work with a Consumer to add key authentication to"
+    },
+    {
+     "name": "jwt-auth",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "That needs to work with a Consumer to securely authenticate a valid"
+    },
+    {
+     "name": "basic-auth",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "That needs to work with a Consumer to add Basic Authentication to"
+    },
+    {
+     "name": "authz-keycloak",
+     "vendor_category": "Authentication",
+     "area": "authorization",
+     "desc": "That can be used to add authentication with Keycloak Identity Server"
+    },
+    {
+     "name": "authz-casdoor",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "That can be used to add centralized authentication with Casdoor"
+    },
+    {
+     "name": "wolf-rbac",
+     "vendor_category": "Authentication",
+     "area": "authorization",
+     "desc": "Providing a role-based access control system with wolf to a Route or"
+    },
+    {
+     "name": "openid-connect",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "That provides authentication and introspection capability to APISIX"
+    },
+    {
+     "name": "cas-auth",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "Access CAS (Central Authentication Service 2.0) IdP (Identity Provider) to do authentication"
+    },
+    {
+     "name": "hmac-auth",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "That needs to work with a Consumer to establish the integrity of"
+    },
+    {
+     "name": "authz-casbin",
+     "vendor_category": "Authentication",
+     "area": "authorization",
+     "desc": "Based on Lua Casbin supporting various access control models"
+    },
+    {
+     "name": "ldap-auth",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "Add LDAP authentication to a Route or a Service"
+    },
+    {
+     "name": "jwe-decrypt",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "Decrypts JWE tokens in incoming requests"
+    },
+    {
+     "name": "multi-auth",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "Supports multiple authentication methods on the same Route or Service"
+    },
+    {
+     "name": "opa",
+     "vendor_category": "Authentication",
+     "area": "authorization",
+     "desc": "Integrate with Open Policy Agent"
+    },
+    {
+     "name": "forward-auth",
+     "vendor_category": "Authentication",
+     "area": "authentication",
+     "desc": "Implements a classic external authentication model"
+    },
+    {
+     "name": "cors",
+     "vendor_category": "Security",
+     "area": "cors-cross-domain",
+     "desc": "Can help you enable CORS easily"
+    },
+    {
+     "name": "uri-blocker",
+     "vendor_category": "Security",
+     "area": "threat-protection",
+     "desc": "Intercepts user requests with a set of block_rules"
+    },
+    {
+     "name": "ip-restriction",
+     "vendor_category": "Security",
+     "area": "threat-protection",
+     "desc": "Restrict access to a Service or a Route by either whitelisting or"
+    },
+    {
+     "name": "ua-restriction",
+     "vendor_category": "Security",
+     "area": "threat-protection",
+     "desc": "Restrict access to a Route or Service based on the User-Agent header"
+    },
+    {
+     "name": "referer-restriction",
+     "vendor_category": "Security",
+     "area": "threat-protection",
+     "desc": "Restrict access to a Service or a Route by whitelisting/blacklisting the Referer"
+    },
+    {
+     "name": "consumer-restriction",
+     "vendor_category": "Security",
+     "area": "authorization",
+     "desc": "Makes corresponding access restrictions based on different objects selected"
+    },
+    {
+     "name": "csrf",
+     "vendor_category": "Security",
+     "area": "threat-protection",
+     "desc": "Based on the Double Submit Cookie way, protect your API from CSRF"
+    },
+    {
+     "name": "chaitin-waf",
+     "vendor_category": "Security",
+     "area": "threat-protection",
+     "desc": "Integrates Chaitin SafeLine WAF inspection with APISIX"
+    },
+    {
+     "name": "oas-validator",
+     "vendor_category": "Security",
+     "area": "validation",
+     "desc": "Validates requests against an OpenAPI specification"
+    },
+    {
+     "name": "ocsp-stapling",
+     "vendor_category": "Security",
+     "area": "authentication",
+     "desc": "Enables dynamic OCSP stapling for TLS certificates"
+    },
+    {
+     "name": "public-api",
+     "vendor_category": "Security",
+     "area": "routing",
+     "desc": "Exposing an API endpoint through a general HTTP API router"
+    },
+    {
+     "name": "ai-proxy",
+     "vendor_category": "AI",
+     "area": "ai",
+     "desc": "Simplifies proxying requests to LLM providers compatible with the OpenAI API format"
+    },
+    {
+     "name": "ai-proxy-multi",
+     "vendor_category": "AI",
+     "area": "ai",
+     "desc": "Extends ai-proxy with load balancing, retries, fallbacks, and health checks for LLM"
+    },
+    {
+     "name": "ai-request-rewrite",
+     "vendor_category": "AI",
+     "area": "ai",
+     "desc": "Rewrites client requests with LLM-generated content before proxying upstream"
+    },
+    {
+     "name": "ai-rate-limiting",
+     "vendor_category": "AI",
+     "area": "ai",
+     "desc": "Limits LLM usage by tracking and throttling token consumption"
+    },
+    {
+     "name": "ai-prompt-decorator",
+     "vendor_category": "AI",
+     "area": "ai",
+     "desc": "Prepends and appends predefined prompts to user input"
+    },
+    {
+     "name": "ai-prompt-template",
+     "vendor_category": "AI",
+     "area": "ai",
+     "desc": "Applies predefined prompt templates and accepts values for declared variables"
+    },
+    {
+     "name": "ai-prompt-guard",
+     "vendor_category": "AI",
+     "area": "ai",
+     "desc": "Validates prompts against allow and deny patterns before forwarding them to LLM"
+    },
+    {
+     "name": "ai-aws-content-moderation",
+     "vendor_category": "AI",
+     "area": "ai",
+     "desc": "Uses AWS Comprehend to detect and block toxic request content"
+    },
+    {
+     "name": "ai-aliyun-content-moderation",
+     "vendor_category": "AI",
+     "area": "ai",
+     "desc": "Uses Alibaba Cloud content moderation to inspect and block unsafe requests"
+    },
+    {
+     "name": "ai-rag",
+     "vendor_category": "AI",
+     "area": "ai",
+     "desc": "Adds retrieval-augmented generation by fetching relevant context from external data sources"
+    },
+    {
+     "name": "zipkin",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Zipkin is an OpenTracing plugin"
+    },
+    {
+     "name": "skywalking",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Skywalking uses its native Nginx LUA tracer to provide tracing, topology analysis"
+    },
+    {
+     "name": "opentelemetry",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Report tracing data according to the OpenTelemetry specification"
+    },
+    {
+     "name": "prometheus",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Exposes metrics in Prometheus Exposition format"
+    },
+    {
+     "name": "node-status",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Get the status of requests to APISIX by exposing an API endpoint"
+    },
+    {
+     "name": "datadog",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Datadog is a monitoring plugin built into Apache APISIX to push metrics"
+    },
+    {
+     "name": "http-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Pushes log data to HTTP and HTTPS servers"
+    },
+    {
+     "name": "skywalking-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Push access log data to SkyWalking OAP server of HTTP"
+    },
+    {
+     "name": "tcp-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Tcp-logger pushes Log data requests to TCP servers"
+    },
+    {
+     "name": "kafka-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Kafka-logger is a plugin which works as a Kafka client driver for"
+    },
+    {
+     "name": "rocketmq-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Provides the ability to push logs as JSON objects to your RocketMQ"
+    },
+    {
+     "name": "udp-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Udp-logger pushes Log data requests to UDP servers"
+    },
+    {
+     "name": "clickhouse-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Push logs to ClickHouse database"
+    },
+    {
+     "name": "syslog",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Pushes log data to Syslog"
+    },
+    {
+     "name": "log-rotate",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Keep rotating access and error log files in the log directory at"
+    },
+    {
+     "name": "error-log-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Error-log-logger is a plugin which pushes the log data of APISIX's error.log"
+    },
+    {
+     "name": "sls-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Pushes log data to Alibaba Cloud Log Service with RFC 5424"
+    },
+    {
+     "name": "google-cloud-logging",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Send the access log of Apache APISIX to the Google Cloud Logging"
+    },
+    {
+     "name": "splunk-hec-logging",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Forward logs to Splunk HTTP Event Collector (HEC) for analysis and storage"
+    },
+    {
+     "name": "file-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Push log streams to a specific location"
+    },
+    {
+     "name": "loggly",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Forward logs to SolarWinds Loggly for analysis and storage"
+    },
+    {
+     "name": "loki-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Pushes access logs to Grafana Loki"
+    },
+    {
+     "name": "elasticsearch-logger",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Forward logs to Elasticsearch for analysis and storage"
+    },
+    {
+     "name": "tencent-cloud-cls",
+     "vendor_category": "Observability",
+     "area": "observability",
+     "desc": "Uses TencentCloud CLSAPI to forward APISIX logs to your topic"
+    },
+    {
+     "name": "serverless",
+     "vendor_category": "Serverless",
+     "area": "custom-code",
+     "desc": "There are two serverless Plugins in APISIX: serverless-pre-function and serverless-post-function"
+    },
+    {
+     "name": "azure-functions",
+     "vendor_category": "Serverless",
+     "area": "custom-code",
+     "desc": "Integrate APISIX with Azure Serverless Function as a dynamic upstream to proxy"
+    },
+    {
+     "name": "openwhisk",
+     "vendor_category": "Serverless",
+     "area": "custom-code",
+     "desc": "Integrate APISIX with the Apache OpenWhisk serverless platform"
+    },
+    {
+     "name": "aws-lambda",
+     "vendor_category": "Serverless",
+     "area": "custom-code",
+     "desc": "Integrating APISIX with AWS Lambda as a dynamic upstream to proxy all"
+    },
+    {
+     "name": "workflow",
+     "vendor_category": "Serverless",
+     "area": "routing",
+     "desc": "Introduce lua-resty-expr to provide complex traffic control features"
+    },
+    {
+     "name": "openfunction",
+     "vendor_category": "Serverless",
+     "area": "custom-code",
+     "desc": "Integrate APISIX with CNCF OpenFunction serverless platform"
+    },
+    {
+     "name": "dubbo-proxy",
+     "vendor_category": "Other protocols",
+     "area": "protocol",
+     "desc": "Proxy HTTP requests to Apache Dubbo"
+    },
+    {
+     "name": "http-dubbo",
+     "vendor_category": "Other protocols",
+     "area": "protocol",
+     "desc": "Proxies HTTP requests to Apache Dubbo services"
+    },
+    {
+     "name": "mqtt-proxy",
+     "vendor_category": "Other protocols",
+     "area": "protocol",
+     "desc": "Dynamic load balancing with client_id of MQTT. It only works in stream"
+    },
+    {
+     "name": "kafka-proxy",
+     "vendor_category": "Other protocols",
+     "area": "protocol",
+     "desc": "Configure advanced parameters for the kafka upstream of Apache APISIX, such as"
+    },
+    {
+     "name": "batch-requests",
+     "vendor_category": "General",
+     "area": "other",
+     "desc": "Accepts multiple requests, sends them from APISIX via HTTP pipelining, and returns"
+    },
+    {
+     "name": "redirect",
+     "vendor_category": "General",
+     "area": "routing",
+     "desc": "Configure redirects"
+    },
+    {
+     "name": "echo",
+     "vendor_category": "General",
+     "area": "custom-code",
+     "desc": "To help users understand how they can develop an APISIX Plugin"
+    },
+    {
+     "name": "gzip",
+     "vendor_category": "General",
+     "area": "transformation",
+     "desc": "Dynamically sets the behavior of gzip in Nginx"
+    },
+    {
+     "name": "brotli",
+     "vendor_category": "General",
+     "area": "transformation",
+     "desc": "Dynamically configures Brotli compression in NGINX"
+    },
+    {
+     "name": "real-ip",
+     "vendor_category": "General",
+     "area": "transformation",
+     "desc": "Dynamically change the client's IP address and port as seen by APISIX"
+    },
+    {
+     "name": "server-info",
+     "vendor_category": "General",
+     "area": "observability",
+     "desc": "Periodically reports basic server information to etcd"
+    },
+    {
+     "name": "inspect",
+     "vendor_category": "General",
+     "area": "observability",
+     "desc": "Exposes runtime inspection information for APISIX"
+    },
+    {
+     "name": "lago",
+     "vendor_category": "General",
+     "area": "monetization",
+     "desc": "Reports usage and billing events to Lago"
+    },
+    {
+     "name": "ext-plugin-pre-req",
+     "vendor_category": "General",
+     "area": "custom-code",
+     "desc": "For running specific external Plugins in the Plugin Runner before executing the"
+    },
+    {
+     "name": "ext-plugin-post-req",
+     "vendor_category": "General",
+     "area": "custom-code",
+     "desc": "Ext-plugin-post-req differs from the ext-plugin-pre-req Plugin in that it runs after executing"
+    },
+    {
+     "name": "ext-plugin-post-resp",
+     "vendor_category": "General",
+     "area": "custom-code",
+     "desc": "For running specific external Plugins in the Plugin Runner before executing the"
+    }
+   ]
+  },
+  {
+   "id": "traefik",
+   "name": "Traefik",
+   "term": "middlewares",
+   "url": "https://doc.traefik.io/traefik/reference/routing-configuration/http/middlewares/overview/",
+   "notes": "The overview table lists 22 OSS HTTP middlewares (vendor_category = Traefik \"Area\" column). 10 more appear only in the reference left-nav (Traefik Hub API Gateway middlewares); included with vendor_category noting that and paraphrased descs. Community plugins (plugins.traefik.io catalog) not enumerated.",
+   "policies": [
+    {
+     "name": "AddPrefix",
+     "vendor_category": "Path Modifier",
+     "area": "transformation",
+     "desc": "Adds a Path Prefix"
+    },
+    {
+     "name": "BasicAuth",
+     "vendor_category": "Security, Authentication",
+     "area": "authentication",
+     "desc": "Adds Basic Authentication"
+    },
+    {
+     "name": "Buffering",
+     "vendor_category": "Request Lifecycle",
+     "area": "other",
+     "desc": "Buffers the request/response"
+    },
+    {
+     "name": "Chain",
+     "vendor_category": "Misc",
+     "area": "other",
+     "desc": "Combines multiple pieces of middleware"
+    },
+    {
+     "name": "CircuitBreaker",
+     "vendor_category": "Request Lifecycle",
+     "area": "routing",
+     "desc": "Prevents calling unhealthy services"
+    },
+    {
+     "name": "Compress",
+     "vendor_category": "Content Modifier",
+     "area": "transformation",
+     "desc": "Compresses the response"
+    },
+    {
+     "name": "ContentType",
+     "vendor_category": "Misc",
+     "area": "transformation",
+     "desc": "Handles Content-Type auto-detection"
+    },
+    {
+     "name": "DigestAuth",
+     "vendor_category": "Security, Authentication",
+     "area": "authentication",
+     "desc": "Adds Digest Authentication"
+    },
+    {
+     "name": "EncodedCharacters",
+     "vendor_category": "Security, Request Lifecycle",
+     "area": "threat-protection",
+     "desc": "Defines allowed reserved encoded characters in the request path"
+    },
+    {
+     "name": "Errors",
+     "vendor_category": "Request Lifecycle",
+     "area": "transformation",
+     "desc": "Defines custom error pages"
+    },
+    {
+     "name": "ForwardAuth",
+     "vendor_category": "Security, Authentication",
+     "area": "authentication",
+     "desc": "Delegates Authentication"
+    },
+    {
+     "name": "GrpcWeb",
+     "vendor_category": "Request",
+     "area": "protocol",
+     "desc": "Converts gRPC Web requests to HTTP/2 gRPC requests"
+    },
+    {
+     "name": "Headers",
+     "vendor_category": "Security",
+     "area": "transformation",
+     "desc": "Adds / Updates headers"
+    },
+    {
+     "name": "IPAllowList",
+     "vendor_category": "Security, Request lifecycle",
+     "area": "threat-protection",
+     "desc": "Limits the allowed client IPs"
+    },
+    {
+     "name": "InFlightReq",
+     "vendor_category": "Security, Request lifecycle",
+     "area": "rate-limiting",
+     "desc": "Limits the number of simultaneous connections"
+    },
+    {
+     "name": "PassTLSClientCert",
+     "vendor_category": "Security",
+     "area": "transformation",
+     "desc": "Adds Client Certificates in a Header"
+    },
+    {
+     "name": "RateLimit",
+     "vendor_category": "Security, Request lifecycle",
+     "area": "rate-limiting",
+     "desc": "Limits the call frequency"
+    },
+    {
+     "name": "RedirectScheme",
+     "vendor_category": "Request lifecycle",
+     "area": "routing",
+     "desc": "Redirects based on scheme"
+    },
+    {
+     "name": "RedirectRegex",
+     "vendor_category": "Request lifecycle",
+     "area": "routing",
+     "desc": "Redirects based on regex"
+    },
+    {
+     "name": "ReplacePath",
+     "vendor_category": "Path Modifier",
+     "area": "transformation",
+     "desc": "Changes the path of the request"
+    },
+    {
+     "name": "ReplacePathRegex",
+     "vendor_category": "Path Modifier",
+     "area": "transformation",
+     "desc": "Changes the path of the request"
+    },
+    {
+     "name": "Retry",
+     "vendor_category": "Request lifecycle",
+     "area": "routing",
+     "desc": "Automatically retries in case of error"
+    },
+    {
+     "name": "StripPrefix",
+     "vendor_category": "Path Modifier",
+     "area": "transformation",
+     "desc": "Changes the path of the request"
+    },
+    {
+     "name": "StripPrefixRegex",
+     "vendor_category": "Path Modifier",
+     "area": "transformation",
+     "desc": "Changes the path of the request"
+    },
+    {
+     "name": "APIKey",
+     "vendor_category": "Traefik Hub (listed in reference nav only)",
+     "area": "authentication",
+     "desc": "API key authentication"
+    },
+    {
+     "name": "Distributed RateLimit",
+     "vendor_category": "Traefik Hub (listed in reference nav only)",
+     "area": "rate-limiting",
+     "desc": "Rate limit shared across gateway replicas"
+    },
+    {
+     "name": "HMAC",
+     "vendor_category": "Traefik Hub (listed in reference nav only)",
+     "area": "authentication",
+     "desc": "HMAC request signature authentication"
+    },
+    {
+     "name": "JWT",
+     "vendor_category": "Traefik Hub (listed in reference nav only)",
+     "area": "authentication",
+     "desc": "JWT validation and claims checks"
+    },
+    {
+     "name": "LDAP",
+     "vendor_category": "Traefik Hub (listed in reference nav only)",
+     "area": "authentication",
+     "desc": "LDAP authentication"
+    },
+    {
+     "name": "Token Introspection",
+     "vendor_category": "Traefik Hub (listed in reference nav only)",
+     "area": "authentication",
+     "desc": "OAuth 2.0 token introspection"
+    },
+    {
+     "name": "Client Credentials",
+     "vendor_category": "Traefik Hub (listed in reference nav only)",
+     "area": "upstream-auth",
+     "desc": "Obtain OAuth client-credentials token for upstream"
+    },
+    {
+     "name": "OIDC",
+     "vendor_category": "Traefik Hub (listed in reference nav only)",
+     "area": "authentication",
+     "desc": "OpenID Connect authentication"
+    },
+    {
+     "name": "OPA",
+     "vendor_category": "Traefik Hub (listed in reference nav only)",
+     "area": "authorization",
+     "desc": "Authorize with Open Policy Agent"
+    },
+    {
+     "name": "WAF",
+     "vendor_category": "Traefik Hub (listed in reference nav only)",
+     "area": "threat-protection",
+     "desc": "Web application firewall (Coraza)"
+    }
+   ]
+  },
+  {
+   "id": "tyk",
+   "name": "Tyk Gateway",
+   "term": "middleware",
+   "url": "https://tyk.io/docs/api-management/traffic-transformation.md",
+   "notes": "Tyk has no single policy catalog. This is the endpoint-level middleware list from the Traffic Transformation page (found via https://tyk.io/docs/llms.txt). Not enumerated here: Tyk \"security policies\" (key access rights/rate limits/quotas configured per key, not plugins), API-level auth methods (auth token, JWT, OAuth, OIDC, Basic, HMAC, mTLS), API-level rate limiting, and custom plugins (Go, gRPC, Python, JS, Lua) documented at /api-management/plugins/overview.",
+   "policies": [
+    {
+     "name": "Allow list",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "authorization",
+     "desc": "Restrict access to listed endpoints only"
+    },
+    {
+     "name": "Block list",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "authorization",
+     "desc": "Block access to specific endpoints"
+    },
+    {
+     "name": "Cache",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "caching",
+     "desc": "Cache responses per endpoint"
+    },
+    {
+     "name": "Circuit Breaker",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "routing",
+     "desc": "Trip on upstream failures to protect stability"
+    },
+    {
+     "name": "Do Not Track Endpoint",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "observability",
+     "desc": "Exclude endpoint from traffic logs"
+    },
+    {
+     "name": "Enforced Timeout",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "routing",
+     "desc": "Maximum time to wait for upstream response"
+    },
+    {
+     "name": "Ignore Authentication",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "authentication",
+     "desc": "Skip authentication on an endpoint"
+    },
+    {
+     "name": "Internal Endpoint",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "routing",
+     "desc": "Expose endpoint only to internal looping"
+    },
+    {
+     "name": "Method Transformation",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "transformation",
+     "desc": "Change request HTTP method"
+    },
+    {
+     "name": "Mock Response",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "transformation",
+     "desc": "Return simulated response without upstream"
+    },
+    {
+     "name": "Request Body Transform",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "transformation",
+     "desc": "Modify request payload via templates"
+    },
+    {
+     "name": "Request Header Transform",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "transformation",
+     "desc": "Add or remove request headers"
+    },
+    {
+     "name": "Request Size Limit",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "threat-protection",
+     "desc": "Limit request body size"
+    },
+    {
+     "name": "Request Validation",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "validation",
+     "desc": "Validate request against schema"
+    },
+    {
+     "name": "Track Endpoint",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "observability",
+     "desc": "Include endpoint in activity analytics"
+    },
+    {
+     "name": "URL Rewrite",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "transformation",
+     "desc": "Rewrite upstream target path"
+    },
+    {
+     "name": "Virtual Endpoint",
+     "vendor_category": "Endpoint middleware (API Request)",
+     "area": "custom-code",
+     "desc": "Run JavaScript to serve the endpoint"
+    },
+    {
+     "name": "Response Body Transform",
+     "vendor_category": "Endpoint middleware (API Response)",
+     "area": "transformation",
+     "desc": "Modify response payload via templates"
+    },
+    {
+     "name": "Response Header Transform",
+     "vendor_category": "Endpoint middleware (API Response)",
+     "area": "transformation",
+     "desc": "Add or remove response headers"
+    }
+   ]
+  },
+  {
+   "id": "gravitee",
+   "name": "Gravitee APIM",
+   "term": "policies",
+   "url": "https://documentation.gravitee.io/apim/create-and-configure-apis/apply-policies/policy-reference.md",
+   "notes": "APIM 4.13 Policy Reference index (Markdown version; HTML is GitBook). Duplicate index entries pointing to the same page (MCP ACL, Prompt Guard Rails, Prompt Token Tracking, Token Rate Limit) collapsed. vendor_category = license tier from the asterisk marking. The site nav also lists pages not in this index (ai-semantic-caching, pii-filtering, kafka-message-encryption-decryption, kafka-governance-rules, native-ip-filtering, openid-connect-userinfo variants); not counted here.",
+   "policies": [
+    {
+     "name": "AI - MCP ACL",
+     "vendor_category": "Enterprise Edition",
+     "area": "mcp-agents",
+     "desc": "Control access to MCP tools, resources, prompts"
+    },
+    {
+     "name": "AI - Prompt Guard Rails",
+     "vendor_category": "Enterprise Edition",
+     "area": "ai",
+     "desc": "Block prompts flagged by AI classification model"
+    },
+    {
+     "name": "AI - Prompt Token Tracking",
+     "vendor_category": "Enterprise Edition",
+     "area": "ai",
+     "desc": "Track LLM prompt and completion token usage"
+    },
+    {
+     "name": "AI - Token Rate Limit",
+     "vendor_category": "Community",
+     "area": "ai",
+     "desc": "Rate limit by LLM token consumption"
+    },
+    {
+     "name": "API Key",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "Authenticate with API key"
+    },
+    {
+     "name": "Assign Attributes",
+     "vendor_category": "Community",
+     "area": "other",
+     "desc": "Set execution context attributes"
+    },
+    {
+     "name": "Assign Content",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "Rewrite body with template"
+    },
+    {
+     "name": "Assign Metrics",
+     "vendor_category": "Enterprise Edition",
+     "area": "observability",
+     "desc": "Push custom metrics to analytics"
+    },
+    {
+     "name": "AVRO to JSON Transformation",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "AVRO to JSON Transformation"
+    },
+    {
+     "name": "AVRO to Protobuf Transformation",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "AVRO to Protobuf Transformation"
+    },
+    {
+     "name": "AWS Lambda",
+     "vendor_category": "Community",
+     "area": "custom-code",
+     "desc": "AWS Lambda"
+    },
+    {
+     "name": "Basic Authentication",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "Basic Authentication"
+    },
+    {
+     "name": "Cache",
+     "vendor_category": "Community",
+     "area": "caching",
+     "desc": "Cache"
+    },
+    {
+     "name": "Circuit Breaker",
+     "vendor_category": "Community",
+     "area": "routing",
+     "desc": "Circuit Breaker"
+    },
+    {
+     "name": "CloudEvents",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "CloudEvents"
+    },
+    {
+     "name": "Custom Query Parameters Parser",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "Parse non-standard query parameter formats"
+    },
+    {
+     "name": "Data Cache",
+     "vendor_category": "Community",
+     "area": "caching",
+     "desc": "Cache arbitrary data by key"
+    },
+    {
+     "name": "Data Logging Masking",
+     "vendor_category": "Enterprise Edition",
+     "area": "observability",
+     "desc": "Mask sensitive data in logs"
+    },
+    {
+     "name": "Dynamic Routing",
+     "vendor_category": "Community",
+     "area": "routing",
+     "desc": "Dynamic Routing"
+    },
+    {
+     "name": "Generate HTTP Signature",
+     "vendor_category": "Community",
+     "area": "upstream-auth",
+     "desc": "Generate HTTP Signature"
+    },
+    {
+     "name": "Generate JWT",
+     "vendor_category": "Community",
+     "area": "upstream-auth",
+     "desc": "Generate JWT"
+    },
+    {
+     "name": "GeoIP Filtering",
+     "vendor_category": "Enterprise Edition",
+     "area": "threat-protection",
+     "desc": "GeoIP Filtering"
+    },
+    {
+     "name": "GraphQL Rate Limit",
+     "vendor_category": "Enterprise Edition",
+     "area": "rate-limiting",
+     "desc": "GraphQL Rate Limit"
+    },
+    {
+     "name": "Groovy",
+     "vendor_category": "Community",
+     "area": "custom-code",
+     "desc": "Groovy"
+    },
+    {
+     "name": "HTML to JSON Transformation",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "HTML to JSON Transformation"
+    },
+    {
+     "name": "HTTP Callout",
+     "vendor_category": "Community",
+     "area": "custom-code",
+     "desc": "Call external HTTP service in flow"
+    },
+    {
+     "name": "HTTP Redirect",
+     "vendor_category": "Community",
+     "area": "routing",
+     "desc": "HTTP Redirect"
+    },
+    {
+     "name": "HTTP Signature",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "HTTP Signature"
+    },
+    {
+     "name": "InterOPS",
+     "vendor_category": "Enterprise Edition",
+     "area": "other",
+     "desc": "Interoperability with external identity standards"
+    },
+    {
+     "name": "Interrupt",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "Stop flow and return error"
+    },
+    {
+     "name": "IP Filtering",
+     "vendor_category": "Community",
+     "area": "threat-protection",
+     "desc": "IP Filtering"
+    },
+    {
+     "name": "JavaScript",
+     "vendor_category": "Community",
+     "area": "custom-code",
+     "desc": "JavaScript"
+    },
+    {
+     "name": "JSON to JSON Transformation",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "JSON to JSON Transformation"
+    },
+    {
+     "name": "JSON to XML Transformation",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "JSON to XML Transformation"
+    },
+    {
+     "name": "JSON Threat Protection",
+     "vendor_category": "Community",
+     "area": "threat-protection",
+     "desc": "JSON Threat Protection"
+    },
+    {
+     "name": "JSON Validation",
+     "vendor_category": "Community",
+     "area": "validation",
+     "desc": "JSON Validation"
+    },
+    {
+     "name": "JWS Validator",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "JWS Validator"
+    },
+    {
+     "name": "JWT Validator",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "JWT Validator"
+    },
+    {
+     "name": "Kafka ACL",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "Kafka ACL"
+    },
+    {
+     "name": "Kafka Message Filtering",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "Kafka Message Filtering"
+    },
+    {
+     "name": "Kafka Offloading",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "Kafka Offloading"
+    },
+    {
+     "name": "Kafka Quota",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "Kafka Quota"
+    },
+    {
+     "name": "Kafka Topic Mapping",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "Kafka Topic Mapping"
+    },
+    {
+     "name": "Kafka Transform Key",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "Kafka Transform Key"
+    },
+    {
+     "name": "Keyless",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "Allow unauthenticated access"
+    },
+    {
+     "name": "Latency",
+     "vendor_category": "Community",
+     "area": "other",
+     "desc": "Inject artificial latency"
+    },
+    {
+     "name": "Maven Archetype",
+     "vendor_category": "Community",
+     "area": "custom-code",
+     "desc": "Template for building custom policies"
+    },
+    {
+     "name": "Message Filtering",
+     "vendor_category": "Community",
+     "area": "protocol",
+     "desc": "Message Filtering"
+    },
+    {
+     "name": "Metrics Reporter",
+     "vendor_category": "Community",
+     "area": "observability",
+     "desc": "Report metrics to external endpoint"
+    },
+    {
+     "name": "Mock",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "Mock"
+    },
+    {
+     "name": "mTLS",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "MTLS"
+    },
+    {
+     "name": "OAS Validation",
+     "vendor_category": "Enterprise Edition",
+     "area": "validation",
+     "desc": "OAS Validation"
+    },
+    {
+     "name": "OAuth 2.0 Token Exchange",
+     "vendor_category": "Enterprise Edition",
+     "area": "upstream-auth",
+     "desc": "OAuth 2.0 Token Exchange"
+    },
+    {
+     "name": "OAuth2",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "OAuth2"
+    },
+    {
+     "name": "OpenID Connect UserInfo",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "OpenID Connect UserInfo"
+    },
+    {
+     "name": "Override HTTP Method",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "Override HTTP Method"
+    },
+    {
+     "name": "Protobuf to JSON Transformation",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "Protobuf to JSON Transformation"
+    },
+    {
+     "name": "Rate Limit",
+     "vendor_category": "Community",
+     "area": "rate-limiting",
+     "desc": "Rate Limit"
+    },
+    {
+     "name": "Regex Threat Protection",
+     "vendor_category": "Community",
+     "area": "threat-protection",
+     "desc": "Regex Threat Protection"
+    },
+    {
+     "name": "Request Content Limit",
+     "vendor_category": "Community",
+     "area": "threat-protection",
+     "desc": "Request Content Limit"
+    },
+    {
+     "name": "Request Validation",
+     "vendor_category": "Community",
+     "area": "validation",
+     "desc": "Request Validation"
+    },
+    {
+     "name": "Resource Filtering",
+     "vendor_category": "Community",
+     "area": "authorization",
+     "desc": "Allow or deny by path and method"
+    },
+    {
+     "name": "REST to SOAP Transformation",
+     "vendor_category": "Community",
+     "area": "protocol",
+     "desc": "REST to SOAP Transformation"
+    },
+    {
+     "name": "Retry",
+     "vendor_category": "Community",
+     "area": "routing",
+     "desc": "Retry"
+    },
+    {
+     "name": "RBAC",
+     "vendor_category": "Community",
+     "area": "authorization",
+     "desc": "RBAC"
+    },
+    {
+     "name": "SSL Enforcement",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "Require TLS and client certificates"
+    },
+    {
+     "name": "Status Code Transformation",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "Status Code Transformation"
+    },
+    {
+     "name": "Template",
+     "vendor_category": "Community",
+     "area": "other",
+     "desc": "Reusable shared policy group"
+    },
+    {
+     "name": "Traffic Shadowing",
+     "vendor_category": "Community",
+     "area": "routing",
+     "desc": "Copy traffic to a secondary endpoint"
+    },
+    {
+     "name": "Transform Headers",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "Transform Headers"
+    },
+    {
+     "name": "Transform Query Parameters",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "Transform Query Parameters"
+    },
+    {
+     "name": "URL Rewriting",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "URL Rewriting"
+    },
+    {
+     "name": "Webhook Signature Generator",
+     "vendor_category": "Community",
+     "area": "upstream-auth",
+     "desc": "Webhook Signature Generator"
+    },
+    {
+     "name": "Webhook Signature Validator",
+     "vendor_category": "Community",
+     "area": "authentication",
+     "desc": "Webhook Signature Validator"
+    },
+    {
+     "name": "WS Security Authentication",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "WS Security Authentication"
+    },
+    {
+     "name": "WS Security Sign",
+     "vendor_category": "Enterprise Edition",
+     "area": "protocol",
+     "desc": "WS Security Sign"
+    },
+    {
+     "name": "XML to JSON Transformation",
+     "vendor_category": "Community",
+     "area": "transformation",
+     "desc": "XML to JSON Transformation"
+    },
+    {
+     "name": "XML Threat Protection",
+     "vendor_category": "Community",
+     "area": "threat-protection",
+     "desc": "XML Threat Protection"
+    },
+    {
+     "name": "XML Validation",
+     "vendor_category": "Community",
+     "area": "validation",
+     "desc": "XML Validation"
+    },
+    {
+     "name": "XSLT Transformation",
+     "vendor_category": "Enterprise Edition",
+     "area": "transformation",
+     "desc": "XSLT Transformation"
+    }
+   ]
+  },
+  {
+   "id": "wso2",
+   "name": "WSO2 API Platform (gateway policies)",
+   "term": "policies",
+   "url": "https://github.com/wso2/gateway-controllers/tree/main/policies",
+   "notes": "apim.docs.wso2.com and wso2.com/api-platform/policy-hub both returned a Cloudflare JS challenge (not readable). The docs-apim repo (GitHub raw) only says \"See Policy Hub\". List is the directory listing of the policy source repo wso2/gateway-controllers/policies (GitHub API, 71 entries) - the API Platform / Platform Gateway policies. Descriptions are slug restatements, not vendor text. WSO2 API Manager 4.x Synapse \"regular gateway\" common policies (Add Header, Remove Header, JSON to XML, Call Interceptor Service, etc.) were NOT retrievable and are not listed.",
+   "policies": [
+    {
+     "name": "advanced-ratelimit",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Advanced ratelimit"
+    },
+    {
+     "name": "analytics-header-filter",
+     "vendor_category": null,
+     "area": "observability",
+     "desc": "Analytics header filter"
+    },
+    {
+     "name": "api-key-auth",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Api key auth"
+    },
+    {
+     "name": "aws-authentication",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Aws authentication"
+    },
+    {
+     "name": "aws-bedrock-guardrail",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Aws bedrock guardrail"
+    },
+    {
+     "name": "azure-content-safety-content-moderation",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Azure content safety content moderation"
+    },
+    {
+     "name": "azure-llm-cost",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Azure llm cost"
+    },
+    {
+     "name": "backend-jwt",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Backend jwt"
+    },
+    {
+     "name": "basic-auth",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Basic auth"
+    },
+    {
+     "name": "basic-ratelimit",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Basic ratelimit"
+    },
+    {
+     "name": "content-length-guardrail",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Content length guardrail"
+    },
+    {
+     "name": "cors",
+     "vendor_category": null,
+     "area": "cors-cross-domain",
+     "desc": "Cors"
+    },
+    {
+     "name": "cost-based-model-routing",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Cost based model routing"
+    },
+    {
+     "name": "dynamic-endpoint",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Dynamic endpoint"
+    },
+    {
+     "name": "granite-guardian-prompt-injection",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Granite guardian prompt injection"
+    },
+    {
+     "name": "host-rewrite",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Host rewrite"
+    },
+    {
+     "name": "intelligent-model-routing",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Intelligent model routing"
+    },
+    {
+     "name": "interceptor-service",
+     "vendor_category": null,
+     "area": "custom-code",
+     "desc": "Interceptor service"
+    },
+    {
+     "name": "json-schema-guardrail",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Json schema guardrail"
+    },
+    {
+     "name": "json-xml-mediator",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Json xml mediator"
+    },
+    {
+     "name": "jwt-auth",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Jwt auth"
+    },
+    {
+     "name": "llm-cost-based-ratelimit",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Llm cost based ratelimit"
+    },
+    {
+     "name": "llm-cost",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Llm cost"
+    },
+    {
+     "name": "llm-header-router",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Llm header router"
+    },
+    {
+     "name": "log-message",
+     "vendor_category": null,
+     "area": "observability",
+     "desc": "Log message"
+    },
+    {
+     "name": "mcp-acl-list",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp acl list"
+    },
+    {
+     "name": "mcp-auth",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp auth"
+    },
+    {
+     "name": "mcp-authz",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp authz"
+    },
+    {
+     "name": "mcp-ratelimit",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp ratelimit"
+    },
+    {
+     "name": "mcp-rewrite",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp rewrite"
+    },
+    {
+     "name": "mcp-spec-validation",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp spec validation"
+    },
+    {
+     "name": "mcp-tool-schema-validator",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Mcp tool schema validator"
+    },
+    {
+     "name": "model-round-robin",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Model round robin"
+    },
+    {
+     "name": "model-weighted-round-robin",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Model weighted round robin"
+    },
+    {
+     "name": "mtls-auth",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Mtls auth"
+    },
+    {
+     "name": "nvidia-nemoguard-content-safety",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Nvidia nemoguard content safety"
+    },
+    {
+     "name": "oauth2-generator",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Oauth2 generator"
+    },
+    {
+     "name": "oauth2-token-exchange",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Oauth2 token exchange"
+    },
+    {
+     "name": "opa-policy",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Opa policy"
+    },
+    {
+     "name": "opaque-token-auth",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Opaque token auth"
+    },
+    {
+     "name": "openai-to-anthropic-transformer",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Openai to anthropic transformer"
+    },
+    {
+     "name": "openai-to-azure-openai-transformer",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Openai to azure openai transformer"
+    },
+    {
+     "name": "openai-to-bedrock-transformer",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Openai to bedrock transformer"
+    },
+    {
+     "name": "openai-to-gemini-transformer",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Openai to gemini transformer"
+    },
+    {
+     "name": "openai-to-mistral-transformer",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Openai to mistral transformer"
+    },
+    {
+     "name": "pii-masking-regex",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Pii masking regex"
+    },
+    {
+     "name": "prompt-compressor",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Prompt compressor"
+    },
+    {
+     "name": "prompt-decorator",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Prompt decorator"
+    },
+    {
+     "name": "prompt-template",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Prompt template"
+    },
+    {
+     "name": "redirect",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Redirect"
+    },
+    {
+     "name": "regex-guardrail",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Regex guardrail"
+    },
+    {
+     "name": "remove-headers",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Remove headers"
+    },
+    {
+     "name": "request-rewrite",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Request rewrite"
+    },
+    {
+     "name": "respond",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Respond"
+    },
+    {
+     "name": "semantic-cache",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Semantic cache"
+    },
+    {
+     "name": "semantic-model-routing",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Semantic model routing"
+    },
+    {
+     "name": "semantic-prompt-guard",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Semantic prompt guard"
+    },
+    {
+     "name": "semantic-tool-filtering",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Semantic tool filtering"
+    },
+    {
+     "name": "sentence-count-guardrail",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Sentence count guardrail"
+    },
+    {
+     "name": "set-headers",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Set headers"
+    },
+    {
+     "name": "subscription-validation",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Subscription validation"
+    },
+    {
+     "name": "time-based-model-routing",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Time based model routing"
+    },
+    {
+     "name": "token-based-ratelimit",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Token based ratelimit"
+    },
+    {
+     "name": "typesafe-jev-content-safety",
+     "vendor_category": "partner (TypeSafe)",
+     "area": "ai",
+     "desc": "Typesafe jev content safety"
+    },
+    {
+     "name": "typesafe-jev-mcp-tool-intent-verification",
+     "vendor_category": "partner (TypeSafe)",
+     "area": "mcp-agents",
+     "desc": "Typesafe jev mcp tool intent verification"
+    },
+    {
+     "name": "typesafe-jev-mcp-tool-result-screening",
+     "vendor_category": "partner (TypeSafe)",
+     "area": "mcp-agents",
+     "desc": "Typesafe jev mcp tool result screening"
+    },
+    {
+     "name": "typesafe-jev-model-routing",
+     "vendor_category": "partner (TypeSafe)",
+     "area": "ai",
+     "desc": "Typesafe jev model routing"
+    },
+    {
+     "name": "typesafe-jev-tool-filtering",
+     "vendor_category": "partner (TypeSafe)",
+     "area": "mcp-agents",
+     "desc": "Typesafe jev tool filtering"
+    },
+    {
+     "name": "url-guardrail",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Url guardrail"
+    },
+    {
+     "name": "websub-hmac-auth",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Websub hmac auth"
+    },
+    {
+     "name": "word-count-guardrail",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Word count guardrail"
+    }
+   ]
+  },
+  {
+   "id": "envoy",
+   "name": "Envoy Proxy",
+   "term": "HTTP filters",
+   "url": "https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/http_filters",
+   "notes": "Toctree of the HTTP filters index (latest = 1.41.0-dev). Descriptions paraphrased from filter names/section headings; the index page has no per-filter summaries. Envoy has no vendor categories. Excludes network/listener filters.",
+   "policies": [
+    {
+     "name": "A2A",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Parse and govern Agent-to-Agent protocol traffic"
+    },
+    {
+     "name": "Adaptive Concurrency",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Dynamically adjust allowed concurrency to upstream"
+    },
+    {
+     "name": "Admission Control",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Probabilistically reject requests based on success rate"
+    },
+    {
+     "name": "AWS-EventStream-Parser Filter",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Parse AWS EventStream responses into metadata"
+    },
+    {
+     "name": "AI Protocol Manager",
+     "vendor_category": null,
+     "area": "ai",
+     "desc": "Manage AI protocol traffic and token-usage extraction"
+    },
+    {
+     "name": "AWS Lambda",
+     "vendor_category": null,
+     "area": "custom-code",
+     "desc": "Invoke AWS Lambda functions as upstream"
+    },
+    {
+     "name": "API key auth",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Authenticate requests with API keys"
+    },
+    {
+     "name": "AWS Request Signing",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "SigV4-sign requests to AWS services"
+    },
+    {
+     "name": "Bandwidth limit",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Limit bandwidth of request/response streams"
+    },
+    {
+     "name": "Bandwidth share",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Share bandwidth fairly across streams"
+    },
+    {
+     "name": "Basic Auth",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "HTTP Basic authentication"
+    },
+    {
+     "name": "Buffer",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Buffer complete request before forwarding"
+    },
+    {
+     "name": "Cache filter",
+     "vendor_category": null,
+     "area": "caching",
+     "desc": "HTTP response caching"
+    },
+    {
+     "name": "CacheV2 filter",
+     "vendor_category": null,
+     "area": "caching",
+     "desc": "Next-generation HTTP response caching"
+    },
+    {
+     "name": "CDN-Loop header",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Detect CDN request loops"
+    },
+    {
+     "name": "Checksum",
+     "vendor_category": null,
+     "area": "validation",
+     "desc": "Verify response body checksums"
+    },
+    {
+     "name": "Client certificate forwarding (RFC 9440)",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Forward client certificate in headers"
+    },
+    {
+     "name": "Compressor",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Compress responses"
+    },
+    {
+     "name": "Composite Filter",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Delegate to filters chosen by matcher"
+    },
+    {
+     "name": "Connect-gRPC Bridge",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Bridge Connect protocol to gRPC"
+    },
+    {
+     "name": "CORS",
+     "vendor_category": null,
+     "area": "cors-cross-domain",
+     "desc": "Cross-origin resource sharing"
+    },
+    {
+     "name": "Credential injector",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Inject upstream credentials, including OAuth2 client credentials"
+    },
+    {
+     "name": "CSRF",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Cross-site request forgery protection"
+    },
+    {
+     "name": "Custom Response Filter",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Customize local and upstream error responses"
+    },
+    {
+     "name": "Decompressor",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Decompress requests or responses"
+    },
+    {
+     "name": "Dynamic forward proxy",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Forward proxy with dynamic DNS resolution"
+    },
+    {
+     "name": "DynamoDB",
+     "vendor_category": null,
+     "area": "observability",
+     "desc": "DynamoDB request statistics"
+    },
+    {
+     "name": "External Authorization",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Delegate authorization to external service"
+    },
+    {
+     "name": "External Processing",
+     "vendor_category": null,
+     "area": "custom-code",
+     "desc": "Send request/response to external processor"
+    },
+    {
+     "name": "Fault Injection",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Inject delays and aborts for testing"
+    },
+    {
+     "name": "File Server",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Serve files from local filesystem"
+    },
+    {
+     "name": "File System Buffer",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Buffer large bodies to disk"
+    },
+    {
+     "name": "Filter Chain",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Run a configured chain of filters"
+    },
+    {
+     "name": "GCP Authentication Filter",
+     "vendor_category": null,
+     "area": "upstream-auth",
+     "desc": "Fetch GCP identity tokens for upstream"
+    },
+    {
+     "name": "IP Geolocation Filter",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Annotate requests with IP geolocation"
+    },
+    {
+     "name": "Golang",
+     "vendor_category": null,
+     "area": "custom-code",
+     "desc": "Run Go plugins"
+    },
+    {
+     "name": "gRPC Field Extraction",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Extract fields from gRPC messages"
+    },
+    {
+     "name": "gRPC HTTP/1.1 bridge",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Bridge HTTP/1.1 clients to gRPC"
+    },
+    {
+     "name": "gRPC HTTP/1.1 reverse bridge",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Bridge gRPC clients to HTTP/1.1 upstream"
+    },
+    {
+     "name": "gRPC-JSON reverse transcoder",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Transcode gRPC to JSON upstream"
+    },
+    {
+     "name": "gRPC-JSON transcoder",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Transcode JSON/REST to gRPC"
+    },
+    {
+     "name": "gRPC Statistics",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Collect gRPC statistics"
+    },
+    {
+     "name": "gRPC-Web",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Bridge gRPC-Web clients to gRPC"
+    },
+    {
+     "name": "Header Mutation",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Add, remove or modify headers"
+    },
+    {
+     "name": "Health check",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Respond to health check requests"
+    },
+    {
+     "name": "Envoy Header-To-Metadata Filter",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Copy headers into dynamic metadata"
+    },
+    {
+     "name": "IP Tagging",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Tag requests by IP address ranges"
+    },
+    {
+     "name": "Envoy Json-To-Metadata Filter",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Copy JSON body fields into metadata"
+    },
+    {
+     "name": "JWT Authentication",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "Verify JWTs"
+    },
+    {
+     "name": "Kill Request",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Crash Envoy on request (testing)"
+    },
+    {
+     "name": "Language",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Detect preferred language from headers"
+    },
+    {
+     "name": "Local rate limit",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Local token-bucket rate limiting"
+    },
+    {
+     "name": "Lua",
+     "vendor_category": null,
+     "area": "custom-code",
+     "desc": "Run Lua scripts"
+    },
+    {
+     "name": "Model Context Protocol (MCP)",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Parse and enforce policy on MCP traffic"
+    },
+    {
+     "name": "MCP Router",
+     "vendor_category": null,
+     "area": "mcp-agents",
+     "desc": "Route and aggregate MCP servers"
+    },
+    {
+     "name": "OAuth2",
+     "vendor_category": null,
+     "area": "authentication",
+     "desc": "OAuth2 login flow for users"
+    },
+    {
+     "name": "On-demand VHDS, S/RDS and CDS Updates",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Fetch routes and clusters on demand"
+    },
+    {
+     "name": "Original Source",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Preserve downstream source IP upstream"
+    },
+    {
+     "name": "Priority Load Shed",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Shed load by request priority"
+    },
+    {
+     "name": "Proto API Scrubber",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Mask protobuf fields in gRPC messages"
+    },
+    {
+     "name": "Proto Message Extraction",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Extract protobuf message content to metadata"
+    },
+    {
+     "name": "Rate limit",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Global rate limiting via external service"
+    },
+    {
+     "name": "Rate Limit Quota",
+     "vendor_category": null,
+     "area": "rate-limiting",
+     "desc": "Quota-based rate limiting via RLQS"
+    },
+    {
+     "name": "Role Based Access Control (RBAC) Filter",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "Role-based access control"
+    },
+    {
+     "name": "Router",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Route requests to upstream (terminal filter)"
+    },
+    {
+     "name": "Set-Filter-State HTTP Filter",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Set filter state values"
+    },
+    {
+     "name": "Set Metadata",
+     "vendor_category": null,
+     "area": "other",
+     "desc": "Set dynamic metadata"
+    },
+    {
+     "name": "Body Size Limit",
+     "vendor_category": null,
+     "area": "threat-protection",
+     "desc": "Limit request body size"
+    },
+    {
+     "name": "SSE-To-Metadata Filter",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Extract SSE event fields into metadata"
+    },
+    {
+     "name": "Stateful session",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Sticky session to upstream host"
+    },
+    {
+     "name": "SXG",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Signed HTTP Exchange generation"
+    },
+    {
+     "name": "Tap",
+     "vendor_category": null,
+     "area": "observability",
+     "desc": "Capture traffic for debugging"
+    },
+    {
+     "name": "Envoy Thrift-To-Metadata Filter",
+     "vendor_category": null,
+     "area": "protocol",
+     "desc": "Copy Thrift fields into metadata"
+    },
+    {
+     "name": "Upstream Codec",
+     "vendor_category": null,
+     "area": "routing",
+     "desc": "Upstream HTTP codec (terminal upstream filter)"
+    },
+    {
+     "name": "Upstream Role Based Access Control (RBAC) Filter",
+     "vendor_category": null,
+     "area": "authorization",
+     "desc": "RBAC on upstream connections"
+    },
+    {
+     "name": "Wasm",
+     "vendor_category": null,
+     "area": "custom-code",
+     "desc": "Run WebAssembly filters"
+    },
+    {
+     "name": "Transform",
+     "vendor_category": null,
+     "area": "transformation",
+     "desc": "Transform headers and body"
+    }
+   ]
+  },
+  {
+   "id": "aws-api-gateway",
+   "name": "Amazon API Gateway",
+   "term": "none (feature set, no policy catalog)",
+   "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-control-access-to-api.html",
+   "notes": "AWS API Gateway has no policy/plugin catalog. Fetched rest-api-protect.html and apigateway-control-access-to-api.html, which confirm: resource policies, IAM, IAM tags, VPC endpoint policies, Lambda authorizers, Cognito authorizers, mutual TLS (client and backend), AWS WAF, throttling, private APIs, usage plans. Mapping templates, parameter mapping, request validation, caching, CloudWatch/X-Ray, CORS, gateway responses and HTTP-API JWT authorizers are recorded from standard AWS docs knowledge, not from a page fetched in this run. Entries are built-in features, not composable policies; custom logic means Lambda (integration or authorizer).",
+   "policies": [
+    {
+     "name": "Usage plans + API keys",
+     "vendor_category": "Usage plans",
+     "area": "rate-limiting",
+     "desc": "Throttling and quotas per API key/client (REST APIs)"
+    },
+    {
+     "name": "Stage/method throttling",
+     "vendor_category": "Throttling",
+     "area": "rate-limiting",
+     "desc": "Account, stage and method-level request throttling"
+    },
+    {
+     "name": "Lambda authorizers",
+     "vendor_category": "Access control",
+     "area": "authentication",
+     "desc": "Lambda function validates tokens or request parameters"
+    },
+    {
+     "name": "Amazon Cognito user pool authorizers",
+     "vendor_category": "Access control",
+     "area": "authentication",
+     "desc": "Validate Cognito user pool tokens"
+    },
+    {
+     "name": "JWT authorizers (HTTP APIs)",
+     "vendor_category": "Access control",
+     "area": "authentication",
+     "desc": "Validate JWTs from OIDC/OAuth providers on HTTP APIs"
+    },
+    {
+     "name": "IAM authorization (SigV4)",
+     "vendor_category": "Access control",
+     "area": "authorization",
+     "desc": "IAM roles and policies control who invokes APIs"
+    },
+    {
+     "name": "Resource policies",
+     "vendor_category": "Access control",
+     "area": "authorization",
+     "desc": "Allow/deny by source IP, VPC endpoint, or account"
+    },
+    {
+     "name": "VPC endpoint policies",
+     "vendor_category": "Access control",
+     "area": "authorization",
+     "desc": "IAM policies on interface endpoints for private APIs"
+    },
+    {
+     "name": "Mutual TLS",
+     "vendor_category": "Protection",
+     "area": "authentication",
+     "desc": "Require client certificates for custom domain"
+    },
+    {
+     "name": "Backend client certificates",
+     "vendor_category": "Protection",
+     "area": "upstream-auth",
+     "desc": "Present gateway client certificate to backend"
+    },
+    {
+     "name": "AWS WAF",
+     "vendor_category": "Protection",
+     "area": "threat-protection",
+     "desc": "Web application firewall rules attached to stage"
+    },
+    {
+     "name": "Private APIs",
+     "vendor_category": "Protection",
+     "area": "authorization",
+     "desc": "Restrict API access to VPCs"
+    },
+    {
+     "name": "Request validation",
+     "vendor_category": "Validation",
+     "area": "validation",
+     "desc": "Validate body and parameters against models"
+    },
+    {
+     "name": "Mapping templates (VTL)",
+     "vendor_category": "Data transformation",
+     "area": "transformation",
+     "desc": "Velocity templates transform request/response payloads"
+    },
+    {
+     "name": "Parameter mapping",
+     "vendor_category": "Data transformation",
+     "area": "transformation",
+     "desc": "Map headers, query strings and paths"
+    },
+    {
+     "name": "Response caching",
+     "vendor_category": "Caching",
+     "area": "caching",
+     "desc": "Stage-level response cache (REST APIs)"
+    },
+    {
+     "name": "CloudWatch logs/metrics + X-Ray",
+     "vendor_category": "Monitoring",
+     "area": "observability",
+     "desc": "Access logs, execution logs, metrics and tracing"
+    },
+    {
+     "name": "CORS configuration",
+     "vendor_category": "CORS",
+     "area": "cors-cross-domain",
+     "desc": "Enable CORS on resources or HTTP APIs"
+    },
+    {
+     "name": "Gateway responses",
+     "vendor_category": "Customization",
+     "area": "transformation",
+     "desc": "Customize gateway-generated error responses"
+    }
+   ]
+  }
+ ]
+}
