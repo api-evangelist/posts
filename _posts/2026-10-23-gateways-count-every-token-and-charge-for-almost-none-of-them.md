@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'Gateways Count Every Token And Charge For Almost None Of Them'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/gateways-count-every-token-and-charge-for-almost-none-of-them.png
-date: 2026-11-18
+date: 2026-10-23
 author: Kin Lane
 tags:
   - API Economics
