@@ -41,6 +41,16 @@ Giving agents their own identity, permissions and limits, instead of letting the
 
 Tying the meter to registration makes good governance look like a toll booth. If registering your agent is the moment you start paying, people will put off registering, wrap agents in user credentials, and route around the identity layer that makes agents safe to run. The meter gets a free ride on a feature nobody can argue against, and the feature takes the reputational hit.
 
+## What the catalog shows
+
+I wanted to know whether Salesforce is an outlier or a sign of where things are going, so I measured it. On [APIs.io](https://apis.io/) we keep [plans and pricing](https://apis.io/plans/), [rate limits](https://apis.io/rate-limits/) and [FinOps](https://apis.io/finops/) profiles for every provider. I counted only the plans transcribed from a provider's own pricing page: 4,986 of them. Our generated estimates were left out.
+
+- **145 providers mention MCP or agent access inside a plan** and don't charge for it separately. The MCP server, the agent integration or the tool access comes with the subscription, the seats or the credits a customer already pays for.
+- **7 providers price AI-agent, MCP or tool-call access as its own unit**, and 5 of them publish the number. [Seekr](https://apis.io/plans/seekr/seekr-plans-pricing/) charges $0.0135 per tool call for web search. [CodeRabbit](https://apis.io/plans/coderabbit/coderabbit-plans-pricing/) charges $0.40 per agent minute, [SLNG](https://apis.io/plans/slng/slng-plans-pricing/) a fraction of a cent per agent minute, and [Chatbase](https://apis.io/plans/chatbase/chatbase-plans-pricing/) $25 per extra AI agent a month. [Anvilogic](https://apis.io/plans/anvilogic/anvilogic-plans-pricing/) charges one credit per MCP tool call. A lot of plans also say "per agent", but they mean human support agents or CI build agents, so I left those out.
+- **129 providers publish a rate limit scoped specifically to MCP or agent traffic, and 82 of them put a number on it.** Ada limits its MCP server per AI agent per second, minute and day. Datadog caps MCP tool-call bursts. Relevance AI sets a per-call MCP limit.
+
+So the market has mostly bundled agent access into what customers already pay for. Where it meters agents separately, it publishes the rate. And far more providers manage agent load with a published rate limit than with a price. I couldn't find another provider in the catalog that meters agent calls the same as API calls and leaves the rate blank. That combination is Salesforce's.
+
 ## What I'd do instead
 
 Keep the agent identity, and make it free. Publish the rate before the 30-day clock starts, in the plan and on the rate card, and somewhere a machine can read it. Price the outcomes and entitlements your customers value, the same way for every way of reaching them. And treat call volume as a rate limit to manage, not a revenue line to optimize.
