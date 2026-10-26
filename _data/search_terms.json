@@ -11967,6 +11967,839 @@
         "api": 12286,
         "mcp": 2150
       }
+    },
+    {
+      "week_starting": "2026-10-19",
+      "week_ending": "2026-10-25",
+      "fetched_at": "2026-10-26T12:50:14Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 17336,
+      "unique_terms": 4156,
+      "unmet_terms": 2107,
+      "top_queries": [
+        {
+          "q": "break glass",
+          "n": 32
+        },
+        {
+          "q": "grpc",
+          "n": 23
+        },
+        {
+          "q": "OpenAPI",
+          "n": 20
+        },
+        {
+          "q": "review",
+          "n": 19
+        },
+        {
+          "q": "GraphQL",
+          "n": 17
+        },
+        {
+          "q": "Governance",
+          "n": 14
+        },
+        {
+          "q": "accidental",
+          "n": 12
+        },
+        {
+          "q": "Kin Score",
+          "n": 10
+        },
+        {
+          "q": "Secrets",
+          "n": 9
+        },
+        {
+          "q": "Comparisons",
+          "n": 8
+        },
+        {
+          "q": "Family",
+          "n": 8
+        },
+        {
+          "q": "question",
+          "n": 8
+        },
+        {
+          "q": "Access Management",
+          "n": 7
+        },
+        {
+          "q": "Adoption",
+          "n": 7
+        },
+        {
+          "q": "agents",
+          "n": 7
+        },
+        {
+          "q": "LLM",
+          "n": 7
+        },
+        {
+          "q": "orange",
+          "n": 7
+        },
+        {
+          "q": "accidental api governance",
+          "n": 6
+        },
+        {
+          "q": "accidental excellence",
+          "n": 6
+        },
+        {
+          "q": "CDI",
+          "n": 6
+        },
+        {
+          "q": "Discord",
+          "n": 6
+        },
+        {
+          "q": "Gateways",
+          "n": 6
+        },
+        {
+          "q": "rate limiting",
+          "n": 6
+        },
+        {
+          "q": "WCAG",
+          "n": 6
+        },
+        {
+          "q": "API Governance",
+          "n": 5
+        },
+        {
+          "q": "CAD",
+          "n": 5
+        },
+        {
+          "q": "CLI",
+          "n": 5
+        },
+        {
+          "q": "guardrails",
+          "n": 5
+        },
+        {
+          "q": "insight",
+          "n": 5
+        },
+        {
+          "q": "iPaaS",
+          "n": 5
+        },
+        {
+          "q": "Key-Value Store",
+          "n": 5
+        },
+        {
+          "q": "Log Collection",
+          "n": 5
+        },
+        {
+          "q": "sandbox",
+          "n": 5
+        },
+        {
+          "q": "accidental governance",
+          "n": 4
+        },
+        {
+          "q": "Apple",
+          "n": 4
+        },
+        {
+          "q": "Communication",
+          "n": 4
+        },
+        {
+          "q": "consumer",
+          "n": 4
+        },
+        {
+          "q": "deprecat",
+          "n": 4
+        },
+        {
+          "q": "Developer Guidelines",
+          "n": 4
+        },
+        {
+          "q": "DevOps",
+          "n": 4
+        },
+        {
+          "q": "ebay-country-api",
+          "n": 4
+        },
+        {
+          "q": "Event Architecture",
+          "n": 4
+        },
+        {
+          "q": "Help Desk",
+          "n": 4
+        },
+        {
+          "q": "Knowledge Inference",
+          "n": 4
+        },
+        {
+          "q": "m",
+          "n": 4
+        },
+        {
+          "q": "Multi User",
+          "n": 4
+        },
+        {
+          "q": "Network Monitoring",
+          "n": 4
+        },
+        {
+          "q": "Network Tools",
+          "n": 4
+        },
+        {
+          "q": "note",
+          "n": 4
+        },
+        {
+          "q": "Persistence",
+          "n": 4
+        },
+        {
+          "q": "Politics of APIs",
+          "n": 4
+        },
+        {
+          "q": "rate",
+          "n": 4
+        },
+        {
+          "q": "Rate limits",
+          "n": 4
+        },
+        {
+          "q": "reflection",
+          "n": 4
+        },
+        {
+          "q": "research",
+          "n": 4
+        },
+        {
+          "q": "RIA",
+          "n": 4
+        },
+        {
+          "q": "Storytelling",
+          "n": 4
+        },
+        {
+          "q": "summary",
+          "n": 4
+        },
+        {
+          "q": "throttling",
+          "n": 4
+        },
+        {
+          "q": "Video",
+          "n": 4
+        },
+        {
+          "q": "Web Applications",
+          "n": 4
+        },
+        {
+          "q": "0901.21.00",
+          "n": 3
+        },
+        {
+          "q": "1fort-application-v2-coverages-api",
+          "n": 3
+        },
+        {
+          "q": "7digital-user-management-api",
+          "n": 3
+        },
+        {
+          "q": "7digital-users-api",
+          "n": 3
+        },
+        {
+          "q": "Account-to-Account",
+          "n": 3
+        },
+        {
+          "q": "ADHD",
+          "n": 3
+        },
+        {
+          "q": "adp-competencies-api",
+          "n": 3
+        },
+        {
+          "q": "agent",
+          "n": 3
+        },
+        {
+          "q": "amcs-group-workflowproviderwebhook-api",
+          "n": 3
+        },
+        {
+          "q": "Analtyics",
+          "n": 3
+        },
+        {
+          "q": "anthropic-skills-api",
+          "n": 3
+        },
+        {
+          "q": "aopay-tickets-api",
+          "n": 3
+        },
+        {
+          "q": "API Aggregation",
+          "n": 3
+        },
+        {
+          "q": "apipass-apipass-platform-api-api",
+          "n": 3
+        },
+        {
+          "q": "apiposture-account-api",
+          "n": 3
+        },
+        {
+          "q": "Application Management",
+          "n": 3
+        },
+        {
+          "q": "Assessment",
+          "n": 3
+        },
+        {
+          "q": "atomic-fi-users-api",
+          "n": 3
+        },
+        {
+          "q": "bandwidth",
+          "n": 3
+        },
+        {
+          "q": "binance-borrow-repay-api",
+          "n": 3
+        },
+        {
+          "q": "boltic-plugins-api",
+          "n": 3
+        },
+        {
+          "q": "Business Architecture",
+          "n": 3
+        },
+        {
+          "q": "Business Transformation",
+          "n": 3
+        },
+        {
+          "q": "Change Management",
+          "n": 3
+        },
+        {
+          "q": "Charismatic",
+          "n": 3
+        },
+        {
+          "q": "chase",
+          "n": 3
+        },
+        {
+          "q": "ChatGPT",
+          "n": 3
+        },
+        {
+          "q": "Client",
+          "n": 3
+        },
+        {
+          "q": "Code Analysis",
+          "n": 3
+        },
+        {
+          "q": "Collaboration Tools",
+          "n": 3
+        },
+        {
+          "q": "Consumer Goods",
+          "n": 3
+        },
+        {
+          "q": "Content Delivery",
+          "n": 3
+        },
+        {
+          "q": "Context",
+          "n": 3
+        },
+        {
+          "q": "Conversion Optimization",
+          "n": 3
+        },
+        {
+          "q": "Data",
+          "n": 3
+        },
+        {
+          "q": "Debugging",
+          "n": 3
+        },
+        {
+          "q": "DeepSeek",
+          "n": 3
+        },
+        {
+          "q": "Desktop Applications",
+          "n": 3
+        },
+        {
+          "q": "Development Platform",
+          "n": 3
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "break glass",
+          "n": 16
+        },
+        {
+          "q": "1fort-application-v2-coverages-api",
+          "n": 3
+        },
+        {
+          "q": "adp-competencies-api",
+          "n": 3
+        },
+        {
+          "q": "amcs-group-workflowproviderwebhook-api",
+          "n": 3
+        },
+        {
+          "q": "aopay-tickets-api",
+          "n": 3
+        },
+        {
+          "q": "apipass-apipass-platform-api-api",
+          "n": 3
+        },
+        {
+          "q": "apiposture-account-api",
+          "n": 3
+        },
+        {
+          "q": "binance-borrow-repay-api",
+          "n": 3
+        },
+        {
+          "q": "boltic-plugins-api",
+          "n": 3
+        },
+        {
+          "q": "engineering-platform-worker-versions-api",
+          "n": 3
+        },
+        {
+          "q": "g2-reports-api",
+          "n": 3
+        },
+        {
+          "q": "gonna-bond-pulse-api",
+          "n": 3
+        },
+        {
+          "q": "headout-subcategories-api",
+          "n": 3
+        },
+        {
+          "q": "jetbrains-activities-api",
+          "n": 3
+        },
+        {
+          "q": "jupyter-server-config-api",
+          "n": 3
+        },
+        {
+          "q": "perplexity-embeddings-api",
+          "n": 3
+        },
+        {
+          "q": "playht-playnote-api",
+          "n": 3
+        },
+        {
+          "q": "Session Border Controller",
+          "n": 3
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "0x-sources-api",
+          "n": 2
+        },
+        {
+          "q": "10web-certificate-api",
+          "n": 2
+        },
+        {
+          "q": "1fort-email-ai-v2-attachments-api",
+          "n": 2
+        },
+        {
+          "q": "1fort-email-ai-v2-profiles-api",
+          "n": 2
+        },
+        {
+          "q": "360learning-external-ids-api",
+          "n": 2
+        },
+        {
+          "q": "360learning-users-api",
+          "n": 2
+        },
+        {
+          "q": "a10-networks-slb-server-api",
+          "n": 2
+        },
+        {
+          "q": "academy-software-foundation-shows-api",
+          "n": 2
+        },
+        {
+          "q": "accidental",
+          "n": 2
+        },
+        {
+          "q": "activefence-wonderfence-api",
+          "n": 2
+        },
+        {
+          "q": "adobe-suite-journeys-api",
+          "n": 2
+        },
+        {
+          "q": "adobe-suite-rendition-api",
+          "n": 2
+        },
+        {
+          "q": "aerones-accounting-sales-invoices-api",
+          "n": 2
+        },
+        {
+          "q": "ahrefs-ai-visibility-api",
+          "n": 2
+        },
+        {
+          "q": "aihubmix-anthropic-compatible-api",
+          "n": 2
+        },
+        {
+          "q": "altr-sidecar-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-web-services-accesslogsubscriptions-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-web-services-deleteresourceshare-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-web-services-migrationworkflows-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-web-services-profile-summaries-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-web-services-referencestore-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-web-services-reset-notifications-settings-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-web-services-stopclock-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-web-services-trafficpolicies-api",
+          "n": 2
+        },
+        {
+          "q": "aopay-create-api",
+          "n": 2
+        },
+        {
+          "q": "aopay-flights-api",
+          "n": 2
+        },
+        {
+          "q": "apache-nutch-job-api",
+          "n": 2
+        },
+        {
+          "q": "apideck-attachments-api",
+          "n": 2
+        },
+        {
+          "q": "apifreaks-api-hub-for-developers-commodity-apis-api",
+          "n": 2
+        },
+        {
+          "q": "apifreaks-api-hub-for-developers-pdf-security-apis-api",
+          "n": 2
+        },
+        {
+          "q": "apiposture-blagoculjak-api",
+          "n": 2
+        },
+        {
+          "q": "apizr-webhooks-api",
+          "n": 2
+        },
+        {
+          "q": "arcadia-power-credentials-api",
+          "n": 2
+        },
+        {
+          "q": "Attendee Hub",
+          "n": 2
+        },
+        {
+          "q": "authentik-crypto-api",
+          "n": 2
+        },
+        {
+          "q": "automattic-jetpack-ai-transcription-api",
+          "n": 2
+        },
+        {
+          "q": "aws-glue-aws-glue-x-amz-target-awsglue-getcrawler-api-api",
+          "n": 2
+        },
+        {
+          "q": "aws-step-functions-aws-step-functions-x-amz-target-awsstepfunctions-deletestat-api",
+          "n": 2
+        },
+        {
+          "q": "bamboohr-time-off-api",
+          "n": 2
+        },
+        {
+          "q": "bazel-build-modules-api",
+          "n": 2
+        },
+        {
+          "q": "bluejay-translation-api",
+          "n": 2
+        },
+        {
+          "q": "brevo-transactionalwhatsapp-api",
+          "n": 2
+        },
+        {
+          "q": "brick-blue-reports-api",
+          "n": 2
+        },
+        {
+          "q": "btcpay-authorization-api",
+          "n": 2
+        },
+        {
+          "q": "carfax",
+          "n": 2
+        },
+        {
+          "q": "Causa prima",
+          "n": 2
+        },
+        {
+          "q": "Celebrity Recognition",
+          "n": 2
+        },
+        {
+          "q": "chaitin-account-staff-tag-list-api",
+          "n": 2
+        },
+        {
+          "q": "chaitin-report-dashboard-chart-create-api",
+          "n": 2
+        },
+        {
+          "q": "chaitin-system-guestportalserverconfig-retrieve-api",
+          "n": 2
+        },
+        {
+          "q": "chase-uk-international-standing-orders-consents-api",
+          "n": 2
+        },
+        {
+          "q": "chef-software-profilesservice-api",
+          "n": 2
+        },
+        {
+          "q": "cisco-catalyst-sdwan-real-time-monitoring-device-system-stats-api",
+          "n": 2
+        },
+        {
+          "q": "cisco-xdr-verdict-api",
+          "n": 2
+        },
+        {
+          "q": "codeclimate",
+          "n": 2
+        },
+        {
+          "q": "conga-incentive-rule-entries-api",
+          "n": 2
+        },
+        {
+          "q": "contextual-ai-rerank-api",
+          "n": 2
+        },
+        {
+          "q": "contextual-ai-users-api",
+          "n": 2
+        },
+        {
+          "q": "corestack-summarydashboard-api",
+          "n": 2
+        },
+        {
+          "q": "cubesoftware-workflow-api",
+          "n": 2
+        },
+        {
+          "q": "datacrunch-serverless-containers-api",
+          "n": 2
+        },
+        {
+          "q": "decisionlink-features-api",
+          "n": 2
+        },
+        {
+          "q": "decisiv-case-metadata-api",
+          "n": 2
+        },
+        {
+          "q": "dedaluslabs-dedalus-api-api",
+          "n": 2
+        },
+        {
+          "q": "dialnexa-transcribers-api",
+          "n": 2
+        },
+        {
+          "q": "eci-solutions-erp-inventory-api",
+          "n": 2
+        },
+        {
+          "q": "ecoflow-mqtt-api",
+          "n": 2
+        },
+        {
+          "q": "eden-health-grdn-routes-impl-app-api",
+          "n": 2
+        },
+        {
+          "q": "edf-energy-electricity-meter-points-api",
+          "n": 2
+        },
+        {
+          "q": "elastic-path-bundle-component-products-relationships-api",
+          "n": 2
+        },
+        {
+          "q": "engineering-platform-zero-trust-risk-scoring-integrations-api",
+          "n": 2
+        },
+        {
+          "q": "entitysport-authentication-api",
+          "n": 2
+        },
+        {
+          "q": "epa-detailed-facility-report-api",
+          "n": 2
+        },
+        {
+          "q": "evedex-paysystem-api",
+          "n": 2
+        },
+        {
+          "q": "facilio-tools-api",
+          "n": 2
+        },
+        {
+          "q": "factset-annualized-api",
+          "n": 2
+        },
+        {
+          "q": "factset-archive-api",
+          "n": 2
+        },
+        {
+          "q": "factset-flows-api",
+          "n": 2
+        },
+        {
+          "q": "factset-industry-metrics-api",
+          "n": 2
+        },
+        {
+          "q": "factset-issues-api",
+          "n": 2
+        },
+        {
+          "q": "factset-recommendation-list-api",
+          "n": 2
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 1
+        },
+        {
+          "resource": "stats",
+          "n": 1
+        }
+      ],
+      "by_tier": {
+        "free": 12522,
+        "site": 2873,
+        "internal": 1941
+      },
+      "by_surface": {
+        "api": 13792,
+        "mcp": 3544
+      }
     }
   ]
 }

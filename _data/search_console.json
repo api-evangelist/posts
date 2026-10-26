@@ -721,7 +721,7 @@
   {
    "week_starting": "2026-10-05",
    "week_ending": "2026-10-11",
-   "fetched_at": "2026-10-20T15:18:57.039791+00:00",
+   "fetched_at": "2026-10-26T12:50:17.128543+00:00",
    "clicks": 466,
    "impressions": 155299,
    "ctr_pct": 0.3,
@@ -1438,9 +1438,9 @@
   {
    "week_starting": "2026-10-12",
    "week_ending": "2026-10-18",
-   "fetched_at": "2026-10-20T15:18:57.886887+00:00",
-   "clicks": 516,
-   "impressions": 138560,
+   "fetched_at": "2026-10-26T12:50:19.558295+00:00",
+   "clicks": 517,
+   "impressions": 138561,
    "ctr_pct": 0.37,
    "position": 8.3,
    "distinct_queries": 1000,
@@ -1540,9 +1540,9 @@
     {
      "query": "api cost",
      "clicks": 1,
-     "impressions": 112,
+     "impressions": 113,
      "ctr_pct": 0.9,
-     "position": 7.9
+     "position": 8.0
     },
     {
      "query": "api value",
@@ -1687,9 +1687,9 @@
     {
      "query": "postman open source",
      "clicks": 1,
-     "impressions": 11,
-     "ctr_pct": 9.1,
-     "position": 5
+     "impressions": 12,
+     "ctr_pct": 8.3,
+     "position": 5.9
     },
     {
      "query": "python script",
@@ -1801,23 +1801,23 @@
     {
      "page": "/",
      "clicks": 44,
-     "impressions": 657,
-     "ctr_pct": 6.7,
-     "position": 5.2
+     "impressions": 665,
+     "ctr_pct": 6.6,
+     "position": 5.3
     },
     {
      "page": "/2021/08/12/what-is-httpbin-and-what-can-you-do-with-the-api/",
      "clicks": 10,
-     "impressions": 3438,
+     "impressions": 3442,
      "ctr_pct": 0.3,
      "position": 5.5
     },
     {
      "page": "/2024/11/27/how-much-does-it-cost-to-develop-an-api/",
      "clicks": 8,
-     "impressions": 1167,
+     "impressions": 1173,
      "ctr_pct": 0.7,
-     "position": 5.3
+     "position": 5.4
     },
     {
      "page": "/about/kin-lane/",
@@ -1836,35 +1836,35 @@
     {
      "page": "/2026/10/12/decision-models-agreed-on-the-questions-not-the-contract/",
      "clicks": 7,
-     "impressions": 625,
+     "impressions": 627,
      "ctr_pct": 1.1,
      "position": 8.0
     },
     {
      "page": "/2018/04/20/delivering-large-api-responses-as-efficiently-as-possible/",
      "clicks": 6,
-     "impressions": 316,
+     "impressions": 322,
      "ctr_pct": 1.9,
-     "position": 6.6
+     "position": 6.9
     },
     {
      "page": "/2024/12/03/generate-a-bearer-token-using-bruno-and-bluesky-create-session-api-operation/",
      "clicks": 5,
-     "impressions": 395,
+     "impressions": 396,
      "ctr_pct": 1.3,
      "position": 7.3
     },
     {
      "page": "/blog/2026/05/05/a-roundup-of-us-federal-agencies-and-their-apis/",
      "clicks": 5,
-     "impressions": 1923,
+     "impressions": 1930,
      "ctr_pct": 0.3,
-     "position": 7.1
+     "position": 7.2
     },
     {
      "page": "/store/aisstream-ais-stream-api/",
      "clicks": 5,
-     "impressions": 972,
+     "impressions": 975,
      "ctr_pct": 0.5,
      "position": 7.1
     },
@@ -1878,37 +1878,37 @@
     {
      "page": "/2026/02/03/what-is-the-diff-between-bruno-collection-and-opencollection/",
      "clicks": 4,
-     "impressions": 345,
-     "ctr_pct": 1.2,
-     "position": 6.2
+     "impressions": 349,
+     "ctr_pct": 1.1,
+     "position": 6.3
     },
     {
      "page": "/2026/08/14/the-tools-that-actually-execute-your-arazzo-workflows/",
      "clicks": 4,
-     "impressions": 145,
-     "ctr_pct": 2.8,
-     "position": 6.5
+     "impressions": 147,
+     "ctr_pct": 2.7,
+     "position": 6.6
     },
     {
      "page": "/areas/",
      "clicks": 4,
-     "impressions": 84,
-     "ctr_pct": 4.8,
-     "position": 6.2
+     "impressions": 85,
+     "ctr_pct": 4.7,
+     "position": 6.6
     },
     {
      "page": "/blog/2026/05/22/four-providers-publishing-well-known-api-catalog/",
      "clicks": 4,
-     "impressions": 115,
-     "ctr_pct": 3.5,
-     "position": 7.6
+     "impressions": 118,
+     "ctr_pct": 3.4,
+     "position": 7.8
     },
     {
      "page": "/2012/01/12/the-secret-to-amazons-success-internal-apis/",
      "clicks": 3,
-     "impressions": 54,
-     "ctr_pct": 5.6,
-     "position": 6.1
+     "impressions": 57,
+     "ctr_pct": 5.3,
+     "position": 6.3
     },
     {
      "page": "/2017/05/18/the-parrot-sequoia-api-is-nice-and-simple-for-iot/",
@@ -1920,51 +1920,51 @@
     {
      "page": "/2020/01/07/postman-open-source/",
      "clicks": 3,
-     "impressions": 174,
+     "impressions": 175,
      "ctr_pct": 1.7,
-     "position": 4.3
+     "position": 4.4
     },
     {
      "page": "/2022/10/29/numeric-vs-string-data-types/",
      "clicks": 3,
-     "impressions": 287,
+     "impressions": 294,
      "ctr_pct": 1.0,
-     "position": 6.1
+     "position": 6.3
     },
     {
      "page": "/2024/09/16/what-are-breaking-changes-when-it-comes-to-the-business-of-apis/",
      "clicks": 3,
-     "impressions": 101,
-     "ctr_pct": 3.0,
-     "position": 12.0
+     "impressions": 114,
+     "ctr_pct": 2.6,
+     "position": 12.5
     },
     {
      "page": "/2024/10/30/api-governance-policies-rules-and-guidance-for-managing-the-versioning-of-openapi-and-apis/",
      "clicks": 3,
-     "impressions": 137,
+     "impressions": 139,
      "ctr_pct": 2.2,
      "position": 6.8
     },
     {
      "page": "/2024/11/26/how-many-apis-does-the-average-enterprise-have/",
      "clicks": 3,
-     "impressions": 233,
+     "impressions": 237,
      "ctr_pct": 1.3,
-     "position": 5.2
+     "position": 5.4
     },
     {
      "page": "/2025/03/31/editing-json-schema-in-yaml/",
      "clicks": 3,
-     "impressions": 118,
+     "impressions": 120,
      "ctr_pct": 2.5,
-     "position": 9.0
+     "position": 9.2
     },
     {
      "page": "/2026/01/12/exploring-what-schema-tools-are-available/",
      "clicks": 3,
-     "impressions": 139,
-     "ctr_pct": 2.2,
-     "position": 7.4
+     "impressions": 140,
+     "ctr_pct": 2.1,
+     "position": 7.5
     },
     {
      "page": "/2026/10/09/a-year-after-openapi-3-2-most-api-tooling-cannot-read-it/",
@@ -1985,7 +1985,7 @@
     {
      "query": "api discovery",
      "clicks": 0,
-     "impressions": 157,
+     "impressions": 159,
      "ctr_pct": 0,
      "position": 17.0
     },
@@ -2034,16 +2034,23 @@
     {
      "query": "api integration examples",
      "clicks": 0,
-     "impressions": 24,
+     "impressions": 25,
      "ctr_pct": 0,
-     "position": 12.7
+     "position": 13.0
     },
     {
      "query": "api key example",
      "clicks": 0,
+     "impressions": 22,
+     "ctr_pct": 0,
+     "position": 15.8
+    },
+    {
+     "query": "api changes",
+     "clicks": 0,
      "impressions": 21,
      "ctr_pct": 0,
-     "position": 16.0
+     "position": 14.5
     },
     {
      "query": "api aggregators",
@@ -2051,13 +2058,6 @@
      "impressions": 19,
      "ctr_pct": 0,
      "position": 12.2
-    },
-    {
-     "query": "api changes",
-     "clicks": 0,
-     "impressions": 19,
-     "ctr_pct": 0,
-     "position": 13.3
     },
     {
      "query": "api charges",
@@ -2081,6 +2081,13 @@
      "position": 16.2
     },
     {
+     "query": "3pl central api",
+     "clicks": 0,
+     "impressions": 16,
+     "ctr_pct": 0,
+     "position": 14.5
+    },
+    {
      "query": "amc api",
      "clicks": 0,
      "impressions": 16,
@@ -2088,11 +2095,11 @@
      "position": 19.8
     },
     {
-     "query": "3pl central api",
+     "query": "api kong",
      "clicks": 0,
-     "impressions": 15,
+     "impressions": 16,
      "ctr_pct": 0,
-     "position": 14.5
+     "position": 19.5
     },
     {
      "query": "amazon alexa api",
@@ -2102,11 +2109,11 @@
      "position": 17.7
     },
     {
-     "query": "api kong",
+     "query": "api journey",
      "clicks": 0,
      "impressions": 15,
      "ctr_pct": 0,
-     "position": 17.6
+     "position": 10.7
     },
     {
      "query": "artifactory api",
@@ -2130,25 +2137,735 @@
      "position": 14.6
     },
     {
+     "query": "api containerization",
+     "clicks": 0,
+     "impressions": 13,
+     "ctr_pct": 0,
+     "position": 12.2
+    },
+    {
      "query": "api documentation template",
      "clicks": 0,
      "impressions": 13,
      "ctr_pct": 0,
      "position": 13.8
+    }
+   ]
+  },
+  {
+   "week_starting": "2026-10-19",
+   "week_ending": "2026-10-25",
+   "fetched_at": "2026-10-26T12:50:21.428016+00:00",
+   "clicks": 567,
+   "impressions": 164777,
+   "ctr_pct": 0.34,
+   "position": 8.4,
+   "distinct_queries": 1000,
+   "query_coverage_pct": 17.8,
+   "queries": [
+    {
+     "query": "api evangelist",
+     "clicks": 22,
+     "impressions": 49,
+     "ctr_pct": 44.9,
+     "position": 1.1
+    },
+    {
+     "query": "5dollarfootballapi",
+     "clicks": 6,
+     "impressions": 95,
+     "ctr_pct": 6.3,
+     "position": 3.5
+    },
+    {
+     "query": "deepinfer",
+     "clicks": 3,
+     "impressions": 3231,
+     "ctr_pct": 0.1,
+     "position": 7.9
+    },
+    {
+     "query": "metacritic api",
+     "clicks": 3,
+     "impressions": 33,
+     "ctr_pct": 9.1,
+     "position": 5.3
+    },
+    {
+     "query": "api-evangelist",
+     "clicks": 2,
+     "impressions": 6,
+     "ctr_pct": 33.3,
+     "position": 1
+    },
+    {
+     "query": "apievangelist",
+     "clicks": 2,
+     "impressions": 4,
+     "ctr_pct": 50.0,
+     "position": 1
+    },
+    {
+     "query": "httpbin",
+     "clicks": 2,
+     "impressions": 1504,
+     "ctr_pct": 0.1,
+     "position": 5.6
+    },
+    {
+     "query": "kin score",
+     "clicks": 2,
+     "impressions": 10,
+     "ctr_pct": 20.0,
+     "position": 1
+    },
+    {
+     "query": "what is httpbin",
+     "clicks": 2,
+     "impressions": 19,
+     "ctr_pct": 10.5,
+     "position": 2.7
+    },
+    {
+     "query": "airbnb experiences api",
+     "clicks": 1,
+     "impressions": 3,
+     "ctr_pct": 33.3,
+     "position": 3.3
+    },
+    {
+     "query": "airbnb webhook",
+     "clicks": 1,
+     "impressions": 4,
+     "ctr_pct": 25.0,
+     "position": 1
+    },
+    {
+     "query": "api costing",
+     "clicks": 1,
+     "impressions": 3,
+     "ctr_pct": 33.3,
+     "position": 5.3
+    },
+    {
+     "query": "api metacritic",
+     "clicks": 1,
+     "impressions": 3,
+     "ctr_pct": 33.3,
+     "position": 3
+    },
+    {
+     "query": "api pricing",
+     "clicks": 1,
+     "impressions": 32,
+     "ctr_pct": 3.1,
+     "position": 15.4
+    },
+    {
+     "query": "api value",
+     "clicks": 1,
+     "impressions": 26,
+     "ctr_pct": 3.8,
+     "position": 8.7
+    },
+    {
+     "query": "api video",
+     "clicks": 1,
+     "impressions": 1,
+     "ctr_pct": 100,
+     "position": 23
+    },
+    {
+     "query": "apievangelist.com",
+     "clicks": 1,
+     "impressions": 2,
+     "ctr_pct": 50.0,
+     "position": 1
+    },
+    {
+     "query": "asce hazard tool api",
+     "clicks": 1,
+     "impressions": 13,
+     "ctr_pct": 7.7,
+     "position": 8.8
+    },
+    {
+     "query": "azure pipelines api",
+     "clicks": 1,
+     "impressions": 2,
+     "ctr_pct": 50.0,
+     "position": 10.5
+    },
+    {
+     "query": "best buy api key",
+     "clicks": 1,
+     "impressions": 31,
+     "ctr_pct": 3.2,
+     "position": 7.1
+    },
+    {
+     "query": "booking.com api status",
+     "clicks": 1,
+     "impressions": 2,
+     "ctr_pct": 50.0,
+     "position": 6.5
+    },
+    {
+     "query": "cerner fhir",
+     "clicks": 1,
+     "impressions": 10,
+     "ctr_pct": 10.0,
+     "position": 8.7
+    },
+    {
+     "query": "cloud events spec",
+     "clicks": 1,
+     "impressions": 7,
+     "ctr_pct": 14.3,
+     "position": 8
+    },
+    {
+     "query": "cloudevents specification",
+     "clicks": 1,
+     "impressions": 15,
+     "ctr_pct": 6.7,
+     "position": 6.6
+    },
+    {
+     "query": "deepinfer paper",
+     "clicks": 1,
+     "impressions": 34,
+     "ctr_pct": 2.9,
+     "position": 4.2
+    },
+    {
+     "query": "edf api",
+     "clicks": 1,
+     "impressions": 28,
+     "ctr_pct": 3.6,
+     "position": 4.2
+    },
+    {
+     "query": "evedex.com",
+     "clicks": 1,
+     "impressions": 1,
+     "ctr_pct": 100,
+     "position": 37
+    },
+    {
+     "query": "folder",
+     "clicks": 1,
+     "impressions": 1,
+     "ctr_pct": 100,
+     "position": 1
+    },
+    {
+     "query": "google api design guide",
+     "clicks": 1,
+     "impressions": 30,
+     "ctr_pct": 3.3,
+     "position": 5.8
+    },
+    {
+     "query": "google rest api guidelines",
+     "clicks": 1,
+     "impressions": 2,
+     "ctr_pct": 50.0,
+     "position": 9
+    },
+    {
+     "query": "google's api design guide",
+     "clicks": 1,
+     "impressions": 4,
+     "ctr_pct": 25.0,
+     "position": 6.5
+    },
+    {
+     "query": "gptzero api",
+     "clicks": 1,
+     "impressions": 19,
+     "ctr_pct": 5.3,
+     "position": 10.4
+    },
+    {
+     "query": "gumlet api",
+     "clicks": 1,
+     "impressions": 2,
+     "ctr_pct": 50.0,
+     "position": 6
+    },
+    {
+     "query": "gym api",
+     "clicks": 1,
+     "impressions": 3,
+     "ctr_pct": 33.3,
+     "position": 9
+    },
+    {
+     "query": "haveibeenpwned api",
+     "clicks": 1,
+     "impressions": 34,
+     "ctr_pct": 2.9,
+     "position": 9.4
+    },
+    {
+     "query": "headout api",
+     "clicks": 1,
+     "impressions": 8,
+     "ctr_pct": 12.5,
+     "position": 2.9
+    },
+    {
+     "query": "hibp_api_key",
+     "clicks": 1,
+     "impressions": 32,
+     "ctr_pct": 3.1,
+     "position": 6.2
+    },
+    {
+     "query": "how many apis are there",
+     "clicks": 1,
+     "impressions": 7,
+     "ctr_pct": 14.3,
+     "position": 3.1
+    },
+    {
+     "query": "how much is api",
+     "clicks": 1,
+     "impressions": 6,
+     "ctr_pct": 16.7,
+     "position": 4.2
+    },
+    {
+     "query": "http bin",
+     "clicks": 1,
+     "impressions": 75,
+     "ctr_pct": 1.3,
+     "position": 5.0
+    },
+    {
+     "query": "http://20",
+     "clicks": 1,
+     "impressions": 17,
+     "ctr_pct": 5.9,
+     "position": 5.9
+    },
+    {
+     "query": "iata padis code list",
+     "clicks": 1,
+     "impressions": 5,
+     "ctr_pct": 20.0,
+     "position": 4.6
+    },
+    {
+     "query": "images that represent government",
+     "clicks": 1,
+     "impressions": 5,
+     "ctr_pct": 20.0,
+     "position": 1
+    },
+    {
+     "query": "instructions.md",
+     "clicks": 1,
+     "impressions": 2,
+     "ctr_pct": 50.0,
+     "position": 14.5
+    },
+    {
+     "query": "json schema explorer",
+     "clicks": 1,
+     "impressions": 8,
+     "ctr_pct": 12.5,
+     "position": 15.9
+    },
+    {
+     "query": "kin lane",
+     "clicks": 1,
+     "impressions": 33,
+     "ctr_pct": 3.0,
+     "position": 3.3
+    },
+    {
+     "query": "landing page open source",
+     "clicks": 1,
+     "impressions": 4,
+     "ctr_pct": 25.0,
+     "position": 8.2
+    },
+    {
+     "query": "mobian agent ads",
+     "clicks": 1,
+     "impressions": 3,
+     "ctr_pct": 33.3,
+     "position": 6
+    },
+    {
+     "query": "ncr voyix",
+     "clicks": 1,
+     "impressions": 1,
+     "ctr_pct": 100,
+     "position": 18
+    },
+    {
+     "query": "openapi overlay",
+     "clicks": 1,
+     "impressions": 2,
+     "ctr_pct": 50.0,
+     "position": 5.5
+    }
+   ],
+   "pages": [
+    {
+     "page": "/",
+     "clicks": 31,
+     "impressions": 1207,
+     "ctr_pct": 2.6,
+     "position": 4.5
+    },
+    {
+     "page": "/2021/08/12/what-is-httpbin-and-what-can-you-do-with-the-api/",
+     "clicks": 12,
+     "impressions": 2416,
+     "ctr_pct": 0.5,
+     "position": 5.7
+    },
+    {
+     "page": "/store/personal-agent-protocol/",
+     "clicks": 12,
+     "impressions": 305,
+     "ctr_pct": 3.9,
+     "position": 3.8
+    },
+    {
+     "page": "/blog/2026/05/05/a-roundup-of-us-federal-agencies-and-their-apis/",
+     "clicks": 6,
+     "impressions": 2855,
+     "ctr_pct": 0.2,
+     "position": 7.1
+    },
+    {
+     "page": "/store/5dollarfootballapi-teams-api/",
+     "clicks": 6,
+     "impressions": 122,
+     "ctr_pct": 4.9,
+     "position": 4.0
+    },
+    {
+     "page": "/store/jsonplaceholder-photos-api/",
+     "clicks": 6,
+     "impressions": 47,
+     "ctr_pct": 12.8,
+     "position": 5.6
+    },
+    {
+     "page": "/2018/01/19/a-health-check-response-format-for-http-apis/",
+     "clicks": 5,
+     "impressions": 161,
+     "ctr_pct": 3.1,
+     "position": 10.2
+    },
+    {
+     "page": "/2024/11/27/how-much-does-it-cost-to-develop-an-api/",
+     "clicks": 5,
+     "impressions": 987,
+     "ctr_pct": 0.5,
+     "position": 6.0
+    },
+    {
+     "page": "/2026/02/03/what-is-the-diff-between-bruno-collection-and-opencollection/",
+     "clicks": 5,
+     "impressions": 452,
+     "ctr_pct": 1.1,
+     "position": 6.5
+    },
+    {
+     "page": "/store/webhooks-api/",
+     "clicks": 5,
+     "impressions": 66,
+     "ctr_pct": 7.6,
+     "position": 4.2
+    },
+    {
+     "page": "/2026/08/14/the-tools-that-actually-execute-your-arazzo-workflows/",
+     "clicks": 4,
+     "impressions": 120,
+     "ctr_pct": 3.3,
+     "position": 6.8
+    },
+    {
+     "page": "/2026/09/17/vs-code-is-finally-catching-up-with-json-schema-2020-12/",
+     "clicks": 4,
+     "impressions": 188,
+     "ctr_pct": 2.1,
+     "position": 6.5
+    },
+    {
+     "page": "/2026/10/20/deepinfer-and-the-shape-of-the-answer/",
+     "clicks": 4,
+     "impressions": 3896,
+     "ctr_pct": 0.1,
+     "position": 7.8
+    },
+    {
+     "page": "/store/have-i-been-pwned-breach-api/",
+     "clicks": 4,
+     "impressions": 358,
+     "ctr_pct": 1.1,
+     "position": 8.3
+    },
+    {
+     "page": "/store/metacritic-api/",
+     "clicks": 4,
+     "impressions": 61,
+     "ctr_pct": 6.6,
+     "position": 5.1
+    },
+    {
+     "page": "/store/iata-padis/",
+     "clicks": 4,
+     "impressions": 56,
+     "ctr_pct": 7.1,
+     "position": 4.1
+    },
+    {
+     "page": "/2017/03/03/google-shares-their-api-design-guide/",
+     "clicks": 3,
+     "impressions": 139,
+     "ctr_pct": 2.2,
+     "position": 8.0
+    },
+    {
+     "page": "/2024/07/09/api-apis-json-contract/",
+     "clicks": 3,
+     "impressions": 118,
+     "ctr_pct": 2.5,
+     "position": 11.5
+    },
+    {
+     "page": "/2024/11/15/help-you-manage-your-json-schema-via-a-github-repository/",
+     "clicks": 3,
+     "impressions": 13,
+     "ctr_pct": 23.1,
+     "position": 4.2
+    },
+    {
+     "page": "/2024/11/26/how-many-apis-does-the-average-enterprise-have/",
+     "clicks": 3,
+     "impressions": 353,
+     "ctr_pct": 0.8,
+     "position": 4.5
+    },
+    {
+     "page": "/2026/06/22/google-makes-the-interactions-api-the-front-door-to-gemini/",
+     "clicks": 3,
+     "impressions": 53,
+     "ctr_pct": 5.7,
+     "position": 8.3
+    },
+    {
+     "page": "/2026/08/19/slack-app-manifest-api-creates-the-app/",
+     "clicks": 3,
+     "impressions": 1130,
+     "ctr_pct": 0.3,
+     "position": 7.9
+    },
+    {
+     "page": "/2026/09/22/skills-over-mcp-is-final-and-now-it-needs-servers/",
+     "clicks": 3,
+     "impressions": 202,
+     "ctr_pct": 1.5,
+     "position": 5.9
+    },
+    {
+     "page": "/2026/10/09/a-year-after-openapi-3-2-most-api-tooling-cannot-read-it/",
+     "clicks": 3,
+     "impressions": 106,
+     "ctr_pct": 2.8,
+     "position": 5.9
+    },
+    {
+     "page": "/2026/10/23/open-responses-gets-a-neutral-home-and-a-baseline/",
+     "clicks": 3,
+     "impressions": 245,
+     "ctr_pct": 1.2,
+     "position": 6.3
+    }
+   ],
+   "near_misses": [
+    {
+     "query": "api contract",
+     "clicks": 0,
+     "impressions": 164,
+     "ctr_pct": 0,
+     "position": 12.6
+    },
+    {
+     "query": "api discovery",
+     "clicks": 0,
+     "impressions": 66,
+     "ctr_pct": 0,
+     "position": 12.5
+    },
+    {
+     "query": "api form",
+     "clicks": 0,
+     "impressions": 47,
+     "ctr_pct": 0,
+     "position": 12.9
+    },
+    {
+     "query": "api link",
+     "clicks": 0,
+     "impressions": 41,
+     "ctr_pct": 0,
+     "position": 11.6
+    },
+    {
+     "query": "amc api",
+     "clicks": 0,
+     "impressions": 37,
+     "ctr_pct": 0,
+     "position": 11.6
+    },
+    {
+     "query": "api pricing",
+     "clicks": 1,
+     "impressions": 32,
+     "ctr_pct": 3.1,
+     "position": 15.4
+    },
+    {
+     "query": "api integration examples",
+     "clicks": 0,
+     "impressions": 29,
+     "ctr_pct": 0,
+     "position": 12.3
+    },
+    {
+     "query": "api first design",
+     "clicks": 0,
+     "impressions": 27,
+     "ctr_pct": 0,
+     "position": 20.1
+    },
+    {
+     "query": "api history",
+     "clicks": 0,
+     "impressions": 25,
+     "ctr_pct": 0,
+     "position": 14.5
+    },
+    {
+     "query": "api changes",
+     "clicks": 0,
+     "impressions": 24,
+     "ctr_pct": 0,
+     "position": 17.5
     },
     {
      "query": "api features",
      "clicks": 0,
-     "impressions": 13,
+     "impressions": 23,
      "ctr_pct": 0,
-     "position": 17.6
+     "position": 15.3
     },
     {
-     "query": "api distribution",
+     "query": "api documentation template",
      "clicks": 0,
-     "impressions": 12,
+     "impressions": 20,
      "ctr_pct": 0,
-     "position": 17.6
+     "position": 14.1
+    },
+    {
+     "query": "api key example",
+     "clicks": 0,
+     "impressions": 19,
+     "ctr_pct": 0,
+     "position": 13.6
+    },
+    {
+     "query": "api kong",
+     "clicks": 0,
+     "impressions": 19,
+     "ctr_pct": 0,
+     "position": 16.6
+    },
+    {
+     "query": "api charges",
+     "clicks": 0,
+     "impressions": 18,
+     "ctr_pct": 0,
+     "position": 14.9
+    },
+    {
+     "query": "api adoption",
+     "clicks": 0,
+     "impressions": 17,
+     "ctr_pct": 0,
+     "position": 10.8
+    },
+    {
+     "query": "api aggregator",
+     "clicks": 0,
+     "impressions": 17,
+     "ctr_pct": 0,
+     "position": 11.2
+    },
+    {
+     "query": "api containerization",
+     "clicks": 0,
+     "impressions": 17,
+     "ctr_pct": 0,
+     "position": 19.5
+    },
+    {
+     "query": "api integration example",
+     "clicks": 0,
+     "impressions": 16,
+     "ctr_pct": 0,
+     "position": 17.5
+    },
+    {
+     "query": "\"github search api",
+     "clicks": 0,
+     "impressions": 15,
+     "ctr_pct": 0,
+     "position": 16.9
+    },
+    {
+     "query": "amazon web services papi",
+     "clicks": 0,
+     "impressions": 15,
+     "ctr_pct": 0,
+     "position": 16.1
+    },
+    {
+     "query": "api commercial production",
+     "clicks": 0,
+     "impressions": 15,
+     "ctr_pct": 0,
+     "position": 12.9
+    },
+    {
+     "query": "api government",
+     "clicks": 0,
+     "impressions": 15,
+     "ctr_pct": 0,
+     "position": 15.5
+    },
+    {
+     "query": "api gui",
+     "clicks": 0,
+     "impressions": 14,
+     "ctr_pct": 0,
+     "position": 18.6
+    },
+    {
+     "query": "amazon alexa api",
+     "clicks": 0,
+     "impressions": 13,
+     "ctr_pct": 0,
+     "position": 18.9
     }
    ]
   }
