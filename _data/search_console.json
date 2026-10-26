@@ -721,7 +721,7 @@
   {
    "week_starting": "2026-10-05",
    "week_ending": "2026-10-11",
-   "fetched_at": "2026-10-26T12:50:17.128543+00:00",
+   "fetched_at": "2026-10-26T14:07:20.664626+00:00",
    "clicks": 466,
    "impressions": 155299,
    "ctr_pct": 0.3,
@@ -1438,7 +1438,7 @@
   {
    "week_starting": "2026-10-12",
    "week_ending": "2026-10-18",
-   "fetched_at": "2026-10-26T12:50:19.558295+00:00",
+   "fetched_at": "2026-10-26T14:07:21.680944+00:00",
    "clicks": 517,
    "impressions": 138561,
    "ctr_pct": 0.37,
@@ -2155,19 +2155,19 @@
   {
    "week_starting": "2026-10-19",
    "week_ending": "2026-10-25",
-   "fetched_at": "2026-10-26T12:50:21.428016+00:00",
-   "clicks": 567,
-   "impressions": 164777,
-   "ctr_pct": 0.34,
+   "fetched_at": "2026-10-26T14:07:22.774992+00:00",
+   "clicks": 570,
+   "impressions": 165035,
+   "ctr_pct": 0.35,
    "position": 8.4,
    "distinct_queries": 1000,
-   "query_coverage_pct": 17.8,
+   "query_coverage_pct": 17.7,
    "queries": [
     {
      "query": "api evangelist",
      "clicks": 22,
-     "impressions": 49,
-     "ctr_pct": 44.9,
+     "impressions": 50,
+     "ctr_pct": 44.0,
      "position": 1.1
     },
     {
@@ -2180,7 +2180,7 @@
     {
      "query": "deepinfer",
      "clicks": 3,
-     "impressions": 3231,
+     "impressions": 3234,
      "ctr_pct": 0.1,
      "position": 7.9
     },
@@ -2208,7 +2208,7 @@
     {
      "query": "httpbin",
      "clicks": 2,
-     "impressions": 1504,
+     "impressions": 1507,
      "ctr_pct": 0.1,
      "position": 5.6
     },
@@ -2362,9 +2362,9 @@
     {
      "query": "google api design guide",
      "clicks": 1,
-     "impressions": 30,
-     "ctr_pct": 3.3,
-     "position": 5.8
+     "impressions": 31,
+     "ctr_pct": 3.2,
+     "position": 5.9
     },
     {
      "query": "google rest api guidelines",
@@ -2518,14 +2518,14 @@
     {
      "page": "/",
      "clicks": 31,
-     "impressions": 1207,
+     "impressions": 1209,
      "ctr_pct": 2.6,
      "position": 4.5
     },
     {
      "page": "/2021/08/12/what-is-httpbin-and-what-can-you-do-with-the-api/",
      "clicks": 12,
-     "impressions": 2416,
+     "impressions": 2420,
      "ctr_pct": 0.5,
      "position": 5.7
     },
@@ -2567,14 +2567,14 @@
     {
      "page": "/2024/11/27/how-much-does-it-cost-to-develop-an-api/",
      "clicks": 5,
-     "impressions": 987,
+     "impressions": 988,
      "ctr_pct": 0.5,
      "position": 6.0
     },
     {
      "page": "/2026/02/03/what-is-the-diff-between-bruno-collection-and-opencollection/",
      "clicks": 5,
-     "impressions": 452,
+     "impressions": 453,
      "ctr_pct": 1.1,
      "position": 6.5
     },
@@ -2602,14 +2602,14 @@
     {
      "page": "/2026/10/20/deepinfer-and-the-shape-of-the-answer/",
      "clicks": 4,
-     "impressions": 3896,
+     "impressions": 3898,
      "ctr_pct": 0.1,
      "position": 7.8
     },
     {
      "page": "/store/have-i-been-pwned-breach-api/",
      "clicks": 4,
-     "impressions": 358,
+     "impressions": 360,
      "ctr_pct": 1.1,
      "position": 8.3
     },
@@ -2630,8 +2630,8 @@
     {
      "page": "/2017/03/03/google-shares-their-api-design-guide/",
      "clicks": 3,
-     "impressions": 139,
-     "ctr_pct": 2.2,
+     "impressions": 140,
+     "ctr_pct": 2.1,
      "position": 8.0
     },
     {
@@ -2665,7 +2665,7 @@
     {
      "page": "/2026/08/19/slack-app-manifest-api-creates-the-app/",
      "clicks": 3,
-     "impressions": 1130,
+     "impressions": 1132,
      "ctr_pct": 0.3,
      "position": 7.9
     },
@@ -2695,7 +2695,7 @@
     {
      "query": "api contract",
      "clicks": 0,
-     "impressions": 164,
+     "impressions": 165,
      "ctr_pct": 0,
      "position": 12.6
     },
@@ -2709,9 +2709,9 @@
     {
      "query": "api form",
      "clicks": 0,
-     "impressions": 47,
+     "impressions": 49,
      "ctr_pct": 0,
-     "position": 12.9
+     "position": 12.8
     },
     {
      "query": "api link",
