@@ -11,8 +11,12 @@ on:
   # Daily rebuild so future-dated (scheduled) posts publish on their date even
   # when nothing is pushed that day. 12:10 UTC — just after the noon-UTC
   # timestamps the scheduled posts carry.
+  # The other five spread the daily Provider Stories posts through the day: each
+  # carries a 14:00 / 16:00 / 18:00 / 20:00 / 22:00 UTC timestamp and goes live
+  # on the rebuild ten minutes later (provider-stories skill).
   schedule:
     - cron: "10 12 * * *"
+    - cron: "10 14,16,18,20,22 * * *"
 
 # Allow the deploy job to publish to Pages.
 permissions:
