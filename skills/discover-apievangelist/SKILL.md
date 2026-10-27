@@ -86,7 +86,7 @@ Returns:
 **API:** <https://apis.apievangelist.com/store/anthropic-messages-api/>
 
 ## Machine-readable descriptions
-- [OpenAPI](https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/openapi/anthropic-messages-api-openapi.yml) — `application/vnd.oai.openapi`
+- [OpenAPI](https://artifacts.apis.io/anthropic/openapi/anthropic-messages-api-openapi.yml) — `application/vnd.oai.openapi`
 
 ## Documentation
 - [Documentation](https://docs.anthropic.com/en/api/messages)

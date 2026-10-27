@@ -82,7 +82,7 @@ with urllib.request.urlopen(spec_link["href"]) as r:
 - **AsyncAPI**: parsed dict with `info`, `channels`, `components`, `servers`. AsyncAPI 2.x or 3.x.
 - **JSON Schema** (from `entry["describedby"]`): a parsed schema dict.
 
-All specs come from the provider's GitHub repo (`raw.githubusercontent.com/api-evangelist/<provider>/refs/heads/main/...`), so they're the canonical, version-controlled artifact. No upstream API access needed to inspect them.
+All specs come from the provider profile store (`artifacts.apis.io/<provider>/...`), the canonical artifact behind every apis.io listing. No upstream API access needed to inspect them.
 
 ## Markdown alternative
 
