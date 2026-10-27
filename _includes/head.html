@@ -73,8 +73,10 @@
       "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
       "author": {
         "@type": "Person",
+        "@id": "https://apievangelist.com/about/kin-lane/#kin-lane",
         "name": "{{ site.author.name }}",
-        "url": "https://apievangelist.com/about/kin-lane/"
+        "url": "https://apievangelist.com/about/kin-lane/",
+        "sameAs": ["https://github.com/kinlane", {{ site.social.linkedin | jsonify }}, {{ site.social.youtube | jsonify }}]
       },
       "publisher": {
         "@type": "Organization",

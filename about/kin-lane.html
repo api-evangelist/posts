@@ -50,3 +50,23 @@ sub: About Kin Lane
 
 
 
+
+{%- comment -%} ProfilePage + Person (2026-10-27): the author identity every post's Article
+  block points at. sameAs uses only the profiles _config.yml already lists. {%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "https://apievangelist.com/about/kin-lane/",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://apievangelist.com/about/kin-lane/#kin-lane",
+    "name": "Kin Lane",
+    "jobTitle": "API Evangelist",
+    "url": "https://apievangelist.com/about/kin-lane/",
+    "image": {{ site.author.avatar | jsonify }},
+    "worksFor": {"@type": "Organization", "name": "API Evangelist", "url": "https://apievangelist.com/"},
+    "sameAs": ["https://github.com/kinlane", {{ site.social.linkedin | jsonify }}, {{ site.social.youtube | jsonify }}]
+  }
+}
+</script>
