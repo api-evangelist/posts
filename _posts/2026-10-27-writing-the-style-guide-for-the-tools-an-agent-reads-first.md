@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: 'Writing the Style Guide for the Tools an Agent Reads First'
+title: 'Writing the MCP Style Guide for the Tools an Agent Reads First'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/writing-the-style-guide-for-the-tools-an-agent-reads-first.png
 date: 2026-10-27
 author: Kin Lane
