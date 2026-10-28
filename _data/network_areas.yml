@@ -180,6 +180,10 @@ areas:
   url: https://management.apievangelist.com
   description: An index and topic collection covering full-stack API management platforms — solutions
     that combine an API gateway, developer portal, analytics, monetization, governance, and…
+- name: Methodology
+  url: https://methodology.apievangelist.com
+  description: An index and topic collection covering the methodologies that shape how software and APIs are
+    planned, built and run, from Scrum and Lean to the software development lifecycle and project management…
 - name: Microservices
   url: https://microservices.apievangelist.com
   description: An index of microservices architecture frameworks, service discovery, resilience, messaging,
