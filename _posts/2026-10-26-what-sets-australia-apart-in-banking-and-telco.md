@@ -15,9 +15,11 @@ tags:
 ---
 Australia is the only country I track that treats data access as a right across the economy, and that one decision explains almost everything that is different about its banks and its telcos.
 
-I have been getting ready for [The API Economy Roundtables](https://portal.joinfost.io/event/the-api-economy-summit-using-the-kin-score/8f836005-1d6a-4462-9f2a-d06907ed149f) at apidays Australia in Melbourne this Wednesday, and two of the people at the table, Will Fettke from Telstra and Erik Tveitnes from REA Group, live inside these questions. So I put Australia next to the UK, the EU, the US, Singapore, New Zealand and Canada — first on how each country got its banks and telcos to open up, and then on what the API Evangelist catalog actually holds for the biggest banks and telcos in each.
+I have been getting ready for [The API Economy Roundtables](https://portal.joinfost.io/event/the-api-economy-summit-using-the-kin-score/8f836005-1d6a-4462-9f2a-d06907ed149f) at apidays Australia in Melbourne this Wednesday, and two of the people at the table, Will Fettke from Telstra and Erik Tveitnes from REA Group, live inside these questions. So I put Australia next to the UK, the EU, the US, Brazil, Singapore, New Zealand and Canada — first on how each country got its banks and telcos to open up, and then on what the API Evangelist catalog actually holds for the biggest banks and telcos in each.
 
-## Banking: six countries, six ways in
+## Banking: eight countries, eight ways in
+
+*Updated October 28: added Brazil, which the first version left out, after a nudge from [Mark Boyd at Platformable](https://platformable.com). For regulation status across many more countries than this table covers, his [open ecosystem dashboard](https://accelerator.platformable.com/dashboard) is the place to look.*
 
 | | How access is driven | Who writes the standard | Can an app act, or only read? |
 |---|---|---|---|
@@ -25,17 +27,20 @@ I have been getting ready for [The API Economy Roundtables](https://portal.joinf
 | **UK** | Competition order on the nine largest banks, plus PSD2 | Industry (Open Banking Limited, now handing over to a successor entity) | Act. Commercial variable recurring payments went live in June 2026 |
 | **EU** | PSD2 | No single standard — Berlin Group, STET and others | Payments. PSD3 and the PSR have a provisional deal and are still waiting on final adoption; FIDA, the open finance regulation, is stalled |
 | **US** | Market-led, with the CFPB's 1033 rule now on hold | Industry (FDX) | Mostly read, through aggregators. A court has blocked enforcement of 1033 while the CFPB reconsiders it, and the first compliance date in April passed with no effect |
+| **Brazil** | Open Finance Brasil, mandated by the central bank and phased in since 2021, reaching beyond banking into insurance, investments and FX | The Banco Central do Brasil sets the rules; the technical standards come from a governance structure the participants run under that mandate | Act. Payment initiation runs over Pix at national scale, and a no-redirect payment journey is now mandatory for Pix participants |
 | **Singapore** | Voluntary — the 2016 MAS and ABS API Playbook | Guidance, not mandate | Read. SGFinDex shares data with consent through Singpass, the national digital identity |
 | **New Zealand** | Customer and Product Data Act 2025 | Moving from industry (the Payments NZ API Centre) to government (MBIE) | Act. The four big banks have been designated for data and payment initiation since December 2025 |
-| **Canada** | Consumer-Driven Banking Act, 2026 | Still being set, with the Bank of Canada as regulator | Not yet. Read-access regulations are in draft, payments are targeted for 2027 |
+| **Canada** | Consumer-Driven Banking Act, 2026 | Still being set, with the Bank of Canada as regulator | Not yet, again. Read-access regulations are in draft, payments are targeted for 2027, after years of near-launches |
+
+Brazil is the most advanced regime on this list, and it is not alone in Latin America. Colombia made open finance mandatory in April 2026, and Chile has a binding regime set to take effect in July 2027. Neither is live yet, but the momentum is in Latin America, not in Canada.
 
 Three things set Australia apart.
 
 **One right, many sectors.** Nobody else runs banking and energy under the same law and the same standard, and Australia keeps adding to it — non-bank lenders started sharing product data this July. Every other country on this list has a banking regime, and then separate regimes for everything else, if it has them at all.
 
-**The government writes the standard.** In the UK, the US and, until recently, New Zealand, the standard came out of an industry body. In Australia, the Data Standards Body writes the Consumer Data Standards and every bank implements the same thing. You can see it in the catalog. All eight Australian banks we profile have their own published contract, and all eight conform to the Consumer Data Standards. No other country's banks line up like that.
+**The government writes the standard.** In the UK, the US and, until recently, New Zealand, the standard came out of an industry body. Brazil's central bank mandates the program, but the technical standards come out of a participant-run structure. In Australia, the Data Standards Body writes the Consumer Data Standards and every bank implements the same thing. You can see it in the catalog. All eight Australian banks we profile have their own published contract, and all eight conform to the Consumer Data Standards. No other country's banks line up like that.
 
-**It reads, it does not act.** The UK now has commercial variable recurring payments in production. New Zealand designated payment initiation alongside data from day one. Australia legislated action initiation and has not yet designated a single action. For anyone building agents that are supposed to *do* something for a customer, that is the gap.
+**It reads, it does not act.** The UK now has commercial variable recurring payments in production. New Zealand designated payment initiation alongside data from day one. Brazil runs payment initiation over Pix. Australia legislated action initiation and has not yet designated a single action. For anyone building agents that are supposed to *do* something for a customer, that is the gap.
 
 ## What the catalog shows for the banks
 
@@ -81,8 +86,8 @@ So Australia is not behind on agents. Nobody is anywhere yet. What Australia has
 
 ## What I am taking to Melbourne
 
-Australia leads the world on the breadth and uniformity of read access, and trails the UK and New Zealand on letting apps act. Its telcos never got the mandate its banks did, and scams, not open data, are what is pushing them to publish. The two meet in the middle: an agent acting on a customer's behalf is going to need both the bank's data and the telco's fraud signal before it moves any money.
+Among the English-speaking markets, Australia leads on the breadth and uniformity of read access, and it trails the UK, New Zealand and, above all, Brazil on letting apps act. Its telcos never got the mandate its banks did, and scams, not open data, are what is pushing them to publish. The two meet in the middle: an agent acting on a customer's behalf is going to need both the bank's data and the telco's fraud signal before it moves any money.
 
 Those are the questions I want to put to the room on Wednesday. If regulation made Australian banking programmable, what makes it actionable? And if scams are what finally open up the telcos, does that land under the Consumer Data Right, under the Scams Prevention Framework, or under a commercial deal like Aduna? [Join us at the roundtables](https://portal.joinfost.io/event/the-api-economy-summit-using-the-kin-score/8f836005-1d6a-4462-9f2a-d06907ed149f) if you are in Melbourne.
 
-A note on the catalog numbers. They measure what we have profiled, not the market. The Australian profiles were refreshed this week; most UK, US and Canadian profiles date from July. And Singapore and New Zealand are almost entirely missing — DBS, OCBC, UOB and every New Zealand bank and telco — which I am fixing next.
+A note on the catalog numbers. They measure what we have profiled, not the market. The Australian profiles were refreshed this week; most UK, US and Canadian profiles date from July. Brazil isn't in the catalog table at all yet, and Singapore and New Zealand are almost entirely missing — DBS, OCBC, UOB and every New Zealand bank and telco — which I am fixing next.
