@@ -19,6 +19,9 @@ sub: Evangelism of APIs
         </div>
       </div>
 
+      {% assign book = site.data.books | where: "slug", "evangelism-of-apis" | first %}
+      {% include book-card.html book=book hide_section=true %}
+
       <!-- What It Is -->
       <h5 class="fw-semibold text-muted mb-3 mt-2 pb-1 border-bottom">What It Is</h5>
       <div class="row mb-4">

@@ -37,6 +37,10 @@
       symbol: category
       href: https://apievangelist.com/areas/
 
+    - name: Books
+      symbol: menu_book
+      href: https://apievangelist.com/books/
+
     - name: FAQ
       symbol: help
       href: https://faq.apievangelist.com

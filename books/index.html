@@ -1,0 +1,19 @@
+---
+layout: default
+title: Books
+summary: The API Evangelist Library — six volumes on the technology, business, politics, history, governance, and evangelism of APIs, in paperback and Kindle on Amazon.
+nav: Learnings
+sub: Books
+---
+
+<div class="row gx-xl-9">
+  <div class="col-12">
+    <section>
+      <h1 class="fs-3 mb-2">The API Evangelist Library</h1>
+      <p class="lead text-muted mb-5">Six volumes distilled from sixteen years of writing at API Evangelist, one for each area of the guidance. Each stands alone; together they argue that an API is never just a technical artifact but a contract, a product, and a political object at once. All six are available on Amazon in paperback and for Kindle.</p>
+      {% for book in site.data.books %}
+        {% include book-card.html book=book %}
+      {% endfor %}
+    </section>
+  </div>
+</div>

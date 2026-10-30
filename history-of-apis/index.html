@@ -19,6 +19,9 @@ sub: History of APIs
         </div>
       </div>
 
+      {% assign book = site.data.books | where: "slug", "history-of-apis" | first %}
+      {% include book-card.html book=book hide_section=true %}
+
       <!-- Before the Web API -->
       <h5 class="fw-semibold text-muted mb-3 mt-2 pb-1 border-bottom">Before the Web API</h5>
       <div class="row mb-4">

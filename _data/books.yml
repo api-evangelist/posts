@@ -1,0 +1,75 @@
+# The API Evangelist Library — one volume per guidance area.
+# Links are exact-title Amazon searches until the product pages are indexed;
+# set kindle_asin / paperback_asin and the include links straight to the product.
+
+- slug: technology-of-apis
+  volume: 1
+  area: Technology
+  title: The Technology of APIs
+  subtitle: "How We Design, Define, Build, Secure, and Operate the Connective Tissue of the Internet"
+  cover: https://apievangelist.com/images/books/technology-of-apis.jpg
+  section: https://apievangelist.com/technology-of-apis/
+  paperback_asin:
+  kindle_asin:
+  paperback_search: https://www.amazon.com/s?k=%22The+Technology+of+APIs%22+Kin+Lane&i=stripbooks
+  kindle_search: https://www.amazon.com/s?k=%22The+Technology+of+APIs%22+Kin+Lane&i=digital-text
+
+- slug: business-of-apis
+  volume: 2
+  area: Business
+  title: The Business of APIs
+  subtitle: "How Organizations Create, Capture, and Distribute Value Through Programmable Interfaces"
+  cover: https://apievangelist.com/images/books/business-of-apis.jpg
+  section: https://apievangelist.com/business-of-apis/
+  paperback_asin:
+  kindle_asin:
+  paperback_search: https://www.amazon.com/s?k=%22The+Business+of+APIs%22+Kin+Lane&i=stripbooks
+  kindle_search: https://www.amazon.com/s?k=%22The+Business+of+APIs%22+Kin+Lane&i=digital-text
+
+- slug: politics-of-apis
+  volume: 3
+  area: Politics
+  title: The Politics of APIs
+  subtitle: "Why Every API Is a Policy Decision, Whether Anyone Admits It or Not"
+  cover: https://apievangelist.com/images/books/politics-of-apis.jpg
+  section: https://apievangelist.com/politics-of-apis/
+  paperback_asin:
+  kindle_asin:
+  paperback_search: https://www.amazon.com/s?k=%22The+Politics+of+APIs%22+Kin+Lane&i=stripbooks
+  kindle_search: https://www.amazon.com/s?k=%22The+Politics+of+APIs%22+Kin+Lane&i=digital-text
+
+- slug: history-of-apis
+  volume: 4
+  area: History
+  title: The History of APIs
+  subtitle: "Where the Modern Web API Came From, What Got Forgotten, and Why the Patterns Repeat"
+  cover: https://apievangelist.com/images/books/history-of-apis.jpg
+  section: https://apievangelist.com/history-of-apis/
+  paperback_asin:
+  kindle_asin:
+  paperback_search: https://www.amazon.com/s?k=%22The+History+of+APIs%22+Kin+Lane&i=stripbooks
+  kindle_search: https://www.amazon.com/s?k=%22The+History+of+APIs%22+Kin+Lane&i=digital-text
+
+- slug: governance-of-apis
+  volume: 5
+  area: Governance
+  title: The Governance of APIs
+  subtitle: "Directing APIs at Scale, and Why Governance Is a People Problem Wearing a Technical Mask"
+  cover: https://apievangelist.com/images/books/governance-of-apis.jpg
+  section: https://apievangelist.com/governance-of-apis/
+  paperback_asin:
+  kindle_asin:
+  paperback_search: https://www.amazon.com/s?k=%22The+Governance+of+APIs%22+Kin+Lane&i=stripbooks
+  kindle_search: https://www.amazon.com/s?k=%22The+Governance+of+APIs%22+Kin+Lane&i=digital-text
+
+- slug: evangelism-of-apis
+  volume: 6
+  area: Evangelism
+  title: The Evangelism of APIs
+  subtitle: "The Storytelling, Community, and Human Persuasion Work That Makes APIs Get Used"
+  cover: https://apievangelist.com/images/books/evangelism-of-apis.jpg
+  section: https://apievangelist.com/evangelism-of-apis/
+  paperback_asin:
+  kindle_asin:
+  paperback_search: https://www.amazon.com/s?k=%22The+Evangelism+of+APIs%22+Kin+Lane&i=stripbooks
+  kindle_search: https://www.amazon.com/s?k=%22The+Evangelism+of+APIs%22+Kin+Lane&i=digital-text

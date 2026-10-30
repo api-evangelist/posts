@@ -19,6 +19,9 @@ sub: Politics of APIs
         </div>
       </div>
 
+      {% assign book = site.data.books | where: "slug", "politics-of-apis" | first %}
+      {% include book-card.html book=book hide_section=true %}
+
       <!-- Power & Access -->
       <h5 class="fw-semibold text-muted mb-3 mt-2 pb-1 border-bottom">Power &amp; Access</h5>
       <div class="row mb-4">
