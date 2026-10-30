@@ -15,7 +15,7 @@ tags:
 ---
 I spend a lot of time trying to keep track of who is working on what across the specifications that matter to APIs, and lately most of the motion is in one place: how an AI agent finds a seller, trusts a product, proves who it is acting for, and pays. W3C, the IETF, GS1, UN/CEFACT, the Linux Foundation, the Agentic AI Foundation, FIDO, EMVCo, Visa, Mastercard, Google, OpenAI, Stripe and Shopify are all working on pieces of it at the same time, at different speeds, under different rules. I can't hold all of it in my head, and I've been trying.
 
-Francesco Marinoni Moretto has done the thing I keep wishing someone would do. The [Agentic Standards Map](https://frmoretto.github.io/agentic-standards-map/) puts all of it on one page: 62 entries covering specifications, drafts, working groups, charters and events. Every statement on it is dated and points to a public source. It makes no predictions and doesn't rank anything. It's licensed CC BY 4.0, it has a DOI, and the whole thing is available as [map.json](https://frmoretto.github.io/agentic-standards-map/map.json).
+[Francesco Marinoni Moretto](https://www.linkedin.com/in/francesco-moretto/) has done the thing I keep wishing someone would do. The [Agentic Standards Map](https://frmoretto.github.io/agentic-standards-map/) puts all of it on one page: 62 entries covering specifications, drafts, working groups, charters and events. Every statement on it is dated and points to a public source. It makes no predictions and doesn't rank anything. It's licensed CC BY 4.0, it has a DOI, and the whole thing is available as [map.json](https://frmoretto.github.io/agentic-standards-map/map.json).
 
 ## We documented every standard on it
 
