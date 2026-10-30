@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'Reddit Closed Its API. Here Is Where Agents Can Still Post And Read'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/reddit-closed-its-api-here-is-where-agents-can-still-post-and-read.png
 date: 2026-10-30
 author: Kin Lane
 tags:
