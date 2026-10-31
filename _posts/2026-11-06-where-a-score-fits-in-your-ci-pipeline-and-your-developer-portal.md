@@ -46,3 +46,18 @@ Here is how I would approach it:
 - Refresh it on a slow cadence, so people do not treat it as an alert.
 
 If you try this, please tell me how it goes. I would like to see it done, and I learn the most from people who have put it to work somewhere I have not.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| Pull rules into your pipeline | [`GET /rules`](https://apis.io/developer/api/artifact-types) | `find_rules` | Free |
+| Get a quarterly reading | [`GET /providers/{slug}/rating`](https://apis.io/developer/api/ratings) | `get_provider_rating` | Understanding |
+| Feed the facets to a portal plugin | [`GET /providers/{slug}/rating/facets`](https://apis.io/developer/api/ratings) | `get_provider_facets` | Understanding |
+| Chart the movement | [`GET /providers/{slug}/rating/history`](https://apis.io/developer/api/ratings) | `get_rating_history` | Understanding |
+
+For linting a contract in a pipeline, the API Evangelist side offers `validate_api` on [its own MCP server and developer area](https://developer.apievangelist.com/).
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

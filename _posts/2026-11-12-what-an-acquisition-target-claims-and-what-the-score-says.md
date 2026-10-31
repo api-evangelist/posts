@@ -46,3 +46,17 @@ I am working on how to roll up an estate fairly, and how to read it over time. W
 A public score is not due diligence. It cannot see the code, the customers or the contracts, and a target with strong private APIs could read lower than it deserves. What it gives you is a cheap, neutral first look, and a list of specific questions to bring to the people across the table.
 
 If you try this on a real deal, I would love to hear, in general terms, whether the first read held up.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| Check whether a provider sits in an estate | [`GET /providers/{slug}/estate`](https://apis.io/developer/api/estates) | `get_provider_estate` | Free |
+| Get a target's reading | [`GET /providers/{slug}/rating`](https://apis.io/developer/api/ratings) | `get_provider_rating` | Understanding |
+| Browse estates | [`GET /estates`](https://apis.io/developer/api/estates) | `find_estates` | Understanding |
+| Read a full estate roster | [`GET /estates/{slug}`](https://apis.io/developer/api/estates) | `get_estate` | Understanding |
+| Watch it after the deal | [`GET /providers/{slug}/rating/history`](https://apis.io/developer/api/ratings) | `get_rating_history` | Understanding |
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

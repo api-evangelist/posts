@@ -48,3 +48,15 @@ Then look at the top of the tag. [Twilio](https://apis.io/providers/twilio/) is 
 A similar score to your rival can feel good. One person I spoke with said just that, while being clear it was not yet good enough. The score only sees what is public, so a competitor who sells differently may be right to look different. A score also says nothing about whether your product is better.
 
 But if you are building new services right now, like the person who sparked this post, this is the cheapest moment to use it. It costs almost nothing to design in what the leaders in your category already publish, and a lot more to retrofit it.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| See who is in your category | [`GET /tags/{slug}`](https://apis.io/developer/api/tags) | `get_tag` | Free |
+| Compare side by side | [`GET /compare`](https://apis.io/developer/api/synthesis) | `compare_providers` | Understanding |
+| Rank a category by a facet | [`GET /ratings`](https://apis.io/developer/api/ratings) | `find_ratings` | Understanding |
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

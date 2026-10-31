@@ -39,3 +39,15 @@ The same pattern shows up in the wider catalog. Only about 1.4% of providers lan
 - **Be honest about what it measures.** The score sees what you publish. It cannot see your internal engineering, and it may disagree with your gut. When I first ran an early version on a company I knew well, I was sure the agent was wrong. It was not. We just had not expressed what we knew.
 
 Yes, you will also compare yourself with competitors. It is irresistible, and I will get to that in a later post. For the budget conversation, the comparison that matters most is between what you are promising leadership and what an agent can actually find.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| Get the score next to agent readiness | [`GET /providers/{slug}/rating`](https://apis.io/developer/api/ratings) | `get_provider_rating` | Understanding |
+| See the agent-readiness dimensions | [`GET /providers/{slug}/agent-readiness`](https://apis.io/developer/api/ratings) | `get_agent_readiness` | Understanding |
+| See how far each dimension has spread | [`GET /agent-readiness/dimensions`](https://apis.io/developer/api/ratings) | `agent_readiness_dimensions` | Influence |
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

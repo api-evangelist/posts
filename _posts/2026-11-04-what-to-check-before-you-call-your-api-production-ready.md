@@ -45,3 +45,15 @@ That does not mean one is better to build on for what you need. A zero reflects 
 None of this tells you that you are safe. A score does not know your load, your threat model or your data. It tells you whether the basics are expressed where a client can find them, and being small is the cheapest time to get them right.
 
 I also try to live by this myself. It took me a couple of months to get the score for [APIs.io](https://apis.io/providers/apis-io/) to the top of the page, where it now sits at 93.6, with 78 for agent readiness.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| Check idempotency, errors, auth and limits | [`GET /providers/{slug}/agent-readiness`](https://apis.io/developer/api/ratings) | `get_agent_readiness` | Understanding |
+| Get your weakest dimensions | [`GET /insights/company/{slug}/gaps`](https://apis.io/developer/api/insights) | `company_gaps` | Understanding |
+| Read published rate limits for comparison | [`GET /providers/{slug}`](https://apis.io/developer/api/providers) | `get_provider` | Free |
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

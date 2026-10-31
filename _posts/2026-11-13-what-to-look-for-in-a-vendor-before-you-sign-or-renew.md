@@ -41,6 +41,21 @@ Giving your procurement team a few of these measures also helps them ask technic
 
 ## Being fair to the vendor
 
-Vendors can be scored too low. The public surface does not show everything, particularly with enterprise vendors whose docs sit behind a login. So give them the chance to show you. Providers can also [correct their listing on APIs.io](https://apis.io/), and I want them to. If a score is wrong, tell me.
+Vendors can be scored too low. The public surface does not show everything, particularly with enterprise vendors whose docs sit behind a login. So give them the chance to show you. Providers can also [correct their listing on APIs.io](https://apis.io/developer/api/your-listing), and I want them to. If a score is wrong, tell me.
 
 A good vendor conversation starts with the facts and ends with a better relationship, and that is more valuable than any leverage you might get from a number.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| Compare vendors and their economics | [`GET /compare`](https://apis.io/developer/api/synthesis) | `compare_providers` | Understanding |
+| Check agent safety | [`GET /providers/{slug}/agent-readiness`](https://apis.io/developer/api/ratings) | `get_agent_readiness` | Understanding |
+| Read the plans | [`GET /plans`](https://apis.io/developer/api/artifact-types) | `find_plans` | Free |
+| Find a stack's gaps | [`GET /gaps`](https://apis.io/developer/api/synthesis) | `gap_analysis` | Influence |
+
+If a reading of your own company is wrong, `report_correction` is free and unmetered. Owners can also claim a listing and file disputes through the [listing operations](https://apis.io/developer/api/your-listing).
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

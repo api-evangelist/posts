@@ -43,3 +43,17 @@ That is the difference between using a score and chasing one. I would rather see
 4. Put those artifacts on the roadmap, and look again next quarter.
 
 The output is not a higher number. It is a short list of work, with reasons, that you can defend when somebody asks why you chose it.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| Read one provider | [`GET /providers/{slug}`](https://apis.io/developer/api/providers) | `get_provider` | Free |
+| Get the score and six facets | [`GET /providers/{slug}/rating`](https://apis.io/developer/api/ratings) | `get_provider_rating` | Understanding |
+| Rank the weakest dimensions | [`GET /insights/company/{slug}/gaps`](https://apis.io/developer/api/insights) | `company_gaps` | Understanding |
+| Read the rubric | [`GET /ratings/rubric`](https://apis.io/developer/api/ratings) | `get_rating_rubric` | Understanding |
+| Track it quarter to quarter | [`GET /providers/{slug}/rating/history`](https://apis.io/developer/api/ratings) | `get_rating_history` | Understanding |
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

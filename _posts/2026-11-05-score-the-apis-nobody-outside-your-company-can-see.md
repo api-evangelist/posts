@@ -32,7 +32,7 @@ Most organizations also cannot answer the first question: what APIs do we have? 
 3. **Assemble and publish a static build,** nightly or weekly, which is the same way APIs.io itself is built.
 4. **Score it,** using the open [Kin Score rubric](https://github.com/api-evangelist/kin-score) with weights that suit you.
 
-Nothing needs to leave your network. The software is open source, and any cost is the hardware plus my time if you want help setting it up. My goal is that your team can run it without depending on me.
+Our current setup is a single Mac with 128 GB of memory, a MacBook Pro or a Mac Studio, because the model needs that much room. Nothing needs to leave your network. The software is open source, and any cost is the hardware plus my time if you want help setting it up. My goal is that your team can run it without depending on me.
 
 ## An example you can look at today
 
@@ -41,3 +41,17 @@ The [estates pages on APIs.io](https://apis.io/estates/) show the public version
 ## Quality gate or map?
 
 I would start with a map. Run it, see what you have, and agree on what good looks like for your teams. Turning it into a hard gate before anybody trusts the reading just gets you arguments. Once it is trusted, you can start asking new APIs to clear a bar, with different bars for different kinds of APIs, since a partner API does not need what a public one does. I will cover the pipeline side of this in tomorrow's post.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| Read the rubric to adapt | [`GET /ratings/rubric`](https://apis.io/developer/api/ratings) | `get_rating_rubric` | Understanding |
+| Benchmark internal results against public leaders | [`GET /ratings`](https://apis.io/developer/api/ratings) | `find_ratings` | Understanding |
+| Study the public version of the problem | [`GET /estates/{slug}`](https://apis.io/developer/api/estates) | `get_estate` | Understanding |
+
+Those calls read the public catalog. The on-premise install is a separate deployment and publishes its own static site, so the internal readings live with you.
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

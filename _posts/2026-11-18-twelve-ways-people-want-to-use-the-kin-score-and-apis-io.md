@@ -43,4 +43,8 @@ I built the score to help me understand the quality of public APIs. Very little 
 
 The other thing I noticed is that nobody in these conversations wanted the single number. Every useful version of this works from the facets, and starts with a decision about what you do not need to be good at.
 
+## Doing this with the API or an agent
+
+Every post ends with the exact REST operations and MCP tools for that job, with the plan each one needs. Catalog lookups such as `get_provider`, `get_tag` and `find_plans` are free. Ratings across the catalog, comparison and estates start on a paid plan. Start in the [APIs.io developer area](https://apis.io/developer/), with the [API reference](https://apis.io/developer/api), the [MCP server](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).
+
 You can [look up any provider on APIs.io](https://apis.io/providers/) for free, read [every check in the rubric](https://apis.io/rating/), or pull the [open source Kin Score from GitHub](https://github.com/api-evangelist/kin-score). If you are using it for something that is not on this list, I would really like to hear about it, and that includes telling me where it gets things wrong.

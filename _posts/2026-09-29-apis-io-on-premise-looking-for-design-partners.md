@@ -32,7 +32,7 @@ That last point is why I am confident about taking this inside other people's wa
 
 ## What the appliance does
 
-The idea is a self-contained appliance. It starts on a single Mac mini, with a Mac Studio next, and it adapts to how you already work rather than asking you to adopt a new platform:
+The idea is a self-contained appliance. It runs on a single Mac with 128 GB of memory, a MacBook Pro or Mac Studio (updated from the Mac mini I first wrote here, which does not have enough), and it adapts to how you already work rather than asking you to adopt a new platform:
 
 - **It spiders for APIs** across your Git repositories, Confluence, internal portals and documentation: OpenAPI, AsyncAPI, GraphQL, Postman collections, MCP servers, and the APIs that are only described in prose.
 - **It aggregates them** under a single GitHub organization, GitLab group or Bitbucket workspace, one repository per API producer, each with an APIs.json index and its contracts, schemas, examples and rules. That is exactly how the public catalog is managed today.

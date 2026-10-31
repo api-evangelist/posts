@@ -48,3 +48,15 @@ I want to be careful here, because a low score is easy to misread.
 ## How I would use it
 
 When you are looking at a software vendor, take two minutes on its [provider page](https://apis.io/providers/) before the first sales call. Check the facet breakdown and the date of its last changelog. If the score is high, you have some evidence for the claims in the deck. If it is low, ask them to show you what you could not see. A mature team will have an answer, and how they respond will tell you a lot.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| Look up a vendor | [`GET /providers/{slug}`](https://apis.io/developer/api/providers) | `get_provider` | Free |
+| Read the facets | [`GET /providers/{slug}/rating/facets`](https://apis.io/developer/api/ratings) | `get_provider_facets` | Understanding |
+| Filter a list by band or governance | [`GET /ratings`](https://apis.io/developer/api/ratings) | `find_ratings` | Understanding |
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

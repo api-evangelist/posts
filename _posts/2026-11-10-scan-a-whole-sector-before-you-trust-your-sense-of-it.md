@@ -46,3 +46,16 @@ The harder part of the question is about priorities rather than applicability. S
 4. Ask which facets matter most in your industry, and re-rank with those.
 
 You may find your real competition, for agents at least, is not who you thought it was.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| Read the tag | [`GET /tags/{slug}`](https://apis.io/developer/api/tags) | `get_tag` | Free |
+| List its members | [`GET /providers`](https://apis.io/developer/api/providers) | `find_providers` | Free |
+| Re-rank by the facet you care about | [`GET /ratings`](https://apis.io/developer/api/ratings) | `find_ratings` | Understanding |
+| Find artifact gaps across an industry | [`GET /gaps/industry/{slug}`](https://apis.io/developer/api/synthesis) | `industry_gap_analysis` | Influence |
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

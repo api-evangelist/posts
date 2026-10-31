@@ -48,3 +48,15 @@ Price is just one part of it. Before you can move quickly between two providers,
 I do not think most organizations should be routing payments in real time based on price. I do think every organization should know what its alternatives are, what they cost today, and how long a move would take. Most cannot answer that, and it gives vendors a lot of leverage at renewal.
 
 If you are a provider, here is the opposite view. Publish your pricing in a machine-readable way. As agents take on more of the selecting, a provider whose price cannot be read may simply not be in the running.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| Read plans, filtered by pricing basis | [`GET /plans`](https://apis.io/developer/api/artifact-types) | `find_plans` | Free |
+| Read how usage is metered | [`GET /finops`](https://apis.io/developer/api/artifact-types) | `find_finops` | Free |
+| Compare entry and marginal cost | [`GET /compare`](https://apis.io/developer/api/synthesis) | `compare_providers` | Understanding |
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).

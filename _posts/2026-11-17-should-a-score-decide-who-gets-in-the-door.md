@@ -43,3 +43,17 @@ Thin scores also mostly measure thin public surfaces. Some of those are companie
 If you are a provider, assume that something is already sorting you, and [look up how you read](https://apis.io/providers/). If you are a buyer, use scores to ask better questions, and please do not use them as the only reason to say no.
 
 What do you think? Would a gate like this be good for the API economy, or bad for it? [Send me a note](https://apievangelist.com/) or open an issue. I want to hear from people on both sides.
+
+## The APIs And MCP Tools For This
+
+You can do all of the above by hand on the site, or have an agent do it. Each of these is a REST operation and an MCP tool:
+
+| Job | REST operation | MCP tool | Plan |
+|---|---|---|---|
+| See a reading and its facets | [`GET /providers/{slug}/rating`](https://apis.io/developer/api/ratings) | `get_provider_rating` | Understanding |
+| Read every check | [`GET /ratings/rubric`](https://apis.io/developer/api/ratings) | `get_rating_rubric` | Understanding |
+| Filter by a threshold | [`GET /ratings`](https://apis.io/developer/api/ratings) | `find_ratings` | Understanding |
+
+If a score about you is wrong, `report_correction` is free, and `dispute_finding` is one of the [listing operations](https://apis.io/developer/api/your-listing).
+
+Paths are relative to `https://apis.io/api/v1`, and the MCP server is at `https://apis.io/mcp`. The [developer area](https://apis.io/developer/) has [getting started](https://apis.io/developer/getting-started), the [MCP setup](https://apis.io/developer/mcp-server) and the [plans](https://apis.io/developer/plans).
