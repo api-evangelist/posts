@@ -721,7 +721,7 @@
   {
    "week_starting": "2026-10-05",
    "week_ending": "2026-10-11",
-   "fetched_at": "2026-10-26T14:07:20.664626+00:00",
+   "fetched_at": "2026-10-31T17:19:13.617644+00:00",
    "clicks": 466,
    "impressions": 155299,
    "ctr_pct": 0.3,
@@ -1438,7 +1438,7 @@
   {
    "week_starting": "2026-10-12",
    "week_ending": "2026-10-18",
-   "fetched_at": "2026-10-26T14:07:21.680944+00:00",
+   "fetched_at": "2026-10-31T17:19:14.595757+00:00",
    "clicks": 517,
    "impressions": 138561,
    "ctr_pct": 0.37,
@@ -2155,13 +2155,13 @@
   {
    "week_starting": "2026-10-19",
    "week_ending": "2026-10-25",
-   "fetched_at": "2026-10-26T14:07:22.774992+00:00",
-   "clicks": 570,
-   "impressions": 165035,
+   "fetched_at": "2026-10-31T17:19:16.715788+00:00",
+   "clicks": 573,
+   "impressions": 165180,
    "ctr_pct": 0.35,
    "position": 8.4,
    "distinct_queries": 1000,
-   "query_coverage_pct": 17.7,
+   "query_coverage_pct": 17.8,
    "queries": [
     {
      "query": "api evangelist",
@@ -2180,7 +2180,7 @@
     {
      "query": "deepinfer",
      "clicks": 3,
-     "impressions": 3234,
+     "impressions": 3237,
      "ctr_pct": 0.1,
      "position": 7.9
     },
@@ -2369,8 +2369,8 @@
     {
      "query": "google rest api guidelines",
      "clicks": 1,
-     "impressions": 2,
-     "ctr_pct": 50.0,
+     "impressions": 3,
+     "ctr_pct": 33.3,
      "position": 9
     },
     {
@@ -2518,28 +2518,28 @@
     {
      "page": "/",
      "clicks": 31,
-     "impressions": 1209,
+     "impressions": 1213,
      "ctr_pct": 2.6,
      "position": 4.5
     },
     {
      "page": "/2021/08/12/what-is-httpbin-and-what-can-you-do-with-the-api/",
      "clicks": 12,
-     "impressions": 2420,
+     "impressions": 2422,
      "ctr_pct": 0.5,
      "position": 5.7
     },
     {
      "page": "/store/personal-agent-protocol/",
      "clicks": 12,
-     "impressions": 305,
+     "impressions": 308,
      "ctr_pct": 3.9,
-     "position": 3.8
+     "position": 3.9
     },
     {
      "page": "/blog/2026/05/05/a-roundup-of-us-federal-agencies-and-their-apis/",
      "clicks": 6,
-     "impressions": 2855,
+     "impressions": 2865,
      "ctr_pct": 0.2,
      "position": 7.1
     },
@@ -2553,30 +2553,30 @@
     {
      "page": "/store/jsonplaceholder-photos-api/",
      "clicks": 6,
-     "impressions": 47,
-     "ctr_pct": 12.8,
-     "position": 5.6
+     "impressions": 50,
+     "ctr_pct": 12.0,
+     "position": 5.9
     },
     {
      "page": "/2018/01/19/a-health-check-response-format-for-http-apis/",
      "clicks": 5,
-     "impressions": 161,
-     "ctr_pct": 3.1,
+     "impressions": 164,
+     "ctr_pct": 3.0,
      "position": 10.2
     },
     {
      "page": "/2024/11/27/how-much-does-it-cost-to-develop-an-api/",
      "clicks": 5,
-     "impressions": 988,
+     "impressions": 998,
      "ctr_pct": 0.5,
-     "position": 6.0
+     "position": 6.1
     },
     {
      "page": "/2026/02/03/what-is-the-diff-between-bruno-collection-and-opencollection/",
      "clicks": 5,
-     "impressions": 453,
+     "impressions": 458,
      "ctr_pct": 1.1,
-     "position": 6.5
+     "position": 6.6
     },
     {
      "page": "/store/webhooks-api/",
@@ -2595,29 +2595,36 @@
     {
      "page": "/2026/09/17/vs-code-is-finally-catching-up-with-json-schema-2020-12/",
      "clicks": 4,
-     "impressions": 188,
+     "impressions": 192,
      "ctr_pct": 2.1,
-     "position": 6.5
+     "position": 6.6
     },
     {
      "page": "/2026/10/20/deepinfer-and-the-shape-of-the-answer/",
      "clicks": 4,
-     "impressions": 3898,
+     "impressions": 3919,
      "ctr_pct": 0.1,
      "position": 7.8
     },
     {
+     "page": "/rating/",
+     "clicks": 4,
+     "impressions": 46,
+     "ctr_pct": 8.7,
+     "position": 3.8
+    },
+    {
      "page": "/store/have-i-been-pwned-breach-api/",
      "clicks": 4,
-     "impressions": 360,
+     "impressions": 367,
      "ctr_pct": 1.1,
-     "position": 8.3
+     "position": 8.4
     },
     {
      "page": "/store/metacritic-api/",
      "clicks": 4,
-     "impressions": 61,
-     "ctr_pct": 6.6,
+     "impressions": 62,
+     "ctr_pct": 6.5,
      "position": 5.1
     },
     {
@@ -2630,65 +2637,58 @@
     {
      "page": "/2017/03/03/google-shares-their-api-design-guide/",
      "clicks": 3,
-     "impressions": 140,
+     "impressions": 145,
      "ctr_pct": 2.1,
-     "position": 8.0
+     "position": 8.1
     },
     {
      "page": "/2024/07/09/api-apis-json-contract/",
      "clicks": 3,
-     "impressions": 118,
-     "ctr_pct": 2.5,
-     "position": 11.5
+     "impressions": 123,
+     "ctr_pct": 2.4,
+     "position": 11.7
     },
     {
      "page": "/2024/11/15/help-you-manage-your-json-schema-via-a-github-repository/",
      "clicks": 3,
-     "impressions": 13,
-     "ctr_pct": 23.1,
-     "position": 4.2
+     "impressions": 14,
+     "ctr_pct": 21.4,
+     "position": 6.9
     },
     {
      "page": "/2024/11/26/how-many-apis-does-the-average-enterprise-have/",
      "clicks": 3,
-     "impressions": 353,
+     "impressions": 354,
      "ctr_pct": 0.8,
      "position": 4.5
     },
     {
      "page": "/2026/06/22/google-makes-the-interactions-api-the-front-door-to-gemini/",
      "clicks": 3,
-     "impressions": 53,
-     "ctr_pct": 5.7,
-     "position": 8.3
+     "impressions": 54,
+     "ctr_pct": 5.6,
+     "position": 8.6
     },
     {
      "page": "/2026/08/19/slack-app-manifest-api-creates-the-app/",
      "clicks": 3,
-     "impressions": 1132,
+     "impressions": 1137,
      "ctr_pct": 0.3,
      "position": 7.9
     },
     {
      "page": "/2026/09/22/skills-over-mcp-is-final-and-now-it-needs-servers/",
      "clicks": 3,
-     "impressions": 202,
+     "impressions": 204,
      "ctr_pct": 1.5,
      "position": 5.9
     },
     {
      "page": "/2026/10/09/a-year-after-openapi-3-2-most-api-tooling-cannot-read-it/",
      "clicks": 3,
-     "impressions": 106,
+     "impressions": 107,
      "ctr_pct": 2.8,
-     "position": 5.9
-    },
-    {
-     "page": "/2026/10/23/open-responses-gets-a-neutral-home-and-a-baseline/",
-     "clicks": 3,
-     "impressions": 245,
-     "ctr_pct": 1.2,
-     "position": 6.3
+     "position": 6.0
     }
    ],
    "near_misses": [
@@ -2702,9 +2702,9 @@
     {
      "query": "api discovery",
      "clicks": 0,
-     "impressions": 66,
+     "impressions": 67,
      "ctr_pct": 0,
-     "position": 12.5
+     "position": 12.9
     },
     {
      "query": "api form",
