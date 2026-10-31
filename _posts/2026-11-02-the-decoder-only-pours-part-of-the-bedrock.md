@@ -30,7 +30,7 @@ DeepInfer's structured output calls `compile_json_schema(schema, strict_mode=Tru
 
 Two of those deserve their own sentence. A two-branch `allOf` accepted the array `[1,2]` against a schema describing an object, and a remote `$ref` accepted a bare `1`. The schema compiled, a warning went to a log, and the constraint was effectively gone. A `format: date` accepted `2026-02-31` too, because the grammar checks that it looks like a date, not that the date exists.
 
-None of this is a criticism of DeepInfer or xgrammar. A grammar works one token at a time and can't easily remember what it already said, so "every item is different" or "this field depends on that one" are hard things to ask of it. The problem is that nothing in the path tells you. Your schema says one thing, the decoder enforces another, and everything looks like it worked.
+None of this is a criticism of DeepInfer or xgrammar. A grammar works one token at a time and can't easily remember what it already said, so "every item is different" or "this field depends on that one" are hard things to ask of it. The problem is that nothing in DeepInfer's path tells you. Your schema says one thing, the decoder enforces another, and everything looks like it worked. This isn't a secret, and other engines have noticed. vLLM and SGLang both carry their own checks for these gaps, and both pin newer xgrammar releases, where `multipleOf` is now enforced. So this is about a specific engine and version, which is why a bundle has to name the ones it was tested against.
 
 ## How much of the catalog this touches
 
@@ -115,7 +115,7 @@ The first new idea is `${context.options}`. A static schema has to describe ever
 
 ## How it runs as part of inference
 
-**Before inference, lint the shape.** I wrote one ruleset, separate from any bundle, that targets the schema itself and fails on every keyword in the unenforced row. This is the check nobody has today, and it costs nothing to run:
+**Before inference, lint the shape.** I wrote one ruleset, separate from any bundle, that targets the schema itself and fails on every keyword in the unenforced row. DeepInfer has no check like this in its path, and it costs nothing to run. Keeping it in the bundle means it travels with the shape, whichever engine you use:
 
 ```yaml
 rules:
