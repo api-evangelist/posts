@@ -12800,6 +12800,840 @@
         "api": 13792,
         "mcp": 3544
       }
+    },
+    {
+      "week_starting": "2026-10-26",
+      "week_ending": "2026-11-01",
+      "fetched_at": "2026-11-02T11:02:26Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 33041,
+      "unique_terms": 5801,
+      "unmet_terms": 4585,
+      "top_queries": [
+        {
+          "q": "automobile",
+          "n": 44
+        },
+        {
+          "q": "break glass",
+          "n": 27
+        },
+        {
+          "q": "TESLA",
+          "n": 24
+        },
+        {
+          "q": "deprecation",
+          "n": 21
+        },
+        {
+          "q": "Ford",
+          "n": 18
+        },
+        {
+          "q": "HONDA",
+          "n": 18
+        },
+        {
+          "q": "graphql",
+          "n": 17
+        },
+        {
+          "q": "Bmw",
+          "n": 16
+        },
+        {
+          "q": "gRPC",
+          "n": 15
+        },
+        {
+          "q": "Gateways",
+          "n": 14
+        },
+        {
+          "q": "OpenAPI",
+          "n": 14
+        },
+        {
+          "q": "Testing",
+          "n": 12
+        },
+        {
+          "q": "volkswagen",
+          "n": 12
+        },
+        {
+          "q": "governance",
+          "n": 11
+        },
+        {
+          "q": "electric vehicle",
+          "n": 10
+        },
+        {
+          "q": "General Motors",
+          "n": 10
+        },
+        {
+          "q": "Hyundai",
+          "n": 10
+        },
+        {
+          "q": "Spectral",
+          "n": 10
+        },
+        {
+          "q": "Compliance",
+          "n": 9
+        },
+        {
+          "q": "Connected Car",
+          "n": 9
+        },
+        {
+          "q": "rate limiting",
+          "n": 9
+        },
+        {
+          "q": "vehicle",
+          "n": 9
+        },
+        {
+          "q": "\"break glass\"",
+          "n": 8
+        },
+        {
+          "q": "AI Agents",
+          "n": 8
+        },
+        {
+          "q": "car",
+          "n": 8
+        },
+        {
+          "q": "Chevrolet",
+          "n": 8
+        },
+        {
+          "q": "gateway",
+          "n": 8
+        },
+        {
+          "q": "insurance regulator",
+          "n": 8
+        },
+        {
+          "q": "ISO",
+          "n": 8
+        },
+        {
+          "q": "Land Rover",
+          "n": 8
+        },
+        {
+          "q": "Toyota Motor Corporation",
+          "n": 8
+        },
+        {
+          "q": "Authentication",
+          "n": 7
+        },
+        {
+          "q": "Default",
+          "n": 7
+        },
+        {
+          "q": "etsy",
+          "n": 7
+        },
+        {
+          "q": "fair",
+          "n": 7
+        },
+        {
+          "q": "GET",
+          "n": 7
+        },
+        {
+          "q": "Kubernetes",
+          "n": 7
+        },
+        {
+          "q": "Landscape",
+          "n": 7
+        },
+        {
+          "q": "Platforms",
+          "n": 7
+        },
+        {
+          "q": "Review",
+          "n": 7
+        },
+        {
+          "q": "Tools",
+          "n": 7
+        },
+        {
+          "q": "Workflows",
+          "n": 7
+        },
+        {
+          "q": "2xx",
+          "n": 6
+        },
+        {
+          "q": "agents",
+          "n": 6
+        },
+        {
+          "q": "Analytics",
+          "n": 6
+        },
+        {
+          "q": "automotive",
+          "n": 6
+        },
+        {
+          "q": "country",
+          "n": 6
+        },
+        {
+          "q": "data",
+          "n": 6
+        },
+        {
+          "q": "Data Visualization",
+          "n": 6
+        },
+        {
+          "q": "Financial",
+          "n": 6
+        },
+        {
+          "q": "GDPR",
+          "n": 6
+        },
+        {
+          "q": "Infrastructure as Code",
+          "n": 6
+        },
+        {
+          "q": "Insurance",
+          "n": 6
+        },
+        {
+          "q": "Integration Platform",
+          "n": 6
+        },
+        {
+          "q": "MERCEDES-BENZ",
+          "n": 6
+        },
+        {
+          "q": "Messaging",
+          "n": 6
+        },
+        {
+          "q": "Monitoring",
+          "n": 6
+        },
+        {
+          "q": "Open Source",
+          "n": 6
+        },
+        {
+          "q": "Politics",
+          "n": 6
+        },
+        {
+          "q": "Properties",
+          "n": 6
+        },
+        {
+          "q": "Proxies",
+          "n": 6
+        },
+        {
+          "q": "Real Time",
+          "n": 6
+        },
+        {
+          "q": "Resources",
+          "n": 6
+        },
+        {
+          "q": "Streaming",
+          "n": 6
+        },
+        {
+          "q": "Transparency",
+          "n": 6
+        },
+        {
+          "q": "UKG",
+          "n": 6
+        },
+        {
+          "q": "3Scale",
+          "n": 5
+        },
+        {
+          "q": "APIs",
+          "n": 5
+        },
+        {
+          "q": "Automation",
+          "n": 5
+        },
+        {
+          "q": "AWS",
+          "n": 5
+        },
+        {
+          "q": "Bitbucket",
+          "n": 5
+        },
+        {
+          "q": "C",
+          "n": 5
+        },
+        {
+          "q": "Capital Markets",
+          "n": 5
+        },
+        {
+          "q": "County Government",
+          "n": 5
+        },
+        {
+          "q": "Definitions",
+          "n": 5
+        },
+        {
+          "q": "Discovery",
+          "n": 5
+        },
+        {
+          "q": "Experience",
+          "n": 5
+        },
+        {
+          "q": "Generation",
+          "n": 5
+        },
+        {
+          "q": "Genomics",
+          "n": 5
+        },
+        {
+          "q": "Healthcare",
+          "n": 5
+        },
+        {
+          "q": "Hyperconverged Infrastructure",
+          "n": 5
+        },
+        {
+          "q": "Hypermedia",
+          "n": 5
+        },
+        {
+          "q": "Industrial IoT",
+          "n": 5
+        },
+        {
+          "q": "Invoice Processing",
+          "n": 5
+        },
+        {
+          "q": "Kafka",
+          "n": 5
+        },
+        {
+          "q": "Kin Score",
+          "n": 5
+        },
+        {
+          "q": "Lifecycle",
+          "n": 5
+        },
+        {
+          "q": "Logging",
+          "n": 5
+        },
+        {
+          "q": "Management",
+          "n": 5
+        },
+        {
+          "q": "Marketplace",
+          "n": 5
+        },
+        {
+          "q": "metadata",
+          "n": 5
+        },
+        {
+          "q": "Networking",
+          "n": 5
+        },
+        {
+          "q": "OAuth",
+          "n": 5
+        },
+        {
+          "q": "observation",
+          "n": 5
+        },
+        {
+          "q": "Office Suite",
+          "n": 5
+        },
+        {
+          "q": "Operations",
+          "n": 5
+        },
+        {
+          "q": "payments",
+          "n": 5
+        },
+        {
+          "q": "Plans",
+          "n": 5
+        },
+        {
+          "q": "POST",
+          "n": 5
+        },
+        {
+          "q": "protocol",
+          "n": 5
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "break glass",
+          "n": 12
+        },
+        {
+          "q": "automobile",
+          "n": 7
+        },
+        {
+          "q": "legora",
+          "n": 5
+        },
+        {
+          "q": "\"break glass\"",
+          "n": 4
+        },
+        {
+          "q": "Chevrolet",
+          "n": 4
+        },
+        {
+          "q": "insurance regulator",
+          "n": 4
+        },
+        {
+          "q": "spotnana-event-templates-api",
+          "n": 4
+        },
+        {
+          "q": "starbucks-menu-api",
+          "n": 4
+        },
+        {
+          "q": "x-correlation-id",
+          "n": 4
+        },
+        {
+          "q": "2ndkitchen-orders-api",
+          "n": 3
+        },
+        {
+          "q": "adobe-creative-cloud-pdf-operations-api",
+          "n": 3
+        },
+        {
+          "q": "AeroDataBox",
+          "n": 3
+        },
+        {
+          "q": "argil-videos-api",
+          "n": 3
+        },
+        {
+          "q": "axiom-orgs-api",
+          "n": 3
+        },
+        {
+          "q": "bluejay-end-conversations-api",
+          "n": 3
+        },
+        {
+          "q": "calypso nasdaq",
+          "n": 3
+        },
+        {
+          "q": "chaitin-system-channeldef-uploadtask-create-api",
+          "n": 3
+        },
+        {
+          "q": "chalmers-university-of-technology-projectorganizationupdated-api",
+          "n": 3
+        },
+        {
+          "q": "cisco-ise-sgmappinggroup-api",
+          "n": 3
+        },
+        {
+          "q": "confluent-connectors-connect-v1-api",
+          "n": 3
+        },
+        {
+          "q": "confluent-kafka-clusters-usm-v1-api",
+          "n": 3
+        },
+        {
+          "q": "fenixservices faostat api CP Ireland",
+          "n": 3
+        },
+        {
+          "q": "fireblocks-policy-editor-v2-beta-api",
+          "n": 3
+        },
+        {
+          "q": "firehydrant-retrospectives-api",
+          "n": 3
+        },
+        {
+          "q": "general-services-administration-budgetauthorityfeed-api",
+          "n": 3
+        },
+        {
+          "q": "greenhouse-io-tests-api",
+          "n": 3
+        },
+        {
+          "q": "jira-issue-votes-api",
+          "n": 3
+        },
+        {
+          "q": "linktree",
+          "n": 3
+        },
+        {
+          "q": "listmonk-logs-api",
+          "n": 3
+        },
+        {
+          "q": "lucidworks-chunking-api",
+          "n": 3
+        },
+        {
+          "q": "meesho",
+          "n": 3
+        },
+        {
+          "q": "memento-datetime",
+          "n": 3
+        },
+        {
+          "q": "miniflux-version-api",
+          "n": 3
+        },
+        {
+          "q": "optimizely-order-lines-api",
+          "n": 3
+        },
+        {
+          "q": "paragon-bank-statements-api",
+          "n": 3
+        },
+        {
+          "q": "referer-root",
+          "n": 3
+        },
+        {
+          "q": "samsara-sensors-api",
+          "n": 3
+        },
+        {
+          "q": "scalar-signup-api",
+          "n": 3
+        },
+        {
+          "q": "sec-websocket-key",
+          "n": 3
+        },
+        {
+          "q": "stacker-accounts-api",
+          "n": 3
+        },
+        {
+          "q": "treadio-sites-api",
+          "n": 3
+        },
+        {
+          "q": "unqork-query-api",
+          "n": 3
+        },
+        {
+          "q": "x-cds-client-headers",
+          "n": 3
+        },
+        {
+          "q": "x402-list-api-services-api",
+          "n": 3
+        },
+        {
+          "q": "xproapi",
+          "n": 3
+        },
+        {
+          "q": "yugabyte-extract-metadata-from-remote-tarball-api",
+          "n": 3
+        },
+        {
+          "q": "zinnia-product-pricing-api",
+          "n": 3
+        },
+        {
+          "q": "360learning-custom-fields-api",
+          "n": 2
+        },
+        {
+          "q": "access-control-expose-headers",
+          "n": 2
+        },
+        {
+          "q": "acronis-users-api",
+          "n": 2
+        },
+        {
+          "q": "actionstep-bills-api",
+          "n": 2
+        },
+        {
+          "q": "actionstep-contact-notes-api",
+          "n": 2
+        },
+        {
+          "q": "actionstep-participant-data-field-dropdown-choices-api",
+          "n": 2
+        },
+        {
+          "q": "actionstep-utbms-codes-api",
+          "n": 2
+        },
+        {
+          "q": "active-network-activities-api",
+          "n": 2
+        },
+        {
+          "q": "activiti-process-instances-api",
+          "n": 2
+        },
+        {
+          "q": "activiti-process-instances-listing-api",
+          "n": 2
+        },
+        {
+          "q": "actor-model-supervisors-api",
+          "n": 2
+        },
+        {
+          "q": "adafruit-io-dashboards-api",
+          "n": 2
+        },
+        {
+          "q": "adafruit-io-groups-api",
+          "n": 2
+        },
+        {
+          "q": "adaptive-ml-datasets-api",
+          "n": 2
+        },
+        {
+          "q": "adaptive-ml-feedback-api",
+          "n": 2
+        },
+        {
+          "q": "adaptive-security-training-api",
+          "n": 2
+        },
+        {
+          "q": "alpaca-journals-api",
+          "n": 2
+        },
+        {
+          "q": "anodot-customers-api",
+          "n": 2
+        },
+        {
+          "q": "apply-to-redirect-ref",
+          "n": 2
+        },
+        {
+          "q": "auth0-supplemental-signals-api",
+          "n": 2
+        },
+        {
+          "q": "autocontent-api-content-api",
+          "n": 2
+        },
+        {
+          "q": "autodesk-fusion-manifest-api",
+          "n": 2
+        },
+        {
+          "q": "automattic-reader-chat-settings-api",
+          "n": 2
+        },
+        {
+          "q": "automattic-videopress-api",
+          "n": 2
+        },
+        {
+          "q": "bitbucket-pull-requests-api",
+          "n": 2
+        },
+        {
+          "q": "bitly-qr-codes-api",
+          "n": 2
+        },
+        {
+          "q": "bluesky-ozone-server-api",
+          "n": 2
+        },
+        {
+          "q": "bombora-firmographic-api",
+          "n": 2
+        },
+        {
+          "q": "brightcove-delivery-rule-actions-api",
+          "n": 2
+        },
+        {
+          "q": "bureau-of-transportation-statistics-ogcitemaggregation-api",
+          "n": 2
+        },
+        {
+          "q": "cache-group-invalidation",
+          "n": 2
+        },
+        {
+          "q": "caldav-timezones",
+          "n": 2
+        },
+        {
+          "q": "california-sb-53",
+          "n": 2
+        },
+        {
+          "q": "chainalysis",
+          "n": 2
+        },
+        {
+          "q": "chaitin-account-tag-modify-api",
+          "n": 2
+        },
+        {
+          "q": "chef-software-secretsservice-api",
+          "n": 2
+        },
+        {
+          "q": "chronosphere-logingestconfig-api",
+          "n": 2
+        },
+        {
+          "q": "circuit-drivers-api",
+          "n": 2
+        },
+        {
+          "q": "cisco-ise-ldap-api",
+          "n": 2
+        },
+        {
+          "q": "cisco-ise-sgmapping-api",
+          "n": 2
+        },
+        {
+          "q": "cisco-ise-trustsec-settings-api",
+          "n": 2
+        },
+        {
+          "q": "cisco-secure-firewall-audit-api",
+          "n": 2
+        },
+        {
+          "q": "Classdojo",
+          "n": 2
+        },
+        {
+          "q": "client-cert-chain",
+          "n": 2
+        },
+        {
+          "q": "cloudguard-aws-eks-api",
+          "n": 2
+        },
+        {
+          "q": "cmcd-object",
+          "n": 2
+        },
+        {
+          "q": "cmcd-request",
+          "n": 2
+        },
+        {
+          "q": "cmcd-session",
+          "n": 2
+        },
+        {
+          "q": "concealed-auth-export",
+          "n": 2
+        },
+        {
+          "q": "content-security-policy-report-only",
+          "n": 2
+        },
+        {
+          "q": "coorpacademy-notifications-api",
+          "n": 2
+        },
+        {
+          "q": "cross-origin-opener-policy",
+          "n": 2
+        },
+        {
+          "q": "cross-origin-opener-policy-report-only",
+          "n": 2
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 28
+        },
+        {
+          "resource": "stats",
+          "n": 10
+        }
+      ],
+      "by_tier": {
+        "free": 26759,
+        "site": 4958,
+        "internal": 1323,
+        "pro": 1
+      },
+      "by_surface": {
+        "api": 31315,
+        "mcp": 1726
+      }
     }
   ]
 }
