@@ -1438,7 +1438,7 @@
   {
    "week_starting": "2026-10-12",
    "week_ending": "2026-10-18",
-   "fetched_at": "2026-11-02T15:07:56.933247+00:00",
+   "fetched_at": "2026-11-07T14:07:00.659277+00:00",
    "clicks": 517,
    "impressions": 138561,
    "ctr_pct": 0.37,
@@ -2155,7 +2155,7 @@
   {
    "week_starting": "2026-10-19",
    "week_ending": "2026-10-25",
-   "fetched_at": "2026-11-02T15:07:58.640908+00:00",
+   "fetched_at": "2026-11-07T14:07:02.469056+00:00",
    "clicks": 573,
    "impressions": 165180,
    "ctr_pct": 0.35,
@@ -2872,9 +2872,9 @@
   {
    "week_starting": "2026-10-26",
    "week_ending": "2026-11-01",
-   "fetched_at": "2026-11-02T15:08:00.205172+00:00",
-   "clicks": 866,
-   "impressions": 260721,
+   "fetched_at": "2026-11-07T14:07:03.502274+00:00",
+   "clicks": 870,
+   "impressions": 261129,
    "ctr_pct": 0.33,
    "position": 9.0,
    "distinct_queries": 1000,
@@ -2883,8 +2883,8 @@
     {
      "query": "api evangelist",
      "clicks": 21,
-     "impressions": 152,
-     "ctr_pct": 13.8,
+     "impressions": 154,
+     "ctr_pct": 13.6,
      "position": 1.0
     },
     {
@@ -2897,9 +2897,9 @@
     {
      "query": "api rank",
      "clicks": 4,
-     "impressions": 49,
-     "ctr_pct": 8.2,
-     "position": 14.2
+     "impressions": 51,
+     "ctr_pct": 7.8,
+     "position": 14.5
     },
     {
      "query": "api rankings",
@@ -2911,16 +2911,16 @@
     {
      "query": "httpbin",
      "clicks": 4,
-     "impressions": 946,
+     "impressions": 949,
      "ctr_pct": 0.4,
      "position": 5.2
     },
     {
      "query": "api platform",
      "clicks": 3,
-     "impressions": 133,
-     "ctr_pct": 2.3,
-     "position": 18.2
+     "impressions": 139,
+     "ctr_pct": 2.2,
+     "position": 18.6
     },
     {
      "query": "api-evangelist",
@@ -2932,9 +2932,9 @@
     {
      "query": "kin lane",
      "clicks": 3,
-     "impressions": 31,
-     "ctr_pct": 9.7,
-     "position": 3.1
+     "impressions": 32,
+     "ctr_pct": 9.4,
+     "position": 3.2
     },
     {
      "query": "kin score",
@@ -2946,7 +2946,7 @@
     {
      "query": "aisstream",
      "clicks": 2,
-     "impressions": 357,
+     "impressions": 359,
      "ctr_pct": 0.6,
      "position": 6.3
     },
@@ -2967,9 +2967,9 @@
     {
      "query": "open street maps api",
      "clicks": 2,
-     "impressions": 31,
-     "ctr_pct": 6.5,
-     "position": 15.7
+     "impressions": 32,
+     "ctr_pct": 6.2,
+     "position": 16.6
     },
     {
      "query": "poppy personal agent protocol",
@@ -3135,9 +3135,9 @@
     {
      "query": "enterprise api",
      "clicks": 1,
-     "impressions": 16,
-     "ctr_pct": 6.2,
-     "position": 9.8
+     "impressions": 17,
+     "ctr_pct": 5.9,
+     "position": 10.1
     },
     {
      "query": "escuelajs",
@@ -3205,8 +3205,8 @@
     {
      "query": "httpbingo",
      "clicks": 1,
-     "impressions": 79,
-     "ctr_pct": 1.3,
+     "impressions": 80,
+     "ctr_pct": 1.2,
      "position": 9.2
     },
     {
@@ -3234,57 +3234,57 @@
    "pages": [
     {
      "page": "/",
-     "clicks": 35,
-     "impressions": 3391,
-     "ctr_pct": 1.0,
+     "clicks": 36,
+     "impressions": 3398,
+     "ctr_pct": 1.1,
      "position": 5.2
     },
     {
      "page": "/blog/2026/06/04/the-apis-of-the-worlds-top-universities/",
-     "clicks": 16,
-     "impressions": 587,
-     "ctr_pct": 2.7,
-     "position": 6.7
+     "clicks": 17,
+     "impressions": 600,
+     "ctr_pct": 2.8,
+     "position": 6.8
     },
     {
      "page": "/2021/08/12/what-is-httpbin-and-what-can-you-do-with-the-api/",
      "clicks": 15,
-     "impressions": 2037,
+     "impressions": 2048,
      "ctr_pct": 0.7,
-     "position": 5.6
+     "position": 5.7
     },
     {
      "page": "/2026/10/19/the-first-poppy-files-and-the-one-a-vendor-wrote/",
      "clicks": 7,
-     "impressions": 134,
+     "impressions": 135,
      "ctr_pct": 5.2,
      "position": 5.4
     },
     {
      "page": "/store/personal-agent-protocol/",
      "clicks": 7,
-     "impressions": 261,
+     "impressions": 263,
      "ctr_pct": 2.7,
      "position": 4.5
     },
     {
      "page": "/blog/2026/05/05/a-roundup-of-us-federal-agencies-and-their-apis/",
      "clicks": 6,
-     "impressions": 1713,
-     "ctr_pct": 0.4,
+     "impressions": 1722,
+     "ctr_pct": 0.3,
      "position": 7.2
     },
     {
      "page": "/store/jsonplaceholder-photos-api/",
      "clicks": 6,
-     "impressions": 99,
-     "ctr_pct": 6.1,
-     "position": 6.7
+     "impressions": 100,
+     "ctr_pct": 6.0,
+     "position": 6.8
     },
     {
      "page": "/store/openprescribing-spending-api/",
      "clicks": 6,
-     "impressions": 646,
+     "impressions": 649,
      "ctr_pct": 0.9,
      "position": 5.9
     },
@@ -3305,42 +3305,42 @@
     {
      "page": "/store/roblox-engine-api-assets-api/",
      "clicks": 5,
-     "impressions": 352,
+     "impressions": 362,
      "ctr_pct": 1.4,
-     "position": 8.2
+     "position": 8.4
     },
     {
      "page": "/store/wimse/",
      "clicks": 5,
-     "impressions": 71,
-     "ctr_pct": 7.0,
-     "position": 5.4
+     "impressions": 73,
+     "ctr_pct": 6.8,
+     "position": 5.5
     },
     {
      "page": "/2017/05/15/one-layer-of-api-ranking-will-be-domain-scoring/",
      "clicks": 4,
-     "impressions": 194,
-     "ctr_pct": 2.1,
-     "position": 11.3
+     "impressions": 200,
+     "ctr_pct": 2.0,
+     "position": 11.5
     },
     {
      "page": "/2026/01/12/exploring-what-schema-tools-are-available/",
      "clicks": 4,
-     "impressions": 173,
+     "impressions": 177,
      "ctr_pct": 2.3,
-     "position": 6.5
+     "position": 6.6
     },
     {
      "page": "/2026/02/03/what-is-the-diff-between-bruno-collection-and-opencollection/",
      "clicks": 4,
-     "impressions": 431,
+     "impressions": 434,
      "ctr_pct": 0.9,
      "position": 6.4
     },
     {
      "page": "/about/kin-lane/",
      "clicks": 4,
-     "impressions": 209,
+     "impressions": 212,
      "ctr_pct": 1.9,
      "position": 1.7
     },
@@ -3354,37 +3354,37 @@
     {
      "page": "/store/have-i-been-pwned-breach-api/",
      "clicks": 4,
-     "impressions": 714,
-     "ctr_pct": 0.6,
-     "position": 7.5
+     "impressions": 732,
+     "ctr_pct": 0.5,
+     "position": 7.6
     },
     {
      "page": "/store/openstreetmap-closechangeset/",
      "clicks": 4,
-     "impressions": 241,
-     "ctr_pct": 1.7,
+     "impressions": 260,
+     "ctr_pct": 1.5,
      "position": 16.4
     },
     {
      "page": "/2018/01/19/a-health-check-response-format-for-http-apis/",
      "clicks": 3,
-     "impressions": 159,
+     "impressions": 162,
      "ctr_pct": 1.9,
-     "position": 8.2
+     "position": 8.3
     },
     {
      "page": "/2024/11/26/how-many-apis-does-the-average-enterprise-have/",
      "clicks": 3,
-     "impressions": 314,
-     "ctr_pct": 1.0,
+     "impressions": 317,
+     "ctr_pct": 0.9,
      "position": 4.6
     },
     {
      "page": "/2024/12/03/generate-a-bearer-token-using-bruno-and-bluesky-create-session-api-operation/",
      "clicks": 3,
-     "impressions": 313,
-     "ctr_pct": 1.0,
-     "position": 7.2
+     "impressions": 316,
+     "ctr_pct": 0.9,
+     "position": 7.3
     },
     {
      "page": "/2026/08/14/the-tools-that-actually-execute-your-arazzo-workflows/",
@@ -3396,60 +3396,60 @@
     {
      "page": "/2026/09/17/vs-code-is-finally-catching-up-with-json-schema-2020-12/",
      "clicks": 3,
-     "impressions": 192,
-     "ctr_pct": 1.6,
-     "position": 6.7
+     "impressions": 201,
+     "ctr_pct": 1.5,
+     "position": 7.3
     },
     {
      "page": "/2026/10/21/four-companies-serve-skills-over-mcp-the-way-the-spec-says/",
      "clicks": 3,
-     "impressions": 179,
-     "ctr_pct": 1.7,
-     "position": 5.6
+     "impressions": 183,
+     "ctr_pct": 1.6,
+     "position": 5.7
     }
    ],
    "near_misses": [
     {
      "query": "openapi specification",
      "clicks": 1,
-     "impressions": 11526,
+     "impressions": 11530,
      "ctr_pct": 0.0,
      "position": 11.8
     },
     {
      "query": "api platform",
      "clicks": 3,
-     "impressions": 133,
-     "ctr_pct": 2.3,
-     "position": 18.2
+     "impressions": 139,
+     "ctr_pct": 2.2,
+     "position": 18.6
     },
     {
      "query": "openstreetmap api",
      "clicks": 1,
-     "impressions": 111,
+     "impressions": 114,
      "ctr_pct": 0.9,
-     "position": 15.9
+     "position": 15.7
     },
     {
      "query": "api rank",
      "clicks": 4,
-     "impressions": 49,
-     "ctr_pct": 8.2,
-     "position": 14.2
+     "impressions": 51,
+     "ctr_pct": 7.8,
+     "position": 14.5
     },
     {
      "query": "target api",
      "clicks": 1,
-     "impressions": 45,
-     "ctr_pct": 2.2,
-     "position": 10.7
+     "impressions": 47,
+     "ctr_pct": 2.1,
+     "position": 11.5
     },
     {
      "query": "adobe campaign standard api",
      "clicks": 0,
-     "impressions": 44,
+     "impressions": 46,
      "ctr_pct": 0,
-     "position": 11.1
+     "position": 11.6
     },
     {
      "query": "ai visibility api",
@@ -3461,23 +3461,30 @@
     {
      "query": "amc api",
      "clicks": 0,
-     "impressions": 33,
+     "impressions": 34,
      "ctr_pct": 0,
-     "position": 15.3
+     "position": 15.8
     },
     {
      "query": "open street maps api",
      "clicks": 2,
-     "impressions": 31,
-     "ctr_pct": 6.5,
-     "position": 15.7
+     "impressions": 32,
+     "ctr_pct": 6.2,
+     "position": 16.6
     },
     {
      "query": "json to yaml",
      "clicks": 1,
+     "impressions": 32,
+     "ctr_pct": 3.1,
+     "position": 15
+    },
+    {
+     "query": "adobe campaign classic api",
+     "clicks": 0,
      "impressions": 31,
-     "ctr_pct": 3.2,
-     "position": 15.0
+     "ctr_pct": 0,
+     "position": 11.5
     },
     {
      "query": "api aggregators",
@@ -3487,18 +3494,11 @@
      "position": 14.1
     },
     {
-     "query": "adobe campaign classic api",
+     "query": "adobe campaign api",
      "clicks": 0,
      "impressions": 29,
      "ctr_pct": 0,
-     "position": 11.4
-    },
-    {
-     "query": "adobe campaign api",
-     "clicks": 0,
-     "impressions": 27,
-     "ctr_pct": 0,
-     "position": 12.3
+     "position": 13.5
     },
     {
      "query": "api aggregator",
@@ -3536,25 +3536,18 @@
      "position": 14.2
     },
     {
-     "query": "api changes",
+     "query": "api aws marketplace",
      "clicks": 0,
      "impressions": 17,
      "ctr_pct": 0,
-     "position": 17.1
-    },
-    {
-     "query": "api aws marketplace",
-     "clicks": 0,
-     "impressions": 16,
-     "ctr_pct": 0,
-     "position": 15.4
+     "position": 15.5
     },
     {
      "query": "api cannibalization in australia",
      "clicks": 0,
-     "impressions": 16,
+     "impressions": 17,
      "ctr_pct": 0,
-     "position": 13.1
+     "position": 16.2
     },
     {
      "query": "adobe launch api",
@@ -3566,9 +3559,16 @@
     {
      "query": "ahrefs api alternativen",
      "clicks": 0,
-     "impressions": 14,
+     "impressions": 15,
      "ctr_pct": 0,
-     "position": 15.4
+     "position": 15.5
+    },
+    {
+     "query": "1inch swap api",
+     "clicks": 0,
+     "impressions": 13,
+     "ctr_pct": 0,
+     "position": 11.1
     },
     {
      "query": "adobe campaign jsapi",
@@ -3580,9 +3580,9 @@
     {
      "query": "apache kafka api",
      "clicks": 0,
-     "impressions": 12,
+     "impressions": 13,
      "ctr_pct": 0,
-     "position": 12.7
+     "position": 13.7
     }
    ]
   }
