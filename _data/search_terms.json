@@ -13634,6 +13634,839 @@
         "api": 31315,
         "mcp": 1726
       }
+    },
+    {
+      "week_starting": "2026-11-02",
+      "week_ending": "2026-11-08",
+      "fetched_at": "2026-11-09T10:51:01Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 21834,
+      "unique_terms": 5184,
+      "unmet_terms": 3652,
+      "top_queries": [
+        {
+          "q": "OpenAPI",
+          "n": 51
+        },
+        {
+          "q": "gRPC",
+          "n": 50
+        },
+        {
+          "q": "break glass",
+          "n": 33
+        },
+        {
+          "q": "GraphQL",
+          "n": 33
+        },
+        {
+          "q": "agents",
+          "n": 26
+        },
+        {
+          "q": "Gateways",
+          "n": 25
+        },
+        {
+          "q": "governance",
+          "n": 24
+        },
+        {
+          "q": "API Governance",
+          "n": 17
+        },
+        {
+          "q": "Testing",
+          "n": 17
+        },
+        {
+          "q": "Spectral",
+          "n": 16
+        },
+        {
+          "q": "Review",
+          "n": 15
+        },
+        {
+          "q": "car",
+          "n": 14
+        },
+        {
+          "q": "News Services",
+          "n": 14
+        },
+        {
+          "q": "AI Agents",
+          "n": 13
+        },
+        {
+          "q": "Compliance",
+          "n": 13
+        },
+        {
+          "q": "automobile",
+          "n": 12
+        },
+        {
+          "q": "Bmw",
+          "n": 12
+        },
+        {
+          "q": "Connected Car",
+          "n": 12
+        },
+        {
+          "q": "electric vehicle",
+          "n": 12
+        },
+        {
+          "q": "Honda",
+          "n": 12
+        },
+        {
+          "q": "Tesla",
+          "n": 12
+        },
+        {
+          "q": "vehicle",
+          "n": 12
+        },
+        {
+          "q": "accidental",
+          "n": 11
+        },
+        {
+          "q": "bank",
+          "n": 11
+        },
+        {
+          "q": "Hyundai",
+          "n": 11
+        },
+        {
+          "q": "Kubernetes",
+          "n": 11
+        },
+        {
+          "q": "mcp",
+          "n": 11
+        },
+        {
+          "q": "Workflows",
+          "n": 11
+        },
+        {
+          "q": "Data Visualization",
+          "n": 10
+        },
+        {
+          "q": "Default",
+          "n": 10
+        },
+        {
+          "q": "deprecation",
+          "n": 10
+        },
+        {
+          "q": "Noise",
+          "n": 10
+        },
+        {
+          "q": "Standards",
+          "n": 10
+        },
+        {
+          "q": "Volkswagen",
+          "n": 10
+        },
+        {
+          "q": "Women in Tech",
+          "n": 10
+        },
+        {
+          "q": "\"break glass\"",
+          "n": 9
+        },
+        {
+          "q": "Analytics",
+          "n": 9
+        },
+        {
+          "q": "Banking",
+          "n": 9
+        },
+        {
+          "q": "Business of APIs",
+          "n": 9
+        },
+        {
+          "q": "Economy",
+          "n": 9
+        },
+        {
+          "q": "General Motors",
+          "n": 9
+        },
+        {
+          "q": "Legibility",
+          "n": 9
+        },
+        {
+          "q": "Management",
+          "n": 9
+        },
+        {
+          "q": "Messaging",
+          "n": 9
+        },
+        {
+          "q": "Networking",
+          "n": 9
+        },
+        {
+          "q": "Open Source",
+          "n": 9
+        },
+        {
+          "q": "Process Mapping",
+          "n": 9
+        },
+        {
+          "q": "Producers",
+          "n": 9
+        },
+        {
+          "q": "Regulations",
+          "n": 9
+        },
+        {
+          "q": "Tags",
+          "n": 9
+        },
+        {
+          "q": "2xx",
+          "n": 8
+        },
+        {
+          "q": "accidental excellence",
+          "n": 8
+        },
+        {
+          "q": "AI governance",
+          "n": 8
+        },
+        {
+          "q": "C",
+          "n": 8
+        },
+        {
+          "q": "Cloud",
+          "n": 8
+        },
+        {
+          "q": "Community",
+          "n": 8
+        },
+        {
+          "q": "consumer isolation",
+          "n": 8
+        },
+        {
+          "q": "County Government",
+          "n": 8
+        },
+        {
+          "q": "Definitions",
+          "n": 8
+        },
+        {
+          "q": "DevOps",
+          "n": 8
+        },
+        {
+          "q": "Ford",
+          "n": 8
+        },
+        {
+          "q": "Github",
+          "n": 8
+        },
+        {
+          "q": "GitHub Copilot",
+          "n": 8
+        },
+        {
+          "q": "guardrails",
+          "n": 8
+        },
+        {
+          "q": "History",
+          "n": 8
+        },
+        {
+          "q": "HTTP",
+          "n": 8
+        },
+        {
+          "q": "iPaaS",
+          "n": 8
+        },
+        {
+          "q": "Landscape",
+          "n": 8
+        },
+        {
+          "q": "Lifecycle",
+          "n": 8
+        },
+        {
+          "q": "Market Data",
+          "n": 8
+        },
+        {
+          "q": "Onboarding",
+          "n": 8
+        },
+        {
+          "q": "Overlays",
+          "n": 8
+        },
+        {
+          "q": "question",
+          "n": 8
+        },
+        {
+          "q": "rate limiting",
+          "n": 8
+        },
+        {
+          "q": "Schema",
+          "n": 8
+        },
+        {
+          "q": "Scraping",
+          "n": 8
+        },
+        {
+          "q": "SDKs",
+          "n": 8
+        },
+        {
+          "q": "Standard",
+          "n": 8
+        },
+        {
+          "q": "Streaming",
+          "n": 8
+        },
+        {
+          "q": "Tools",
+          "n": 8
+        },
+        {
+          "q": "3Scale",
+          "n": 7
+        },
+        {
+          "q": "API Commons",
+          "n": 7
+        },
+        {
+          "q": "API Management",
+          "n": 7
+        },
+        {
+          "q": "Blogging",
+          "n": 7
+        },
+        {
+          "q": "Charting",
+          "n": 7
+        },
+        {
+          "q": "Client",
+          "n": 7
+        },
+        {
+          "q": "Cloud IDE",
+          "n": 7
+        },
+        {
+          "q": "Communication",
+          "n": 7
+        },
+        {
+          "q": "Compute",
+          "n": 7
+        },
+        {
+          "q": "CSS Framework",
+          "n": 7
+        },
+        {
+          "q": "Data",
+          "n": 7
+        },
+        {
+          "q": "Data Analytics",
+          "n": 7
+        },
+        {
+          "q": "Data Format",
+          "n": 7
+        },
+        {
+          "q": "Database",
+          "n": 7
+        },
+        {
+          "q": "Developer Workflow",
+          "n": 7
+        },
+        {
+          "q": "drums-are-used-to",
+          "n": 7
+        },
+        {
+          "q": "Editor",
+          "n": 7
+        },
+        {
+          "q": "Enterprise",
+          "n": 7
+        },
+        {
+          "q": "Evangelist",
+          "n": 7
+        },
+        {
+          "q": "Federal Government",
+          "n": 7
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "Honda",
+          "n": 13
+        },
+        {
+          "q": "break glass",
+          "n": 12
+        },
+        {
+          "q": "Hyundai",
+          "n": 11
+        },
+        {
+          "q": "General Motors",
+          "n": 9
+        },
+        {
+          "q": "Chevrolet",
+          "n": 5
+        },
+        {
+          "q": "grpc",
+          "n": 5
+        },
+        {
+          "q": "Toyota Motor Corporation",
+          "n": 5
+        },
+        {
+          "q": "actionstep-data-collection-record-values-api",
+          "n": 4
+        },
+        {
+          "q": "consumer isolation",
+          "n": 4
+        },
+        {
+          "q": "calendly-routing-forms-api",
+          "n": 3
+        },
+        {
+          "q": "graphql",
+          "n": 3
+        },
+        {
+          "q": "Hergert Synthora",
+          "n": 3
+        },
+        {
+          "q": "honeycomb-columns-api",
+          "n": 3
+        },
+        {
+          "q": "klarna",
+          "n": 3
+        },
+        {
+          "q": "regional geographic sovereignty gdpr eu china data residency",
+          "n": 3
+        },
+        {
+          "q": "sinch-rcs-senders-api",
+          "n": 3
+        },
+        {
+          "q": "uniblock-nfts-api",
+          "n": 3
+        },
+        {
+          "q": "weights-and-biases-refs-api",
+          "n": 3
+        },
+        {
+          "q": "zesty-files-api",
+          "n": 3
+        },
+        {
+          "q": "1fort-ascend-api",
+          "n": 2
+        },
+        {
+          "q": "accidental",
+          "n": 2
+        },
+        {
+          "q": "adafruit-io-triggers-api",
+          "n": 2
+        },
+        {
+          "q": "adobe-captivate-notifications-api",
+          "n": 2
+        },
+        {
+          "q": "ahasend-api-keys-api",
+          "n": 2
+        },
+        {
+          "q": "airdna",
+          "n": 2
+        },
+        {
+          "q": "alviere-tokenization-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-forecast-forecasts-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-accesspasshistory-api",
+          "n": 2
+        },
+        {
+          "q": "amcs-group-costcentre-api",
+          "n": 2
+        },
+        {
+          "q": "amplitude-users-api",
+          "n": 2
+        },
+        {
+          "q": "apipark-ai-models-api",
+          "n": 2
+        },
+        {
+          "q": "assembly-payments-addresses-api",
+          "n": 2
+        },
+        {
+          "q": "assembly-payments-card-accounts-api",
+          "n": 2
+        },
+        {
+          "q": "aws-backup-backup-jobs-api",
+          "n": 2
+        },
+        {
+          "q": "axonius",
+          "n": 2
+        },
+        {
+          "q": "aylien-entities-api",
+          "n": 2
+        },
+        {
+          "q": "badger-maps-routes-api",
+          "n": 2
+        },
+        {
+          "q": "bics-network-interconnects-list-api",
+          "n": 2
+        },
+        {
+          "q": "binance-auto-invest-api",
+          "n": 2
+        },
+        {
+          "q": "bluejay-agents-api",
+          "n": 2
+        },
+        {
+          "q": "booking-com-reconciliation-reports-api",
+          "n": 2
+        },
+        {
+          "q": "brainscape",
+          "n": 2
+        },
+        {
+          "q": "Building Information Modeling",
+          "n": 2
+        },
+        {
+          "q": "clearvin-authentication-api",
+          "n": 2
+        },
+        {
+          "q": "dosespot-clinicfavorites-api",
+          "n": 2
+        },
+        {
+          "q": "elastic-io-workspaces-api",
+          "n": 2
+        },
+        {
+          "q": "elexon-surplus-forecast-api",
+          "n": 2
+        },
+        {
+          "q": "engineering-platform-workers-for-platforms-api",
+          "n": 2
+        },
+        {
+          "q": "enviance-requirement-api",
+          "n": 2
+        },
+        {
+          "q": "factset-attachments-api",
+          "n": 2
+        },
+        {
+          "q": "fashion diffusion",
+          "n": 2
+        },
+        {
+          "q": "finos-admin-api",
+          "n": 2
+        },
+        {
+          "q": "ginnie-mae-search-api",
+          "n": 2
+        },
+        {
+          "q": "helius-admin-api",
+          "n": 2
+        },
+        {
+          "q": "hevn-inc-auth-api",
+          "n": 2
+        },
+        {
+          "q": "HexSafe",
+          "n": 2
+        },
+        {
+          "q": "heymilo-phone-numbers-api",
+          "n": 2
+        },
+        {
+          "q": "IPWho",
+          "n": 2
+        },
+        {
+          "q": "jefferson-health-practitioner-role-api",
+          "n": 2
+        },
+        {
+          "q": "juniper-network-ipam-api",
+          "n": 2
+        },
+        {
+          "q": "juniper-sites-map-stacks-api",
+          "n": 2
+        },
+        {
+          "q": "landingai-classes-api",
+          "n": 2
+        },
+        {
+          "q": "microsoft-azure-hybrid-use-benefits-api",
+          "n": 2
+        },
+        {
+          "q": "mist-ai-orgs-sitegroups-api",
+          "n": 2
+        },
+        {
+          "q": "national-archives-and-records-administration-nara-extracted-text-api",
+          "n": 2
+        },
+        {
+          "q": "nationgraph-crm-history-api",
+          "n": 2
+        },
+        {
+          "q": "nym-technologies-dvpn-directory-cache-api",
+          "n": 2
+        },
+        {
+          "q": "palo-alto-networks-cloud-accounts-api",
+          "n": 2
+        },
+        {
+          "q": "Physics Wallah",
+          "n": 2
+        },
+        {
+          "q": "red-hat-ansible-automation-platform-api-service-index-role-types-api",
+          "n": 2
+        },
+        {
+          "q": "red-hat-ansible-automation-platform-api-ui-v1-feature-flags-api",
+          "n": 2
+        },
+        {
+          "q": "red-hat-ansible-automation-platform-api-v3-collections-versions-copy-api",
+          "n": 2
+        },
+        {
+          "q": "red-hat-ansible-automation-platform-pulp-ansible-api-v3-collection-versions-all-api",
+          "n": 2
+        },
+        {
+          "q": "red-hat-ansible-automation-platform-pulp-ansible-default-api-v3-plugin-ansible-client-configuration-api",
+          "n": 2
+        },
+        {
+          "q": "red-hat-ansible-automation-platform-repositories-file-api",
+          "n": 2
+        },
+        {
+          "q": "salesforce-experience-cloud-feeds-api",
+          "n": 2
+        },
+        {
+          "q": "salesloft-account-and-people-redaction-api",
+          "n": 2
+        },
+        {
+          "q": "sea of thieves",
+          "n": 2
+        },
+        {
+          "q": "similarweb-app-intelligence-api",
+          "n": 2
+        },
+        {
+          "q": "spotnana-trips-api",
+          "n": 2
+        },
+        {
+          "q": "thehiveryiq-com-arb-compute-api",
+          "n": 2
+        },
+        {
+          "q": "tm-forum-partyaccount-api",
+          "n": 2
+        },
+        {
+          "q": "trackman",
+          "n": 2
+        },
+        {
+          "q": "weather-gov-icons-api",
+          "n": 2
+        },
+        {
+          "q": "wegalvanize-custom-attributes-api",
+          "n": 2
+        },
+        {
+          "q": "xproapi",
+          "n": 2
+        },
+        {
+          "q": "yugabyte-customer-configuration-api",
+          "n": 2
+        },
+        {
+          "q": "yugabytedb-custom-ca-certificates-api",
+          "n": 2
+        },
+        {
+          "q": ".",
+          "n": 1
+        },
+        {
+          "q": "0901.21.00",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-hip-4-outcomes-convenience-api",
+          "n": 1
+        },
+        {
+          "q": "0xarchive-hyperliquid-orders-api",
+          "n": 1
+        },
+        {
+          "q": "1020340412",
+          "n": 1
+        },
+        {
+          "q": "1068072038",
+          "n": 1
+        },
+        {
+          "q": "10web-builder-api",
+          "n": 1
+        },
+        {
+          "q": "17hat",
+          "n": 1
+        },
+        {
+          "q": "17hats",
+          "n": 1
+        },
+        {
+          "q": "17track-tracking-api",
+          "n": 1
+        },
+        {
+          "q": "1fort-authentication-api",
+          "n": 1
+        },
+        {
+          "q": "1fort-quote-v2-quotes-api",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 3
+        },
+        {
+          "resource": "stats",
+          "n": 3
+        }
+      ],
+      "by_tier": {
+        "free": 14531,
+        "site": 5482,
+        "internal": 1821
+      },
+      "by_surface": {
+        "api": 19140,
+        "mcp": 2694
+      }
     }
   ]
 }
