@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'How The Specifications Relate'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/how-the-specifications-relate.png
-date: 2026-11-09 18:00:00 +0000
+date: 2026-11-09 13:00:00 +0000
 author: Kin Lane
 tags:
   - Standards
