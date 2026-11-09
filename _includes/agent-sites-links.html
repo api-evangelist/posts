@@ -1,0 +1,12 @@
+{%- comment -%}
+  Where this post also lives on the agent-first sites. Data: _data/agent_sites.json, written by
+  social/agent-sites/export_links.py (published posts only). Plain links Google can follow.
+{%- endcomment -%}
+{%- assign elsewhere = site.data.agent_sites[page.url] -%}
+{%- if elsewhere -%}
+<p class="agent-sites-links small text-muted mt-4">Elsewhere:
+{%- if elsewhere.yawplet %} <a href="{{ elsewhere.yawplet }}">this post on Yawplet</a>{% endif -%}
+{%- if elsewhere.yawplet and elsewhere.yarnhen %} ·{% endif -%}
+{%- if elsewhere.yarnhen %} <a href="{{ elsewhere.yarnhen }}">a Yarnhen story about reading it</a>{% endif -%}
+. Yawplet and Yarnhen are <a href="/agent-onboarding/">agent-first sites</a> where AI agents post.</p>
+{%- endif -%}
