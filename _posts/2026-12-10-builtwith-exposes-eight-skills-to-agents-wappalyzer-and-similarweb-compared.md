@@ -1,0 +1,80 @@
+---
+published: true
+layout: post
+title: 'BuiltWith Exposes Eight Skills To Agents. Wappalyzer And Similarweb Compared.'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/builtwith-exposes-eight-skills-to-agents-wappalyzer-and-similarweb-compared.png
+date: 2026-12-10 14:00:00 +0000
+author: Kin Lane
+tags:
+  - A2A
+  - Agents
+  - Agent Cards
+  - BuiltWith
+  - Wappalyzer
+  - Similarweb
+---
+I am working my way through the companies publishing A2A agent cards and putting each one next to two competitors. If you missed the start of this series, the overview is in [934 conformant A2A agent cards and who is publishing them](https://apievangelist.com/2026/11/10/934-conformant-a2a-agent-cards-and-who-is-publishing-them/), and the full list lives in the [APIs.io A2A catalog](https://apis.io/a2a/). As of November 10, 2026 that page counts 1,279 providers serving a card, 934 of them conformant.
+
+Today is BuiltWith. It is one of the more interesting cards in the whole catalog, because it is not a docs platform card. It is BuiltWith describing its own product to agents.
+
+## What BuiltWith Publishes
+
+The APIs.io record for [BuiltWith's card](https://apis.io/a2a/builtwith/) was fetched in August. It shows a conformant card on protocol version 0.3.0, with the endpoint pointing at `https://api.builtwith.com/mcp` and seven skills.
+
+When I checked on November 10, 2026, the live card had moved on a little. Requests to `api.builtwith.com` and `www.builtwith.com` now redirect to `https://builtwith.com/.well-known/agent-card.json`, and the same card is also served at the older `/.well-known/agent.json` path. It still says 0.3.0, it still points at the MCP endpoint, and my probe still grades it conformant. But it now lists eight skills, not seven.
+
+The new one is called "Accountless x402 USDC access." It describes running fixed-price BuiltWith lookups without an account or API key, paying per request with x402 v2 or buying MCP lookup units with USDC on Base. The card description was updated to match. That is a real change to how an agent can get access, and it shows the card is being maintained, not just generated once and forgotten.
+
+The other seven skills map to actual product capabilities:
+
+- Domain technology profile
+- Technology change tracking
+- Website relationships
+- Technology lists and trends
+- Company and firmographics
+- Keywords and recommendations
+- Natural-language site discovery
+
+Each one has a plain description of what it returns. An agent reading this card learns what BuiltWith can do, where to call it, and how to pay for it. That is what I want a card to do.
+
+BuiltWith also publishes an [llms.txt](https://api.builtwith.com/llms.txt) at the API host. It walks through access methods and includes an `mcpServers` configuration for the same MCP endpoint the card points to. The card, the llms.txt and the MCP server all tell the same story.
+
+## Wappalyzer
+
+Wappalyzer is the most direct comparison, since it also identifies the technologies running on websites.
+
+I checked `wappalyzer.com`, `www.wappalyzer.com` and `api.wappalyzer.com` at both `/.well-known/agent-card.json` and `/.well-known/agent.json`. The two web hosts return a 200 with an HTML page at both paths, not JSON, which reads like a soft 404. The API host returns a 403. I found no agent card, and APIs.io has no card on record for Wappalyzer.
+
+Wappalyzer is clearly thinking about agents, though. Its [llms.txt](https://wappalyzer.com/llms.txt) points to [MCP documentation](https://www.wappalyzer.com/docs/integrations/mcp/) and lists an MCP endpoint at `https://mcp.wappalyzer.com/mcp`. So the agent interface exists. It just is not described by an A2A card at a well-known location.
+
+## Similarweb
+
+Similarweb sells a broader picture of web traffic and market intelligence, but it overlaps with BuiltWith on the questions people ask about websites.
+
+I checked `similarweb.com`, `www.similarweb.com`, `developers.similarweb.com` and `docs.similarweb.com` at both well-known paths. The first three returned 404s. The docs host returned a 200 with an HTML page at both paths, not a card. I found no agent card, and there is none in the APIs.io catalog.
+
+Similarweb does have an [llms.txt](https://www.similarweb.com/llms.txt) and a [Similarweb MCP page](https://www.similarweb.com/corp/ai/mcp/) that describes connecting its data to AI agents and tools. Again, the agent surface is there through MCP. The A2A discovery layer is not.
+
+## Side By Side
+
+| | BuiltWith | Wappalyzer | Similarweb |
+|---|---|---|---|
+| Agent card found | Yes, builtwith.com | No (hosts checked above) | No (hosts checked above) |
+| Grade | Conformant | n/a | n/a |
+| Protocol version | 0.3.0 | n/a | n/a |
+| Skills | 8 live (7 in APIs.io data) | n/a | n/a |
+| Card endpoint | Own MCP server | n/a | n/a |
+| MCP documented | Yes | Yes | Yes |
+| llms.txt | Yes | Yes | Yes |
+
+## Why This One Stands Out
+
+Most of the cards I am looking at in this series are generated by a documentation platform. They have one skill that says something like "Use when building integrations with..." and they point back at the docs site. That is a useful discovery step. It is not an agent interface.
+
+BuiltWith is the other kind. The card is owned by BuiltWith, it points at BuiltWith's own MCP endpoint, the skills are product capabilities, and it describes a payment path an agent can use without a human signing up first. It is still on 0.3.0, so at some point it will want to move to 1.0, but the content is what matters most right now.
+
+All three companies have done the harder work of standing up an MCP server. Only one of them has told agents about it in a card.
+
+## Takeaway For Wappalyzer, Similarweb And Their Peers
+
+If you already run an MCP server, you have done 90 percent of the work. Publish a card at `/.well-known/agent-card.json` on your main domain, point it at that server, and write one skill per real capability you offer. Keep it in sync when your access model changes, the way BuiltWith did with x402. An agent that is shopping for technographic data will find the provider that tells it what it can do, and right now in this space that is BuiltWith.

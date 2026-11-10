@@ -1,0 +1,71 @@
+---
+published: true
+layout: post
+title: 'Automation Anywhere Had An Agent Card On Its Knowledge Base. UiPath And Blue Prism Compared.'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/automation-anywhere-had-an-agent-card-uipath-and-blue-prism-compared.png
+date: 2026-12-11 14:00:00 +0000
+author: Kin Lane
+tags:
+  - A2A
+  - Agents
+  - Agent Cards
+  - Automation Anywhere
+  - UiPath
+  - Blue Prism
+---
+This series takes one company that publishes an A2A agent card and looks at how two of its competitors are approaching the same problem. The background is in [934 conformant A2A agent cards and who is publishing them](https://apievangelist.com/2026/11/10/934-conformant-a2a-agent-cards-and-who-is-publishing-them/), and every card I track is in the [APIs.io A2A catalog](https://apis.io/a2a/). As of November 10, 2026 that page lists 1,279 providers serving a card, 934 of them conformant.
+
+Today is Automation Anywhere, and the RPA and agentic automation market it competes in with UiPath and Blue Prism. This one comes with a twist. The card APIs.io recorded is not there anymore.
+
+## What APIs.io Recorded For Automation Anywhere
+
+The [APIs.io record](https://apis.io/a2a/automation-anywhere/) was fetched on September 17, 2026, from `https://ai-kb.automationanywhere.com/.well-known/agent-card.json`. Here is what it held:
+
+- Card name: Automation Anywhere EKB Docs
+- Protocol version: 0.3
+- Endpoint: `https://ai-kb.automationanywhere.com/`
+- Grade: conformant, with one deviation noted (it uses `supportedInterfaces` where the spec expects `additionalInterfaces`)
+- One skill, also named "automationanywhere"
+
+The skill description reads: "Use when building AI agents, creating workflows, configuring knowledge bases, integrating third-party services, or automating business processes." It goes on to mention querying databases, searching the web, executing code, and connecting to systems like Salesforce, Jira and Microsoft 365.
+
+That is the shape of a documentation platform card. One generic skill, a "Use when..." description, and an endpoint that is the docs site itself. It tells an agent "there is documentation here about building with Automation Anywhere." It does not describe an agent the caller can actually talk to.
+
+## What Is There Now
+
+When I checked on November 10, 2026, that same URL returned a 200 with an HTML page, not JSON. The page is the "Welcome to EKB" home of a Docusaurus site. The `/.well-known/agent.json` path returns the same thing. So as far as my probe can tell, the knowledge base has been rebuilt on a different docs stack and the card did not come along.
+
+I also checked `automationanywhere.com` and `www.automationanywhere.com`, which returned 404s at both well-known paths, and `docs.automationanywhere.com`, which returned an HTML page at both paths rather than a card. `docs.automationanywhere.com` does serve an llms.txt.
+
+I want to be careful here. I am not saying Automation Anywhere dropped A2A as a strategy. I am saying the card that put it in the catalog is no longer served at the place it used to be, on the hosts I checked. That is a common thing to happen when the card is a feature of your docs platform rather than something your team owns. Change the platform and the card goes with it.
+
+## UiPath
+
+I checked `uipath.com` and `www.uipath.com` at `/.well-known/agent-card.json` and `/.well-known/agent.json`. Both hosts returned a 406 at both paths. I checked `docs.uipath.com`, which returned a 200 HTML page at both paths, not a card. I found no agent card, and APIs.io has none on record for UiPath.
+
+UiPath does publish a detailed [llms.txt](https://docs.uipath.com/llms.txt) for its documentation, including guidance on how its docs URLs map to products, delivery models and versions. That is genuinely useful for an agent trying to answer questions accurately. It is a docs surface, not an agent interface.
+
+## Blue Prism
+
+Blue Prism is part of SS&C. I checked `blueprism.com`, `www.blueprism.com` and `docs.blueprism.com` at both well-known paths and got 404s every time. I found no agent card, and there is none in the APIs.io catalog.
+
+## Side By Side
+
+| | Automation Anywhere | UiPath | Blue Prism |
+|---|---|---|---|
+| Card in APIs.io data | Yes, ai-kb host, Sept 2026 | No | No |
+| Card live on Nov 10 | No, HTML page served | No (hosts checked above) | No (hosts checked above) |
+| Grade on record | Conformant, 1 deviation | n/a | n/a |
+| Protocol version | 0.3 | n/a | n/a |
+| Skills | 1 generic docs skill | n/a | n/a |
+| Endpoint | Knowledge base site | n/a | n/a |
+
+## What This Tells Me
+
+This is a market built on automating work with software robots, and now with agents. You would expect these companies to be among the first to describe their platforms to other agents in a machine-readable way. On the hosts I checked, none of the three is doing that through an A2A card right now.
+
+The Automation Anywhere case is a good lesson in where cards come from. A card generated by a docs platform is a fine first step. It gets you discovered. But it is tied to that platform, it describes your documentation instead of your product, and it can disappear in a migration without anyone noticing. Nobody gets paged when a well-known file starts returning HTML.
+
+## Takeaway For The Automation Market
+
+If agents are your product, describe them to other agents on your own domain. Put a card at `/.well-known/agent-card.json` on your main host, not only on a knowledge base subdomain. Point it at something an agent can call, and list skills that match what your platform actually does, not one line about reading the docs. Then add the card to whatever you monitor, so a docs migration does not quietly take it offline. Automation Anywhere got there first with a docs card. The first company in this space to publish a real one will have the field to itself.

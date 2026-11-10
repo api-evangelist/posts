@@ -1,0 +1,68 @@
+---
+published: true
+layout: post
+title: 'Kit Points Agents At Its Developer Docs. Mailchimp And beehiiv Compared.'
+image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/kit-points-agents-at-its-developer-docs-mailchimp-and-beehiiv-compared.png
+date: 2026-12-15 14:00:00 +0000
+author: Kin Lane
+tags:
+  - A2A
+  - Agents
+  - Agent Cards
+  - Kit
+  - Mailchimp
+  - beehiiv
+---
+Each day in this series I take one company with an A2A agent card and look at how two competitors approach the same thing. The background is in [934 conformant A2A agent cards and who is publishing them](https://apievangelist.com/2026/11/10/934-conformant-a2a-agent-cards-and-who-is-publishing-them/), and the cards are listed in the [APIs.io A2A catalog](https://apis.io/a2a/). As of November 10, 2026 that page counts 1,279 providers serving a card, 934 of them conformant.
+
+Today is Kit, the email platform for creators that used to be called ConvertKit, along with Mailchimp and beehiiv.
+
+## What Kit Publishes
+
+The [APIs.io record for Kit](https://apis.io/a2a/convertkit/) was fetched in August from `https://developers.kit.com/.well-known/agent-card.json`. It is named "Kit Developer Documentation," uses protocol version 0.3, and its endpoint is the developer docs site, `https://developers.kit.com/`. There is one skill, called "Kit."
+
+The skill says to use it when building apps for the Kit App Store, creating plugins to extend Kit's UI, integrating with Kit's API for subscriber and email management, or understanding Kit's authentication flows. APIs.io grades the card conformant and records three deviations: it uses `supportedInterfaces` instead of `additionalInterfaces`, its interface uses `protocolBinding` instead of `transport`, and its `protocolVersion` of "0.3" is not a full semantic version.
+
+When I checked on November 10, 2026, the card was still live at the same place, with the same name, version, endpoint and single skill. The skill text had been reworded slightly. My quick probe flagged the `supportedInterfaces` issue and estimated it as near-conformant. I checked `kit.com` and `www.kit.com` as well, and both returned 404s at `/.well-known/agent-card.json` and `/.well-known/agent.json`.
+
+This is a docs platform card. The developer site is hosted on Mintlify, and its response headers advertise the agent card alongside llms.txt, an MCP server card and an agent skills index. It is a good discovery step. It tells an agent where Kit's developer documentation lives. It does not describe Kit's product as something an agent can call.
+
+## Kit Has More Than The Card Shows
+
+What is interesting is that Kit has gone further than its card suggests. Its [MCP overview](https://developers.kit.com/mcp/overview) describes two MCP servers. One is a docs MCP that connects coding agents to Kit's developer documentation. The other, Kit MCP, lets AI clients act on a creator's Kit account.
+
+That second one is a real agent interface. It is the thing the card should be pointing at. Right now the card says "read the docs," while the actual capability to manage subscribers and email through an agent sits one link deeper.
+
+## Mailchimp
+
+I checked `mailchimp.com`, `www.mailchimp.com` and `mailchimp.com/developer` at both well-known paths and got 404s every time. I found no agent card, and APIs.io has none on record for Mailchimp.
+
+Mailchimp's developer site does serve an [llms.txt](https://mailchimp.com/developer/llms.txt) that introduces its marketing and transactional APIs. I did not find an MCP server referenced in that file, so I am not going to say anything either way about MCP for Mailchimp here.
+
+## beehiiv
+
+I checked `beehiiv.com`, `www.beehiiv.com` and `developers.beehiiv.com` at both well-known paths and got 404s. I found no agent card, and there is none in the APIs.io catalog for beehiiv.
+
+beehiiv's [developer llms.txt](https://developers.beehiiv.com/llms.txt) opens with a section titled "Instructions for AI Agents" and lists an MCP endpoint at `https://developers.beehiiv.com/_mcp/server`. So beehiiv is speaking to agents through its docs, just not through an A2A card.
+
+## Side By Side
+
+| | Kit | Mailchimp | beehiiv |
+|---|---|---|---|
+| Agent card found | Yes, developers.kit.com | No (hosts checked above) | No (hosts checked above) |
+| Grade | Conformant, 3 deviations on record | n/a | n/a |
+| Protocol version | 0.3 | n/a | n/a |
+| Skills | 1 docs skill | n/a | n/a |
+| Endpoint | Docs site | n/a | n/a |
+| MCP documented | Yes, docs and account MCP | Not found in llms.txt | Yes, docs host |
+| llms.txt | Yes | Yes | Yes |
+
+## What I Take From It
+
+Email platforms for creators are a natural fit for agents. A creator wants to say "add these subscribers to a sequence" or "draft this week's newsletter" and have it happen. Kit already built the MCP server that makes that possible. Its agent card just has not caught up.
+
+That gap is common in this catalog. The card is generated by the docs platform, so it describes the docs. The product team ships an MCP server, and nobody goes back to update the card. Each piece is fine on its own. Together they undersell what the company can do.
+
+## Takeaway For Creator Email Platforms
+
+If you have an MCP server that acts on a customer's account, put it in your agent card. Add skills for the things that server actually does, like managing subscribers, tags and broadcasts, and point the card at that endpoint, not only the docs. Publish the card on your main domain too. Kit is closest to having a real agent interface described in a card. Mailchimp and beehiiv can still get there first by publishing one that describes what agents can actually do.
