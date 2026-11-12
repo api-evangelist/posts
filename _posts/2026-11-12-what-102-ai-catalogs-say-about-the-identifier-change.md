@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'What 102 AI Catalogs Say About The Identifier Change'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/what-102-ai-catalogs-say-about-the-identifier-change.png
-date: 2026-11-13 16:00:00 +0000
+date: 2026-11-12 18:30:00 +0000
 author: Kin Lane
 tags:
   - AI Catalog
