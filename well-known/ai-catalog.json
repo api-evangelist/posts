@@ -1,0 +1,164 @@
+---
+layout: none
+permalink: /.well-known/ai-catalog.json
+---
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "API Evangelist",
+    "identifier": "apievangelist.com",
+    "documentationUrl": "https://developer.apievangelist.com/"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:apievangelist.com:research:mcp",
+      "displayName": "API Evangelist MCP",
+      "type": "application/mcp-server-card+json",
+      "url": "https://apievangelist.com/.well-known/mcp/server-card.json",
+      "tags": [
+        "api-research",
+        "governance",
+        "mcp"
+      ],
+      "version": "2.0.0",
+      "representativeQueries": [
+        "what has API Evangelist written about a topic",
+        "find the API Evangelist paper on API governance",
+        "validate an OpenAPI against a governance ruleset",
+        "who are the vendors in an API area"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:research:a2a",
+      "displayName": "API Evangelist",
+      "type": "application/a2a-agent-card+json",
+      "url": "https://apievangelist.com/.well-known/agent-card.json",
+      "tags": [
+        "api-research",
+        "governance",
+        "a2a"
+      ],
+      "version": "2.0.0",
+      "representativeQueries": [
+        "research an API topic from an agent",
+        "get API governance guidance for my team"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:research:openapi",
+      "displayName": "API Evangelist API v1",
+      "type": "application/vnd.oai.openapi",
+      "url": "https://developer.apievangelist.com/apis/apievangelist-v1-openapi.yml",
+      "description": "REST access to API Evangelist research: posts, papers, conversations, topic areas, building blocks and governance tooling. The same contract the MCP server is generated from.",
+      "tags": [
+        "api-research",
+        "governance",
+        "openapi",
+        "rest"
+      ],
+      "representativeQueries": [
+        "search API Evangelist posts over REST",
+        "list API governance building blocks"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:discover-apievangelist:skill",
+      "displayName": "discover-apievangelist",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://apievangelist.com/skills/discover-apievangelist/SKILL.md",
+      "description": "Discover the structure of the api-evangelist network — its subdomains, machine-readable catalogs, and content-negotiation conventions — so other skills can find APIs and contracts efficiently.",
+      "tags": [
+        "agent-skill",
+        "api-research"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:search-apis:skill",
+      "displayName": "search-apis",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://apievangelist.com/skills/search-apis/SKILL.md",
+      "description": "Find APIs and contracts in the api-evangelist network by keyword, provider, or tag, using the RFC 9264 api-catalog endpoints.",
+      "tags": [
+        "agent-skill",
+        "api-research"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:fetch-api-spec:skill",
+      "displayName": "fetch-api-spec",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://apievangelist.com/skills/fetch-api-spec/SKILL.md",
+      "description": "Given an api-evangelist URL or catalog entry, fetch the OpenAPI / AsyncAPI / JSON Schema specification for that API.",
+      "tags": [
+        "agent-skill",
+        "api-research"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:brief-on-topic:skill",
+      "displayName": "brief-on-topic",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://apievangelist.com/skills/brief-on-topic/SKILL.md",
+      "description": "Get oriented on any API topic using API Evangelist — the relevant topic areas, the tag graph, and the most recent stories, as a quick briefing.",
+      "tags": [
+        "agent-skill",
+        "api-research"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:find-where-ae-helps:skill",
+      "displayName": "find-where-ae-helps",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://apievangelist.com/skills/find-where-ae-helps/SKILL.md",
+      "description": "Map a team's API need to where API Evangelist can help — the relevant research areas and the specific services Kin Lane offers.",
+      "tags": [
+        "agent-skill",
+        "api-research"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:research-with-api-evangelist:skill",
+      "displayName": "research-with-api-evangelist",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://apievangelist.com/skills/research-with-api-evangelist/SKILL.md",
+      "description": "Pro — Deep-research an API topic with API Evangelist: the curated cross-network guide bundle plus the full research bodies behind it.",
+      "tags": [
+        "agent-skill",
+        "api-research"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:governance-starter-kit:skill",
+      "displayName": "governance-starter-kit",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://apievangelist.com/skills/governance-starter-kit/SKILL.md",
+      "description": "Pro — Assemble an API governance starter kit from API Evangelist: the guidance, rules, policies, and standards that matter, plus how Kin Lane can help.",
+      "tags": [
+        "agent-skill",
+        "api-research"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:map-vendor-landscape:skill",
+      "displayName": "map-vendor-landscape",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://apievangelist.com/skills/map-vendor-landscape/SKILL.md",
+      "description": "Map the vendor and tooling landscape for an API capability using API Evangelist's solutions and tools registries, with research context.",
+      "tags": [
+        "agent-skill",
+        "api-research"
+      ]
+    },
+    {
+      "identifier": "urn:air:apievangelist.com:llms-txt:guide",
+      "displayName": "API Evangelist llms.txt",
+      "type": "text/plain",
+      "url": "https://apievangelist.com/llms.txt",
+      "description": "Plain-language orientation for an agent arriving at API Evangelist: what the research covers, which surfaces read it, and what is free versus paid.",
+      "tags": [
+        "guide",
+        "llms-txt"
+      ]
+    }
+  ]
+}
