@@ -13,7 +13,7 @@ tags:
   - Risk
   - Partnerships
 ---
-There is a metaphor for the [Kin Score](https://apis.io/rating/) I have come to like. When you turn up at a restaurant, you can learn a lot by visiting the bathroom. It gives you an idea of how much attention is being paid to hygiene and detail in the kitchen, the part you cannot see. A vendor's public API surface works the same way.
+There is a metaphor for the [Kin Score](https://apis.io/rating/) I have come to like, which I owe to [Claire Barrett](https://www.linkedin.com/in/claire-global/). When you turn up at a restaurant, you can learn a lot by visiting the bathroom. It gives you an idea of how much attention is being paid to hygiene and detail in the kitchen, the part you cannot see. A vendor's public API surface works the same way.
 
 I recently watched a room of people work out how they would use that when evaluating partners and vendors. Due diligence and managing risk were two of the themes that came up.
 
