@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'Testing A Million API Operations Starts With Forty Thousand Sign-Ups'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/testing-a-million-api-operations-starts-with-forty-thousand-sign-ups.png
-date: 2026-11-16 17:00:00 +0000
+date: 2026-11-16 13:00:00 +0000
 author: Kin Lane
 tags:
   - Certification
