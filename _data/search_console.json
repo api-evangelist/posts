@@ -2872,7 +2872,7 @@
   {
    "week_starting": "2026-10-26",
    "week_ending": "2026-11-01",
-   "fetched_at": "2026-11-16T11:48:08.924345+00:00",
+   "fetched_at": "2026-11-16T16:47:59.113385+00:00",
    "clicks": 870,
    "impressions": 261129,
    "ctr_pct": 0.33,
@@ -3589,7 +3589,7 @@
   {
    "week_starting": "2026-11-02",
    "week_ending": "2026-11-08",
-   "fetched_at": "2026-11-16T11:48:11.476274+00:00",
+   "fetched_at": "2026-11-16T16:48:03.343891+00:00",
    "clicks": 846,
    "impressions": 268246,
    "ctr_pct": 0.32,
@@ -4306,20 +4306,20 @@
   {
    "week_starting": "2026-11-09",
    "week_ending": "2026-11-15",
-   "fetched_at": "2026-11-16T11:48:14.212652+00:00",
-   "clicks": 2334,
-   "impressions": 517552,
+   "fetched_at": "2026-11-16T16:48:16.554918+00:00",
+   "clicks": 2357,
+   "impressions": 521554,
    "ctr_pct": 0.45,
    "position": 9.2,
    "distinct_queries": 1000,
-   "query_coverage_pct": 10.1,
+   "query_coverage_pct": 10.3,
    "queries": [
     {
      "query": "api evangelist",
-     "clicks": 27,
-     "impressions": 322,
-     "ctr_pct": 8.4,
-     "position": 2.2
+     "clicks": 28,
+     "impressions": 328,
+     "ctr_pct": 8.5,
+     "position": 2.1
     },
     {
      "query": "metacritic api",
@@ -4331,9 +4331,16 @@
     {
      "query": "snapwonders",
      "clicks": 6,
-     "impressions": 6105,
+     "impressions": 6181,
      "ctr_pct": 0.1,
      "position": 5.4
+    },
+    {
+     "query": "kin score",
+     "clicks": 4,
+     "impressions": 12,
+     "ctr_pct": 33.3,
+     "position": 1
     },
     {
      "query": "seekr api key",
@@ -4352,16 +4359,16 @@
     {
      "query": "delta api server",
      "clicks": 3,
-     "impressions": 40,
-     "ctr_pct": 7.5,
-     "position": 7.3
+     "impressions": 45,
+     "ctr_pct": 6.7,
+     "position": 7.2
     },
     {
      "query": "google flow api",
      "clicks": 3,
-     "impressions": 281,
-     "ctr_pct": 1.1,
-     "position": 9.0
+     "impressions": 286,
+     "ctr_pct": 1.0,
+     "position": 9.1
     },
     {
      "query": "kin lane",
@@ -4371,25 +4378,18 @@
      "position": 3.9
     },
     {
-     "query": "kin score",
-     "clicks": 3,
-     "impressions": 11,
-     "ctr_pct": 27.3,
-     "position": 1
-    },
-    {
      "query": "aisstream",
      "clicks": 2,
-     "impressions": 362,
+     "impressions": 363,
      "ctr_pct": 0.6,
      "position": 6.0
     },
     {
      "query": "api contract",
      "clicks": 2,
-     "impressions": 139,
+     "impressions": 140,
      "ctr_pct": 1.4,
-     "position": 12.5
+     "position": 12.4
     },
     {
      "query": "apiportal review",
@@ -4408,8 +4408,8 @@
     {
      "query": "freepik ai image generator api",
      "clicks": 2,
-     "impressions": 12,
-     "ctr_pct": 16.7,
+     "impressions": 13,
+     "ctr_pct": 15.4,
      "position": 3.7
     },
     {
@@ -4422,7 +4422,7 @@
     {
      "query": "openverse api",
      "clicks": 2,
-     "impressions": 367,
+     "impressions": 368,
      "ctr_pct": 0.5,
      "position": 7.9
     },
@@ -4443,8 +4443,8 @@
     {
      "query": "yepapi",
      "clicks": 2,
-     "impressions": 57,
-     "ctr_pct": 3.5,
+     "impressions": 58,
+     "ctr_pct": 3.4,
      "position": 6.5
     },
     {
@@ -4485,8 +4485,8 @@
     {
      "query": "ais stream",
      "clicks": 1,
-     "impressions": 28,
-     "ctr_pct": 3.6,
+     "impressions": 29,
+     "ctr_pct": 3.4,
      "position": 5.9
     },
     {
@@ -4527,9 +4527,9 @@
     {
      "query": "api governance",
      "clicks": 1,
-     "impressions": 258,
+     "impressions": 260,
      "ctr_pct": 0.4,
-     "position": 12.1
+     "position": 12
     },
     {
      "query": "api json example",
@@ -4597,9 +4597,9 @@
     {
      "query": "avito api",
      "clicks": 1,
-     "impressions": 32,
-     "ctr_pct": 3.1,
-     "position": 8.8
+     "impressions": 33,
+     "ctr_pct": 3.0,
+     "position": 8.7
     },
     {
      "query": "banksync io",
@@ -4660,17 +4660,17 @@
     {
      "query": "capy captains",
      "clicks": 1,
-     "impressions": 18,
-     "ctr_pct": 5.6,
-     "position": 4.7
+     "impressions": 19,
+     "ctr_pct": 5.3,
+     "position": 4.6
     }
    ],
    "pages": [
     {
      "page": "/",
-     "clicks": 33,
-     "impressions": 691,
-     "ctr_pct": 4.8,
+     "clicks": 34,
+     "impressions": 700,
+     "ctr_pct": 4.9,
      "position": 4.4
     },
     {
@@ -4683,14 +4683,14 @@
     {
      "page": "/store/personal-agent-protocol/",
      "clicks": 15,
-     "impressions": 950,
-     "ctr_pct": 1.6,
+     "impressions": 970,
+     "ctr_pct": 1.5,
      "position": 6.1
     },
     {
      "page": "/2021/08/12/what-is-httpbin-and-what-can-you-do-with-the-api/",
      "clicks": 11,
-     "impressions": 2189,
+     "impressions": 2202,
      "ctr_pct": 0.5,
      "position": 5.2
     },
@@ -4711,9 +4711,16 @@
     {
      "page": "/2026/10/19/the-first-poppy-files-and-the-one-a-vendor-wrote/",
      "clicks": 8,
-     "impressions": 246,
-     "ctr_pct": 3.3,
+     "impressions": 248,
+     "ctr_pct": 3.2,
      "position": 5.4
+    },
+    {
+     "page": "/rating/",
+     "clicks": 8,
+     "impressions": 53,
+     "ctr_pct": 15.1,
+     "position": 4.0
     },
     {
      "page": "/store/cloudflare-versions-api/",
@@ -4730,13 +4737,6 @@
      "position": 4.7
     },
     {
-     "page": "/rating/",
-     "clicks": 7,
-     "impressions": 51,
-     "ctr_pct": 13.7,
-     "position": 4.1
-    },
-    {
      "page": "/store/avito-order-management-api/",
      "clicks": 7,
      "impressions": 73,
@@ -4746,7 +4746,7 @@
     {
      "page": "/store/snapwonders-com-media-upload-direct-api/",
      "clicks": 7,
-     "impressions": 6367,
+     "impressions": 6444,
      "ctr_pct": 0.1,
      "position": 5.4
     },
@@ -4788,22 +4788,22 @@
     {
      "page": "/store/useapi-google-flow-api/",
      "clicks": 6,
-     "impressions": 452,
+     "impressions": 458,
      "ctr_pct": 1.3,
      "position": 8.5
     },
     {
      "page": "/2024/12/05/no-confusion-with-api-secrets-in-bruno-environments/",
      "clicks": 5,
-     "impressions": 281,
+     "impressions": 284,
      "ctr_pct": 1.8,
      "position": 6.9
     },
     {
      "page": "/store/aisstream-ais-stream-api/",
      "clicks": 5,
-     "impressions": 907,
-     "ctr_pct": 0.6,
+     "impressions": 913,
+     "ctr_pct": 0.5,
      "position": 6.8
     },
     {
@@ -4816,8 +4816,8 @@
     {
      "page": "/store/gitee-issues-api/",
      "clicks": 5,
-     "impressions": 78,
-     "ctr_pct": 6.4,
+     "impressions": 80,
+     "ctr_pct": 6.2,
      "position": 5.0
     },
     {
@@ -4846,23 +4846,23 @@
     {
      "query": "openapi specification",
      "clicks": 1,
-     "impressions": 4864,
+     "impressions": 4869,
      "ctr_pct": 0.0,
      "position": 11.7
     },
     {
      "query": "api governance",
      "clicks": 1,
-     "impressions": 258,
+     "impressions": 260,
      "ctr_pct": 0.4,
-     "position": 12.1
+     "position": 12
     },
     {
      "query": "api contract",
      "clicks": 2,
-     "impressions": 139,
+     "impressions": 140,
      "ctr_pct": 1.4,
-     "position": 12.5
+     "position": 12.4
     },
     {
      "query": "api platform",
