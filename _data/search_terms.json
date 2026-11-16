@@ -14467,6 +14467,839 @@
         "api": 19140,
         "mcp": 2694
       }
+    },
+    {
+      "week_starting": "2026-11-09",
+      "week_ending": "2026-11-15",
+      "fetched_at": "2026-11-16T11:48:05Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 35843,
+      "unique_terms": 5750,
+      "unmet_terms": 5488,
+      "top_queries": [
+        {
+          "q": "governance",
+          "n": 31
+        },
+        {
+          "q": "Gateways",
+          "n": 28
+        },
+        {
+          "q": "grpc",
+          "n": 26
+        },
+        {
+          "q": "OpenAPI",
+          "n": 24
+        },
+        {
+          "q": "drums-are-used-to",
+          "n": 21
+        },
+        {
+          "q": "GraphQL",
+          "n": 21
+        },
+        {
+          "q": "rate limiting",
+          "n": 18
+        },
+        {
+          "q": "review",
+          "n": 17
+        },
+        {
+          "q": "Testing",
+          "n": 17
+        },
+        {
+          "q": "agents",
+          "n": 15
+        },
+        {
+          "q": "API Governance",
+          "n": 15
+        },
+        {
+          "q": "break glass",
+          "n": 15
+        },
+        {
+          "q": "Spectral",
+          "n": 15
+        },
+        {
+          "q": "bank",
+          "n": 13
+        },
+        {
+          "q": "2xx",
+          "n": 12
+        },
+        {
+          "q": "Access Management",
+          "n": 12
+        },
+        {
+          "q": "Adoption",
+          "n": 12
+        },
+        {
+          "q": "AI Agents",
+          "n": 12
+        },
+        {
+          "q": "Gateway",
+          "n": 12
+        },
+        {
+          "q": "Platforms",
+          "n": 12
+        },
+        {
+          "q": "accidental",
+          "n": 11
+        },
+        {
+          "q": "CDI",
+          "n": 11
+        },
+        {
+          "q": "deprecation",
+          "n": 11
+        },
+        {
+          "q": "Kin Score",
+          "n": 11
+        },
+        {
+          "q": "LLM",
+          "n": 11
+        },
+        {
+          "q": "Secrets",
+          "n": 11
+        },
+        {
+          "q": "accidental api governance",
+          "n": 10
+        },
+        {
+          "q": "accidental excellence",
+          "n": 10
+        },
+        {
+          "q": "Bmw",
+          "n": 10
+        },
+        {
+          "q": "Comparisons",
+          "n": 10
+        },
+        {
+          "q": "Compliance",
+          "n": 10
+        },
+        {
+          "q": "Connected Car",
+          "n": 10
+        },
+        {
+          "q": "Data Visualization",
+          "n": 10
+        },
+        {
+          "q": "Family",
+          "n": 10
+        },
+        {
+          "q": "Honda",
+          "n": 10
+        },
+        {
+          "q": "News Services",
+          "n": 10
+        },
+        {
+          "q": "pagination",
+          "n": 10
+        },
+        {
+          "q": "question",
+          "n": 10
+        },
+        {
+          "q": "Reporting",
+          "n": 10
+        },
+        {
+          "q": "Tesla",
+          "n": 10
+        },
+        {
+          "q": "\"break glass\"",
+          "n": 9
+        },
+        {
+          "q": "car",
+          "n": 9
+        },
+        {
+          "q": "data",
+          "n": 9
+        },
+        {
+          "q": "Default",
+          "n": 9
+        },
+        {
+          "q": "DevOps",
+          "n": 9
+        },
+        {
+          "q": "Discord",
+          "n": 9
+        },
+        {
+          "q": "electric vehicle",
+          "n": 9
+        },
+        {
+          "q": "Enterprise",
+          "n": 9
+        },
+        {
+          "q": "Financial",
+          "n": 9
+        },
+        {
+          "q": "Generation",
+          "n": 9
+        },
+        {
+          "q": "GET",
+          "n": 9
+        },
+        {
+          "q": "Specifications",
+          "n": 9
+        },
+        {
+          "q": "Standards",
+          "n": 9
+        },
+        {
+          "q": "Tools",
+          "n": 9
+        },
+        {
+          "q": "vehicle",
+          "n": 9
+        },
+        {
+          "q": "Workflows",
+          "n": 9
+        },
+        {
+          "q": "Analytics",
+          "n": 8
+        },
+        {
+          "q": "automobile",
+          "n": 8
+        },
+        {
+          "q": "Cloud",
+          "n": 8
+        },
+        {
+          "q": "Ford",
+          "n": 8
+        },
+        {
+          "q": "General Motors",
+          "n": 8
+        },
+        {
+          "q": "Landscape",
+          "n": 8
+        },
+        {
+          "q": "Legal",
+          "n": 8
+        },
+        {
+          "q": "OAuth",
+          "n": 8
+        },
+        {
+          "q": "Schema",
+          "n": 8
+        },
+        {
+          "q": "Specification",
+          "n": 8
+        },
+        {
+          "q": "WCAG",
+          "n": 8
+        },
+        {
+          "q": "API Commons",
+          "n": 7
+        },
+        {
+          "q": "API Evangelist",
+          "n": 7
+        },
+        {
+          "q": "Automation",
+          "n": 7
+        },
+        {
+          "q": "AWS",
+          "n": 7
+        },
+        {
+          "q": "Banking",
+          "n": 7
+        },
+        {
+          "q": "Business of APIs",
+          "n": 7
+        },
+        {
+          "q": "Containers",
+          "n": 7
+        },
+        {
+          "q": "Design",
+          "n": 7
+        },
+        {
+          "q": "Finance",
+          "n": 7
+        },
+        {
+          "q": "Financial Services",
+          "n": 7
+        },
+        {
+          "q": "Github",
+          "n": 7
+        },
+        {
+          "q": "HTTP",
+          "n": 7
+        },
+        {
+          "q": "Hyundai",
+          "n": 7
+        },
+        {
+          "q": "iPaaS",
+          "n": 7
+        },
+        {
+          "q": "Kubernetes",
+          "n": 7
+        },
+        {
+          "q": "Logging",
+          "n": 7
+        },
+        {
+          "q": "Management",
+          "n": 7
+        },
+        {
+          "q": "metadata",
+          "n": 7
+        },
+        {
+          "q": "Monitoring",
+          "n": 7
+        },
+        {
+          "q": "Print",
+          "n": 7
+        },
+        {
+          "q": "Protocol",
+          "n": 7
+        },
+        {
+          "q": "Resources",
+          "n": 7
+        },
+        {
+          "q": "SDKs",
+          "n": 7
+        },
+        {
+          "q": "Service Providers",
+          "n": 7
+        },
+        {
+          "q": "Social",
+          "n": 7
+        },
+        {
+          "q": "Twitter",
+          "n": 7
+        },
+        {
+          "q": "volkswagen",
+          "n": 7
+        },
+        {
+          "q": "3rd-Party",
+          "n": 6
+        },
+        {
+          "q": "4xx",
+          "n": 6
+        },
+        {
+          "q": "ai",
+          "n": 6
+        },
+        {
+          "q": "Applications",
+          "n": 6
+        },
+        {
+          "q": "Authentication",
+          "n": 6
+        },
+        {
+          "q": "C",
+          "n": 6
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "Honda",
+          "n": 10
+        },
+        {
+          "q": "General Motors",
+          "n": 9
+        },
+        {
+          "q": "Hyundai",
+          "n": 7
+        },
+        {
+          "q": "aws-glue-aws-glue-x-amz-target-awsglue-batchgetdevendpoints-api-api",
+          "n": 4
+        },
+        {
+          "q": "Chevrolet",
+          "n": 4
+        },
+        {
+          "q": "independent-reserve-public-api",
+          "n": 4
+        },
+        {
+          "q": "Toyota Motor Corporation",
+          "n": 4
+        },
+        {
+          "q": "amazon-fargate-tasks-api",
+          "n": 3
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-deletevpcingressconne-api",
+          "n": 3
+        },
+        {
+          "q": "aws-glue-aws-glue-x-amz-target-awsglue-deletecolumnstatisticsforpart-api",
+          "n": 3
+        },
+        {
+          "q": "aws-glue-aws-glue-x-amz-target-awsglue-gettags-api-api",
+          "n": 3
+        },
+        {
+          "q": "aws-glue-aws-glue-x-amz-target-awsglue-listjobs-api-api",
+          "n": 3
+        },
+        {
+          "q": "aws-glue-aws-glue-x-amz-target-awsglue-listmltransforms-api-api",
+          "n": 3
+        },
+        {
+          "q": "aws-glue-aws-glue-x-amz-target-awsglue-listregistries-api-api",
+          "n": 3
+        },
+        {
+          "q": "aws-glue-aws-glue-x-amz-target-awsglue-putschemaversionmetadata-api-api",
+          "n": 3
+        },
+        {
+          "q": "aws-healthlake-data-transformation-job-api",
+          "n": 3
+        },
+        {
+          "q": "aws-healthlake-data-transformation-profile-api",
+          "n": 3
+        },
+        {
+          "q": "barndoor-agents-api",
+          "n": 3
+        },
+        {
+          "q": "cross-origin-embedder-policy",
+          "n": 3
+        },
+        {
+          "q": "cross-origin-embedder-policy-report-only",
+          "n": 3
+        },
+        {
+          "q": "genuity",
+          "n": 3
+        },
+        {
+          "q": "isometric-graph-ql-api",
+          "n": 3
+        },
+        {
+          "q": "klavis-pipedrive-oauth-api",
+          "n": 3
+        },
+        {
+          "q": "meteosource-air-quality-data-api-weather-api",
+          "n": 3
+        },
+        {
+          "q": "microsoft-azure-automation-source-control-api",
+          "n": 3
+        },
+        {
+          "q": "microsoft-azure-scalingplan-api",
+          "n": 3
+        },
+        {
+          "q": "pics-label",
+          "n": 3
+        },
+        {
+          "q": "prdictionedge-ai-certification-requirements-api",
+          "n": 3
+        },
+        {
+          "q": "strivacity-organization-policy-api",
+          "n": 3
+        },
+        {
+          "q": "super-seguros-quotes-api",
+          "n": 3
+        },
+        {
+          "q": "swisscom-signatures-api",
+          "n": 3
+        },
+        {
+          "q": "vonage-dial-in-numbers-api",
+          "n": 3
+        },
+        {
+          "q": "Walkability",
+          "n": 3
+        },
+        {
+          "q": "x402supply-com-chess-eval-api",
+          "n": 3
+        },
+        {
+          "q": "0901.21.00",
+          "n": 2
+        },
+        {
+          "q": "a2a402-market-payments-api",
+          "n": 2
+        },
+        {
+          "q": "accept-datetime",
+          "n": 2
+        },
+        {
+          "q": "access-control-expose-headers",
+          "n": 2
+        },
+        {
+          "q": "adobe-captivate-notifications-api",
+          "n": 2
+        },
+        {
+          "q": "airmeet-manage-event-series-api",
+          "n": 2
+        },
+        {
+          "q": "akash-gpu-api",
+          "n": 2
+        },
+        {
+          "q": "al-farabi-kazakh-national-university-courses-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-braket-devices-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-braket-jobs-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-braket-quantum-tasks-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-braket-spending-limits-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-braket-tags-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-cloudformation-changesets-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-cloudformation-generated-template-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-cloudformation-stack-refactor-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-cloudformation-stack-set-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-cloudformation-stack-set-operation-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-fargate-account-settings-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-fargate-clusters-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-fargate-services-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-fargate-tagging-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-fargate-task-definitions-api",
+          "n": 2
+        },
+        {
+          "q": "amazon-forecast-datasets-api",
+          "n": 2
+        },
+        {
+          "q": "amperity-workflow-api",
+          "n": 2
+        },
+        {
+          "q": "anlora",
+          "n": 2
+        },
+        {
+          "q": "apache-apisix-stream-routes-api",
+          "n": 2
+        },
+        {
+          "q": "apply-to-redirect-ref",
+          "n": 2
+        },
+        {
+          "q": "arduino-dashboards-v2-api",
+          "n": 2
+        },
+        {
+          "q": "atlassian-workflow-statuses-api",
+          "n": 2
+        },
+        {
+          "q": "atlassian-workflow-transition-properties-api",
+          "n": 2
+        },
+        {
+          "q": "au10tix-document-authentication-api",
+          "n": 2
+        },
+        {
+          "q": "au10tix-face-liveness-api",
+          "n": 2
+        },
+        {
+          "q": "au10tix-identity-verification-api",
+          "n": 2
+        },
+        {
+          "q": "au10tix-results-api",
+          "n": 2
+        },
+        {
+          "q": "au10tix-webhooks-api",
+          "n": 2
+        },
+        {
+          "q": "avnester-com-public-api",
+          "n": 2
+        },
+        {
+          "q": "avora-agent-forge-agent-api",
+          "n": 2
+        },
+        {
+          "q": "avora-agent-forge-public-evidence-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-mesh-tags-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-mesh-untag-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-autoscaling-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-createvpcingressconne-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-deleteautoscalingconf-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-deleteobservabilityco-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-deletevpcconnector-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-describeautoscalingco-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-describeobservability-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-describevpcconnector-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-describevpcingresscon-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-listobservabilityconf-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-listtagsforresource-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-listvpcingressconnect-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-tagresource-api-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-untagresource-api-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-aws-app-runner-x-amz-target-apprunner-updatevpcingressconne-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-custom-domains-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-observability-api",
+          "n": 2
+        },
+        {
+          "q": "aws-app-runner-vpc-api",
+          "n": 2
+        },
+        {
+          "q": "aws-backup-access-policy-api",
+          "n": 2
+        },
+        {
+          "q": "aws-backup-audit-api",
+          "n": 2
+        },
+        {
+          "q": "aws-backup-backup-jobs-api",
+          "n": 2
+        },
+        {
+          "q": "aws-backup-backup-selections-api",
+          "n": 2
+        },
+        {
+          "q": "aws-backup-backup-vaults-api",
+          "n": 2
+        },
+        {
+          "q": "aws-backup-copy-jobs-api",
+          "n": 2
+        },
+        {
+          "q": "aws-backup-frameworks-api",
+          "n": 2
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "guide",
+          "n": 7
+        },
+        {
+          "resource": "stats",
+          "n": 5
+        }
+      ],
+      "by_tier": {
+        "free": 29928,
+        "site": 4373,
+        "internal": 1542
+      },
+      "by_surface": {
+        "api": 33224,
+        "mcp": 2619
+      }
     }
   ]
 }
