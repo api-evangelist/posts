@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 'Agentic Just Means Programmability To Me'
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist-images/agentic-just-means-programmability-to-me.png
-date: 2026-11-17 15:00:00 +0000
+date: 2026-11-17 13:00:00 +0000
 author: Kin Lane
 tags:
   - APIs.json
