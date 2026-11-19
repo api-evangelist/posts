@@ -1,0 +1,139 @@
+---
+layout: default
+section: Posts
+title: The Design Toolbox
+nav: Stories
+sub: Stories
+meta_description: "The API Design Toolbox: 258 HTTP, TCP, business, pricing and policy patterns for API design, each with what it is, when to use it, what to watch out for, an example and the standard behind it. Searchable and filterable."
+---
+
+<style>
+  .dt-chip{display:inline-block;font-size:.72rem;padding:.1rem .45rem;border-radius:999px;border:1px solid var(--bs-border-color);white-space:nowrap}
+  .dt-HTTP{background:rgba(48,152,216,.12)}
+  .dt-TCP{background:rgba(220,120,40,.14)}
+  .dt-Both{background:rgba(120,90,200,.14)}
+  .dt-row{cursor:pointer}
+  .dt-row:hover{background:rgba(127,127,127,.06)}
+  .dt-detail td{background:rgba(127,127,127,.04);font-size:.9rem}
+  .dt-detail dt{font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;opacity:.7;margin-top:.5rem}
+  .dt-detail code{white-space:pre-wrap;word-break:break-word}
+  .dt-cat{cursor:pointer}
+  .dt-cat.active{background:var(--ae-green,#3098d8);color:#fff;border-color:transparent}
+  #dt-table th{position:sticky;top:0;background:var(--bs-body-bg);z-index:1;cursor:pointer;user-select:none}
+  #dt-table td{vertical-align:top}
+</style>
+
+<div class="row mb-3">
+  <div class="col">
+    <h1 class="mb-1 fs-4">The Design Toolbox</h1>
+    <p class="text-muted mb-2">
+      Every pattern I reach for, or watch other people reach for, when designing an API, from the HTTP and
+      TCP layers up through the business, pricing and policy decisions that sit around them. Each one has what it is,
+      when to use it, what to watch out for, an example and the standard or reference behind it. Search, filter and
+      click any row to open it.
+    </p>
+    <p class="text-muted mb-0" style="font-size:.85rem">
+      Where a pattern is something <a href="https://apis.io" class="text-decoration-none">APIs.io</a> tracks across the
+      catalog (plans, rate limits, SLAs, terms, data licenses, compliance, security, AsyncAPI, Arazzo and more), the row
+      links to that section so you can see who actually does it. The data is
+      <a href="/assets/data/design-toolbox.json" class="text-decoration-none">available as JSON</a>.
+    </p>
+  </div>
+</div>
+
+<div class="row g-2 mb-2">
+  <div class="col-md-6"><input id="dt-q" type="search" class="form-control" placeholder="Search patterns, examples, standards…" aria-label="Search patterns"></div>
+  <div class="col-6 col-md-2">
+    <select id="dt-transport" class="form-select" aria-label="Layer">
+      <option value="">All layers</option><option>HTTP</option><option>TCP</option><option>Both</option>
+    </select>
+  </div>
+  <div class="col-6 col-md-2">
+    <select id="dt-maturity" class="form-select" aria-label="Maturity">
+      <option value="">All maturity</option><option>Foundational</option><option>Common</option><option>Advanced</option><option>Emerging</option>
+    </select>
+  </div>
+  <div class="col-md-2 d-flex align-items-center">
+    <div class="form-check"><input class="form-check-input" type="checkbox" id="dt-apisio"><label class="form-check-label small" for="dt-apisio">Tracked on APIs.io</label></div>
+  </div>
+</div>
+<div id="dt-cats" class="d-flex flex-wrap gap-1 mb-2"></div>
+<div class="d-flex justify-content-between align-items-center mb-2 small text-muted">
+  <span id="dt-count"></span>
+  <span><a href="#" id="dt-reset" class="text-decoration-none">Reset filters</a> · <a href="#" id="dt-expand" class="text-decoration-none">Expand all</a></span>
+</div>
+
+<div class="table-responsive">
+<table class="table table-sm" id="dt-table">
+  <thead><tr>
+    <th data-k="name">Pattern</th>
+    <th data-k="category">Category</th>
+    <th data-k="transport">Layer</th>
+    <th data-k="maturity" class="d-none d-md-table-cell">Maturity</th>
+    <th class="d-none d-lg-table-cell">What it is</th>
+  </tr></thead>
+  <tbody id="dt-body"><tr><td colspan="5" class="text-muted">Loading the toolbox…</td></tr></tbody>
+</table>
+</div>
+
+<script>
+(function(){
+  var data=[], sortK='category', sortDir=1, cat='', expandAll=false, open={};
+  var $=function(id){return document.getElementById(id)};
+  var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+  var params=new URLSearchParams(location.search);
+  function render(){
+    var q=$('dt-q').value.toLowerCase().trim(), t=$('dt-transport').value, m=$('dt-maturity').value, a=$('dt-apisio').checked;
+    var mo={Foundational:0,Common:1,Advanced:2,Emerging:3};
+    var rows=data.filter(function(r){
+      if(cat && r.category!==cat) return false;
+      if(t && r.transport!==t) return false;
+      if(m && r.maturity!==m) return false;
+      if(a && !r.apisio.length) return false;
+      if(q){var hay=(r.name+' '+r.category+' '+r.what+' '+r.when+' '+r.watch+' '+r.example+' '+r.refs).toLowerCase();
+        return q.split(/\s+/).every(function(w){return hay.indexOf(w)>-1});}
+      return true;
+    }).sort(function(x,y){
+      var a1=sortK==='maturity'?mo[x.maturity]:x[sortK], b1=sortK==='maturity'?mo[y.maturity]:y[sortK];
+      if(a1<b1) return -sortDir; if(a1>b1) return sortDir; return x.name.localeCompare(y.name);
+    });
+    $('dt-count').textContent=rows.length+' of '+data.length+' patterns';
+    var h='';
+    rows.forEach(function(r){
+      h+='<tr class="dt-row" data-id="'+r.id+'" id="p-'+r.id+'"><td><strong>'+esc(r.name)+'</strong></td><td class="small">'+esc(r.category)+'</td>'+
+         '<td><span class="dt-chip dt-'+r.transport+'">'+r.transport+'</span></td><td class="small d-none d-md-table-cell">'+r.maturity+'</td>'+
+         '<td class="small text-muted d-none d-lg-table-cell">'+esc(r.what)+'</td></tr>';
+      if(expandAll||open[r.id]){
+        var links=r.apisio.map(function(l){return '<a href="https://apis.io'+l[1]+'" class="me-2">APIs.io '+esc(l[0])+' →</a>'}).join('');
+        h+='<tr class="dt-detail"><td colspan="5"><dl class="mb-1">'+
+          '<dt class="d-lg-none">What it is</dt><dd class="d-lg-none">'+esc(r.what)+'</dd>'+
+          '<dt>Use it when</dt><dd>'+esc(r.when)+'</dd>'+
+          '<dt>Watch out for</dt><dd>'+esc(r.watch)+'</dd>'+
+          '<dt>Example</dt><dd><code>'+esc(r.example)+'</code></dd>'+
+          '<dt>Standards &amp; references</dt><dd>'+esc(r.refs)+'</dd>'+
+          (links?'<dt>See it in the catalog</dt><dd>'+links+'</dd>':'')+
+          '</dl><a href="?p='+r.id+'#p-'+r.id+'" class="small text-decoration-none">Link to this pattern</a></td></tr>';
+      }
+    });
+    $('dt-body').innerHTML=h||'<tr><td colspan="5" class="text-muted">No patterns match. Try fewer filters.</td></tr>';
+    document.querySelectorAll('.dt-cat').forEach(function(b){b.classList.toggle('active',b.dataset.c===cat)});
+  }
+  fetch('/assets/data/design-toolbox.json').then(function(r){return r.json()}).then(function(d){
+    data=d;
+    var cats=[], counts={};
+    d.forEach(function(r){if(!counts[r.category]){counts[r.category]=0;cats.push(r.category)}counts[r.category]++});
+    $('dt-cats').innerHTML='<span class="dt-chip dt-cat" data-c="">All '+d.length+'</span>'+cats.map(function(c){return '<span class="dt-chip dt-cat" data-c="'+esc(c)+'">'+esc(c)+' '+counts[c]+'</span>'}).join('');
+    if(params.get('category')) cat=params.get('category');
+    if(params.get('q')) $('dt-q').value=params.get('q');
+    if(params.get('p')){open[params.get('p')]=true;}
+    render();
+    if(params.get('p')){var el=$('p-'+params.get('p')); if(el) el.scrollIntoView({block:'center'});}
+  }).catch(function(){$('dt-body').innerHTML='<tr><td colspan="5">Could not load the toolbox data.</td></tr>'});
+  $('dt-cats').addEventListener('click',function(e){var b=e.target.closest('.dt-cat'); if(b){cat=b.dataset.c; render();}});
+  $('dt-body').addEventListener('click',function(e){if(e.target.closest('a'))return; var tr=e.target.closest('.dt-row'); if(tr){open[tr.dataset.id]=!open[tr.dataset.id]; render();}});
+  ['dt-q','dt-transport','dt-maturity','dt-apisio'].forEach(function(id){$(id).addEventListener('input',render)});
+  document.querySelectorAll('#dt-table th[data-k]').forEach(function(th){th.addEventListener('click',function(){var k=th.dataset.k; sortDir=(sortK===k)?-sortDir:1; sortK=k; render();})});
+  $('dt-reset').addEventListener('click',function(e){e.preventDefault();cat='';$('dt-q').value='';$('dt-transport').value='';$('dt-maturity').value='';$('dt-apisio').checked=false;open={};expandAll=false;render();});
+  $('dt-expand').addEventListener('click',function(e){e.preventDefault();expandAll=!expandAll;this.textContent=expandAll?'Collapse all':'Expand all';render();});
+})();
+</script>
