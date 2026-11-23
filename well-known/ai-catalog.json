@@ -3,7 +3,7 @@ layout: none
 permalink: /.well-known/ai-catalog.json
 ---
 {
-  "specVersion": "1.0",
+  "specVersion": "0.9",
   "host": {
     "displayName": "API Evangelist",
     "identifier": "apievangelist.com",
