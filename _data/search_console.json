@@ -3589,7 +3589,7 @@
   {
    "week_starting": "2026-11-02",
    "week_ending": "2026-11-08",
-   "fetched_at": "2026-11-23T11:33:20.140065+00:00",
+   "fetched_at": "2026-11-23T16:06:48.759711+00:00",
    "clicks": 846,
    "impressions": 268246,
    "ctr_pct": 0.32,
@@ -4306,7 +4306,7 @@
   {
    "week_starting": "2026-11-09",
    "week_ending": "2026-11-15",
-   "fetched_at": "2026-11-23T11:33:21.955353+00:00",
+   "fetched_at": "2026-11-23T16:06:51.776343+00:00",
    "clicks": 2358,
    "impressions": 521553,
    "ctr_pct": 0.45,
@@ -5023,9 +5023,9 @@
   {
    "week_starting": "2026-11-16",
    "week_ending": "2026-11-22",
-   "fetched_at": "2026-11-23T11:33:24.959645+00:00",
-   "clicks": 2101,
-   "impressions": 748178,
+   "fetched_at": "2026-11-23T16:06:54.829811+00:00",
+   "clicks": 2130,
+   "impressions": 753144,
    "ctr_pct": 0.28,
    "position": 8.0,
    "distinct_queries": 1000,
@@ -5034,7 +5034,7 @@
     {
      "query": "api evangelist",
      "clicks": 13,
-     "impressions": 141,
+     "impressions": 142,
      "ctr_pct": 9.2,
      "position": 1.0
     },
@@ -5048,7 +5048,7 @@
     {
      "query": "ip.sb",
      "clicks": 5,
-     "impressions": 707,
+     "impressions": 727,
      "ctr_pct": 0.7,
      "position": 4.2
     },
@@ -5069,7 +5069,7 @@
     {
      "query": "httpbin",
      "clicks": 3,
-     "impressions": 1143,
+     "impressions": 1159,
      "ctr_pct": 0.3,
      "position": 5.2
     },
@@ -5090,16 +5090,16 @@
     {
      "query": "openverse api",
      "clicks": 3,
-     "impressions": 690,
+     "impressions": 700,
      "ctr_pct": 0.4,
      "position": 7.9
     },
     {
      "query": "platzi fake store api",
      "clicks": 3,
-     "impressions": 35,
-     "ctr_pct": 8.6,
-     "position": 5.9
+     "impressions": 38,
+     "ctr_pct": 7.9,
+     "position": 5.7
     },
     {
      "query": "qobuz api",
@@ -5111,9 +5111,9 @@
     {
      "query": "zoho projects api documentation",
      "clicks": 3,
-     "impressions": 11,
-     "ctr_pct": 27.3,
-     "position": 6.5
+     "impressions": 12,
+     "ctr_pct": 25.0,
+     "position": 6.2
     },
     {
      "query": "airbnb api documentation",
@@ -5139,7 +5139,7 @@
     {
      "query": "bytez model api",
      "clicks": 2,
-     "impressions": 132,
+     "impressions": 135,
      "ctr_pct": 1.5,
      "position": 5.2
     },
@@ -5195,8 +5195,8 @@
     {
      "query": "imgbb api key",
      "clicks": 2,
-     "impressions": 158,
-     "ctr_pct": 1.3,
+     "impressions": 163,
+     "ctr_pct": 1.2,
      "position": 4.5
     },
     {
@@ -5256,6 +5256,13 @@
      "position": 6.6
     },
     {
+     "query": "wecom api",
+     "clicks": 2,
+     "impressions": 13,
+     "ctr_pct": 15.4,
+     "position": 4.1
+    },
+    {
      "query": "1f916",
      "clicks": 1,
      "impressions": 2,
@@ -5300,7 +5307,7 @@
     {
      "query": "aisstream",
      "clicks": 1,
-     "impressions": 364,
+     "impressions": 367,
      "ctr_pct": 0.3,
      "position": 5.6
     },
@@ -5335,9 +5342,9 @@
     {
      "query": "api governance",
      "clicks": 1,
-     "impressions": 213,
+     "impressions": 222,
      "ctr_pct": 0.5,
-     "position": 11.6
+     "position": 11.5
     },
     {
      "query": "api justworker",
@@ -5356,7 +5363,7 @@
     {
      "query": "api nex",
      "clicks": 1,
-     "impressions": 388,
+     "impressions": 391,
      "ctr_pct": 0.3,
      "position": 3.8
     },
@@ -5373,57 +5380,64 @@
      "impressions": 99,
      "ctr_pct": 1.0,
      "position": 4.5
-    },
-    {
-     "query": "api trainingpeaks",
-     "clicks": 1,
-     "impressions": 6,
-     "ctr_pct": 16.7,
-     "position": 7.3
     }
    ],
    "pages": [
     {
      "page": "/",
      "clicks": 23,
-     "impressions": 1238,
+     "impressions": 1243,
      "ctr_pct": 1.9,
      "position": 9.8
     },
     {
      "page": "/2021/08/12/what-is-httpbin-and-what-can-you-do-with-the-api/",
      "clicks": 19,
-     "impressions": 3479,
+     "impressions": 3513,
      "ctr_pct": 0.5,
      "position": 7.4
     },
     {
      "page": "/store/personal-agent-protocol/",
-     "clicks": 15,
-     "impressions": 1253,
-     "ctr_pct": 1.2,
+     "clicks": 16,
+     "impressions": 1264,
+     "ctr_pct": 1.3,
      "position": 6.0
     },
     {
      "page": "/2026/11/17/google-cloud-is-moving-accounts-to-threshold-billing-and-what-that-says-about-pricing-in-the-ai-age/",
      "clicks": 13,
-     "impressions": 345,
-     "ctr_pct": 3.8,
+     "impressions": 347,
+     "ctr_pct": 3.7,
      "position": 3.9
     },
     {
      "page": "/store/platzi-fake-store-api-files-api/",
-     "clicks": 12,
-     "impressions": 149,
+     "clicks": 13,
+     "impressions": 161,
      "ctr_pct": 8.1,
-     "position": 6.0
+     "position": 5.9
     },
     {
      "page": "/2024/11/27/how-much-does-it-cost-to-develop-an-api/",
      "clicks": 9,
-     "impressions": 1485,
+     "impressions": 1506,
      "ctr_pct": 0.6,
      "position": 5.3
+    },
+    {
+     "page": "/store/opentravel-specification/",
+     "clicks": 8,
+     "impressions": 130,
+     "ctr_pct": 6.2,
+     "position": 5.5
+    },
+    {
+     "page": "/2025/03/31/editing-json-schema-in-yaml/",
+     "clicks": 7,
+     "impressions": 165,
+     "ctr_pct": 4.2,
+     "position": 4.7
     },
     {
      "page": "/store/metacritic-api/",
@@ -5435,23 +5449,9 @@
     {
      "page": "/store/openstreetmap-closechangeset/",
      "clicks": 7,
-     "impressions": 1010,
+     "impressions": 1012,
      "ctr_pct": 0.7,
      "position": 9.7
-    },
-    {
-     "page": "/store/opentravel-specification/",
-     "clicks": 7,
-     "impressions": 127,
-     "ctr_pct": 5.5,
-     "position": 5.6
-    },
-    {
-     "page": "/2025/03/31/editing-json-schema-in-yaml/",
-     "clicks": 6,
-     "impressions": 159,
-     "ctr_pct": 3.8,
-     "position": 4.8
     },
     {
      "page": "/store/lunar-proxy-api/",
@@ -5463,14 +5463,14 @@
     {
      "page": "/store/iata-padis/",
      "clicks": 6,
-     "impressions": 65,
-     "ctr_pct": 9.2,
+     "impressions": 67,
+     "ctr_pct": 9.0,
      "position": 6.3
     },
     {
      "page": "/2026/11/16/find-exposed-devices-and-vulnerabilities-on-your-network-with-shodan/",
      "clicks": 5,
-     "impressions": 247,
+     "impressions": 248,
      "ctr_pct": 2.0,
      "position": 6.5
     },
@@ -5484,43 +5484,43 @@
     {
      "page": "/store/cloudevents-spec/",
      "clicks": 5,
-     "impressions": 532,
+     "impressions": 535,
      "ctr_pct": 0.9,
-     "position": 8.3
+     "position": 8.2
     },
     {
      "page": "/store/imgbb-images-api/",
      "clicks": 5,
-     "impressions": 965,
+     "impressions": 980,
      "ctr_pct": 0.5,
      "position": 5.8
     },
     {
      "page": "/store/ip-sb-api/",
      "clicks": 5,
-     "impressions": 835,
+     "impressions": 856,
      "ctr_pct": 0.6,
      "position": 4.6
     },
     {
      "page": "/store/openrouter-keys-api/",
      "clicks": 5,
-     "impressions": 555,
+     "impressions": 561,
      "ctr_pct": 0.9,
      "position": 8.8
     },
     {
      "page": "/store/openverse-auth-api/",
      "clicks": 5,
-     "impressions": 601,
+     "impressions": 607,
      "ctr_pct": 0.8,
      "position": 5.7
     },
     {
      "page": "/store/powerschool-schools-api/",
      "clicks": 5,
-     "impressions": 93,
-     "ctr_pct": 5.4,
+     "impressions": 94,
+     "ctr_pct": 5.3,
      "position": 6.3
     },
     {
@@ -5533,28 +5533,28 @@
     {
      "page": "/store/yuno-yuno-payments-api/",
      "clicks": 5,
-     "impressions": 127,
+     "impressions": 129,
      "ctr_pct": 3.9,
      "position": 5.1
     },
     {
      "page": "/2018/04/20/delivering-large-api-responses-as-efficiently-as-possible/",
      "clicks": 4,
-     "impressions": 393,
+     "impressions": 399,
      "ctr_pct": 1.0,
      "position": 6.6
     },
     {
      "page": "/2026/11/13/free-apis-you-can-call-right-now-without-a-key/",
      "clicks": 4,
-     "impressions": 138,
-     "ctr_pct": 2.9,
+     "impressions": 142,
+     "ctr_pct": 2.8,
      "position": 5.7
     },
     {
      "page": "/blog/2026/06/04/the-apis-of-the-worlds-top-universities/",
      "clicks": 4,
-     "impressions": 390,
+     "impressions": 395,
      "ctr_pct": 1.0,
      "position": 7.0
     }
@@ -5563,9 +5563,9 @@
     {
      "query": "api governance",
      "clicks": 1,
-     "impressions": 213,
+     "impressions": 222,
      "ctr_pct": 0.5,
-     "position": 11.6
+     "position": 11.5
     },
     {
      "query": "airbnb api",
@@ -5647,9 +5647,9 @@
     {
      "query": "artifactory api",
      "clicks": 1,
-     "impressions": 39,
-     "ctr_pct": 2.6,
-     "position": 12.7
+     "impressions": 40,
+     "ctr_pct": 2.5,
+     "position": 12.5
     },
     {
      "query": "adobe campaign jsapi",
@@ -5708,18 +5708,18 @@
      "position": 13.2
     },
     {
+     "query": "instacart api",
+     "clicks": 1,
+     "impressions": 23,
+     "ctr_pct": 4.3,
+     "position": 19.7
+    },
+    {
      "query": "\"anthropic-dangerous-direct-browser-access\" inurl:assets",
      "clicks": 0,
      "impressions": 23,
      "ctr_pct": 0,
      "position": 11.2
-    },
-    {
-     "query": "instacart api",
-     "clicks": 1,
-     "impressions": 22,
-     "ctr_pct": 4.5,
-     "position": 20.3
     },
     {
      "query": "\"appomni\" site:clearancejobs.com",
