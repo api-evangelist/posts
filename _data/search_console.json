@@ -3589,7 +3589,7 @@
   {
    "week_starting": "2026-11-02",
    "week_ending": "2026-11-08",
-   "fetched_at": "2026-11-16T16:48:03.343891+00:00",
+   "fetched_at": "2026-11-23T11:33:20.140065+00:00",
    "clicks": 846,
    "impressions": 268246,
    "ctr_pct": 0.32,
@@ -4306,9 +4306,9 @@
   {
    "week_starting": "2026-11-09",
    "week_ending": "2026-11-15",
-   "fetched_at": "2026-11-16T16:48:16.554918+00:00",
-   "clicks": 2357,
-   "impressions": 521554,
+   "fetched_at": "2026-11-23T11:33:21.955353+00:00",
+   "clicks": 2358,
+   "impressions": 521553,
    "ctr_pct": 0.45,
    "position": 9.2,
    "distinct_queries": 1000,
@@ -4359,14 +4359,14 @@
     {
      "query": "delta api server",
      "clicks": 3,
-     "impressions": 45,
-     "ctr_pct": 6.7,
-     "position": 7.2
+     "impressions": 46,
+     "ctr_pct": 6.5,
+     "position": 7.3
     },
     {
      "query": "google flow api",
      "clicks": 3,
-     "impressions": 286,
+     "impressions": 302,
      "ctr_pct": 1.0,
      "position": 9.1
     },
@@ -4380,14 +4380,14 @@
     {
      "query": "aisstream",
      "clicks": 2,
-     "impressions": 363,
-     "ctr_pct": 0.6,
+     "impressions": 367,
+     "ctr_pct": 0.5,
      "position": 6.0
     },
     {
      "query": "api contract",
      "clicks": 2,
-     "impressions": 140,
+     "impressions": 141,
      "ctr_pct": 1.4,
      "position": 12.4
     },
@@ -4422,7 +4422,7 @@
     {
      "query": "openverse api",
      "clicks": 2,
-     "impressions": 368,
+     "impressions": 375,
      "ctr_pct": 0.5,
      "position": 7.9
     },
@@ -4443,7 +4443,7 @@
     {
      "query": "yepapi",
      "clicks": 2,
-     "impressions": 58,
+     "impressions": 59,
      "ctr_pct": 3.4,
      "position": 6.5
     },
@@ -4485,9 +4485,9 @@
     {
      "query": "ais stream",
      "clicks": 1,
-     "impressions": 29,
-     "ctr_pct": 3.4,
-     "position": 5.9
+     "impressions": 30,
+     "ctr_pct": 3.3,
+     "position": 6
     },
     {
      "query": "aishub api",
@@ -4520,37 +4520,37 @@
     {
      "query": "any api",
      "clicks": 1,
-     "impressions": 22,
-     "ctr_pct": 4.5,
-     "position": 6.5
+     "impressions": 23,
+     "ctr_pct": 4.3,
+     "position": 6.6
     },
     {
      "query": "api governance",
      "clicks": 1,
-     "impressions": 260,
+     "impressions": 271,
      "ctr_pct": 0.4,
-     "position": 12
+     "position": 12.4
     },
     {
      "query": "api json example",
      "clicks": 1,
-     "impressions": 18,
-     "ctr_pct": 5.6,
-     "position": 4.2
+     "impressions": 19,
+     "ctr_pct": 5.3,
+     "position": 4.6
     },
     {
      "query": "api justworker",
      "clicks": 1,
-     "impressions": 12,
-     "ctr_pct": 8.3,
-     "position": 4.8
+     "impressions": 11,
+     "ctr_pct": 9.1,
+     "position": 4.6
     },
     {
      "query": "api platform",
      "clicks": 1,
-     "impressions": 109,
+     "impressions": 116,
      "ctr_pct": 0.9,
-     "position": 18.5
+     "position": 18.3
     },
     {
      "query": "api-evangelist",
@@ -4569,9 +4569,9 @@
     {
      "query": "apple music api free",
      "clicks": 1,
-     "impressions": 3,
-     "ctr_pct": 33.3,
-     "position": 8.7
+     "impressions": 2,
+     "ctr_pct": 50.0,
+     "position": 8
     },
     {
      "query": "arkham api key",
@@ -4597,9 +4597,9 @@
     {
      "query": "avito api",
      "clicks": 1,
-     "impressions": 33,
-     "ctr_pct": 3.0,
-     "position": 8.7
+     "impressions": 35,
+     "ctr_pct": 2.9,
+     "position": 9.1
     },
     {
      "query": "banksync io",
@@ -4625,9 +4625,9 @@
     {
      "query": "bing image search api",
      "clicks": 1,
-     "impressions": 30,
-     "ctr_pct": 3.3,
-     "position": 13.7
+     "impressions": 31,
+     "ctr_pct": 3.2,
+     "position": 13.8
     },
     {
      "query": "blank api",
@@ -4660,67 +4660,67 @@
     {
      "query": "capy captains",
      "clicks": 1,
-     "impressions": 19,
-     "ctr_pct": 5.3,
-     "position": 4.6
+     "impressions": 20,
+     "ctr_pct": 5.0,
+     "position": 4.8
     }
    ],
    "pages": [
     {
      "page": "/",
      "clicks": 34,
-     "impressions": 700,
-     "ctr_pct": 4.9,
-     "position": 4.4
+     "impressions": 704,
+     "ctr_pct": 4.8,
+     "position": 4.5
     },
     {
      "page": "/store/nih-gene-api/",
      "clicks": 17,
-     "impressions": 116,
-     "ctr_pct": 14.7,
+     "impressions": 115,
+     "ctr_pct": 14.8,
      "position": 5.5
     },
     {
      "page": "/store/personal-agent-protocol/",
      "clicks": 15,
-     "impressions": 970,
+     "impressions": 985,
      "ctr_pct": 1.5,
-     "position": 6.1
+     "position": 6.2
     },
     {
      "page": "/2021/08/12/what-is-httpbin-and-what-can-you-do-with-the-api/",
      "clicks": 11,
-     "impressions": 2202,
+     "impressions": 2206,
      "ctr_pct": 0.5,
      "position": 5.2
     },
     {
      "page": "/store/box-task-assignments-api/",
      "clicks": 10,
-     "impressions": 16,
-     "ctr_pct": 62.5,
+     "impressions": 15,
+     "ctr_pct": 66.7,
      "position": 8
     },
     {
      "page": "/store/ncbi-gene-api/",
      "clicks": 10,
-     "impressions": 176,
+     "impressions": 174,
      "ctr_pct": 5.7,
      "position": 4.4
     },
     {
      "page": "/2026/10/19/the-first-poppy-files-and-the-one-a-vendor-wrote/",
      "clicks": 8,
-     "impressions": 248,
-     "ctr_pct": 3.2,
-     "position": 5.4
+     "impressions": 254,
+     "ctr_pct": 3.1,
+     "position": 5.6
     },
     {
      "page": "/rating/",
      "clicks": 8,
-     "impressions": 53,
-     "ctr_pct": 15.1,
-     "position": 4.0
+     "impressions": 56,
+     "ctr_pct": 14.3,
+     "position": 4.4
     },
     {
      "page": "/store/cloudflare-versions-api/",
@@ -4732,16 +4732,16 @@
     {
      "page": "/2016/03/30/best-buy-will-not-issue-api-keys-to-free-email-accounts-and-wants-to-get-to-know-your-company/",
      "clicks": 7,
-     "impressions": 196,
+     "impressions": 197,
      "ctr_pct": 3.6,
      "position": 4.7
     },
     {
      "page": "/store/avito-order-management-api/",
      "clicks": 7,
-     "impressions": 73,
-     "ctr_pct": 9.6,
-     "position": 5.0
+     "impressions": 74,
+     "ctr_pct": 9.5,
+     "position": 5.5
     },
     {
      "page": "/store/snapwonders-com-media-upload-direct-api/",
@@ -4753,30 +4753,30 @@
     {
      "page": "/store/avito-ratings-api/",
      "clicks": 6,
-     "impressions": 124,
-     "ctr_pct": 4.8,
-     "position": 5.7
+     "impressions": 127,
+     "ctr_pct": 4.7,
+     "position": 5.9
     },
     {
      "page": "/store/binance-copy-trading-api/",
      "clicks": 6,
-     "impressions": 105,
+     "impressions": 106,
      "ctr_pct": 5.7,
-     "position": 5.9
+     "position": 6.0
     },
     {
      "page": "/store/genesys-authorization-api/",
      "clicks": 6,
-     "impressions": 9,
-     "ctr_pct": 66.7,
-     "position": 4.6
+     "impressions": 8,
+     "ctr_pct": 75.0,
+     "position": 4.8
     },
     {
      "page": "/store/highlevel-messages-api/",
      "clicks": 6,
-     "impressions": 35,
-     "ctr_pct": 17.1,
-     "position": 4.7
+     "impressions": 36,
+     "ctr_pct": 16.7,
+     "position": 4.9
     },
     {
      "page": "/store/metacritic-api/",
@@ -4788,37 +4788,37 @@
     {
      "page": "/store/useapi-google-flow-api/",
      "clicks": 6,
-     "impressions": 458,
+     "impressions": 476,
      "ctr_pct": 1.3,
      "position": 8.5
     },
     {
      "page": "/2024/12/05/no-confusion-with-api-secrets-in-bruno-environments/",
      "clicks": 5,
-     "impressions": 284,
-     "ctr_pct": 1.8,
+     "impressions": 286,
+     "ctr_pct": 1.7,
      "position": 6.9
     },
     {
      "page": "/store/aisstream-ais-stream-api/",
      "clicks": 5,
-     "impressions": 913,
+     "impressions": 921,
      "ctr_pct": 0.5,
-     "position": 6.8
+     "position": 6.9
     },
     {
      "page": "/store/avito-access-api/",
      "clicks": 5,
-     "impressions": 220,
-     "ctr_pct": 2.3,
-     "position": 5.4
+     "impressions": 225,
+     "ctr_pct": 2.2,
+     "position": 5.6
     },
     {
      "page": "/store/gitee-issues-api/",
      "clicks": 5,
-     "impressions": 80,
-     "ctr_pct": 6.2,
-     "position": 5.0
+     "impressions": 82,
+     "ctr_pct": 6.1,
+     "position": 5.1
     },
     {
      "page": "/store/gitee-pull-requests-api/",
@@ -4837,8 +4837,8 @@
     {
      "page": "/store/ncbi-version-api/",
      "clicks": 5,
-     "impressions": 66,
-     "ctr_pct": 7.6,
+     "impressions": 65,
+     "ctr_pct": 7.7,
      "position": 6.2
     }
    ],
@@ -4846,30 +4846,30 @@
     {
      "query": "openapi specification",
      "clicks": 1,
-     "impressions": 4869,
+     "impressions": 4885,
      "ctr_pct": 0.0,
      "position": 11.7
     },
     {
      "query": "api governance",
      "clicks": 1,
-     "impressions": 260,
+     "impressions": 271,
      "ctr_pct": 0.4,
-     "position": 12
+     "position": 12.4
     },
     {
      "query": "api contract",
      "clicks": 2,
-     "impressions": 140,
+     "impressions": 141,
      "ctr_pct": 1.4,
      "position": 12.4
     },
     {
      "query": "api platform",
      "clicks": 1,
-     "impressions": 109,
+     "impressions": 116,
      "ctr_pct": 0.9,
-     "position": 18.5
+     "position": 18.3
     },
     {
      "query": "\"anthropic-dangerous-direct-browser-access\" inurl:assets",
@@ -4881,114 +4881,114 @@
     {
      "query": "accuapi",
      "clicks": 0,
-     "impressions": 69,
+     "impressions": 72,
      "ctr_pct": 0,
-     "position": 15.9
+     "position": 16.0
     },
     {
      "query": "adobe campaign classic api",
      "clicks": 0,
-     "impressions": 53,
+     "impressions": 55,
      "ctr_pct": 0,
-     "position": 14.5
+     "position": 15.1
     },
     {
      "query": "adobe launch api",
      "clicks": 0,
-     "impressions": 53,
+     "impressions": 55,
      "ctr_pct": 0,
-     "position": 11.2
+     "position": 12.2
     },
     {
      "query": "adobe campaign api",
      "clicks": 0,
-     "impressions": 46,
+     "impressions": 48,
      "ctr_pct": 0,
-     "position": 19.2
+     "position": 19.8
     },
     {
      "query": "adobe campaign javascript api",
      "clicks": 0,
-     "impressions": 40,
+     "impressions": 41,
      "ctr_pct": 0,
-     "position": 13.3
+     "position": 13.5
     },
     {
      "query": "\"fax\" \"ae\" \"english\" \"\" \"false\" \"true\" \"false\" \"true\" \"true\" \"true\" \"ai overview",
      "clicks": 0,
-     "impressions": 34,
+     "impressions": 36,
      "ctr_pct": 0,
      "position": 17.4
     },
     {
      "query": "bing image search api",
      "clicks": 1,
-     "impressions": 30,
-     "ctr_pct": 3.3,
-     "position": 13.7
+     "impressions": 31,
+     "ctr_pct": 3.2,
+     "position": 13.8
     },
     {
      "query": "adobe campaign standard api",
      "clicks": 0,
-     "impressions": 27,
+     "impressions": 28,
      "ctr_pct": 0,
-     "position": 16.2
-    },
-    {
-     "query": "adobe campaign api send email",
-     "clicks": 0,
-     "impressions": 25,
-     "ctr_pct": 0,
-     "position": 16.0
+     "position": 16.3
     },
     {
      "query": "airdna api",
      "clicks": 0,
-     "impressions": 25,
+     "impressions": 27,
      "ctr_pct": 0,
-     "position": 18.4
+     "position": 18.1
+    },
+    {
+     "query": "adobe campaign api send email",
+     "clicks": 0,
+     "impressions": 26,
+     "ctr_pct": 0,
+     "position": 15.8
     },
     {
      "query": "account authentication api",
      "clicks": 0,
-     "impressions": 21,
+     "impressions": 22,
      "ctr_pct": 0,
      "position": 18.0
     },
     {
      "query": "\"anthropic\" \"api.anthropic.com\" inurl:assets",
      "clicks": 0,
-     "impressions": 18,
+     "impressions": 19,
      "ctr_pct": 0,
-     "position": 14.6
-    },
-    {
-     "query": "\"github search api",
-     "clicks": 0,
-     "impressions": 16,
-     "ctr_pct": 0,
-     "position": 13.3
+     "position": 14.5
     },
     {
      "query": "airbnb api documentation",
      "clicks": 0,
-     "impressions": 15,
+     "impressions": 19,
      "ctr_pct": 0,
-     "position": 17.8
+     "position": 20.2
     },
     {
-     "query": "academic content api",
+     "query": "\"github search api",
      "clicks": 0,
-     "impressions": 12,
+     "impressions": 18,
      "ctr_pct": 0,
-     "position": 18.9
+     "position": 13.7
     },
     {
      "query": "accelo api",
      "clicks": 0,
-     "impressions": 12,
+     "impressions": 13,
      "ctr_pct": 0,
-     "position": 13.8
+     "position": 13.7
+    },
+    {
+     "query": "youtube analytics api",
+     "clicks": 1,
+     "impressions": 11,
+     "ctr_pct": 9.1,
+     "position": 12.7
     },
     {
      "query": "(spycloud or spycloud.com) (launch or release or acquires or acquisition or funding or partnership or ceo or layoffs or pricing)",
@@ -4998,6 +4998,13 @@
      "position": 17.3
     },
     {
+     "query": "adobe audience manager api",
+     "clicks": 0,
+     "impressions": 10,
+     "ctr_pct": 0,
+     "position": 12
+    },
+    {
      "query": "agl api",
      "clicks": 0,
      "impressions": 10,
@@ -5005,18 +5012,728 @@
      "position": 11.3
     },
     {
-     "query": "adobe audience manager api",
+     "query": "ai evangelist",
      "clicks": 0,
-     "impressions": 9,
+     "impressions": 10,
      "ctr_pct": 0,
+     "position": 16.7
+    }
+   ]
+  },
+  {
+   "week_starting": "2026-11-16",
+   "week_ending": "2026-11-22",
+   "fetched_at": "2026-11-23T11:33:24.959645+00:00",
+   "clicks": 2101,
+   "impressions": 748178,
+   "ctr_pct": 0.28,
+   "position": 8.0,
+   "distinct_queries": 1000,
+   "query_coverage_pct": 15.3,
+   "queries": [
+    {
+     "query": "api evangelist",
+     "clicks": 13,
+     "impressions": 141,
+     "ctr_pct": 9.2,
+     "position": 1.0
+    },
+    {
+     "query": "metacritic api",
+     "clicks": 6,
+     "impressions": 119,
+     "ctr_pct": 5.0,
+     "position": 3.7
+    },
+    {
+     "query": "ip.sb",
+     "clicks": 5,
+     "impressions": 707,
+     "ctr_pct": 0.7,
+     "position": 4.2
+    },
+    {
+     "query": "api klaviyo",
+     "clicks": 3,
+     "impressions": 12,
+     "ctr_pct": 25.0,
+     "position": 23
+    },
+    {
+     "query": "apievangelist",
+     "clicks": 3,
+     "impressions": 5,
+     "ctr_pct": 60.0,
+     "position": 1
+    },
+    {
+     "query": "httpbin",
+     "clicks": 3,
+     "impressions": 1143,
+     "ctr_pct": 0.3,
+     "position": 5.2
+    },
+    {
+     "query": "lunar node proxy",
+     "clicks": 3,
+     "impressions": 87,
+     "ctr_pct": 3.4,
+     "position": 6.6
+    },
+    {
+     "query": "mtn ni api vas ai",
+     "clicks": 3,
+     "impressions": 18,
+     "ctr_pct": 16.7,
+     "position": 1.9
+    },
+    {
+     "query": "openverse api",
+     "clicks": 3,
+     "impressions": 690,
+     "ctr_pct": 0.4,
+     "position": 7.9
+    },
+    {
+     "query": "platzi fake store api",
+     "clicks": 3,
+     "impressions": 35,
+     "ctr_pct": 8.6,
+     "position": 5.9
+    },
+    {
+     "query": "qobuz api",
+     "clicks": 3,
+     "impressions": 56,
+     "ctr_pct": 5.4,
+     "position": 4.5
+    },
+    {
+     "query": "zoho projects api documentation",
+     "clicks": 3,
+     "impressions": 11,
+     "ctr_pct": 27.3,
+     "position": 6.5
+    },
+    {
+     "query": "airbnb api documentation",
+     "clicks": 2,
+     "impressions": 15,
+     "ctr_pct": 13.3,
+     "position": 9.5
+    },
+    {
+     "query": "aisstream api",
+     "clicks": 2,
+     "impressions": 15,
+     "ctr_pct": 13.3,
+     "position": 4.4
+    },
+    {
+     "query": "api-evangelist",
+     "clicks": 2,
+     "impressions": 3,
+     "ctr_pct": 66.7,
+     "position": 1
+    },
+    {
+     "query": "bytez model api",
+     "clicks": 2,
+     "impressions": 132,
+     "ctr_pct": 1.5,
+     "position": 5.2
+    },
+    {
+     "query": "can we connect our own power bi dashboards and apis to a construction pmis database?",
+     "clicks": 2,
+     "impressions": 4,
+     "ctr_pct": 50.0,
+     "position": 7.2
+    },
+    {
+     "query": "cartesia api key",
+     "clicks": 2,
+     "impressions": 132,
+     "ctr_pct": 1.5,
+     "position": 8.1
+    },
+    {
+     "query": "conventions.md",
+     "clicks": 2,
+     "impressions": 8,
+     "ctr_pct": 25.0,
+     "position": 3.6
+    },
+    {
+     "query": "delta api server",
+     "clicks": 2,
+     "impressions": 198,
+     "ctr_pct": 1.0,
+     "position": 7.9
+    },
+    {
+     "query": "ecoflow api",
+     "clicks": 2,
+     "impressions": 52,
+     "ctr_pct": 3.8,
+     "position": 5.1
+    },
+    {
+     "query": "google cloud threshold billing",
+     "clicks": 2,
+     "impressions": 18,
+     "ctr_pct": 11.1,
+     "position": 2
+    },
+    {
+     "query": "hifi-api",
+     "clicks": 2,
+     "impressions": 7,
+     "ctr_pct": 28.6,
+     "position": 3.6
+    },
+    {
+     "query": "imgbb api key",
+     "clicks": 2,
+     "impressions": 158,
+     "ctr_pct": 1.3,
+     "position": 4.5
+    },
+    {
+     "query": "jottacloud api",
+     "clicks": 2,
+     "impressions": 10,
+     "ctr_pct": 20.0,
+     "position": 4.9
+    },
+    {
+     "query": "magento 2 wishlist rest api free extension",
+     "clicks": 2,
+     "impressions": 2,
+     "ctr_pct": 100,
+     "position": 16
+    },
+    {
+     "query": "open street maps api",
+     "clicks": 2,
+     "impressions": 80,
+     "ctr_pct": 2.5,
+     "position": 9.5
+    },
+    {
+     "query": "openstreetmap api",
+     "clicks": 2,
+     "impressions": 463,
+     "ctr_pct": 0.4,
+     "position": 9.3
+    },
+    {
+     "query": "poppy standard",
+     "clicks": 2,
+     "impressions": 18,
+     "ctr_pct": 11.1,
+     "position": 2.3
+    },
+    {
+     "query": "seekr api key",
+     "clicks": 2,
+     "impressions": 11,
+     "ctr_pct": 18.2,
+     "position": 2.2
+    },
+    {
+     "query": "uspto api",
+     "clicks": 2,
+     "impressions": 38,
+     "ctr_pct": 5.3,
+     "position": 9.6
+    },
+    {
+     "query": "web scraping api",
+     "clicks": 2,
+     "impressions": 103614,
+     "ctr_pct": 0.0,
+     "position": 6.6
+    },
+    {
+     "query": "1f916",
+     "clicks": 1,
+     "impressions": 2,
+     "ctr_pct": 50.0,
+     "position": 9.5
+    },
+    {
+     "query": "5dollarfootballapi",
+     "clicks": 1,
+     "impressions": 57,
+     "ctr_pct": 1.8,
+     "position": 4.0
+    },
+    {
+     "query": "aap api documentation",
+     "clicks": 1,
+     "impressions": 3,
+     "ctr_pct": 33.3,
+     "position": 5.3
+    },
+    {
+     "query": "ai talk",
+     "clicks": 1,
+     "impressions": 1,
+     "ctr_pct": 100,
+     "position": 11
+    },
+    {
+     "query": "aikido api docs",
+     "clicks": 1,
+     "impressions": 19,
+     "ctr_pct": 5.3,
+     "position": 6.9
+    },
+    {
+     "query": "airbnb webhook",
+     "clicks": 1,
+     "impressions": 2,
+     "ctr_pct": 50.0,
+     "position": 1.5
+    },
+    {
+     "query": "aisstream",
+     "clicks": 1,
+     "impressions": 364,
+     "ctr_pct": 0.3,
+     "position": 5.6
+    },
+    {
+     "query": "amplitude digital analytics platform",
+     "clicks": 1,
+     "impressions": 1,
+     "ctr_pct": 100,
+     "position": 3
+    },
+    {
+     "query": "anpheros",
+     "clicks": 1,
+     "impressions": 3,
+     "ctr_pct": 33.3,
+     "position": 4
+    },
+    {
+     "query": "api contract example",
+     "clicks": 1,
+     "impressions": 37,
+     "ctr_pct": 2.7,
+     "position": 4.2
+    },
+    {
+     "query": "api education",
+     "clicks": 1,
+     "impressions": 4,
+     "ctr_pct": 25.0,
+     "position": 6.5
+    },
+    {
+     "query": "api governance",
+     "clicks": 1,
+     "impressions": 213,
+     "ctr_pct": 0.5,
+     "position": 11.6
+    },
+    {
+     "query": "api justworker",
+     "clicks": 1,
+     "impressions": 19,
+     "ctr_pct": 5.3,
+     "position": 4.6
+    },
+    {
+     "query": "api mandate",
+     "clicks": 1,
+     "impressions": 12,
+     "ctr_pct": 8.3,
+     "position": 6.5
+    },
+    {
+     "query": "api nex",
+     "clicks": 1,
+     "impressions": 388,
+     "ctr_pct": 0.3,
+     "position": 3.8
+    },
+    {
+     "query": "api openverse",
+     "clicks": 1,
+     "impressions": 18,
+     "ctr_pct": 5.6,
+     "position": 6.3
+    },
+    {
+     "query": "api sinai",
+     "clicks": 1,
+     "impressions": 99,
+     "ctr_pct": 1.0,
+     "position": 4.5
+    },
+    {
+     "query": "api trainingpeaks",
+     "clicks": 1,
+     "impressions": 6,
+     "ctr_pct": 16.7,
+     "position": 7.3
+    }
+   ],
+   "pages": [
+    {
+     "page": "/",
+     "clicks": 23,
+     "impressions": 1238,
+     "ctr_pct": 1.9,
+     "position": 9.8
+    },
+    {
+     "page": "/2021/08/12/what-is-httpbin-and-what-can-you-do-with-the-api/",
+     "clicks": 19,
+     "impressions": 3479,
+     "ctr_pct": 0.5,
+     "position": 7.4
+    },
+    {
+     "page": "/store/personal-agent-protocol/",
+     "clicks": 15,
+     "impressions": 1253,
+     "ctr_pct": 1.2,
+     "position": 6.0
+    },
+    {
+     "page": "/2026/11/17/google-cloud-is-moving-accounts-to-threshold-billing-and-what-that-says-about-pricing-in-the-ai-age/",
+     "clicks": 13,
+     "impressions": 345,
+     "ctr_pct": 3.8,
+     "position": 3.9
+    },
+    {
+     "page": "/store/platzi-fake-store-api-files-api/",
+     "clicks": 12,
+     "impressions": 149,
+     "ctr_pct": 8.1,
+     "position": 6.0
+    },
+    {
+     "page": "/2024/11/27/how-much-does-it-cost-to-develop-an-api/",
+     "clicks": 9,
+     "impressions": 1485,
+     "ctr_pct": 0.6,
+     "position": 5.3
+    },
+    {
+     "page": "/store/metacritic-api/",
+     "clicks": 7,
+     "impressions": 203,
+     "ctr_pct": 3.4,
+     "position": 4.3
+    },
+    {
+     "page": "/store/openstreetmap-closechangeset/",
+     "clicks": 7,
+     "impressions": 1010,
+     "ctr_pct": 0.7,
+     "position": 9.7
+    },
+    {
+     "page": "/store/opentravel-specification/",
+     "clicks": 7,
+     "impressions": 127,
+     "ctr_pct": 5.5,
+     "position": 5.6
+    },
+    {
+     "page": "/2025/03/31/editing-json-schema-in-yaml/",
+     "clicks": 6,
+     "impressions": 159,
+     "ctr_pct": 3.8,
+     "position": 4.8
+    },
+    {
+     "page": "/store/lunar-proxy-api/",
+     "clicks": 6,
+     "impressions": 165,
+     "ctr_pct": 3.6,
+     "position": 7.1
+    },
+    {
+     "page": "/store/iata-padis/",
+     "clicks": 6,
+     "impressions": 65,
+     "ctr_pct": 9.2,
+     "position": 6.3
+    },
+    {
+     "page": "/2026/11/16/find-exposed-devices-and-vulnerabilities-on-your-network-with-shodan/",
+     "clicks": 5,
+     "impressions": 247,
+     "ctr_pct": 2.0,
+     "position": 6.5
+    },
+    {
+     "page": "/store/agent-module-dev-delta-api/",
+     "clicks": 5,
+     "impressions": 285,
+     "ctr_pct": 1.8,
+     "position": 7.9
+    },
+    {
+     "page": "/store/cloudevents-spec/",
+     "clicks": 5,
+     "impressions": 532,
+     "ctr_pct": 0.9,
+     "position": 8.3
+    },
+    {
+     "page": "/store/imgbb-images-api/",
+     "clicks": 5,
+     "impressions": 965,
+     "ctr_pct": 0.5,
+     "position": 5.8
+    },
+    {
+     "page": "/store/ip-sb-api/",
+     "clicks": 5,
+     "impressions": 835,
+     "ctr_pct": 0.6,
+     "position": 4.6
+    },
+    {
+     "page": "/store/openrouter-keys-api/",
+     "clicks": 5,
+     "impressions": 555,
+     "ctr_pct": 0.9,
+     "position": 8.8
+    },
+    {
+     "page": "/store/openverse-auth-api/",
+     "clicks": 5,
+     "impressions": 601,
+     "ctr_pct": 0.8,
+     "position": 5.7
+    },
+    {
+     "page": "/store/powerschool-schools-api/",
+     "clicks": 5,
+     "impressions": 93,
+     "ctr_pct": 5.4,
+     "position": 6.3
+    },
+    {
+     "page": "/store/viewmax-studio-tasks-api/",
+     "clicks": 5,
+     "impressions": 80,
+     "ctr_pct": 6.2,
+     "position": 8.7
+    },
+    {
+     "page": "/store/yuno-yuno-payments-api/",
+     "clicks": 5,
+     "impressions": 127,
+     "ctr_pct": 3.9,
+     "position": 5.1
+    },
+    {
+     "page": "/2018/04/20/delivering-large-api-responses-as-efficiently-as-possible/",
+     "clicks": 4,
+     "impressions": 393,
+     "ctr_pct": 1.0,
+     "position": 6.6
+    },
+    {
+     "page": "/2026/11/13/free-apis-you-can-call-right-now-without-a-key/",
+     "clicks": 4,
+     "impressions": 138,
+     "ctr_pct": 2.9,
+     "position": 5.7
+    },
+    {
+     "page": "/blog/2026/06/04/the-apis-of-the-worlds-top-universities/",
+     "clicks": 4,
+     "impressions": 390,
+     "ctr_pct": 1.0,
+     "position": 7.0
+    }
+   ],
+   "near_misses": [
+    {
+     "query": "api governance",
+     "clicks": 1,
+     "impressions": 213,
+     "ctr_pct": 0.5,
+     "position": 11.6
+    },
+    {
+     "query": "airbnb api",
+     "clicks": 0,
+     "impressions": 93,
+     "ctr_pct": 0,
+     "position": 16.6
+    },
+    {
+     "query": "accuapi",
+     "clicks": 0,
+     "impressions": 76,
+     "ctr_pct": 0,
+     "position": 18.0
+    },
+    {
+     "query": "adobe campaign classic api",
+     "clicks": 0,
+     "impressions": 73,
+     "ctr_pct": 0,
+     "position": 10.6
+    },
+    {
+     "query": "fortnox api",
+     "clicks": 1,
+     "impressions": 64,
+     "ctr_pct": 1.6,
      "position": 11.7
     },
     {
-     "query": "adobe campaign classic rest api",
+     "query": "adobe campaign javascript api",
      "clicks": 0,
-     "impressions": 9,
+     "impressions": 58,
      "ctr_pct": 0,
-     "position": 12.9
+     "position": 12.6
+    },
+    {
+     "query": "\"appomni\" site:linkedin.com/jobs",
+     "clicks": 0,
+     "impressions": 57,
+     "ctr_pct": 0,
+     "position": 14.1
+    },
+    {
+     "query": "adobe campaign api",
+     "clicks": 0,
+     "impressions": 50,
+     "ctr_pct": 0,
+     "position": 11.1
+    },
+    {
+     "query": "adobe campaign api documentation",
+     "clicks": 0,
+     "impressions": 50,
+     "ctr_pct": 0,
+     "position": 15.8
+    },
+    {
+     "query": "\"appomni\" site:ziprecruiter.com",
+     "clicks": 0,
+     "impressions": 47,
+     "ctr_pct": 0,
+     "position": 13.5
+    },
+    {
+     "query": "adobe analytics api",
+     "clicks": 0,
+     "impressions": 45,
+     "ctr_pct": 0,
+     "position": 19.0
+    },
+    {
+     "query": "\"appomni\" site:dice.com",
+     "clicks": 0,
+     "impressions": 41,
+     "ctr_pct": 0,
+     "position": 13.8
+    },
+    {
+     "query": "artifactory api",
+     "clicks": 1,
+     "impressions": 39,
+     "ctr_pct": 2.6,
+     "position": 12.7
+    },
+    {
+     "query": "adobe campaign jsapi",
+     "clicks": 0,
+     "impressions": 39,
+     "ctr_pct": 0,
+     "position": 19.3
+    },
+    {
+     "query": "aerodatabox api",
+     "clicks": 0,
+     "impressions": 36,
+     "ctr_pct": 0,
+     "position": 12.7
+    },
+    {
+     "query": "adobe image and video api",
+     "clicks": 0,
+     "impressions": 35,
+     "ctr_pct": 0,
+     "position": 12.1
+    },
+    {
+     "query": "airdna api",
+     "clicks": 0,
+     "impressions": 34,
+     "ctr_pct": 0,
+     "position": 14.1
+    },
+    {
+     "query": "adobe analytics api documentation",
+     "clicks": 0,
+     "impressions": 33,
+     "ctr_pct": 0,
+     "position": 19
+    },
+    {
+     "query": "\"appomni\" site:linkedin.com/in",
+     "clicks": 0,
+     "impressions": 31,
+     "ctr_pct": 0,
+     "position": 13.0
+    },
+    {
+     "query": "viator api",
+     "clicks": 1,
+     "impressions": 27,
+     "ctr_pct": 3.7,
+     "position": 14.6
+    },
+    {
+     "query": "\"appomni\" site:glassdoor.com",
+     "clicks": 0,
+     "impressions": 27,
+     "ctr_pct": 0,
+     "position": 13.2
+    },
+    {
+     "query": "\"anthropic-dangerous-direct-browser-access\" inurl:assets",
+     "clicks": 0,
+     "impressions": 23,
+     "ctr_pct": 0,
+     "position": 11.2
+    },
+    {
+     "query": "instacart api",
+     "clicks": 1,
+     "impressions": 22,
+     "ctr_pct": 4.5,
+     "position": 20.3
+    },
+    {
+     "query": "\"appomni\" site:clearancejobs.com",
+     "clicks": 0,
+     "impressions": 22,
+     "ctr_pct": 0,
+     "position": 13.1
+    },
+    {
+     "query": "ach api",
+     "clicks": 0,
+     "impressions": 22,
+     "ctr_pct": 0,
+     "position": 17
     }
    ]
   }
