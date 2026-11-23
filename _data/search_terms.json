@@ -15300,6 +15300,839 @@
         "api": 33224,
         "mcp": 2619
       }
+    },
+    {
+      "week_starting": "2026-11-16",
+      "week_ending": "2026-11-22",
+      "fetched_at": "2026-11-23T11:33:17Z",
+      "days_found": 7,
+      "days_expected": 7,
+      "total_searches": 22742,
+      "unique_terms": 3704,
+      "unmet_terms": 2067,
+      "top_queries": [
+        {
+          "q": "gateways",
+          "n": 34
+        },
+        {
+          "q": "openapi",
+          "n": 30
+        },
+        {
+          "q": "governance",
+          "n": 29
+        },
+        {
+          "q": "grpc",
+          "n": 29
+        },
+        {
+          "q": "public information",
+          "n": 28
+        },
+        {
+          "q": "rate limiting",
+          "n": 28
+        },
+        {
+          "q": "drums-are-used-to",
+          "n": 25
+        },
+        {
+          "q": "break glass",
+          "n": 23
+        },
+        {
+          "q": "GraphQL",
+          "n": 22
+        },
+        {
+          "q": "Review",
+          "n": 21
+        },
+        {
+          "q": "API Governance",
+          "n": 17
+        },
+        {
+          "q": "2xx",
+          "n": 16
+        },
+        {
+          "q": "Adoption",
+          "n": 16
+        },
+        {
+          "q": "agents",
+          "n": 16
+        },
+        {
+          "q": "Gateway",
+          "n": 16
+        },
+        {
+          "q": "Spectral",
+          "n": 16
+        },
+        {
+          "q": "MCP",
+          "n": 15
+        },
+        {
+          "q": "WCAG",
+          "n": 15
+        },
+        {
+          "q": "CDI",
+          "n": 14
+        },
+        {
+          "q": "deprecation",
+          "n": 14
+        },
+        {
+          "q": "Kin Score",
+          "n": 14
+        },
+        {
+          "q": "LLM",
+          "n": 14
+        },
+        {
+          "q": "Access Management",
+          "n": 13
+        },
+        {
+          "q": "accidental excellence",
+          "n": 13
+        },
+        {
+          "q": "Comparisons",
+          "n": 13
+        },
+        {
+          "q": "Discord",
+          "n": 13
+        },
+        {
+          "q": "Secrets",
+          "n": 13
+        },
+        {
+          "q": "Testing",
+          "n": 13
+        },
+        {
+          "q": "Workflows",
+          "n": 13
+        },
+        {
+          "q": "accidental",
+          "n": 12
+        },
+        {
+          "q": "accidental api governance",
+          "n": 12
+        },
+        {
+          "q": "GET",
+          "n": 12
+        },
+        {
+          "q": "orange",
+          "n": 12
+        },
+        {
+          "q": "Data Visualization",
+          "n": 11
+        },
+        {
+          "q": "Default",
+          "n": 11
+        },
+        {
+          "q": "Infrastructure as Code",
+          "n": 11
+        },
+        {
+          "q": "Project Management",
+          "n": 11
+        },
+        {
+          "q": "question",
+          "n": 11
+        },
+        {
+          "q": "AI Agents",
+          "n": 10
+        },
+        {
+          "q": "Analytics",
+          "n": 10
+        },
+        {
+          "q": "Bmw",
+          "n": 10
+        },
+        {
+          "q": "Compliance",
+          "n": 10
+        },
+        {
+          "q": "IDE",
+          "n": 10
+        },
+        {
+          "q": "Kubernetes",
+          "n": 10
+        },
+        {
+          "q": "Rules",
+          "n": 10
+        },
+        {
+          "q": "Storage",
+          "n": 10
+        },
+        {
+          "q": "\"break glass\"",
+          "n": 9
+        },
+        {
+          "q": "3Scale",
+          "n": 9
+        },
+        {
+          "q": "API Commons",
+          "n": 9
+        },
+        {
+          "q": "Compute",
+          "n": 9
+        },
+        {
+          "q": "Editor",
+          "n": 9
+        },
+        {
+          "q": "Enterprise",
+          "n": 9
+        },
+        {
+          "q": "ERP",
+          "n": 9
+        },
+        {
+          "q": "Family",
+          "n": 9
+        },
+        {
+          "q": "General Motors",
+          "n": 9
+        },
+        {
+          "q": "Healthcare",
+          "n": 9
+        },
+        {
+          "q": "Java",
+          "n": 9
+        },
+        {
+          "q": "Monitoring",
+          "n": 9
+        },
+        {
+          "q": "Networking",
+          "n": 9
+        },
+        {
+          "q": "Platforms",
+          "n": 9
+        },
+        {
+          "q": "Properties",
+          "n": 9
+        },
+        {
+          "q": "Protocols",
+          "n": 9
+        },
+        {
+          "q": "Quality",
+          "n": 9
+        },
+        {
+          "q": "SDKs",
+          "n": 9
+        },
+        {
+          "q": "Specification",
+          "n": 9
+        },
+        {
+          "q": "3rd-Party",
+          "n": 8
+        },
+        {
+          "q": "API Evangelist",
+          "n": 8
+        },
+        {
+          "q": "APIs",
+          "n": 8
+        },
+        {
+          "q": "Authentication",
+          "n": 8
+        },
+        {
+          "q": "Automation",
+          "n": 8
+        },
+        {
+          "q": "automobile",
+          "n": 8
+        },
+        {
+          "q": "Banking",
+          "n": 8
+        },
+        {
+          "q": "CI/CD",
+          "n": 8
+        },
+        {
+          "q": "Cloud Platform",
+          "n": 8
+        },
+        {
+          "q": "Components",
+          "n": 8
+        },
+        {
+          "q": "Connected Car",
+          "n": 8
+        },
+        {
+          "q": "Contacts",
+          "n": 8
+        },
+        {
+          "q": "CRM",
+          "n": 8
+        },
+        {
+          "q": "Definitions",
+          "n": 8
+        },
+        {
+          "q": "Developer Workflow",
+          "n": 8
+        },
+        {
+          "q": "Economy",
+          "n": 8
+        },
+        {
+          "q": "Enterprise Software",
+          "n": 8
+        },
+        {
+          "q": "Evangelism",
+          "n": 8
+        },
+        {
+          "q": "Experience",
+          "n": 8
+        },
+        {
+          "q": "Finance",
+          "n": 8
+        },
+        {
+          "q": "Ford",
+          "n": 8
+        },
+        {
+          "q": "Github",
+          "n": 8
+        },
+        {
+          "q": "Government",
+          "n": 8
+        },
+        {
+          "q": "Hypermedia",
+          "n": 8
+        },
+        {
+          "q": "Infrastructure",
+          "n": 8
+        },
+        {
+          "q": "Integration",
+          "n": 8
+        },
+        {
+          "q": "iPaaS",
+          "n": 8
+        },
+        {
+          "q": "Lifecycle",
+          "n": 8
+        },
+        {
+          "q": "Logging",
+          "n": 8
+        },
+        {
+          "q": "Machine Learning",
+          "n": 8
+        },
+        {
+          "q": "metadata",
+          "n": 8
+        },
+        {
+          "q": "OAuth",
+          "n": 8
+        },
+        {
+          "q": "Onboarding",
+          "n": 8
+        },
+        {
+          "q": "Payments",
+          "n": 8
+        },
+        {
+          "q": "Platform",
+          "n": 8
+        }
+      ],
+      "zero_result_queries": [
+        {
+          "q": "public information",
+          "n": 11
+        },
+        {
+          "q": "General Motors",
+          "n": 9
+        },
+        {
+          "q": "Honda",
+          "n": 7
+        },
+        {
+          "q": "Hyundai",
+          "n": 7
+        },
+        {
+          "q": "Toyota Motor Corporation",
+          "n": 6
+        },
+        {
+          "q": "aetna-organizationaffiliation-api",
+          "n": 3
+        },
+        {
+          "q": "agentifizierung-de-llms-full-txt-api",
+          "n": 3
+        },
+        {
+          "q": "amazon-elasticache-snapshot-api",
+          "n": 3
+        },
+        {
+          "q": "appfire-ups-global-role-seed-internal-api",
+          "n": 3
+        },
+        {
+          "q": "archestra-apps-api",
+          "n": 3
+        },
+        {
+          "q": "attrove-com-messages-api",
+          "n": 3
+        },
+        {
+          "q": "avito",
+          "n": 3
+        },
+        {
+          "q": "basketball",
+          "n": 3
+        },
+        {
+          "q": "buzzmebro-com-applications-api",
+          "n": 3
+        },
+        {
+          "q": "colorfulclouds-forecast-api",
+          "n": 3
+        },
+        {
+          "q": "epa-point-source-categories-api",
+          "n": 3
+        },
+        {
+          "q": "gerencianet-participants-api",
+          "n": 3
+        },
+        {
+          "q": "hanko-audit-logs-api",
+          "n": 3
+        },
+        {
+          "q": "harness-cloud-cost-cost-categories-api",
+          "n": 3
+        },
+        {
+          "q": "label-studio-subpackage-workspaces-subpackage-workspaces-members-subpackage-workspaces-members-bulk-api",
+          "n": 3
+        },
+        {
+          "q": "labguru-protocols-api",
+          "n": 3
+        },
+        {
+          "q": "sendmux-ai-domains-api",
+          "n": 3
+        },
+        {
+          "q": "turbonomic-authentication-api",
+          "n": 3
+        },
+        {
+          "q": "agentpay-so-marketplace-api",
+          "n": 2
+        },
+        {
+          "q": "agentwebmap-com-agent-web-map-api-api",
+          "n": 2
+        },
+        {
+          "q": "aginera-ai-cad-api",
+          "n": 2
+        },
+        {
+          "q": "anchorage-atlas-settlement-network-api",
+          "n": 2
+        },
+        {
+          "q": "api-ninjas-com-baby-names-api",
+          "n": 2
+        },
+        {
+          "q": "archestra-audit-log-api",
+          "n": 2
+        },
+        {
+          "q": "archestra-chat-api",
+          "n": 2
+        },
+        {
+          "q": "au10tix-identity-verification-api",
+          "n": 2
+        },
+        {
+          "q": "aws-glue-aws-glue-x-amz-target-awsglue-batchdeleteconnection-api-api",
+          "n": 2
+        },
+        {
+          "q": "aws-glue-column-statistics-task-setting-api",
+          "n": 2
+        },
+        {
+          "q": "bamboo-deposits-api",
+          "n": 2
+        },
+        {
+          "q": "beatport",
+          "n": 2
+        },
+        {
+          "q": "bernstein-run-a2a-api",
+          "n": 2
+        },
+        {
+          "q": "bernstein-run-bernstein-task-server-api",
+          "n": 2
+        },
+        {
+          "q": "bernstein-run-recap-api",
+          "n": 2
+        },
+        {
+          "q": "bringyour-ai-agent-recommendation-guide-json-api",
+          "n": 2
+        },
+        {
+          "q": "Carfax",
+          "n": 2
+        },
+        {
+          "q": "Chevrolet",
+          "n": 2
+        },
+        {
+          "q": "cmcd-object",
+          "n": 2
+        },
+        {
+          "q": "cmcd-request",
+          "n": 2
+        },
+        {
+          "q": "cmcd-session",
+          "n": 2
+        },
+        {
+          "q": "code-ocean-capsules-api",
+          "n": 2
+        },
+        {
+          "q": "cross-origin-embedder-policy",
+          "n": 2
+        },
+        {
+          "q": "cross-origin-embedder-policy-report-only",
+          "n": 2
+        },
+        {
+          "q": "cross-origin-opener-policy",
+          "n": 2
+        },
+        {
+          "q": "edf-energy-query-api",
+          "n": 2
+        },
+        {
+          "q": "eod-historical-technical-api",
+          "n": 2
+        },
+        {
+          "q": "expect-ct",
+          "n": 2
+        },
+        {
+          "q": "fabric8labs-pages-api",
+          "n": 2
+        },
+        {
+          "q": "factset-dividends-api",
+          "n": 2
+        },
+        {
+          "q": "hookpie",
+          "n": 2
+        },
+        {
+          "q": "Jarvis",
+          "n": 2
+        },
+        {
+          "q": "Klarna",
+          "n": 2
+        },
+        {
+          "q": "labguru-visualizations-api",
+          "n": 2
+        },
+        {
+          "q": "lakera-ai-guard-api",
+          "n": 2
+        },
+        {
+          "q": "marriott-auth-api",
+          "n": 2
+        },
+        {
+          "q": "Messenger Marketing",
+          "n": 2
+        },
+        {
+          "q": "Mexican restaurant Clarksville, AR",
+          "n": 2
+        },
+        {
+          "q": "odata-maxversion",
+          "n": 2
+        },
+        {
+          "q": "origin-agent-cluster",
+          "n": 2
+        },
+        {
+          "q": "oslc-core-version",
+          "n": 2
+        },
+        {
+          "q": "pics-label",
+          "n": 2
+        },
+        {
+          "q": "psu-ip-address",
+          "n": 2
+        },
+        {
+          "q": "public-key-pins-report-only",
+          "n": 2
+        },
+        {
+          "q": "ratelimit-policy",
+          "n": 2
+        },
+        {
+          "q": "referer-root",
+          "n": 2
+        },
+        {
+          "q": "roic-ai-fundamental-api",
+          "n": 2
+        },
+        {
+          "q": "sec-fetch-storage-access",
+          "n": 2
+        },
+        {
+          "q": "tpp-signature-certificate",
+          "n": 2
+        },
+        {
+          "q": "turnit",
+          "n": 2
+        },
+        {
+          "q": "turnitin",
+          "n": 2
+        },
+        {
+          "q": "unitary-ai-items-characteristics-api",
+          "n": 2
+        },
+        {
+          "q": "want-repr-digest",
+          "n": 2
+        },
+        {
+          "q": "want-unencoded-digest",
+          "n": 2
+        },
+        {
+          "q": "x-correlation-id",
+          "n": 2
+        },
+        {
+          "q": "x-fapi-customer-ip-address",
+          "n": 2
+        },
+        {
+          "q": "x-idempotency-key",
+          "n": 2
+        },
+        {
+          "q": "x-ratelimit-limit",
+          "n": 2
+        },
+        {
+          "q": "x-ratelimit-remaining",
+          "n": 2
+        },
+        {
+          "q": "x-ratelimit-reset",
+          "n": 2
+        },
+        {
+          "q": "/user/uuid/consume",
+          "n": 1
+        },
+        {
+          "q": "0901.21.00",
+          "n": 1
+        },
+        {
+          "q": "10ml-10ml-fragrance-index-api",
+          "n": 1
+        },
+        {
+          "q": "123formbuilder-login-api",
+          "n": 1
+        },
+        {
+          "q": "1f916-pulse-api",
+          "n": 1
+        },
+        {
+          "q": "1f916-vote-api",
+          "n": 1
+        },
+        {
+          "q": "21st-century-cures-act",
+          "n": 1
+        },
+        {
+          "q": "2c2p-exchange-rate-api",
+          "n": 1
+        },
+        {
+          "q": "2c2p-maintenance-api",
+          "n": 1
+        },
+        {
+          "q": "2s-io-crypto-api",
+          "n": 1
+        },
+        {
+          "q": "3dvalley-com-categories-api",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts28532-heartbeatntf",
+          "n": 1
+        },
+        {
+          "q": "3gpp-ts28623-externaldatamgmtnrm",
+          "n": 1
+        },
+        {
+          "q": "3plcentral-inventory-api",
+          "n": 1
+        },
+        {
+          "q": "406895857",
+          "n": 1
+        },
+        {
+          "q": "484244533",
+          "n": 1
+        },
+        {
+          "q": "6109.10.00",
+          "n": 1
+        }
+      ],
+      "upgrade_demand": [
+        {
+          "resource": "stats",
+          "n": 86
+        },
+        {
+          "resource": "guide",
+          "n": 24
+        }
+      ],
+      "by_tier": {
+        "free": 15259,
+        "site": 6374,
+        "internal": 1109
+      },
+      "by_surface": {
+        "api": 20994,
+        "mcp": 1748
+      }
     }
   ]
 }
