@@ -97,11 +97,11 @@ title: Owen Rubel
       <section>
         <div class="card-body">
           <div class="mb-4">
-            <h3 class="fs-5 mb-0">LinkedIn Logs</h3>
+            <h3 class="fs-5 mb-0">LinkedIn + Medium Logs</h3>
             <p>This is a log of all his comments since I stopped blocking and deleting all his comments. Once I saw that he was direct messaging regularly and still talking about me, I started recording this each day. I will keep logging, screenshotting and publishing here as I have time. I will respond to each comment from him with a link to this page to keep the community informed.</p>
             <ul>
               {% for log in site.data.linkedin-log-owen %}
-                      <li><strong>{{ log.date }}-{{ log.entry }}</strong></a> (<a href="{{ log.url }}" target="_blank">LinkedIn</a>) (<a href="screenshots/{{ log.date }}-{{ log.entry }}.png" target="_blank">Screenshot</a>)</li>
+                      <li><strong>{{ log.date }}-{{ log.entry }}</strong>{% if log.url %} (<a href="{{ log.url }}" target="_blank">{{ log.source | default: "LinkedIn" }}</a>){% else %} ({{ log.source | default: "LinkedIn" }}){% endif %} (<a href="screenshots/{{ log.date }}-{{ log.entry }}.png" target="_blank">Screenshot</a>)</li>
               {% endfor %}
             </ul>            
             <p>I hit the wall (again) with this at the end of February -- I had just been deleting or reporting, and I wish I had been documenting. Moving forward I will just be documenting and recording hours spend having to defend my repuation from Owen.</p>
